@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "WVD Immersion Workshop",
+    "Language": "English",
+    "Files": [
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/00-Overview.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/01-Pre-requisite.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/02-Create-HostPool.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/03-Create-Application-group.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/04-Access-Workspace-Using-Browser.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/05-Access-Workspace-Using-WVD-Client.md",
+        "Order": 6
+      },
+	{
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/06-Setup-FSLogix.md",
+        "Order": 7
+      },
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/07-Monitoring-using-Log-Analytics.md",
+        "Order": 8
+      },
+	{
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/08-Load-Balancing-methods.md",
+        "Order": 9
+      },
+{
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/09-Create-a-master-image-for-WVD.md",
+        "Order": 10
+      },
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/SeeratArora/WVD-Immersion/main/10-Summary.md",
+        "Order": 11
+      }
+    ]
+  }
+]
