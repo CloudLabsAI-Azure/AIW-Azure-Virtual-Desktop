@@ -80,30 +80,26 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 ## **Task 2: Access the Virtual Desktop**
 
 
-1. In **Your Own PC/computer/workstation** go to **Start** and search for **Remote desktop** and open the remote desktop application with icon similar to the one shown below.
-
-   ![ws name.](media/51.png)
- 
-2. The WVD client application will launch and we will land on the WVD dashboard. Click on the tile named **Session Desktop** to launch the desktop.
+1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/ex4t2s2.png)
    
 
-3. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
+2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
    
 
-4. Wait for the Session Desktop to connect.
+3. Wait for the Session Desktop to connect.
 
    ![ws name.](media/ex4t2s4.png)
    
 
-5. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+4. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
    ![ws name.](media/ex4t2s5.png)   
     
      
-6. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
