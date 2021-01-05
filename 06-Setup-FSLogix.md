@@ -75,7 +75,7 @@ In the following task, we will be creating a storage account with a file share w
  
 9. Now click on **Overview** to return back to storage account page, then click on **File shares**.
 
-   ![ws name.](media/up9.png)
+   ![ws name.](media/ex5t1s9.png)
  
 10. Click on **+ File share**.
 
@@ -405,7 +405,7 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 4. Open the storage account we created earlier, then click on **Overview** and open **Fileshare**.
 
-   ![ws name.](media/up9.png)
+   ![ws name.](media/ex5t1s9.png)
     
     
 5. Click on the **userprofile** fileshare.
