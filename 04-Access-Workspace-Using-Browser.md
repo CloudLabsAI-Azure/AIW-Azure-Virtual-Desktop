@@ -24,12 +24,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 3. The WVD dashboard will launch, then click on **Word** application to access it. 
 
-   ![ws name.](media/ag8.png)
+   ![ws name.](media/ex3t1s3.png)
 
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/128.png)
+   ![ws name.](media/ex3t1s4.png)
 
 
 5. Enter the lab credentials to access the application and click on **Submit**.
@@ -75,12 +75,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
 2. We will land on the WVD dashboard again. Click on the tile named *Default Desktop* to launch the desktop.
 
-   ![ws name.](media/ag9.png)
+   ![ws name.](media/ex3t2s2.png)
 
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/93.png)
+   ![ws name.](media/ex3t1s4.png)
 
 
 4. Enter the lab credentials to access the application and click on **Submit**.
@@ -94,7 +94,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 5. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](media/ch12.png)
+   ![ws name.](media/ex3t2s5.png)
    
 6. Return back to the Azure Portal, search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
