@@ -356,28 +356,32 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/w25.png)
    
-21. Click on the **Default Desktop** Desktop to launch it.
+21. Click on the **Session Desktop** Desktop to launch it.
 
-    ![ws name.](media/up7.png)
-    
-22. Enter your **Credentials** to access the desktop.
+    ![ws name.](media/ex3t2s2.png)
+
+22. Select Allow on the prompt asking permission to Access local resources.
+
+    ![ws name.](media/ex3t1s4.png)
+
+23. Enter your **Credentials** to access the desktop.
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
 
    ![ws name.](media/89.png)
         
-23. The desktop will display looking similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
+24. The desktop will display looking similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
 > **Note:** This means that user profile is being managed by FSLogix.
 
-24. The virtual desktop will launch and look similar to the screenshot below.
+25. The virtual desktop will launch and look similar to the screenshot below.
 
     ![ws name.](media/launchwvd.png)
 
-25. At last, click on **User Account** and click on **Sign Out**.
+26. At last, click on **User Account** and click on **Sign Out**.
 
    ![ws name.](media/jvm23.png)
    
