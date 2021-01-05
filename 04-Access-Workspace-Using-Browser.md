@@ -73,7 +73,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/w12.png)
    
    
-2. We will land on the WVD dashboard again. Click on the tile named *Default Desktop* to launch the desktop.
+2. We will land on the WVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
 
    ![ws name.](media/ex3t2s2.png)
 
