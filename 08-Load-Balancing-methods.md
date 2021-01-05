@@ -152,7 +152,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/lb27.png)
+   ![ws name.](media/ex3t1s4.png)
 
 4. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -273,7 +273,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 5. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/lb27.png)
+   ![ws name.](media/ex3t1s4.png)
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
