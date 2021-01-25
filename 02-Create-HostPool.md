@@ -113,15 +113,15 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
   **A**. Session Host Specifications:     
 
    - Resource Group: *Select **WVD-RG** from the drop down*.
+   - Name prefix: **WVD-HP01-SH** 
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
+   - Image type: **Gallery**
+   - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
    
    ![ws name.](media/ch1.png)
 
-   - Number of VMs: **2**   
-   - Name prefix: **WVD-HP01-SH** 
-   - Image type: **Gallery**
-   - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)* 
+   - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    
@@ -143,7 +143,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
    
-   ![ws name.](media/w2.png)
+   ![ws name.](media/ex1t2s6b2.png)
 
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
@@ -152,38 +152,37 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Username: **hostadmin**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
+   - Click on **Next: Workspace** to proceed. 
    
-   ![ws name.](media/ex1t2s6b.png)
+   ![ws name.](media/ex1t2s6c.png)
+   
 
-
-7. Click on **Next: Workspace** to proceed. 
-
-8. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
+7. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
 
    - Register desktop app group: *Choose* **Yes** 
    - To this workspace: *Click on* **Create new**
 
    ![ws name.](media/67.png)
    
-9. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
+8. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
    - Workspace name: **WVD-WS-01** 
    - Click on **OK**
      
    ![ws name.](media/68.png) 
 
-10. Now click on **Review + create** on the bottom left corner. 
+9. Now click on **Review + create** on the bottom left corner. 
 
     ![ws name.](media/69.png)
 
 
-11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+10. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
     ![ws name.](media/ch4.png)
 
 > **Note:** The deployment will take about 15 minutes to succeed.
 
-12. Once the deployment is succeeded, open notifications and click on **Go to Resource**.  
+11. Once the deployment is succeeded, open notifications and click on **Go to Resource**.  
 
     ![ws name.](media/71.png)
 
@@ -209,12 +208,12 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >
 >   ![ws name.](media/71.png) 
 
-13. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+12. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/w29.png)
 
-14. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
+13. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
     ![ws name.](media/86.png)
 
-15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+14. Click on the **Next** button present in the bottom-right corner of this lab guide.  
