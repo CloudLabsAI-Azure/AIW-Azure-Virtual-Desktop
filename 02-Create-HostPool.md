@@ -125,7 +125,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    
-   ![ws name.](media/ch3.png)
+   ![ws name.](media/ex1t2s6.png)
     
   **B**. Network and Security:
     
@@ -137,16 +137,25 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
  
    ![ws name.](media/ch2.png)
  
-  **C**. Administrator Account details:
+  **C**. Domain Administrator Account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
    
    ![ws name.](media/w2.png)
-   
+
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
+
+  **D**. Virtual Machine Administrator Account:
+  
+   - Username: **hostadmin**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
    
+   ![ws name.](media/ex1t2s6b.png)
+
+
 7. Click on **Next: Workspace** to proceed. 
 
 8. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
