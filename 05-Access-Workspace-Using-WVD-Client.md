@@ -2,7 +2,7 @@
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD Desktop client.
 
-> **Note:** **You have to perform this exercise in **Your Own PC/computer/workstation**. Do not perform this exercise within the JumpVM.**
+> **Note:** **You have to perform this exercise in **Your Own PC/computer/workstation. Do not perform this exercise within the JumpVM.**
 
 
 ## **Task 1: Access the Published Applications**
