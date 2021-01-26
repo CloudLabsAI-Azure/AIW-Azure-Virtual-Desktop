@@ -29,6 +29,11 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
 
    ![](media/w25.png)
 
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
 > **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
 >
 >    ![](media/w26.png)
