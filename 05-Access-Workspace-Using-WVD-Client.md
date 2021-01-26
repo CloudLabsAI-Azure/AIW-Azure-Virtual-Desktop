@@ -46,7 +46,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
    ![ws name.](media/96.png)
-   
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
    
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
 
@@ -63,7 +67,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
-   
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
+
 12. Wait for the Application to connect.
 
    ![ws name.](media/58.png)
@@ -91,6 +100,10 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
    ![ws name.](media/ch14.png)
    
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
 
 3. Wait for the Session Desktop to connect.
 
