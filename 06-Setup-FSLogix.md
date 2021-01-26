@@ -355,7 +355,12 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     - Password: Paste password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
     ![ws name.](media/w25.png)
-   
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
+
 21. Click on the **Session Desktop** Desktop to launch it.
 
     ![ws name.](media/ex3t2s2.png)
