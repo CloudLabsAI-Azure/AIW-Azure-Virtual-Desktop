@@ -99,7 +99,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
     - File Share: Select **Create new** and enter **fs{uniqueid}**
 
 > **Note:** **UniqueID** is the numerical value present in your username. 
-> For example, your username is *odl_user_258996@azurehol1004.onmicrosoft.com*; so your UniqueID will be 258996.
+> For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
 
    ![ws name.](media/wvd12.png)
 
