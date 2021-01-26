@@ -209,7 +209,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
 12. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
-    ![ws name.](media/w29.png)
+    ![ws name.](media/ex1t2s14.png)
 
 13. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
