@@ -20,7 +20,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
    ![ws name.](media/96.png)
-  
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
 
 3. The WVD dashboard will launch, then click on **Word** application to access it. 
 
@@ -56,6 +60,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 8. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
    ![ws name.](media/ch7.png)
+
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+>
+>    ![](media/login.png)
+>
 
 9. Click on **Close** button on the window asking *Your privacy option*.
 
