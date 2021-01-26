@@ -150,7 +150,7 @@ In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** sess
    
       
 
-6. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
+6. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do not** run the script right away.
 
 
 ```
@@ -244,7 +244,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     ![ws name.](media/a68.png)
     
     
-12. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. Do not run the script right away.
+12. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do Not** run the script right away.
 
 ```
  #Variables
