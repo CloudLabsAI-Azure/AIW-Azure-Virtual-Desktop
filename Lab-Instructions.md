@@ -74,11 +74,15 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support
 
-2. Attendees can use this link to ask questions & for the help in case of any issue.
+2. Users have to click on **Join anonymously** to connect to the support channel.
+
+   ![](media/labinst11.png)
+   
+3. Attendees can use this link to ask questions & for the help in case of any issue.
 
    ![](media/labinst11.png)
 
-3. We have also added a shortcut of this Support link on the desktop of Lab VM.
+4. We have also added a shortcut of this Support link on the desktop of Lab VM.
 
    ![](media/labinst12.png)
 
