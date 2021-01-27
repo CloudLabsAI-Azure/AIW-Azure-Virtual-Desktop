@@ -14,7 +14,7 @@
 	{
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/Lab-Instructions.md",
         "Order": 3
-      }
+      },
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/02-Create-HostPool.md",
         "Order": 4
