@@ -25,11 +25,11 @@ The Environment Details Tab has two sections -  **Azure Credentials** & **Enviro
 
    ![](media/labinst.png)
 
-## 3. Navigate to the next lab exercise
+## 3. Navigate trough the next lab exercises
 
 To navigate through the lab, we have two buttons in the bottom of the Lab Guide.
 
-   1. **Next:** Clicking on this button will 
+   1. **Next:** Clicking on this button will.
    2. **Previous:** Clicking on this button will take you to the previous page.
 
    ![](media/labinst1.png)
