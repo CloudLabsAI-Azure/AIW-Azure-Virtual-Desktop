@@ -76,12 +76,14 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 2. Attendees can use this link to ask questions & for the help in case of any issue.
 
-3. We have also added a shortcut of this Support link on a desktop of Lab VM.
-
    ![](media/labinst11.png)
 
+3. We have also added a shortcut of this Support link on the desktop of Lab VM.
+
+   ![](media/labinst12.png)
 
 
+----------------------------------------------------------------------------------------------------------------------------------------
 Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
