@@ -98,7 +98,10 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
    ![ws name.](media/a65.png)
      
-         
+> **Note:** Overview page of the file share will look as shown below. User won't have access to it untill we perform the next steps of this task. 
+>
+>  ![ws name.](media/labinst13.png)
+
 2. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
 
    ![ws name.](media/wvd48.png)
