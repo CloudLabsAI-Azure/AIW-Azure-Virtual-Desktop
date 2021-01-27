@@ -4,15 +4,15 @@
     "Language": "English",
     "Files": [
 	    {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/00-Overview-Event.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/Lab-Instructions.md",
         "Order": 1
+      },
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/00-Overview-Event.md",
+        "Order": 2
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/01-Pre-requisite.md",
-        "Order": 2
-      },
-	{
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/main/Lab-Instructions.md",
         "Order": 3
       },
       {
