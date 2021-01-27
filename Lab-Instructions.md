@@ -7,14 +7,14 @@ Once we launch the lab by clicking on launch lab button, we will get the VM on t
 
 The environment will be as shown below:
 
-   ![](media/.png)
+   ![](media/labinst9.png)
 
    1. **Lab Virtual Machine:** On the left, we have the virtual machine in which we will perform the lab.
    2. **Lab Guide:** On the right, we have the step-by-step lab guide for users to follow and perform the lab. 
    3. **Azure Credentials:** We have provided a text document that will have User's credentials of their respective Azure account.
    4. **Browser:** Microsoft Edge browser is provided, where direct link is given to open the Azure Portal.
 
-   ![](media/.png)
+   ![](media/labinst10.png)
 
 ## 2. Environment Details Tab
 
@@ -36,7 +36,9 @@ To navigate through the lab, we have two buttons in the bottom of the Lab Guide.
    
 ## 4. Dual Monitor Service
 
-1. 
+1. Dual monitor will split the VM and the lab guide into two separate windows.
+
+2. If you want to use the dual monitor, you can pop-out the lab instructions by clicking on arrow icon on top.
 
    ![](media/labinst2.png)
    
