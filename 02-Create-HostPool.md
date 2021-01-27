@@ -4,17 +4,6 @@
 A Host Pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
  
 
-### Getting Started with Lab
-
-1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
-
-   ![](media/jvm1.png)
-
-2. To get lab environment details, click on the **Lab Environment** tab located next to the *Lab Guide* tab. 
-
-   ![](media/jvm.png)
-
-
 ### **Task 1: Log in to Azure Portal**
 
 1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
