@@ -72,9 +72,17 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 ## 6. Contact Supprt
 
+1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support
+
+2. Attendees can use this link to ask questions & for the help in case of any issue.
+
+3. We have also added a shortcut of this Support link on a desktop of Lab VM.
+
+   ![](media/labinst11.png)
 
 
 
+Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 
