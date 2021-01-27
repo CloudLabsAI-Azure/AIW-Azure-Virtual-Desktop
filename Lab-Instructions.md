@@ -1,11 +1,10 @@
 # Lab Instructions
 
-Once we launch the lab by clicking on launch lab button, we will get the VM on the left-hand side & Lab guide, environment details on right-hand side.
-
+Below instructions will take you through the lab experience and the essentials you need to know while performing the lab, including how to contact the help-desk.
 
 ## 1. Lab Virtual Machine with Azure Credentials and Browser
 
-The environment will be as shown below:
+Once we launch the lab by clicking on launch lab button, we will get the VM on the left-hand side & Lab guide, environment details on right-hand side. The environment will be as shown below:
 
    ![](media/labinst9.png)
 
@@ -29,7 +28,7 @@ The Environment Details Tab has two sections -  **Azure Credentials** & **Enviro
 
 To navigate through the lab, we have two buttons in the bottom of the Lab Guide.
 
-   1. **Next:** Clicking on this button will.
+   1. **Next:** Clicking on this button will take you the next page in the guide.
    2. **Previous:** Clicking on this button will take you to the previous page.
 
    ![](media/labinst1.png)
@@ -44,7 +43,7 @@ To navigate through the lab, we have two buttons in the bottom of the Lab Guide.
    
 ##  5. Validate Lab Progress
 
-We can validate the lab step by step, which will help in reviewing that whether steps are performed correctly or not.
+Once you complete the exercise, you can use this feature to validate and make sure exercise is performed correctly.
 
 1. **Lab Validation:** This tab will have all the exercises listed for the validation.
 
@@ -54,7 +53,7 @@ We can validate the lab step by step, which will help in reviewing that whether 
 
    ![](media/labinst4.png)
    
-3. **Validate exercise progress:** Clicking on **Validate** button to begin the validation of a task spcified just in from of the Validate button. 
+3. **Validate exercise progress:** Clicking on **Validate** button to begin the validation of a task specified just in front of the Validate button. 
 
    ![](media/labinst8.png)
    
@@ -70,6 +69,8 @@ We can validate the lab step by step, which will help in reviewing that whether 
 
    ![](media/labinst6.png)
 
+
+## 6. Contact Supprt
 
 
 
