@@ -52,6 +52,7 @@ ________________________
 
 **Exercise 1: Create Host Pool from Azure Portal**
 
+- Getting Started with the Lab
 - Task 1: Log in to Azure Portal
 - Task 2: Create Host Pool
     
