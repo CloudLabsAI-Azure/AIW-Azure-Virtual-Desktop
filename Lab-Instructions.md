@@ -53,7 +53,7 @@ Once you complete the exercise, you can use this feature to validate and make su
 
    ![](media/labinst4.png)
    
-3. **Validate exercise progress:** Clicking on **Validate** button to begin the validation of a task specified just in front of the Validate button. 
+3. **Validate exercise progress:** Click on **Validate** button to begin the validation of a task specified just in front of the Validate button. 
 
    ![](media/labinst8.png)
    
