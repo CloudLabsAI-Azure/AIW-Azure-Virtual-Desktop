@@ -76,7 +76,7 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 2. Users have to click on **Join anonymously** to connect to the support channel.
 
-   ![](media/labinst14.png)
+   ![](media/labinst16.png)
    
 3. Attendees can use this link to ask questions & for the help in case of any issue.
 
