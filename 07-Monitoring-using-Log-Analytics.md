@@ -41,6 +41,19 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
 ### **Task 2: Enable diagnostics for Host Pool**
 
+1. Navigate to **Windows Virtual Desktop**. 
+
+   ![ws name.](media/64.png)
+
+2. Open **Host Pools** and then click on **WVD-HP-01**.
+
+   ![ws name.](media/wiw12.png)
+
+3. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
+
+   ![ws name.](media/wiw5.png)
+
+
 > **Note:** Due to a technical issue in Azure portal, you may find diagnostic settings pre-created in ***Host Pool, Application Group and Workspace***. For now, we will
 > delete it using following steps: 
 >
@@ -54,19 +67,6 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 >
 > iii) Once deleted, you can follow the steps to add a new diagnostic setting.
 >
-
-
-1. Navigate to **Windows Virtual Desktop**. 
-
-   ![ws name.](media/64.png)
-
-2. Open **Host Pools** and then click on **WVD-HP-01**.
-
-   ![ws name.](media/wiw12.png)
-
-3. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
-
-   ![ws name.](media/wiw5.png)
 
 4. Add the following configurations:
 
