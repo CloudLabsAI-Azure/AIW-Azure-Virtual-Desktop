@@ -91,7 +91,7 @@ Once you complete the exercise, you can use this feature to validate and make su
    ![](media/labinst20.png)
 
 6. Enter the following values:
-   - Your name: Paste your username **<inject key="AzureAdUserEmail" />**
+   - Your name: Paste your username **<inject key="AzureAdUserEmail" />** (Note: This is essential for us to recognize your environment and respond to you promptly.)
    - Ask a question: *Enter your question here*
    - Click on **Send** icon.
 
