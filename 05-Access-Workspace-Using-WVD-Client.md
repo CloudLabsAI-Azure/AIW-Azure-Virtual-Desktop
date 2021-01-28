@@ -52,7 +52,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 >    ![](media/login.png)
 >
    
-9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
+9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
    
