@@ -72,7 +72,9 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 ## 6. Contact Supprt
 
-1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support. Open this link in the browser in the VM.
+1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support. Open this link in the browser in the VM. We have also added a shortcut of this Support link on the desktop of Lab VM.
+
+   ![](media/labinst12.png)
 
 2. In the browser, there will be two options to connect - *Download the Windows app* and *Watch on the web instead*, select **Watch on the web instead**.
 
@@ -100,11 +102,6 @@ Once you complete the exercise, you can use this feature to validate and make su
 7. Once the question is sent, it will show up like the screenshot below.
 
    ![](media/labinst21.png)
-   
-8. We have also added a shortcut of this Support link on the desktop of Lab VM.
-
-   ![](media/labinst12.png)
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Click on the **Next** button present in the bottom-right corner of this lab guide.
