@@ -19,7 +19,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/labinst23.png)
 
-4. Once connected it will show up like the screenshot given below. We will jump to **Step 14**.
+4. Once connected it will show up like the screenshot given below. Now we will jump to **Step 14**.
 
    ![ws name.](media/labinst24.png)
 
