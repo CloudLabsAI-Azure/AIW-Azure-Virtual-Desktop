@@ -85,6 +85,27 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 14. You can exit from the window of Excel Application by clicking on **X *i.e., the close button***.
 
    ![ws name.](media/ch16.png)
+
+15. Return back to the Azure Portal, search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+
+   ![ws name.](media/w1.png)
+
+16. Click on **User** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
+
+   ![ws name.](media/jvm7.png)
+
+17. Click on **Sessions** tab, select both Host pools by clicking on the checkbox and then click on **Log off** button.
+
+   ![ws name.](media/jvm8.png)
+
+18. Click on **OK** to *Log off user from VMs*.
+
+   ![ws name.](media/jvm9.png)
+
+19. Click on **Refresh** button and make sure *No results* is displayed under Host pool.
+
+   ![ws name.](media/jvm10.png)
+   
    
 ## **Task 2: Access the Virtual Desktop**
 
