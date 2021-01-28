@@ -11,7 +11,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 2. Open the **Remote Desktop Client**, click on the ellipses and select **Subscribe with URL**.
 
-   ![ws name.](media/labinst22.png)
+   ![ws name.](media/labinst25.png)
 
 3. Copy and paste the below mentioned URL under **Email or Workspace URL** and click on **Next** button.
 
