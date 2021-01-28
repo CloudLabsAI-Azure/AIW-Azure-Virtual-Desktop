@@ -72,17 +72,36 @@ Once you complete the exercise, you can use this feature to validate and make su
 
 ## 6. Contact Supprt
 
-1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support
+1. MS Teamslive Support Link for the event – https://aka.ms/wvdmasterclass-hol-support. Open this link in the browser in the VM.
 
-2. Users have to click on **Join anonymously** to connect to the support channel.
+2. In the browser, there will be two options to connect - *Download the Windows app* and *Watch on the web instead*, select **Watch on the web instead**.
+
+   ![](media/labinst17.png)
+
+3. Users have to click on **Join anonymously** to connect to the support channel.
 
    ![](media/labinst16.png)
    
-3. Attendees can use this link to ask questions & for the help in case of any issue.
+4. Once connected, it will show up like the screenshot given below. To ask a question, click on **Ask a question**.
 
-   ![](media/labinst11.png)
+   ![](media/labinst18.png)
 
-4. We have also added a shortcut of this Support link on the desktop of Lab VM.
+5. Now there will be two sections- Your Name and Ask a question.
+
+   ![](media/labinst20.png)
+
+6. Enter the following values:
+   - Your name: Paste your username **<inject key="AzureAdUserEmail" />**
+   - Ask a question: *Enter your question here*
+   - Click on **Send** icon.
+
+   ![](media/labinst20.png)
+
+7. Once the question is sent, it will show up like the screenshot below.
+
+   ![](media/labinst21.png)
+   
+8. We have also added a shortcut of this Support link on the desktop of Lab VM.
 
    ![](media/labinst12.png)
 
