@@ -7,7 +7,23 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 ## **Task 1: Access the Published Applications**
 
-1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
+1. If you have *Remote Desktop Client* **already installed** on your personal system then follow the next step, else jump to **Step 5**. 
+
+2. Open the **Remote Desktop Client**, click on the ellipses and select **Subscribe with URL**.
+
+   ![ws name.](media/labinst22.png)
+
+3. Copy and paste the below mentioned URL under **Email or Workspace URL** and click on **Next** button.
+
+```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery```
+
+   ![ws name.](media/labinst23.png)
+
+4. Once connected it will show up like the screenshot given below. We will jump to **Step 14**.
+
+   ![ws name.](media/labinst24.png)
+
+5. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
@@ -15,29 +31,29 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 >
 > ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
 
-2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on **Your Own PC/computer/workstation**.
+6. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on **Your Own PC/computer/workstation**.
    
    ![ws name.](media/a48.png)
       
-3. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
+7. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
-4. Check the agreement box and click on **Next**.
+8. Check the agreement box and click on **Next**.
 
-5. On **Installation scope** window select **Install just for you** and then click on **Install**.
+9. On **Installation scope** window select **Install just for you** and then click on **Install**.
 
    ![ws name.](media/wvd41.png)
 
-6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+10. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
 
    ![ws name.](media/137.png)
    
    
-7. Once the application opens, click on **Subscribe**.
+11. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/a49.png)
   
   
-8. Enter your **credentials** to access the workspace.
+12. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -52,12 +68,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 >    ![](media/login.png)
 >
    
-9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
+13. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
 
    ![ws name.](media/ex4t1s9.png)
    
    
-10. The WVD dashboard will launch, then double click on **Excel** application to access it.
+14. The WVD dashboard will launch, then double click on **Excel** application to access it.
 
    ![ws name.](media/ex4t1s10.png)
    
