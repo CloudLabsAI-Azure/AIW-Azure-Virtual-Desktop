@@ -141,7 +141,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password **Azure1234567** and click on **Sign in**.
+   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
 
@@ -205,7 +205,7 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
 12. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste username of* **WVDUser02** *which you copied earlier(for example: **WVDUser02@azurehol1055.onmicrosoft.com**)*
-   - Password: *Paste the **Azure1234567** and click on **OK**.* 
+   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
    ![ws name.](media/lb37.png)
   
@@ -271,7 +271,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password **Azure1234567** and click on **Sign in**.*
+   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.*
 
    ![ws name.](media/password.png)
  
