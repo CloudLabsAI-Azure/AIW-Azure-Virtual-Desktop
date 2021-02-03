@@ -312,14 +312,23 @@ The UI form offers the following actions:
 
    ![ws name.](media/w3.png)
 
-  **C**. Administrator Account details:
-
+  **C**. Domain Administrator Account:
+  
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
-   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** again.
-   - Click on **Next: Workspace**.
+   
+   ![ws name.](media/ex1t2s6b2.png)
 
-   ![ws name.](media/w2.png)
+> **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
+
+  **D**. Virtual Machine Administrator Account:
+  
+   - Username: **azuser**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
+   - Click on **Next: Workspace** to proceed. 
+   
+   ![ws name.](media/ex1t2s6c.png)
 
 6.  In the *Workspace* section, we need to specify if we need to register the default application group to a workspace.
 
