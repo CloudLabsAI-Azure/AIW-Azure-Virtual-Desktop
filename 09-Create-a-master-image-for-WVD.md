@@ -31,7 +31,7 @@ In this exercise, we are going to walk through the process of creating a master 
    - Select inbound ports: **RDP(3389)**
    - **Select** *the checkbox saying "I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
 
-   ![ws name.](media/im1.png) 
+   ![ws name.](media/ex8t1s4.png) 
 
 5. On *Disks* tab, leave all configurations on default and click on **Next: Networking**.
   
