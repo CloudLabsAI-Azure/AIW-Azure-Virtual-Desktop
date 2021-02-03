@@ -47,10 +47,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
    
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
@@ -68,10 +64,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
    ![ws name.](media/ch14.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
 
 12. Wait for the Application to connect.
 
