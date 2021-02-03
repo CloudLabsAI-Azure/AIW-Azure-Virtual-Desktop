@@ -328,7 +328,7 @@ The UI form offers the following actions:
    - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
    - Click on **Next: Workspace** to proceed. 
    
-   ![ws name.](media/ex1t2s6c.png)
+   ![ws name.](media/ex8t6.png)
 
 6.  In the *Workspace* section, we need to specify if we need to register the default application group to a workspace.
 
