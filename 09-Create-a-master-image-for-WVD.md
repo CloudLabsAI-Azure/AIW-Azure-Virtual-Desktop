@@ -22,6 +22,7 @@ In this exercise, we are going to walk through the process of creating a master 
    - Resource Group: *Select WVD-RG from the drop down.*
    - Virtual machine name: **WVDVMWin10**
    - Region: **EastUS**, *basically this should be same as the region of your resource group.*
+   - Availability options: **No infrastructure redundancy required**
    - Image: **Windows 10 Enterprise multi-session, Version 1909-Gen1**
    - Size: **Standard_D2s_v3**
    - Username: **azuser**
@@ -31,7 +32,7 @@ In this exercise, we are going to walk through the process of creating a master 
    - Select inbound ports: **RDP(3389)**
    - **Select** *the checkbox saying "I confirm I have an eligible Windows 10 license with multi-tenant hosting rights."*
 
-   ![ws name.](media/ex8t1s4.png) 
+   ![ws name.](media/upd1.png) 
 
 5. On *Disks* tab, leave all configurations on default and click on **Next: Networking**.
   
