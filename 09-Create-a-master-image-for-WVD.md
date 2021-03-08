@@ -288,6 +288,8 @@ The UI form offers the following actions:
 
    - Resource Group: *Select* **WVD-RG** *from the drop down.*
    - Virtual machine location: **East US**, *location should be same as location of your resource group.*
+   - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down._
+
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below.*
 
    ![ws name.](media/ch1.png)
