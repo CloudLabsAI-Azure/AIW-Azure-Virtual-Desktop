@@ -119,13 +119,13 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
    
-   ![ws name.](media/availset.png)
+   ![ws name.](media/ch1.png)
 
    - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    
-   ![ws name.](media/ex1t2s6.png)
+   ![ws name.](media/availset.png)
     
   **B**. Network and Security:
     
