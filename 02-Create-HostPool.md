@@ -114,6 +114,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Resource Group: *Select **WVD-RG** from the drop down*.
    - Name prefix: **WVD-HP01-SH** 
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
+   - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
    - Image type: **Gallery**
    - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
