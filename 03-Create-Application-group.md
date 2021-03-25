@@ -43,14 +43,14 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 1. In the *Basics* tab, do the following configuration: 
 
-  i.  Leave the following parameters to default:
-   
-   - *Subscription*
-   - *Host Pool*
-   - *Location*
-         
-  ii.  Fill the remaining parameters as mentioned below and then click on **Next:Applications**:  
-   
+    i.  Leave the following parameters to default:
+
+    - *Subscription*
+    - *Host Pool*
+    - *Location*
+
+    ii.  Fill the remaining parameters as mentioned below and then click on **Next:Applications**:  
+
    - Resource Group: *Select **WVD-RG** from the dropdown*.
    - Application Group Type: **RemoteApp** 
    - Application Group Name: **WVD-AG-01**
@@ -67,7 +67,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Application: **Excel** *(choose from the dropdown)* 
    - Leave rest of the parameters to default and click on **Save**.
    
-  ![ws name.](media/a34.png)
+      ![ws name.](media/a34.png)
  
 1. Click on **Add Applications** again. 
 
@@ -108,7 +108,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/80.png)
 
-> **Note:** The deployment will take about a minute to succeed.
+    > **Note:** The deployment will take about a minute to succeed.
 
 1. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
@@ -132,14 +132,14 @@ In this task we will configure diagnostics for the Application Groups we have co
    
 1. Add the following configurations:
 
-  - Diagnostic settings name: **ApplicationGroupMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.
+    - Diagnostic settings name: **ApplicationGroupMonitoring**
+    - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+    - Destination details: *Check the box for* **Send to Log Analytics**
+    - Subscription: *Choose the default subscription.*
+    - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+    - At last, click on **Save**.
 
-   ![ws name.](media/wiw8.png)
+    ![ws name.](media/wiw8.png)
 
 1. Once saved, it will look similar to the image shown below.
 
@@ -151,20 +151,21 @@ In this task we will configure diagnostics for the Application Groups we have co
 
 1. Add the following configurations:
 
-  - Diagnostic settings name: **ApplicationGroupMonitoring1**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.
+    - Diagnostic settings name: **ApplicationGroupMonitoring1**
+    - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+    - Destination details: *Check the box for* **Send to Log Analytics**
+    - Subscription: *Choose the default subscription.*
+    - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+    - At last, click on **Save**.
 
-   ![ws name.](media/wiw26.png)
+    ![ws name.](media/wiw26.png)
 
 1. Once saved, it will look similar to the image shown below.
 
-   ![ws name.](media/lb62.png)
+    ![ws name.](media/lb62.png)
 
-### **Task 3: Enable diagnostics for Session Hosts**
+## **Task 3: Enable diagnostics for Session Hosts**
+
 In this task we will configure diagnostics for the session hosts
 
 1. from the Main page of Azure portal, navigate to **Virtual Machines**. (use the bar on the top if the icon is not visible)
@@ -195,9 +196,10 @@ In this task we will configure diagnostics for the session hosts
 
    ![ws name.](media/lb67.png)
 
-> **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
-> - New VM Extensions Added
-> - New Monitoring Agents Installed
-> - Monitoring Agent Configured for Log Analytics 
+    > **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
+    >
+    > - New VM Extensions Added
+    > - New Monitoring Agents Installed
+    > - Monitoring Agent Configured for Log Analytics 
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.

@@ -4,7 +4,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
 ## **Task 1 : Run queries in Log Analytics Workspace**
 
-1. From the Main page of Azure portal, navigate to *Log Analytics Workspace* (use the bar on the top if the icon is not visible) and open your log workspace, then select **Logs** under *General* blade.
+1. From the Main page of Azure portal, navigate to *Log Analytics Workspaces* (use the bar on the top if the icon is not visible) and open your log workspace, then select **Logs** under *General* blade.
 
    ![ws name.](media/wiw14.png)
 
@@ -16,7 +16,6 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
    ![ws name.](media/lg2.png)
 
-
 1. In the *Query Editor*, paste the following query and click on **Run** button.
 
     ```Kusto
@@ -26,7 +25,7 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
     ```
 
    ![ws name.](media/lg1.png)
->
+
 1. In results, logs will appear similar to one shown below.
 
   ![ws name.](media/wiw17.png)
