@@ -27,13 +27,13 @@
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/05-Access-Workspace-Using-WVD-Client.md",
         "Order": 6
       },
-	{
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/06-Setup-FSLogix.md",
-        "Order": 8
-      },
     {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/07-Monitoring-using-Log-Analytics.md",
         "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/06-Setup-FSLogix.md",
+        "Order": 8
       },
 	{
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/08-Load-Balancing-methods.md",
