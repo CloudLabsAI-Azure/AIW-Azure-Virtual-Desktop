@@ -40,12 +40,6 @@ After you’ve assigned users to their application groups, they can connect to a
 ________________________
 
 
-
-
-
-
-
-
 # Lab Outline
 
 **Pre-requisites to deploy Windows Virtual Desktop**
@@ -53,13 +47,13 @@ ________________________
 **Exercise 1: Create Host Pool from Azure Portal**
 
 - Getting Started with the Lab
-- Task 1: Log in to Azure Portal
-- Task 2: Create Host Pool
-    
+- Task 1: Create Host Pool
+- Task 2: Enable diagnostics for Host Pool    
+
 **Exercise 2: Create Application Groups and assign to users**
-    
+
 - Task 1: Create Application Group
-    
+- Task 2: Enable diagnostics for Application Groups
 **Exercise 3: Access the Published Applications and Desktop using Browser**
 
 - Task 1: Access the Published Application
@@ -70,21 +64,18 @@ ________________________
 - Task 1: Access the Published Applications
 - Task 2: Access the Virtual Desktop
     
-**Exercise 5: Setup FSLogix**
+
+**Exercise 5: Monitoring using Log Analytics**
     
+- Task 1: Create Log Analytics
+- Task 2: azure Monitor for Windows Virtual Desktop (preview)
+
+**Exercise 6: Setup FSLogix**
+
 - Task 1: Create Storage account and file share
 - Task 2: Configure File share
 - Task 3: Configure Session Hosts
 - Task 4: Verifying the User profiles stored in File share
-    
-**Exercise 6: Monitoring using Log Analytics**
-    
-- Task 1: Create Log Analytics
-- Task 2: Enable diagnostics for Host Pool
-- Task 3: Enable diagnostics for Application Groups
-- Task 4: Enable diagnostics for Workspace
-- Task 5: Enable diagnostics for Session Host
-- Task 6: Run queries in Log Analytics Workspace
     
 **Exercise 7: Load Balancing methods**
     
