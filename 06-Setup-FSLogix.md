@@ -21,9 +21,7 @@ In the following task, we will be creating a storage account with a file share w
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
    - Storage account name: **<inject key="Storage Account Name" />**   
-   
-   ![ws name.](media/up1.png)
-   
+      
    - Location: **East US**, *this should be same as the location of your resource group*.  
    
    - Performance: **Standard**   
