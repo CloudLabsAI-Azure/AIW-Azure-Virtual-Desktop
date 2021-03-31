@@ -20,7 +20,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Resource Group: *Select **WVD-RG** from the drop down*. 
    
-   - Storage account name: *Go to Lab Environment tab, copy the* **Storage Account Name** *and paste it here in Storage account name box.*   
+   - Storage account name: **<inject key="Storage Account Name" />**   
    
    ![ws name.](media/up1.png)
    
@@ -226,7 +226,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    ![ws name.](media/jvm24.png)
 
 
-8. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
+8. In the script, replace **{NameofStorageAccount}** with **<inject key="Storage Account Name" />** . Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
 
@@ -317,7 +317,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
    ![ws name.](media/jvm24.png)
 
-14. Go to **Lab Environment** tab and copy the **Storage Account Name**. In the script, replace **{NameofStorageAccount}** with the name you just copied. Make sure to remove the curly braces, then click on **Run** to execute the script.
+14. In the script, replace **{NameofStorageAccount}** with **<inject key="Storage Account Name" />** . Make sure to remove the curly braces, then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
       
