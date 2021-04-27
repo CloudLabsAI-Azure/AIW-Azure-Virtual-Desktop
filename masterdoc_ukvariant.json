@@ -4,47 +4,47 @@
     "Language": "English",
     "Files": [
 	    {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/00-Overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/00-Overview.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/01-Pre-requisite.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/01-Pre-requisite.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/02-Create-HostPool.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/02-Create-HostPool.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/03-Create-Application-group.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/03-Create-Application-group.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/04-Access-Workspace-Using-Browser.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/04-Access-Workspace-Using-Browser.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/05-Access-Workspace-Using-WVD-Client.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/05-Access-Workspace-Using-WVD-Client.md",
         "Order": 6
       },
     {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/07-Monitoring-using-Log-Analytics.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/07-Monitoring-using-Log-Analytics.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/06-Setup-FSLogix.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/06-Setup-FSLogix.md",
         "Order": 8
       },
 	{
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/08-Load-Balancing-methods.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/08-Load-Balancing-methods.md",
         "Order": 9
       },
 {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/09-Create-a-master-image-for-WVD.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/09-Create-a-master-image-for-WVD.md",
         "Order": 10
       },
 	    {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-WVD-Immersion/uk-variant/10-Summary.md",
+        "RawFilePath": "https://raw.githubusercontent.com/manasvin/AIW-WVD-Immersion/uk-variant/10-Summary.md",
         "Order": 11
       }
     ]
