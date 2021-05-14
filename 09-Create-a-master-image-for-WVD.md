@@ -143,11 +143,11 @@ The UI form offers the following actions:
 
    ![ws name.](media/e18.png)
 
-6. Use the following command to navigate to "C:\Users\azuser\Documents\Customizations".
+6. Use the following command to navigate to "C:\Users\azuser\Documents\Customizations\Prepare-WVDImage".
 
-   ` cd C:\Users\azuser\Downloads\Customizations\Customizations `
+   ` cd C:\Users\azuser\Downloads\Customizations\Customizations\Prepare-WVDImage `
 
-   ![ws name.](media/im8.png)
+   ![ws name.](media/pathupdate1.png)
 
 > **Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
 
@@ -155,13 +155,13 @@ The UI form offers the following actions:
 
    ` Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force `
 
-   ![ws name.](media/im10.png)
+   ![ws name.](media/pathupdate2.png)
 
 8. Execute the script by running the following command.
 
    ` .\Prepare-WVDImage.ps1 -DisplayForm `
 
-   ![ws name.](media/im11.png)
+   ![ws name.](media/pathupdate3.png)
 
 9. This will trigger the Powershell to launch an application that will look similar to image shown below.
 
