@@ -28,11 +28,11 @@ In the following task, we will be creating a storage account with a file share w
    
    - Account kind: **StorageV2(general purpose v2)**
    
-   - Replication: **Read-access-geo-redundant storage (RA-GRS)**
+   - Replication: **Geo-redundant storage (GRS)**
    
    - Then click on **Next: Networking**
    
-   ![ws name.](media/up2.png)
+   ![ws name.](media/updt1.png)
    
 4. Under *Networking* tab use following configuration.
     
