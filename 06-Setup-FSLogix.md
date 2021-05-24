@@ -368,7 +368,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 22. Select Allow on the prompt asking permission to Access local resources.
 
-    ![ws name.](media/ex3t1s4.png)
+    ![ws name.](media/uiupdate05.png)
 
 23. Enter your **Credentials** to access the desktop.
 
