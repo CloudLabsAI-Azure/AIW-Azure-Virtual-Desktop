@@ -22,7 +22,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Storage account name: **<inject key="Storage Account Name" />**   
       
-   - Location: **East US**, *this should be same as the location of your resource group*.  
+   - Region: **East US**, *this should be same as the location of your resource group*.  
    
    - Performance: **Standard**   
    
@@ -30,12 +30,18 @@ In the following task, we will be creating a storage account with a file share w
    
    - Replication: **Geo-redundant storage (GRS)**
    
-   - Then click on **Next: Networking**
+   - Make read access to the data available in the event of regional unavailability.
    
-   ![ws name.](media/updt1.png)
+   - At last, click on **Next: Advanced**
    
-4. Under *Networking* tab use following configuration.
-    
+   ![ws name.](media/uiupdate08.png)
+   
+4. On the _Advanced_ tab, leave it to default and click on **Next: Networking** tab use following configuration.
+
+   ![ws name.](media/uiupdate09.png)
+
+5. In the _Networking_ tab, use following configurations:
+
   - Connectivity method: **Public endpoint(selected networks)**
      
   >**Note:** This will make sure that your storage account is not accessible from public network making it more secure.
@@ -52,38 +58,33 @@ In the following task, we will be creating a storage account with a file share w
      
    ![ws name.](media/fs1.png)
      
-5. Click on **Create**.
+6. Click on **Create**.
 
    ![ws name.](media/up3.png)
 
-6. After deployment completes click on the notification icon on your azure portal, then click on **Go to resource**.
+7. After deployment completes click on the notification icon on your azure portal, then click on **Go to resource**.
 
    ![ws name.](media/a59.png)
    
-7. In the storage account, click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
+8. In the storage account, click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
 
    ![ws name.](media/up4.png)
     
 > **Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
     
     
-8. Then click on **Save**.
+9. Then click on **Save**.
      
    ![ws name.](media/a61.png)
  
-9. Now click on **Overview** to return back to storage account page, then click on **File shares**.
+10. In the right pane, click on **File shares** present under _Data Storage_ blade.
 
-   ![ws name.](media/ex5t1s9.png)
+   ![ws name.](media/uiupdate10.png)
  
-10. Click on **+ File share**.
-
-   ![ws name.](media/a63.png)
-    
-    
 11. Enter the following name for your file share.
     
     - Name: **userprofile**    
-    - Click on **Create**. This will create the file share.
+    - Click on **Create**, this will create the file share.
     
     ![ws name.](media/ex5t1s11.png)
 
@@ -102,7 +103,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
 2. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
 
-   ![ws name.](media/wvd48.png)
+   ![ws name.](media/uiupdate11.png)
    
 3. Select following configuration for role assignment:  
    
@@ -206,7 +207,9 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    Write-Host "Script Executed successfully"
 ```
  
-   ![ws name.](media/fs11.png)
+ 
+ 
+   ![ws name.](media/uiupdate12.png)
    
     
 > **Note:** The above script will :
@@ -224,7 +227,8 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    ![ws name.](media/jvm24.png)
 
 
-8. In the script, replace **{NameofStorageAccount}** with **<inject key="Storage Account Name" />** . Make sure to remove the curly braces, then click on **Run** to execute the script.
+8. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.![uiupdate12](https://user-images.githubusercontent.com/50323628/119298687-2274a080-bc7b-11eb-8e38-456aa31ada43.png)
+
 
    ![ws name.](media/up5.png)
 
@@ -299,7 +303,9 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    Write-Host "Script Executed successfully"
 ```
 
-   ![ws name.](media/fs11.png)
+
+
+   ![ws name.](media/uiupdate12.png)
    
     
 > **Note:** The above script will :
@@ -315,7 +321,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
    ![ws name.](media/jvm24.png)
 
-14. In the script, replace **{NameofStorageAccount}** with **<inject key="Storage Account Name" />** . Make sure to remove the curly braces, then click on **Run** to execute the script.
+14. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
       
