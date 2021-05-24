@@ -396,7 +396,7 @@ The UI form offers the following actions:
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/ex3t1s4.png)
+   ![ws name.](media/uiupdate05.png)
 
 4. Enter the lab credentials given below, to access the application and click on **Submit**.
 
