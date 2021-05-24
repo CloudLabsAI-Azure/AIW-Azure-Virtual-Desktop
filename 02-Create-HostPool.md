@@ -83,16 +83,16 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Host pool type: **Pooled** 
    
       
-   >**Note:** Host Pools are of 2 types: Pooled and Personal.  
-   > - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
-   > - **Personal**, where each session host is assigned to individual users.
+> **Note:** Host Pools are of 2 types: Pooled and Personal.  
+> - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
+> - **Personal**, where each session host is assigned to individual users.
      
    - Load Balancing Algorithm: **Breadth First**
    
-      
-   >**Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
-   > - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
-   > - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
+     seerat 
+> **Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
+> - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
+> - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
 
 
    - Max session Limit: **5**
