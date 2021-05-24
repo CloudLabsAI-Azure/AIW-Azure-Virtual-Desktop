@@ -340,7 +340,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
 14. Verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media/uiupdate15.png)
+   ![ws name.](media/uiupdate16.png)
 
 
 
