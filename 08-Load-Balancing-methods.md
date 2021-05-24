@@ -239,13 +239,13 @@ While creating WVD-HP-01 host pool, we selected load balancing method as *Breadt
    > Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 
-18. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+18. Open **WVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/lb50.png)
+   ![ws name.](media/uiupdate14.png)
 
-19. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+19. Navigate back to *Session hosts* and open **WVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/lb56.png)
+   ![ws name.](media/uiupdate13.png)
 
 >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
    
@@ -340,7 +340,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
    
 14. Verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media/lb22.png)
+   ![ws name.](media/uiupdate15.png)
 
 
 
