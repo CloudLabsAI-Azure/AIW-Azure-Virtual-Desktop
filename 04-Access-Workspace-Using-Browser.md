@@ -33,7 +33,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/ex3t1s4.png)
+   ![ws name.](media/uiupdate05.png)
 
 
 5. Enter the lab credentials to access the application and click on **Submit**.
@@ -89,7 +89,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/ex3t1s4.png)
+   ![ws name.](media/uiupdate05.png)
 
 
 4. Enter the lab credentials to access the application and click on **Submit**.
