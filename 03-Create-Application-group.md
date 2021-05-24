@@ -48,16 +48,17 @@ An application group of type ‘Desktop’ was created automatically while creat
   i.  Leave the following parameters to default:
    
    - *Subscription*
-   - *Host Pool*
    - *Location*
          
-  ii.  Fill the remaining parameters as mentioned below and then click on **Next:Applications**:  
+  ii.  Fill the remaining parameters as mentioned below:  
    
-   - Resource Group: *Select **WVD-RG** from the dropdown*.
+   - Resource Group: *Select* **WVD-RG** *from the dropdown*.
+   - Host Pool: *Select* **WVD-HP-01** *Host pool from the dropdown*.
    - Application Group Type: **RemoteApp** 
    - Application Group Name: **WVD-AG-01**
+   - Click on **Next:Applications**
 
-   ![ws name.](media/ag12.png)
+   ![ws name.](media/uiupdate03.png)
 
 10. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
 
@@ -91,33 +92,33 @@ An application group of type ‘Desktop’ was created automatically while creat
  
    ![ws name.](media/ag5.png)
 
-17. Click on **Next: Workspaces**.
+16. Click on **Next: Workspaces**.
 
    ![ws name.](media/ag6.png)
 
-18. In the *Workspace* tab, choose the parameters as mentioned below:  
+17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
    - Register Application Group: **Yes**
-   - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
+   - Register Application Group: _Select_ **WVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.)_
 
    ![ws name.](media/ag7.png)
 
-19. Click on **Review + Create**.
+18. Click on **Review + Create**.
 
    ![ws name.](media/review.png)
 
-20. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
    ![ws name.](media/80.png)
 
 > **Note:** The deployment will take about a minute to succeed.
 
-21. Once the deployment is complete, open notifications and click on **Go to Resource**. 
+20. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
    ![ws name.](media/81.png)
 
-22. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
+21. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
 
-   ![ws name.](media/82.png)
+   ![ws name.](media/uiupdate04.png)
 
-23. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+22. Click on the **Next** button present in the bottom-right corner of this lab guide. 
