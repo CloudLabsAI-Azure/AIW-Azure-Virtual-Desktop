@@ -81,21 +81,22 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    > - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
    > - **Personal**, where each session host is assigned to individual users.
 
-   - Max session Limit: **5**
-   
-      
-   >**Note:** Max session Limit limits the simultaneous number of users on the same session host.
-     
    - Load Balancing Algorithm: **Breadth First**
    
       
    >**Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
    > - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
    > - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
-     
+
+
+   - Max session Limit: **5**
+   
+      
+   >**Note:** Max session Limit limits the simultaneous number of users on the same session host.
+   
    - Then click on **Next:Virtual Machines**.
    
-   ![ws name.](media/w10.png)  
+   ![ws name.](media/uiupdate01.png) 
    
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
@@ -118,8 +119,9 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
+   - Boot Diagnostics: **Disable**
    
-   ![ws name.](media/availset.png)
+   ![ws name.](media/uiupdate02.png)
     
   **B**. Network and Security:
     
