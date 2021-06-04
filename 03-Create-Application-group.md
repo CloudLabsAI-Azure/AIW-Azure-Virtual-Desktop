@@ -21,7 +21,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
-   ![ws name.](media/w8.png)
+   ![ws name.](media/wvd.png)
    
 4. Click on **WVD-HP-01-DAG** application group.
 
