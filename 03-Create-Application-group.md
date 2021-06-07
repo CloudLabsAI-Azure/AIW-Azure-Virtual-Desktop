@@ -21,7 +21,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
-   ![ws name.](media/w8.png)
+   ![ws name.](media/wvd2.png)
    
 4. Click on **WVD-HP-01-DAG** application group.
 
@@ -39,9 +39,9 @@ An application group of type ‘Desktop’ was created automatically while creat
  
    ![ws name.](media/w6.png) 
  
-8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Add** button. 
+8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ New** button. 
 
-   ![ws name.](media/a18.png)
+   ![ws name.](media/wvd3.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
