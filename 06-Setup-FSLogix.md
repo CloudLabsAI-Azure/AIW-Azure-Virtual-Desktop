@@ -10,9 +10,9 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/up10.png)
    
-2. Click on **+ Add** to create a new storage account.
+2. Click on **+ New** to create a new storage account.
 
-   ![ws name.](media/a107.png)
+   ![ws name.](media/wvd5.png)
 
 3. Use the following configuration for the storage account.
    
@@ -344,7 +344,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
-    ![ws name.](media/uiupdate07.png)
+    ![ws name.](media/wvd4.png)
     
 19. Click on **OK** to *Log off user from VMs*.
 
@@ -395,7 +395,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 26. At last, click on **User Account** and click on **Sign Out**.
 
-   ![ws name.](media/jvm23.png)
+   ![ws name.](media/wvd6.png)
    
 ### **Task 4: Verifying the User profiles stored in File share**
 
@@ -415,9 +415,9 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 > **Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
     
-4. Open the storage account we created earlier, then click on **Overview** and open **Fileshare**.
+4. Open the storage account we created earlier, then select **Fileshare** from the left side menu.
 
-   ![ws name.](media/ex5t1s9.png)
+   ![ws name.](media/wvd7.png)
     
     
 5. Click on the **userprofile** fileshare.
