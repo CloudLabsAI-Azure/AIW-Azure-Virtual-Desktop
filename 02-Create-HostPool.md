@@ -34,7 +34,7 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
 >   
 > **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 >
->    ![](media/wvd4.png) 
+>    ![](media/wvd.png) 
 
 4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
 
