@@ -34,7 +34,7 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
 >   
 > **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
 >
->    ![](media/wvd4.png) 
+>    ![](media/wvd.png) 
 
 4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
 
@@ -60,9 +60,9 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
    ![ws name.](media/64.png)
 
-3. Now select **Host pools** under **Manage** blade and then click on **+ Add** to add new Host Pool.
+3. Now select **Host pools** under **Manage** blade and then click on **+ New** to add new Host Pool.
 
-   ![ws name.](media/z.png)
+   ![ws name.](media/wvd1.png)
 
 4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 

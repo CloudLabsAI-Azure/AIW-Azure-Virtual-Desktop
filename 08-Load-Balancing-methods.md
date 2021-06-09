@@ -258,7 +258,7 @@ Here we will change the load balancing method of *WVD-HP-01* host pool to *Depth
 
 1. In *WVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
-   ![ws name.](media/lb25.png)
+   ![ws name.](media/wvd8.png)
    
    
 2. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
