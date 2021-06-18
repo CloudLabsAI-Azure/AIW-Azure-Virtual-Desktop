@@ -1,6 +1,6 @@
-# **Pre-requisites to deploy Windows Virtual Desktop**
+# **Pre-requisites to deploy Azure Virtual Desktop**
 
-- To deploy Windows Virtual Desktop environment, we need a Windows Active Directory (for example: contoso.com). This can be achieved using one of the following ways:
+- To deploy Azure Virtual Desktop environment, we need a Windows Active Directory (for example: contoso.com). This can be achieved using one of the following ways:
 
     1. Azure Active Directory Domain Services(AADDS)
     2. Windows Active Directory
