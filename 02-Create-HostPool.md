@@ -51,34 +51,31 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
 
 In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
 
-1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
-   ![ws name.](media/w1.png)
- 
+   ![ws name.](media/avd1.png) 
 
-2. You will get directed towards the Windows Virtual Desktop (here after referred to as WVD) management window.  
+2. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Host pools** under **Manage** blade
 
-   ![ws name.](media/64.png)
+   ![ws name.](media/avd2.png)
 
-3. Now select **Host pools** under **Manage** blade and then click on **+ New** to add new Host Pool.
+3. Now, click on **+ Create** to add create new Host Pool.
 
-   ![ws name.](media/wvd1.png)
+   ![ws name.](media/avd3.png)
 
 4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
- **A.** **Project Details –** Defines the Host Pool environment 
+ **Project Details – (A)** Defines the Host Pool environment 
 
    - Subscription: *Choose the default subscription*.
-   - Resource Group: *Select **WVD-RG** from the drop down*.
-   - Host Pool Name: **WVD-HP-01**
+   - Resource Group: *Select **AVD-RG** from the drop down*.
+   - Host Pool Name: **AVD-HP-01**
    - Location: **East US**, *basically this should be same as the region of your resource group*.      
    - Validation environmet: **No**
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
             
-   ![ws name.](media/w9.png)
-   
- **B.** **Host Pool Type –** Defines the type of host pool. 
+ **Host Pool Type – (B)** Defines the type of host pool. 
 
    - Host pool type: **Pooled** 
         
@@ -92,14 +89,13 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >  - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
 >  - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
 
-
    - Max session Limit: **5**   
       
 > **Note:** Max session Limit limits the simultaneous number of users on the same session host.
    
    - Then click on **Next:Virtual Machines**.
    
-   ![ws name.](media/uiupdate01.png)  
+   ![ws name.](media/avd4.png)  
    
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
@@ -109,8 +105,8 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 
   **A**. Session Host Specifications:     
 
-   - Resource Group: *Select **WVD-RG** from the drop down*.
-   - Name prefix: **WVD-HP01-SH** 
+   - Resource Group: *Select **AVD-RG** from the drop down*.
+   - Name prefix: **AVD-HP01-SH** 
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
    - Image type: **Gallery**
