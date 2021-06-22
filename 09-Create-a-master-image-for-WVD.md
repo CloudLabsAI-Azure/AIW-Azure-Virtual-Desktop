@@ -1,6 +1,6 @@
-# Exercise 8: Create a master image for WVD
+# Exercise 8: Create a master image for ![image](https://user-images.githubusercontent.com/47213023/122893885-59b29c00-d364-11eb-8d87-03c6d775c4f5.png)
 
-In this exercise, we are going to walk through the process of creating a master image for your WVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for WVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for WVD.
+In this exercise, we are going to walk through the process of creating a master image for your AVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for AVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for AVD.
 
 ## **Task 1: Create a new Virtual Machine in Azure**
 
@@ -19,8 +19,8 @@ In this exercise, we are going to walk through the process of creating a master 
 4. Provide the below configurations for the virtual machine, and click on **Next: Disks**.
 
    - Subscription: *Choose the default subscription.*
-   - Resource Group: *Select WVD-RG from the drop down.*
-   - Virtual machine name: **WVDVMWin10**
+   - Resource Group: *Select AVD-RG from the drop down.*
+   - Virtual machine name: **AVDVMWin10**
    - Region: **EastUS**, *basically this should be same as the region of your resource group.*
    - Availability options: **No infrastructure redundancy required**
    - Image: **Windows 10 Enterprise multi-session, Version 1909-Gen1**
@@ -38,7 +38,7 @@ In this exercise, we are going to walk through the process of creating a master 
   
   ![ws name.](media/im2.png) 
 
-6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **wvdvm-vnet** in the *Name* block and click on **OK**.
+6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **avdvm-vnet** in the *Name* block and click on **OK**.
 
   ![ws name.](media/im3.png) 
 
@@ -86,7 +86,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
 Despite the Azure support teams best efforts, the Marketplace images are not always up to date. The best and most secure practice is to keep your master image up to date.
 
-1. Open **WVDVMWin10** virtual machine that you created in the Task 1. Click on **Start** button and then open **Settings**.
+1. Open **AVDVMWin10** virtual machine that you created in the Task 1. Click on **Start** button and then open **Settings**.
 
    ![ws name.](media/e11.png)
 
@@ -102,7 +102,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/im32.png)
 
-## **Task 3: Prepare WVD image**
+## **Task 3: Prepare AVD image**
 
 ### **Introduction to the script**
 
@@ -115,13 +115,13 @@ The UI form offers the following actions:
    - **Microsoft Teams** - Install the **latest** version of Microsoft Teams *per-machine*.
    - **Microsoft Edge Chromium** - Install the **latest** version of Microsoft Edge Enterprise.
    - **FSLogix Profile Containers** - Install the **latest** version of the FSLogix Agent and apply recommended settings.
-   - **OS Settings** - Apply the recommended WVD settings for image capture.
+   - **OS Settings** - Apply the recommended WVD/AVD settings for image capture.
 
 
 ### **Running the script**
 
 
-1. Reconnect to **WVDVMWin10** virtual machine that you created in the Task 1. Inside the virtual machine click on **Start** and open **Microsoft edge browser**.
+1. Reconnect to **AVDVMWin10** virtual machine that you created in the Task 1. Inside the virtual machine click on **Start** and open **Microsoft edge browser**.
 
    ![ws name.](media/e14.png)
 
@@ -194,7 +194,7 @@ The UI form offers the following actions:
 
 # **Task 4: Run Sysprep**
 
-1. In **WVDVMWin10** virtual machine, search for *command prompt* and select **Run as administrator**.
+1. In **AVDVMWin10** virtual machine, search for *command prompt* and select **Run as administrator**.
 
    ![ws name.](media/e25.png)
 
@@ -218,7 +218,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/e26.png)
 
-2. On the Virtual machines blade, open the VM we used for creating master image i.e., **wvdwin10**.
+2. On the Virtual machines blade, open the VM we used for creating master image i.e., **avdwin10**.
 
    ![ws name.](media/im28.png)
 
@@ -240,7 +240,7 @@ The UI form offers the following actions:
 
 7. Add the following values:
 
-   - Resource group: *Select* **WVD-RG** *from the drop down.*
+   - Resource group: *Select* **AVD-RG** *from the drop down.*
    - Share Image to Shared image gallery: **No, capture only a managed image**
    - Name: *Leave to default*
    - Click on **Review + Create**
@@ -257,19 +257,19 @@ The UI form offers the following actions:
 
 ## **Task 6: Provision a Host Pool with a custom image**
 
-1. In azure portal search for *Windows Virtual Desktop* and select **Windows Virtual Desktop** from suggestions.
+1. In azure portal search for *Azure Virtual Desktop* and select **Azure Virtual Desktop** from suggestions.
 
    ![ws name.](media/e33.png)
 
-2. Open **Host pools** present under *Manage* blade, and then click on **+ Add**.
+2. Open **Host pools** present under *Manage* blade, and then click on **+ Create**.
 
    ![ws name.](media/e34.png)
 
 3. On the **Basics** tab configure your Host pool with following configurations:
 
    - Subscription: *Choose the default subscription*.
-   - Resource Group: *Select **WVD-RG** from the drop down*.
-   - Host pool name: **WVD-CustomImage-hostpool**
+   - Resource Group: *Select **AVD-RG** from the drop down*.
+   - Host pool name: **AVD-CustomImage-hostpool**
    - location: **EastUS**, *basically this should be same as the region of your resource group.*
    - Validation Environment: **No**
    - Host pool type: **Personal**
@@ -286,7 +286,7 @@ The UI form offers the following actions:
 
   **A.** Session Host Specifications:
 
-   - Resource Group: *Select* **WVD-RG** *from the drop down.*
+   - Resource Group: *Select* **AVD-RG** *from the drop down.*
    - Virtual machine location: **East US**, *location should be same as location of your resource group.*
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down._
 
@@ -343,7 +343,7 @@ The UI form offers the following actions:
 
 7. Under the *Workspace name*, fill the name of workspace.
 
-   - Workspace name: **WVD-CustomImage-workspace**
+   - Workspace name: **AVD-CustomImage-workspace**
    - Click on **OK**
 
    ![ws name.](media/im23.png)
@@ -360,7 +360,7 @@ The UI form offers the following actions:
 
 ## **Task 7: Assign an Azure AD group to an application group**
 
-1. In search bar of Azure portal, search for *Windows virtual desktop* and select **Windows virtual desktop** from the suggestions.
+1. In search bar of Azure portal, search for *Azure virtual desktop* and select **Azure virtual desktop** from the suggestions.
 
    ![ws name.](media/e33.png)
 
@@ -376,13 +376,13 @@ The UI form offers the following actions:
 
    ![ws name.](media/im27.png)
 
-## **Task 8: Connect to WVD with the web client**
+## **Task 8: Connect to AVD with the web client**
 
 1. In the **JumpVM**, open new browser and navigate to the URL given below. 
 
    `https://rdweb.wvd.microsoft.com/arm/webclient`
 
-> **Note:** In case you are logged in with WVDUser01, then logout and login back using following credentials:
+> **Note:** In case you are logged in with AVDUser01, then logout and login back using following credentials:
 > - Username: **<inject key="AzureAdUserEmail" />**
 > - Password: **<inject key="AzureAdUserPassword" />**
 
@@ -391,7 +391,7 @@ The UI form offers the following actions:
 >    ![](media/login.png)
 >
 
-2. The WVD dashboard will launch, then click on the tile named **Session Desktop** under workspace **WVD-WS-02** to launch the desktop.
+2. The AVD dashboard will launch, then click on the tile named **Session Desktop** under workspace **AVD-Customimage-Workspace** to launch the desktop.
 
    ![ws name.](media/ch21.png)
 
