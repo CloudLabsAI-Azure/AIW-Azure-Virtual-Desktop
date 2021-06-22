@@ -9,12 +9,12 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
-1. Navigate to Azure portal, then search for *Windows Virtual Desktop* in search bar and select **Windows Virtual Desktop** from the suggestions.
+1. Navigate to Azure portal, then search for *Azure Virtual Desktop* in search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
 
-2. You will be directed towards the Windows Virtual Desktop management window.  
+2. You will be directed towards the Azure Virtual Desktop management window.  
 
    ![ws name.](media/64.png)
 
@@ -23,7 +23,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/wvd2.png)
    
-4. Click on **WVD-HP-01-DAG** application group.
+4. Click on **AVD-HP-01-DAG** application group.
 
    ![ws name.](media/91.png)
       
@@ -39,7 +39,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
    ![ws name.](media/w6.png) 
  
-8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ New** button. 
+8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
 
    ![ws name.](media/wvd3.png)
 
@@ -52,10 +52,10 @@ An application group of type ‘Desktop’ was created automatically while creat
          
   ii.  Fill the remaining parameters as mentioned below:  
    
-   - Resource Group: *Select* **WVD-RG** *from the dropdown*.
-   - Host Pool: *Select* **WVD-HP-01** *Host pool from the dropdown*.
+   - Resource Group: *Select* **AVD-RG** *from the dropdown*.
+   - Host Pool: *Select* **AVD-HP-01** *Host pool from the dropdown*.
    - Application Group Type: **RemoteApp** 
-   - Application Group Name: **WVD-AG-01**
+   - Application Group Name: **AVD-AG-01**
    - Click on **Next:Applications**
 
    ![ws name.](media/uiupdate03.png)
@@ -99,7 +99,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
    - Register Application Group: **Yes**
-   - Register Application Group: _Select_ **WVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.)_
+   - Register Application Group: _Select_ **AVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
 
    ![ws name.](media/ag7.png)
 

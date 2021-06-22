@@ -1,8 +1,8 @@
 # **Overview** 
    
-Windows Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
+Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
 
-Here's what you can do when you run Windows Virtual Desktop on Azure:
+Here's what you can do when you run Azure Virtual Desktop on Azure:
 
    - Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability.
    - Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios.
@@ -15,10 +15,10 @@ Here's what you can do when you run Windows Virtual Desktop on Azure:
 
 ### **Host Pools**
 
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop tenant environments. Each host pool can be associated with multiple RemoteApp groups, one desktop app group, and multiple session hosts. Host Pools can be one of two types: 
+Host pools are a collection of one or more identical virtual machines within Azure Virtual Desktop tenant environments. Each host pool can be associated with multiple RemoteApp groups, one desktop app group, and multiple session hosts. Host Pools can be one of two types: 
 
    - **Personal**, where each session host is assigned to individual users. 
-   - **Pooled**, where session hosts can accept connections from any user authorized to an application group within the host pool. You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions. You control the resources published to users through application groups. 
+   - **Pooled**, where session hosts can accept connections from any user authorized to an application group within the host pool. You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Azure Virtual Desktop sessions. You control the resources published to users through application groups. 
 
 
 ### **Application Groups**
@@ -31,11 +31,11 @@ An Application group is a logical grouping of applications installed on session 
 
 ### **Workspaces** 
 
-A workspace is a logical grouping of application groups in Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. Each Azure Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
 
 ### **End users**
 
-After you’ve assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
+After you’ve assigned users to their application groups, they can connect to a Azure Virtual Desktop deployment with any of the Azure Virtual Desktop clients. 
 
 ________________________
 
@@ -48,7 +48,7 @@ ________________________
 
 # Lab Outline
 
-**Pre-requisites to deploy Windows Virtual Desktop**
+**Pre-requisites to deploy Azure Virtual Desktop**
 
 **Exercise 1: Create Host Pool from Azure Portal**
 

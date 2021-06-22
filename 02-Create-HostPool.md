@@ -1,7 +1,7 @@
 # **Exercise 1: Create Host Pool from Azure Portal** 
 
  
-A Host Pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
+A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
  
 ### Getting Started with Lab	
 
@@ -40,18 +40,18 @@ A Host Pool is a collection of Azure virtual machines that register to Windows V
 
    ![](media/jvm3.png)
 
-5. You will see a list of resource groups as show in the image below. Click on **WVD-RG** to open it.
+5. You will see a list of resource groups as show in the image below. Click on **AVD-RG** to open it.
 
    ![](media/jvm4.png)
    
-> **Note:** You will be using ***WVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+> **Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
 
 ### **Task 2: Create Host Pool**
 
-In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
+In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *AVD-HP01-SH-0* and *AVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *AVD-WS-01*.
 
-1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
    ![ws name.](media/avd1.png) 
 
@@ -160,7 +160,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
    
 8. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-   - Workspace name: **WVD-WS-01** 
+   - Workspace name: **AVD-WS-01** 
    - Click on **OK**
      
    ![ws name.](media/68.png) 
@@ -184,7 +184,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >
 > **Note:** In case the previous deployment for Host Pool fails, follow the below steps. Else, continue from step 13:
 >
->i.   Go to the **WVD-RG** resource group and click on **Overview**.
+>i.   Go to the **AVD-RG** resource group and click on **Overview**.
 >
 >   ![ws name.](media/w15.png)
 > 
@@ -202,7 +202,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
 >
 >   ![ws name.](media/71.png) 
 
-12. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+12. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/ex1t2s14.png)
 
