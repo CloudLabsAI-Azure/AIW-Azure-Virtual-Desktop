@@ -1,4 +1,4 @@
-# Exercise 8: Create a master image for ![image](https://user-images.githubusercontent.com/47213023/122893885-59b29c00-d364-11eb-8d87-03c6d775c4f5.png)
+# Exercise 8: Create a master image for AVD
 
 In this exercise, we are going to walk through the process of creating a master image for your AVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for AVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for AVD.
 
