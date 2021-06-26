@@ -65,7 +65,7 @@ ________________________
 - Task 1: Access the Published Application
 - Task 2: Access the published Desktop
     
-**Exercise 4: Access the Published Applications and Desktop using WVD Desktop Client**
+**Exercise 4: Access the Published Applications and Desktop using AVD Desktop Client**
     
 - Task 1: Access the Published Applications
 - Task 2: Access the Virtual Desktop
@@ -92,16 +92,16 @@ ________________________
 - Task 2: Update Passwords for the new users
 - Task 3: Change and experience Load Balancing methods
     
-**Exercise 8: Create a master image for WVD**
+**Exercise 8: Create a master image for AVD**
     
 - Task 1: Create a new Virtual Machine in Azure
 - Task 2: Run Windows Update
-- Task 3: Prepare WVD image
+- Task 3: Prepare AVD image
 - Task 4: Run Sysprep
 - Task 5: Create a managed image from the Master Image VM
 - Task 6: Provision a Host Pool with a custom image
 - Task 7: Assign an Azure AD group to an application group
-- Task 8: Connect to WVD with the web client
+- Task 8: Connect to AVD with the web client
     
 **Summary**
 
