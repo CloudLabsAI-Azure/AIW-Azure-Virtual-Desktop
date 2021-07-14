@@ -1,6 +1,5 @@
-# **Exercise 1: Create Host Pool from Azure Portal** 
+# Exercise 1: Create Host Pool from Azure Portal*
 
- 
 A Host Pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
  
 ### **Task 1: Log in to Azure Portal**
