@@ -28,13 +28,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 3. The AVD dashboard will launch, then click on **Word** application to access it. 
 
-   ![ws name.](media/ex3t1s3.png)
-
+   ![ws name.](media/word.png)
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/uiupdate05.png)
-
+   ![ws name.](media/allow.png)
 
 5. Enter the lab credentials to access the application and click on **Submit**.
 
