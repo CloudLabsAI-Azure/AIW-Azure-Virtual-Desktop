@@ -280,9 +280,9 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
 >    ![](media/login1.png)
 >
 
-4. In the AVD dashboard, click on the **Default Desktop** to access it. 
+4. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/im29.png)
+   ![ws name.](media/newrd1.png)
 
 5. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -299,7 +299,7 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
 
 7. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb57.png)
+   ![ws name.](media/newrd2.png)
    
    
 8. In **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application.
@@ -307,9 +307,9 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
    ![ws name.](media/137.png)
    
 
-9. Now in the AVD client double click on the **Default Desktop** to access it. 
+9. Now in the AVD client double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/im30.png)
+   ![ws name.](media/newrd.png)
 
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
@@ -327,7 +327,7 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
 
 12. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
-   ![ws name.](media/lb24.png)
+   ![ws name.](media/newrd3.png)
    
    
 13. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
