@@ -56,7 +56,7 @@ In the following task, we will be creating a storage account with a file share w
   
   - Click on **Review + Create**.
      
-   ![ws name.](media/fs1.png)
+     ![ws name.](media/fs1.png)
      
 6. Click on **Create**.
 
@@ -66,28 +66,31 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/a59.png)
    
-8. In the storage account, click on **Configuration** present under **Settings** blade. Then scroll down and find the option **Active Directory Domain Services (Azure AD DS)**. Select **Enabled** for it.
+8. In the storage account, click on **File shares** present under **Data storage** blade. Then click on **Not configured** under **File share settings** page.
 
-   ![ws name.](media/up4.png)
-    
-> **Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
-    
-    
-9. Then click on **Save**.
+   ![ws name.](media/notconfigured.png)
+
+9. Click on **Set up** under **Azure Active Directory Domain Services** for enabling Identity-based access to users.
+
+   ![ws name.](media/setup.png)
+
+10. Select **Enabled** for the Azure Active Directory Domain Services and then click on **Save**.
      
-   ![ws name.](media/a61.png)
- 
-10. In the right pane, click on **File shares** present under _Data Storage_ blade.
+    ![ws name.](media/enabled.png)
 
-   ![ws name.](media/uiupdate10.png)
+
+   > **Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
  
-11. Enter the following name for your file share.
+11. In the right pane, click on **File shares** present under *Data Storage* blade.
+
+    ![ws name.](media/uiupdate10.png)
+ 
+12. Enter the following name for your file share.
     
     - Name: **userprofile**    
     - Click on **Create**, this will create the file share.
     
     ![ws name.](media/ex5t1s11.png)
-
     
 ### **Task 2: Configure File share**
 
@@ -117,10 +120,9 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
    - Under **Select** search paste your username **<inject key="AzureAdUserEmail" />** and select it.
    - Then click on **Save**.
    
-   ![ws name.](media/fs10.png)
    
-
-
+     ![ws name.](media/fs10.png)
+   
 ### **Task 3: Configure Session Hosts**
 
 
