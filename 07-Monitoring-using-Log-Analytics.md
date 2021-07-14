@@ -1,4 +1,5 @@
 # **Exercise 6: Monitoring using Log Analytics**
+
 > **Note:** This section doesn’t cover the Azure Monitor for Azure Virtual Desktop announcement from today. 
 
 Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
