@@ -8,7 +8,7 @@
 
    ![](media/jumpvm.png)	
 
-2. To get lab environment details, click on the **Lab Environment** tab located next to the *Lab Guide* tab. 	
+2. To get lab environment details, click on the **Environment Details** tab located next to the *Lab Guide* tab. 	
 
    ![](media/environmentdetails.png)	
 
