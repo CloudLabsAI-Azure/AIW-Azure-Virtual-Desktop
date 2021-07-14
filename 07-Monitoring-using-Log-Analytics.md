@@ -1,4 +1,4 @@
-# **Exercise 6: Monitoring using Log Analytics**
+# Exercise 6: Monitoring using Log Analytics
 
 > **Note:** This section doesn’t cover the Azure Monitor for Azure Virtual Desktop announcement from today. 
 
