@@ -1,4 +1,4 @@
-# **Overview** 
+# Overview
    
 Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
 
