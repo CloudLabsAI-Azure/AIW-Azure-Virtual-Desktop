@@ -6,17 +6,17 @@
 
 1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
 
-   ![](media/jvm1.png)	
+   ![](media/jumpvm.png)	
 
 2. To get lab environment details, click on the **Lab Environment** tab located next to the *Lab Guide* tab. 	
 
-   ![](media/jvm.png)	
+   ![](media/environmentdetails.png)	
 
 ### **Task 1: Log in to Azure Portal**
 
 1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
 
-   ![azure portal.](media/jvm2.png)  
+   ![azure portal.](media/portal_avd.png)  
 
 2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
