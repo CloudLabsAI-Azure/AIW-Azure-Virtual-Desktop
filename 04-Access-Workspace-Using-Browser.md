@@ -78,17 +78,14 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
    ![ws name.](media/w12.png)
-   
-   
+      
 2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
 
-   ![ws name.](media/ex3t2s2.png)
-
+   ![ws name.](media/session.png)
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/uiupdate05.png)
-
+   ![ws name.](media/allow.png)
 
 4. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -97,7 +94,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    - Password: **<inject key="AzureAdUserPassword" />**
 
    ![ws name.](media/89.png)
-
 
 5. The virtual desktop will launch and look similar to the screenshot below. 
 
