@@ -1,5 +1,4 @@
-# **Summary**
-
+# Summary
 
 ## **These are the topics we covered in this lab:**
 
