@@ -1,4 +1,4 @@
-# **Exercise 3: Access the Published Applications and Desktop using Browser**
+# Exercise 3: Access the Published Applications and Desktop using Browser
 
 
 ## **Task 1: Access the Published Application**
