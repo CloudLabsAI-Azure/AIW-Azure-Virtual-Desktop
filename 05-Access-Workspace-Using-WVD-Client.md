@@ -46,8 +46,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
    ![ws name.](media/96.png)
-
    
+> **Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+>
+>    ![](media/skipfornow.png)
+
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
