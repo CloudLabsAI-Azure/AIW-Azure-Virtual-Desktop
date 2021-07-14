@@ -54,25 +54,21 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
-   
-   
+      
 10. The WVD dashboard will launch, then double click on **Excel** application to access it.
 
-   ![ws name.](media/ex4t1s10.png)
+   ![ws name.](media/remotedesktop.png)
    
-
 11. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
 
-
 12. Wait for the Application to connect.
 
    ![ws name.](media/58.png)
    
-
 13. The Excel application will launch and look similar to the screenshot below.
 
    ![ws name.](media/ch15.png) 
