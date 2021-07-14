@@ -150,9 +150,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 >    ![](media/login1.png)
 >
 
-2. Now in the AVD dashboard, click on the **Default Desktop** to access it. 
+2. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/im29.png)
+   ![ws name.](media/newrd1.png)
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -169,7 +169,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 6. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb57.png)
+   ![ws name.](media/newrd2.png)
    
 7. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -198,9 +198,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 >    ![](media/login2.png)
 >
 
-11. In AVD client, double click on the **Default Desktop** to access it. 
+11. In AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/im30.png)
+   ![ws name.](media/newrd.png)
 
 12. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -212,7 +212,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 13. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb55.png) 
+   ![ws name.](media/newrd3.png) 
 
 
 14. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
