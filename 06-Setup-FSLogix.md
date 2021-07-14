@@ -6,7 +6,7 @@ The Azure Virtual Desktop service recommends FSLogix profile containers as a use
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
-1. Navigate to Azure portal, search for *storage accounts* in the search bar and select **Storage accounts** from the suggestions.
+1. Navigate to the Azure portal, search for *storage accounts* in the search bar, and select **Storage accounts** from the suggestions.
 
    ![ws name.](media/up10.png)
    
@@ -18,7 +18,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Subscription: *Select the default subscription*. 
    
-   - Resource Group: *Select **AVD-RG** from the drop down*. 
+   - Resource Group: *Select **AVD-RG** from the drop-down*. 
    
    - Storage account name: **<inject key="Storage Account Name" />**   
       
@@ -36,15 +36,15 @@ In the following task, we will be creating a storage account with a file share w
    
    ![ws name.](media/uiupdate08.png)
    
-4. On the _Advanced_ tab, leave it to default and click on **Next: Networking** tab use following configuration.
+4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking** tab use the following configuration.
 
    ![ws name.](media/uiupdate09.png)
 
-5. In the _Networking_ tab, use following configurations:
+5. In the _Networking_ tab, use the following configurations:
 
   - Connectivity method: **Public endpoint(selected networks)**
      
-  >**Note:** This will make sure that your storage account is not accessible from public network making it more secure.
+  >**Note:** This will make sure that your storage account is not accessible from the public network making it more secure.
     
   - Virtual network subscription: *Select the default subscription*.
   
@@ -94,13 +94,13 @@ In the following task, we will be creating a storage account with a file share w
     
 ### **Task 2: Configure File share**
 
-In this task we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
+In this task, we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
    
 1. Open on the file share we created earlier.
 
    ![ws name.](media/a65.png)
      
-> **Note:** Overview page of the file share will look as shown below. User won't have access to it untill we perform the next steps of this task. 
+> **Note:** Overview page of the file share will look as shown below. The user won't have access to it until we perform the next steps of this task. 
 >
 >  ![ws name.](media/labinst13.png)
 
@@ -127,7 +127,7 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
 
 
-In this task we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
+In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
 1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
@@ -154,7 +154,7 @@ In this task we will install and configure FSLogix in the **AVD-HP01-SH-0** sess
    
       
 
-6. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do not** run the script right away.
+6. **Copy** the script is given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do not** run the script right away.
 
 
 ```
@@ -224,7 +224,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  
 
 
-7. In line 2, we have to replace the name of storage account with the **"NameofStorageAccount"** block.
+7. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
    ![ws name.](media/jvm24.png)
 
@@ -301,7 +301,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
    New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
 
-   #Display script completion in console
+   #Display script completion in the console
    Write-Host "Script Executed successfully"
 ```
 
@@ -319,27 +319,24 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 > iii) Set the profile container location to the Azure file share location we created.
  
 
-13. In line 2, we have to replace the name of storage account with the **"NameofStorageAccount"** block.
+13. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
-   ![ws name.](media/jvm24.png)
+    ![ws name.](media/jvm24.png)
 
 14. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
 
-   ![ws name.](media/up5.png)
-      
- 
+    ![ws name.](media/up5.png)
+       
 15. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/up6.png)
-
+    ![ws name.](media/up6.png)
    
 > **Note:** It will take around five minutes for the script to execute.
   
 16. Now search for *Azure virtual desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
     ![ws name.](media/w1.png)
-   
-   
+     
 17. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
     ![ws name.](media/fs15.png)
@@ -348,13 +345,12 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/jvm8.png)
     
-19. Click on **OK** to *Log off user from VMs*.
+19. Click on **OK** to *Log off the user from VMs*.
 
     ![ws name.](media/a73.png)
 
-> **Note:** This will logoff the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
-    
-    
+> **Note:** This will log off the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
+        
 20. Now paste this link ```aka.ms/wvdarmweb``` in your browser in the JumpVM, and enter your **credentials** to login. 
 
     - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
@@ -365,7 +361,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/w25.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+> **Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 >
 >    ![](media/login.png)
 >
@@ -374,7 +370,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/ex3t2s2.png)
 
-22. Select Allow on the prompt asking permission to Access local resources.
+22. Select Allow on the prompt asking permission to access local resources.
 
     ![ws name.](media/uiupdate05.png)
 
@@ -383,13 +379,13 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/89.png)
+     ![ws name.](media/89.png)
         
 24. The desktop will display looking similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
-> **Note:** This means that user profile is being managed by FSLogix.
+> **Note:** This means that the user profile is being managed by FSLogix.
 
 25. The virtual desktop will launch and look similar to the screenshot below.
 
@@ -397,11 +393,11 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 26. At last, click on **User Account** and click on **Sign Out**.
 
-   ![ws name.](media/wvd6.png)
+    ![ws name.](media/wvd6.png)
    
 ### **Task 4: Verifying the User profiles stored in File share**
 
-In this task, we will be accessing the file share to verify the user profiles stored in *.vhd* format.
+In this task, we will be accessing the file share to verify the user profiles stored in the *.vhd* format.
 
 1. Return to the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
 
@@ -415,7 +411,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/a88.png)
     
-> **Note:** This will enable access of your storage account on public network so that you can see the user profiles stored in the fileshare.
+> **Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the fileshare.
     
 4. Open the storage account we created earlier, then select **Fileshare** from the left side menu.
 
@@ -430,11 +426,10 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/fs6.png) 
 
-7. Now you will be able to see the user profiles data stored in the fileshares in a ***.vhd*** format.
+7. Now you will be able to see the user profiles data stored in the filesharers in a ***.vhd*** format.
 
    ![ws name.](media/wiw24.png)
 
-> **Note:** It might take sometime for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
+> **Note:** It might take some time for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
 
 8. Click on the **Next** button present in the bottom-right corner of this lab guide.
-
