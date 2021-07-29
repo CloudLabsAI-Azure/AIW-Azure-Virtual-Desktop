@@ -1,6 +1,6 @@
 # Exercise 6: Setup FSLogix
 
-The Windows Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Windows Virtual Desktop.
+The Azure Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
 
 ## **Task 1: Create Storage account and file share**
 
@@ -18,7 +18,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Subscription: *Select the default subscription*. 
    
-   - Resource Group: *Select **WVD-RG** from the drop down*. 
+   - Resource Group: *Select **AVD-RG** from the drop down*. 
    
    - Storage account name: *Go to Lab Environment tab, copy the* **Storage Account Name** *and paste it here in Storage account name box.*   
    
@@ -126,14 +126,14 @@ In this task we will give *Storage File Data SMB Share Contributor* permissions 
 
 
 
-In this task we will install and configure FSLogix in the **WVD-HP01-SH-0** session host using a Powershell script.
+In this task we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
 1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
    ![ws name.](media/up11.png)
       
    
-2. Click on **WVD-HP01-SH-0**.
+2. Click on **AVD-HP01-SH-0**.
 
    ![ws name.](media/fs4.png)
       
@@ -237,7 +237,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    
 > **Note:** It will take around five minutes for the script to execute.
    
-10. Navigate to virtual machines and click on **WVD-HP01-SH-1**.
+10. Navigate to virtual machines and click on **AVD-HP01-SH-1**.
 
     ![ws name.](media/fs8.png)
 
@@ -329,7 +329,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    
 > **Note:** It will take around five minutes for the script to execute.
   
-16. Now search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+16. Now search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
     ![ws name.](media/w1.png)
    

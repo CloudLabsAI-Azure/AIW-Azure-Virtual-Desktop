@@ -1,6 +1,6 @@
 # Exercise 5: Monitoring using Azure Monitor (Log Analytics)
 
-Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
+Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
 
 ## **Task 1 : Run queries in Log Analytics Workspace**
 
@@ -30,22 +30,22 @@ Windows Virtual Desktop uses Azure Monitor for monitoring and alerts like many o
 
   ![ws name.](media/wiw17.png)
 
-## **Task 2 : Use Azure Monitor for Windows Virtual Desktop (preview)**
+## **Task 2 : Use Azure Monitor for Azure Virtual Desktop (preview)**
 
 >[!IMPORTANT]
->Azure Monitor for Windows Virtual Desktop is currently in public preview. This preview version is provided without a service level agreement, and we don't recommend using it for production workloads. Certain features might not be supported or might have constrained capabilities. For more information, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms/).
+>Azure Monitor for Azure Virtual Desktop is currently in public preview. This preview version is provided without a service level agreement, and we don't recommend using it for production workloads. Certain features might not be supported or might have constrained capabilities. For more information, see [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms/).
 
-Azure Monitor for Windows Virtual Desktop (preview) is a dashboard built on Azure Monitor Workbooks. This task will walk you through how to use it to monitor the Windows Virtual Desktop environment.
+Azure Monitor for Azure Virtual Desktop (preview) is a dashboard built on Azure Monitor Workbooks. This task will walk you through how to use it to monitor the Azure Virtual Desktop environment.
 
-You can open Azure Monitor for Windows Virtual Desktop with one of the following methods:
+You can open Azure Monitor for Azure Virtual Desktop with one of the following methods:
 
 - Go to [aka.ms/azmonwvdi](https://portal.azure.com/#blade/Microsoft_Azure_WVD/WvdManagerMenuBlade/workbooks).
 
-- Search for and select **Windows Virtual Desktop** from the Azure portal, then select **Insights**.
+- Search for and select **Azure Virtual Desktop** from the Azure portal, then select **Insights**.
 
-- Search for and select **Azure Monitor** from the Azure portal. Select **Insights Hub** under **Insights**, and under **Other** select **Windows Virtual Desktop** to open the dashboard in the Azure Monitor page.
+- Search for and select **Azure Monitor** from the Azure portal. Select **Insights Hub** under **Insights**, and under **Other** select **Azure Virtual Desktop** to open the dashboard in the Azure Monitor page.
 
-Once you have Azure Monitor for Windows Virtual Desktop open, select one or more of the check boxes labeled **Subscription**, **Resource group**, **Host pool**, and **Time range**.
+Once you have Azure Monitor for Azure Virtual Desktop open, select one or more of the check boxes labeled **Subscription**, **Resource group**, **Host pool**, and **Time range**.
 
   ![ws name.](media/azmonwvd.png)
 

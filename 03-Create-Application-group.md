@@ -9,11 +9,11 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
-1. Navigate to Azure portal, then search for *Windows Virtual Desktop* in search bar and select **Windows Virtual Desktop** from the suggestions.
+1. Navigate to Azure portal, then search for *Azure Virtual Desktop* in search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-1. You will be directed towards the Windows Virtual Desktop management window.  
+1. You will be directed towards the Azure Virtual Desktop management window.  
 
    ![ws name.](media/64.png)
 
@@ -21,7 +21,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/w8.png)
 
-1. Click on **WVD-HP-01-DAG** application group.
+1. Click on **AVD-HP-01-DAG** application group.
 
    ![ws name.](media/91.png)
 
@@ -51,9 +51,9 @@ An application group of type ‘Desktop’ was created automatically while creat
 
     ii.  Fill the remaining parameters as mentioned below and then click on **Next:Applications**:  
 
-   - Resource Group: *Select **WVD-RG** from the dropdown*.
+   - Resource Group: *Select **AVD-RG** from the dropdown*.
    - Application Group Type: **RemoteApp** 
-   - Application Group Name: **WVD-AG-01**
+   - Application Group Name: **AVD-AG-01**
 
    ![ws name.](media/ag12.png)
 
@@ -96,7 +96,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 1. In the *Workspace* tab, choose the parameters as mentioned below:  
 
    - Register Application Group: **Yes**
-   - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(WVD-HP01-SH-01)* is registered to this workspace.
+   - **AVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.
 
    ![ws name.](media/ag7.png)
 
@@ -122,11 +122,11 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 In this task we will configure diagnostics for the Application Groups we have configured in the previous task
 
-1. Navigate back to Windows Virtual Desktop and open **Application groups**.
+1. Navigate back to Azure Virtual Desktop and open **Application groups**.
 
    ![ws name.](media/wiw10.png)
    
-1. Click on **WVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
+1. Click on **AVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw20.png) 
    
@@ -136,7 +136,7 @@ In this task we will configure diagnostics for the Application Groups we have co
     - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
     - Destination details: *Check the box for* **Send to Log Analytics**
     - Subscription: *Choose the default subscription.*
-    - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+    - Log Analytics Workspace: *Select the log analytics workspace from the drop down, that we just created.*
     - At last, click on **Save**.
 
     ![ws name.](media/wiw8.png)
@@ -145,7 +145,7 @@ In this task we will configure diagnostics for the Application Groups we have co
 
    ![ws name.](media/lb63.png)
    
-1. Navigate back to **Application groups** and click on **WVD-AG-01**.
+1. Navigate back to **Application groups** and click on **AVD-AG-01**.
 
    ![ws name.](media/wiw25.png)
 
@@ -172,19 +172,19 @@ In this task we will configure diagnostics for the session hosts
 
    ![ws name.](media/lb65.png)
   
-1. Open **WVD-HP01-SH-1** virtual machine. Click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+1. Open **AVD-HP01-SH-1** virtual machine. Click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
    ![ws name.](media/lb66.png)
 
 1. Add the following configurations:
 
    - Workspace Subscription: *Choose the default subscription.*
-   - Choose a Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+   - Choose a Log Analytics Workspace: *Select the log analytics workspace from the drop down, that we just created.*
    - At last, click on **Enable**. This will enable diagnostic settings in this Session Host.
 
    ![ws name.](media/lb67.png)
 
-1. Return to virtual machines. Open **WVD-HP01-SH-0** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+1. Return to virtual machines. Open **AVD-HP01-SH-0** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
    ![ws name.](media/lb68.png)
 

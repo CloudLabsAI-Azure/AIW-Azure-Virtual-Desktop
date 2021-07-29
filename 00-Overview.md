@@ -1,8 +1,8 @@
 # **Overview** 
    
-Windows Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
+Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
 
-Here's what you can do when you run Windows Virtual Desktop on Azure:
+Here's what you can do when you run Azure Virtual Desktop on Azure:
 
    - Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability.
    - Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios.
@@ -15,10 +15,10 @@ Here's what you can do when you run Windows Virtual Desktop on Azure:
 
 ### **Host Pools**
 
-Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop tenant environments. Each host pool can be associated with multiple RemoteApp groups, one desktop app group, and multiple session hosts. Host Pools can be one of two types: 
+Host pools are a collection of one or more identical virtual machines within Azure Virtual Desktop tenant environments. Each host pool can be associated with multiple RemoteApp groups, one desktop app group, and multiple session hosts. Host Pools can be one of two types: 
 
    - **Personal**, where each session host is assigned to individual users. 
-   - **Pooled**, where session hosts can accept connections from any user authorized to an application group within the host pool. You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions. You control the resources published to users through application groups. 
+   - **Pooled**, where session hosts can accept connections from any user authorized to an application group within the host pool. You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Azure Virtual Desktop sessions. You control the resources published to users through application groups. 
 
 
 ### **Application Groups**
@@ -31,18 +31,18 @@ An Application group is a logical grouping of applications installed on session 
 
 ### **Workspaces** 
 
-A workspace is a logical grouping of application groups in Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. Each Azure Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
 
 ### **End users**
 
-After you’ve assigned users to their application groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
+After you’ve assigned users to their application groups, they can connect to a Azure Virtual Desktop deployment with any of the Azure Virtual Desktop clients. 
 
 ________________________
 
 
 # Lab Outline
 
-**Pre-requisites to deploy Windows Virtual Desktop**
+**Pre-requisites to deploy Azure Virtual Desktop**
 
 **Exercise 1: Create Host Pool from Azure Portal**
 
@@ -59,7 +59,7 @@ ________________________
 - Task 1: Access the Published Application
 - Task 2: Access the published Desktop
     
-**Exercise 4: Access the Published Applications and Desktop using WVD Desktop Client**
+**Exercise 4: Access the Published Applications and Desktop using AVD Desktop Client**
     
 - Task 1: Access the Published Applications
 - Task 2: Access the Virtual Desktop
@@ -68,7 +68,7 @@ ________________________
 **Exercise 5: Monitoring using Log Analytics**
     
 - Task 1: Create Log Analytics
-- Task 2: azure Monitor for Windows Virtual Desktop (preview)
+- Task 2: azure Monitor for Azure Virtual Desktop (preview)
 
 **Exercise 6: Setup FSLogix**
 
@@ -83,16 +83,16 @@ ________________________
 - Task 2: Update Passwords for the new users
 - Task 3: Change and experience Load Balancing methods
     
-**Exercise 8: Create a master image for WVD**
+**Exercise 8: Create a master image for AVD**
     
 - Task 1: Create a new Virtual Machine in Azure
 - Task 2: Run Windows Update
-- Task 3: Prepare WVD image
+- Task 3: Prepare AVD image
 - Task 4: Run Sysprep
 - Task 5: Create a managed image from the Master Image VM
 - Task 6: Provision a Host Pool with a custom image
 - Task 7: Assign an Azure AD group to an application group
-- Task 8: Connect to WVD with the web client
+- Task 8: Connect to AVD with the web client
     
 **Summary**
 
