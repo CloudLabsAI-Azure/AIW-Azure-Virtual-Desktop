@@ -5,11 +5,11 @@
 
 - Creating host pools of *Pooled* type and utilizing it as per the needs of the users/organizations.
 
-- Deploying *session hosts* and using them to publish applications in Windows Virtual Desktop environment.
+- Deploying *session hosts* and using them to publish applications in Azure Virtual Desktop environment.
 
 - Creating an application group of type *RemoteApp* and using the default *Desktop* application group.
 
-- Creating *workspaces* to have an isolated/ differentiated environment for the user while using Windows Virtual Desktop. 
+- Creating *workspaces* to have an isolated/ differentiated environment for the user while using Azure Virtual Desktop. 
 
 - Registering application groups to Workspace.
 
@@ -17,9 +17,9 @@
 
 - Assigning users to the application groups and workspaces to allow/restrict users from using certain applications.
 
-- Accessing Windows Virtual Desktop and published applications through Browser and WVD Desktop Client application.
+- Accessing Azure Virtual Desktop and published applications through Browser and WVD Desktop Client application.
 
-- Setting up FSLogix and how FSLogix profile containers are used with Azure Files function in Windows Virtual Desktop.
+- Setting up FSLogix and how FSLogix profile containers are used with Azure Files function in Azure Virtual Desktop.
 
 - Creating *Log Analytics Workspace* to stream log data into different workspaces.
 

@@ -26,7 +26,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 >    ![](media/login.png)
 >
 
-3. The WVD dashboard will launch, then click on **Word** application to access it. 
+3. The AVD dashboard will launch, then click on **Word** application to access it. 
 
    ![ws name.](media/ex3t1s3.png)
 
@@ -82,7 +82,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/w12.png)
    
    
-2. We will land on the WVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
+2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
 
    ![ws name.](media/ex3t2s2.png)
 
@@ -105,7 +105,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex3t2s5.png)
    
-6. Return back to the Azure Portal, search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+6. Return back to the Azure Portal, search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 

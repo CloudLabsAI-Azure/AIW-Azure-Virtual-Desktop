@@ -1,6 +1,6 @@
-# **Exercise 4: Access the Published Applications and Desktop using WVD Desktop Client**
+# **Exercise 4: Access the Published Applications and Desktop using AVD Desktop Client**
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD Desktop client.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using AVD Desktop client.
 
 > **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
@@ -11,11 +11,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
-> **Note:** To download *WVD Mac Client* on **macOS**, use the link given below:
+> **Note:** To download *AVD Mac Client* on **macOS**, use the link given below:
 >
 > ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
 
-2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on **Your Own PC/computer/workstation**.
+2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **AVD Desktop Client** on **Your Own PC/computer/workstation**.
    
    ![ws name.](media/a48.png)
       
@@ -53,7 +53,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/ex4t1s9.png)
    
    
-10. The WVD dashboard will launch, then double click on **Excel** application to access it.
+10. The AVD dashboard will launch, then double click on **Excel** application to access it.
 
    ![ws name.](media/ex4t1s10.png)
    
@@ -78,7 +78,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch16.png)
 
-15. Return back to the Azure Portal, search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+15. Return back to the Azure Portal, search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
@@ -102,7 +102,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 ## **Task 2: Access the Virtual Desktop**
 
 
-1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+1. Return to AVD client application. On AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/ex4t2s2.png)
    

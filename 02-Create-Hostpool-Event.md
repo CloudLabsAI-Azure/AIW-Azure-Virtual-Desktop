@@ -1,6 +1,6 @@
 # **Exercise 1: Create Host Pool from Azure Portal** 
 
-A Host Pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
+A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
 
 ## **Task 1: Create Host Pool**
 
@@ -16,11 +16,11 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
 
 > **Note:** You will be using ***WVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
-1. On **Azure portal** search for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-1. You will get directed towards the Windows Virtual Desktop (here after referred to as WVD) management window.  
+1. You will get directed towards the Azure Virtual Desktop (here after referred to as WVD) management window.  
 
    ![ws name.](media/64.png)
 

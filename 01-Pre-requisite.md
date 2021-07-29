@@ -1,4 +1,4 @@
-# **Pre-requisites for this Windows Virtual Desktop workshop**
+# **Pre-requisites for this Azure Virtual Desktop workshop**
 
 ## **Task 1: Configure Lab environment (VM)**
 
@@ -42,11 +42,11 @@ In this task, you will setup the Lab environment respective to your region
 
    ![](media/jvm3.png)
 
-5. You will see a list of resource groups as show in the image below. Click on **WVD-RG** to open it.
+5. You will see a list of resource groups as show in the image below. Click on **AVD-RG** to open it.
 
    ![](media/jvm4.png)
 
-> **Note:** You will be using ***WVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+> **Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
 ## **Task 3: Create Log Analytics**
 
@@ -65,7 +65,7 @@ In this task, you will setup the Lab environment respective to your region
 4. Now add the following configurations:
 
   - Subscription: *Choose the default subscription.*
-  - Resource group: *Select **WVD-RG** from the drop down.*
+  - Resource group: *Select **AVD-RG** from the drop down.*
   - Name: *Go to Lab Environment tab, copy the* **Log Analytics Workspace Name** *and paste it here in Name box.*
   
    ![ws name.](media/up12.png)
@@ -85,7 +85,7 @@ In this task, you will setup the Lab environment respective to your region
 
 ## **Task 4: Azure Active Directory Domain Services (AADDS)**
 
-- To deploy Windows Virtual Desktop environment, we need a Windows Active Directory (for example: contoso.com). This can be achieved using one of the following ways:
+- To deploy Azure Virtual Desktop environment, we need a Windows Active Directory (for example: contoso.com). This can be achieved using one of the following ways:
 
     1. Azure Active Directory Domain Services(AADDS)
     2. Windows Active Directory
@@ -96,7 +96,7 @@ In this task, you will setup the Lab environment respective to your region
 
 - The domain name will be the suffix of your lab user account (for example: If your lab user account is ***odl_user_189588@azurehol1057.onmicrosoft.com***, the domain will be ***azurehol1057.onmicrosoft.com***.)
 
-- When you provision Azure ADDS, it creates a group named "AAD DC Administrators" in Azure Active Directory. Members of this group are allowed to be able to join WVD Sessions Hosts to Azure ADDS.  Your lab account is already a member of this group. 
+- When you provision Azure ADDS, it creates a group named "AAD DC Administrators" in Azure Active Directory. Members of this group are allowed to be able to join AVD Sessions Hosts to Azure ADDS.  Your lab account is already a member of this group. 
 
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.  

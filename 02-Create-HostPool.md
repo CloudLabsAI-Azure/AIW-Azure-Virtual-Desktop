@@ -1,26 +1,26 @@
 # **Exercise 1: Create Host Pool from Azure Portal** 
 
-A Host Pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
+A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
 
 ## **Task 1: Create Host Pool**
 
-In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *WVD-WS-01*.
+In this task, we will create a Host Pool named *AVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *AVD-HP01-SH-0* and *AVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *AVD-WS-01*.
 
 1. Navigate to the Azure portal home (<https://portal.azure.com>) and click on **Resource Groups** present under *Navigate*.
 
     ![Portal](media/jvm3.png)
 
-1. You will see a list of resource groups as show in the image below. Click on **WVD-RG** to open it.
+1. You will see a list of resource groups as show in the image below. Click on **AVD-RG** to open it.
 
    ![Resource Groups](media/jvm4.png)
 
-    > **Note:** You will be using ***WVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+    > **Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
-1. On **Azure portal** search box for *Windows Virtual Desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+1. On **Azure portal** search box for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-1. You will get directed towards the Windows Virtual Desktop (here after referred to as WVD) management window.  
+1. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window.  
 
    ![ws name.](media/64.png)
 
@@ -33,8 +33,8 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
     **A.** **Project Details –** Defines the Host Pool environment
 
     - Subscription: *Choose the default subscription*.
-    - Resource Group: *Select **WVD-RG** from the drop down*.
-    - Host Pool Name: **WVD-HP-01**
+    - Resource Group: *Select **AVD-RG** from the drop down*.
+    - Host Pool Name: **AVD-HP-01**
     - Location: **East US**, *basically this should be same as the region of your resource group*.
     - Validation environmet: **No**
 
@@ -72,8 +72,8 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
 1. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
     **A**. Session Host Specifications:
-    - Resource Group: *Select **WVD-RG** from the drop down*.
-    - Name prefix: **WVD-HP01-SH**
+    - Resource Group: *Select **AVD-RG** from the drop down*.
+    - Name prefix: **AVD-HP01-SH**
     - Virtual machine location: **East US**, *location should be same as location of your resource group*.
     - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
     - Image type: **Gallery**
@@ -125,7 +125,7 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
 
 1. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-   - Workspace name: **WVD-WS-01** 
+   - Workspace name: **AVD-WS-01** 
    - Click on **OK**
 
    ![ws name.](media/68.png) 
@@ -146,7 +146,7 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
 
     > **Note:** ONLY if the above  deployment for Host Pool **fails**, follow the below steps. Otherwise, continue from step 14:
     >
-    >i.   Go to the **WVD-RG** resource group and click on **Overview**.
+    >i.   Go to the **AVD-RG** resource group and click on **Overview**.
     >
     >   ![ws name.](media/w15.png)
     > 
@@ -164,7 +164,7 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
     >
     >   ![ws name.](media/71.png) 
 
-1. You will see that the host pool **WVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+1. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/ex1t2s14.png)
 
@@ -176,11 +176,11 @@ In this task, we will create a Host Pool named *WVD-HP-01* of pooled type, then 
 
 In this task we will configure diagnostic features for this host pool to allow us to analyse monitoring data later in this lab.
 
-1. Navigate to the overview page for **Windows Virtual Desktop**.
+1. Navigate to the overview page for **Azure Virtual Desktop**.
 
    ![ws name.](media/64.png)
 
-1. Open **Host Pools** and then click on **WVD-HP-01**.
+1. Open **Host Pools** and then click on **AVD-HP-01**.
 
    ![ws name.](media/wiw12.png)
 
@@ -219,13 +219,13 @@ In this task we will configure diagnostic features for this host pool to allow u
 
 ## **Task 3: Enable diagnostics for the Workspace**
 
-In this task we will configure diagnostics for the Windows Virtual Desktop workspace
+In this task we will configure diagnostics for the Azure Virtual Desktop workspace
 
-1. Navigate back to Windows Virtual Desktop and open **Workspaces**.
+1. Navigate back to Azure Virtual Desktop and open **Workspaces**.
 
    ![ws name.](media/wiw9.png)
 
-1. Click on **WVD-WS-01**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
+1. Click on **AVD-WS-01**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw11.png)
 
