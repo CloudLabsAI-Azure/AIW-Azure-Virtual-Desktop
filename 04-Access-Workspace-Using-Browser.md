@@ -109,7 +109,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 8. Click on **Sessions** tab, select both Host pools by clicking on the checkbox and then click on **Log off** button.
 
-   ![ws name.](media/uiupdate07.png)
+   ![ws name.](media/numbering.png)
 
 9. Click on **OK** to *Log off user from VMs*.
 

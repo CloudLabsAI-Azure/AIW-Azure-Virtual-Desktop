@@ -128,16 +128,17 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
     
    - Virtual network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
-   - Specify Domain or Unit: **No**
+   - Public inbound ports: **No**
  
-   ![ws name.](media/ch2.png)
+   ![ws name.](media/network.png)
  
   **C**. Domain Administrator Account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Specify Domain or Unit: **No**
    
-   ![ws name.](media/ex1t2s6b2.png)
+   ![ws name.](media/domainjoin.png)
 
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
