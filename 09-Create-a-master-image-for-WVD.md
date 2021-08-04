@@ -314,14 +314,14 @@ The UI form offers the following actions:
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Specify Domain or Unit: **No**
 
-   ![ws name.](media/w3.png)
+   ![ws name.](media/network.png)
 
   **C**. Domain Administrator Account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/ex1t2s6b2.png)
+   ![ws name.](media/domainjoin.png)
 
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
