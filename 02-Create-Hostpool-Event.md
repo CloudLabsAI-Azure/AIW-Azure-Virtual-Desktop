@@ -128,7 +128,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
     
    - Virtual network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
-   - Specify Domain or Unit: **No**
+   - Public inbound ports: **No**
  
    ![ws name.](media/network.png)
  
@@ -136,6 +136,7 @@ In this exercise, we will create a Host Pool named *WVD-HP-01* of pooled type, t
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Specify Domain or Unit: **No**
    
    ![ws name.](media/domainjoin.png)
 
