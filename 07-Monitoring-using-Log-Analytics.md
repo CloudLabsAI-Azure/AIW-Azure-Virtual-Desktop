@@ -166,30 +166,18 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lb66.png)
 
-3. Add the following configurations:
-
-   - Workspace Subscription: *Choose the default subscription.*
-   - Choose a Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-   - At last, click on **Enable**. This will enable diagnostic settings in this Session Host.
-
-   ![ws name.](media/lb67.png)
-
-4. Return to virtual machines. Open **AVD-HP01-SH-0** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+3. Return to virtual machines. Open **AVD-HP01-SH-0** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
    ![ws name.](media/lb68.png)
 
-5. Add the following configurations:
-
-   - Workspace Subscription: *Choose the default subscription.*
-   - Choose a Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-   - At last, click on **Enable**. This will enable diagnostic settings in this Session Host.
-
-   ![ws name.](media/lb67.png)
 
 > **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
 > - New VM Extensions Added
 > - New Monitoring Agents Installed
 > - Monitoring Agent Configured for Log Analytics 
+
+   ![ws name.](media/VM-SH1-insights.png)
+   ![ws name.](media/VM-SH0-insights.png)
 
 
 ### **Task 6 : Run queries in Log Analytics Workspace**
