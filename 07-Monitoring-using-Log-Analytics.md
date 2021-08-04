@@ -171,12 +171,12 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 > - New Monitoring Agents Installed
 > - Monitoring Agent Configured for Log Analytics 
  
-   On successful insights deployment in **AVD-HP01-SH-0**, you will get insights view similar to the screenshot given below.
+3. On successful insights deployment in **AVD-HP01-SH-0**, you will get insights view similar to the screenshot given below.
    
    ![ws name.](media/VM-SH0insights.png)
   
 
-3. Return to virtual machines. Open **AVD-HP01-SH-1** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
+4. Return to virtual machines. Open **AVD-HP01-SH-1** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
    ![ws name.](media/lb68.png)
 
@@ -186,7 +186,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 > - New Monitoring Agents Installed
 > - Monitoring Agent Configured for Log Analytics 
 
-   On successful insights deployment in **AVD-HP01-SH-1**, you will get insights view similar to the screenshot given below.
+5. On successful insights deployment in **AVD-HP01-SH-1**, you will get insights view similar to the screenshot given below.
    
    ![ws name.](media/VM-SH1insights.png)
 
