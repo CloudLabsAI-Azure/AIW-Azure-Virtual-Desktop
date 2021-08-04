@@ -74,7 +74,7 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/setup.png)
 
-10. Select **Enabled** for the Azure Active Directory Domain Services and then click on **Save**.
+10. Select **Enable** for the Azure Active Directory Domain Services and then click on **Save**.
      
     ![ws name.](media/Enable-AADDS.png)
 
