@@ -323,7 +323,7 @@ The UI form offers the following actions:
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Specify domain or unit: **No**
    
-   ![ws name.](media/domain-join.png)
+   ![ws name.](media/domainjoin.png)
 
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
