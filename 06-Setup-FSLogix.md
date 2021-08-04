@@ -121,7 +121,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    - Then click on **Save**.
    
    
-     ![ws name.](media/fs10.png)
+     ![ws name.](media/addroleassignment.png)
    
 ### **Task 3: Configure Session Hosts**
 
