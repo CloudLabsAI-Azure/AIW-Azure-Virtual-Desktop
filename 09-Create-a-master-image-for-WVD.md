@@ -315,7 +315,7 @@ The UI form offers the following actions:
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    - Public inbound ports: **No**
 
-   ![ws name.](media/network.png)
+   ![ws name.](media/network-security.png)
 
   **C**. Domain Administrator Account:
   
@@ -323,7 +323,7 @@ The UI form offers the following actions:
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Specify domain or unit: **No**
    
-   ![ws name.](media/domainjoin.png)
+   ![ws name.](media/domain-join.png)
 
 > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
