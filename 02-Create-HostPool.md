@@ -136,6 +136,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
  
   **C**. Domain Administrator Account:
   
+   - Select which directory you would like to join: Choose **Azure Directory** from dropdown
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - Specify Domain or Unit: **No**
