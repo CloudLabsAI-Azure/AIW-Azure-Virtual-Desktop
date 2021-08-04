@@ -82,7 +82,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Application: **Word** *(choose from the dropdown)*    
    - Leave rest of the parameters to default and click on **Save**.  
    
-   ![ws name.](media/word.png)
+   ![ws name.](media/word1.png)
 
 14. Click on **Next: Assignments**.
 
