@@ -293,14 +293,15 @@ The UI form offers the following actions:
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below.*
 
    ![ws name.](media/ch1.png)
-
-   - Number of VMs: **2**
+   
    - Name prefix: **VmFromImage**
    - Image type: **Gallery**
    - Image: *Click on **Browse all images and disks**, click on **My items** and select the Image we created earlier in this exercise, as shown below.*
 
    ![ws name.](media/im21.png)
-
+   
+  
+   - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: **Leave to default**
 
@@ -312,7 +313,7 @@ The UI form offers the following actions:
 
    - Virtual network: **aadds-vnet** _(choose from dropdown)_
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
-   - Specify Domain or Unit: **No**
+   - Public inbound ports: **No**
 
    ![ws name.](media/network.png)
 
