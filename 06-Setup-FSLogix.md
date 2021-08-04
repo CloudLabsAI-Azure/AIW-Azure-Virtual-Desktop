@@ -87,7 +87,8 @@ In the following task, we will be creating a storage account with a file share w
  
 12. Enter the following name for your file share.
     
-    - Name: **userprofile**    
+    - Name: **userprofile**   
+    - Tier: **Transaction Optimized" 
     - Click on **Create**, this will create the file share.
     
     ![ws name.](media/fileshares.png)
