@@ -178,7 +178,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/VM-SH1--insights.png)
  
-   ![ws name.](media/VM-SH0--insights.png)
+   ![ws name.](media/VM-SH0-insights.png)
 
 
 ### **Task 6 : Run queries in Log Analytics Workspace**
