@@ -52,7 +52,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 > **Note:** If you get a popup saying *Move Text in and out of Remote Desktop*, click on the ***Don't show again*** checkbox and then click on ***Got it*** button.
 >
->   ![ws name.](media/numbering.png)
+>   ![ws name.](media/uiupdate06.png)
 
 
 8. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
@@ -109,7 +109,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 8. Click on **Sessions** tab, select both Host pools by clicking on the checkbox and then click on **Log off** button.
 
-   ![ws name.](media/uiupdate07.png)
+   ![ws name.](media/numbering.png)
 
 9. Click on **OK** to *Log off user from VMs*.
 
