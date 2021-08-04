@@ -160,11 +160,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Navigate to **Virtual Machines**.
 
-   ![ws name.](media/lb68.png)
+   ![ws name.](media/lb65.png)
   
 2. Open **AVD-HP01-SH-0** virtual machine. Click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
-   ![ws name.](media/lb66.png)
+   ![ws name.](media/lb68.png)
    
 > **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
 > - New VM Extensions Added
@@ -178,7 +178,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 4. Return to virtual machines. Open **AVD-HP01-SH-1** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
-   ![ws name.](media/lb65.png)
+   ![ws name.](media/lb66.png)
 
 
 > **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
