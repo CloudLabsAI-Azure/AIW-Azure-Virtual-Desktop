@@ -320,6 +320,7 @@ The UI form offers the following actions:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Specify domain or unit: **No**
    
    ![ws name.](media/domainjoin.png)
 
