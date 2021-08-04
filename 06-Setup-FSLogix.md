@@ -90,7 +90,7 @@ In the following task, we will be creating a storage account with a file share w
     - Name: **userprofile**    
     - Click on **Create**, this will create the file share.
     
-    ![ws name.](media/filshare.png)
+    ![ws name.](media/fileshare.png)
     
 ### **Task 2: Configure File share**
 
