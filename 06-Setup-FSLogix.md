@@ -55,8 +55,9 @@ In the following task, we will be creating a storage account with a file share w
   - Leave the rest to default settings.
   
   - Click on **Review + Create**.
+  
      
-     ![ws name.](media/fs1.png)
+   ![ws name.](media/fs1.png)
      
 6. Click on **Create**.
 
@@ -119,10 +120,12 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
    - Under **Select** search paste your username **<inject key="AzureAdUserEmail" />** and select it.
+   
    - Then click on **Save**.
    
-   
-     ![ws name.](media/role_assignment1.png)
+   ![ws name.](media/role_assignment1.png)
+
+
    
 ### **Task 3: Configure Session Hosts**
 
@@ -230,8 +233,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    ![ws name.](media/jvm24.png)
 
 
-8. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.![uiupdate12](https://user-images.githubusercontent.com/50323628/119298687-2274a080-bc7b-11eb-8e38-456aa31ada43.png)
-
+8. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
 
    ![ws name.](media/up5.png)
 
