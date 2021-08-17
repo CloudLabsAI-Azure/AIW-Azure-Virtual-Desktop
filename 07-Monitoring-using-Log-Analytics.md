@@ -54,10 +54,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 3. Now click on **Diagnostic settings** present under *Monitoring* blade, then click on **+Add diagnostic setting**.
 
    ![ws name.](media/wiw5.png)
-
-
-   > **Note:** Due to a technical issue in Azure portal, you may find diagnostic settings pre-created in ***Host Pool, Application Group and Workspace***. For now, we will
-   > delete it using following steps: 
+   
+   
+   --------
+   
+   > **Note:** Due to a technical issue in Azure portal, you may find diagnostic settings pre-created in ***Host Pool, Application Group and Workspace***. For now, we will delete it using following steps: 
 
    > i) In diagnostics settings, locate the pre-created diagnostics setting and click on **Edit setting**.
      
@@ -68,6 +69,8 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    > ![ws name.](media/jvm33.png)
 
    > iii) Once deleted, you can follow the steps to add a new diagnostic setting.
+
+   --------
 
 4. Add the following configurations:
 
