@@ -26,17 +26,17 @@
 
    ![](media/w25.png)
 
-> **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
->
->    ![](media/w26.png)
->   
-> **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
->
->    ![](media/wvd.png) 
->
-> **Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
->
->    ![](media/skipfornow.png)
+   > **Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
+   >
+   > ![](media/w26.png)
+   >   
+   > **Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
+   >
+   > ![](media/wvd.png) 
+   >
+   > **Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+   >
+   > ![](media/skipfornow.png)
 
 4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
 
@@ -46,7 +46,7 @@
 
    ![](media/jvm4.png)
    
-> **Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+   > **Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
 
 ### **Task 2: Create Host Pool**
@@ -67,7 +67,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
 4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
- **Project Details – (A)** Defines the Host Pool environment 
+   **Project Details – (A)** Defines the Host Pool environment 
 
    - Subscription: *Choose the default subscription*.
    - Resource Group: *Select **AVD-RG** from the drop down*.
@@ -77,23 +77,23 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
             
- **Host Pool Type – (B)** Defines the type of host pool. 
+   **Host Pool Type – (B)** Defines the type of host pool. 
 
    - Host pool type: **Pooled** 
         
-> **Note:** Host Pools are of 2 types: Pooled and Personal.  
->  - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
->  - **Personal**, where each session host is assigned to individual users.
+   > **Note:** Host Pools are of 2 types: Pooled and Personal.  
+   > - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
+   > - **Personal**, where each session host is assigned to individual users.
      
    - Load Balancing Algorithm: **Breadth First**
    
-> **Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
->  - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
->  - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
+   > **Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
+   > - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
+   > - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
 
    - Max session Limit: **5**   
       
-> **Note:** Max session Limit limits the simultaneous number of users on the same session host.
+   > **Note:** Max session Limit limits the simultaneous number of users on the same session host.
    
    - Then click on **Next:Virtual Machines**.
    
@@ -105,7 +105,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
 6. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
-  **A**. Session Host Specifications:     
+   **A**. Session Host Specifications:     
 
    - Resource Group: *Select **AVD-RG** from the drop down*.
    - Name prefix: **AVD-HP01-SH** 
@@ -124,7 +124,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    
    ![ws name.](media/uiupdate02.png)
     
-  **B**. Network and Security:
+   **B**. Network and Security:
     
    Leave all values to default, except:
     
@@ -134,7 +134,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
  
    ![ws name.](media/network-security.png)
  
-  **C**. Domain Administrator Account:
+   **C**. Domain Administrator Account:
   
    - Select which directory you would like to join: Choose **Azure Directory** from dropdown
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
@@ -143,9 +143,9 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    
    ![ws name.](media/domainjoin.png)
 
-> **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
+   > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
-  **D**. Virtual Machine Administrator Account:
+   **D**. Virtual Machine Administrator Account:
   
    - Username: **hostadmin**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -154,7 +154,6 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    
    ![ws name.](media/ex1t2s6c.png)
    
-
 7. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
 
    - Register desktop app group: *Choose* **Yes** 
@@ -171,40 +170,40 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
 9. Now click on **Review + create** on the bottom left corner. 
 
-    ![ws name.](media/69.png)
+   ![ws name.](media/69.png)
 
 
 10. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
     ![ws name.](media/ch4.png)
 
-> **Note:** The deployment will take about 15 minutes to succeed.
+    > **Note:** The deployment will take about 15 minutes to succeed.
 
 11. Once the deployment is succeeded, open notifications and click on **Go to Resource**.  
 
     ![ws name.](media/71.png)
 
-> **[Optional]**
->
-> **Note:** In case the previous deployment for Host Pool fails, follow the below steps. Else, continue from step 13:
->
->i.   Go to the **AVD-RG** resource group and click on **Overview**.
->
->   ![ws name.](media/w15.png)
-> 
->ii.  Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources other than the ones shown in screenshot below.
->
->   ![ws name.](media/w27.png)
->
->iii. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
-> 
->   ![ws name.](media/w28.png)
->
->iv.  Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
->
->v.   Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
->
->   ![ws name.](media/71.png) 
+    > **[Optional]**
+    >
+    > **Note:** In case the previous deployment for Host Pool fails, follow the below steps. Else, continue from step 13:
+    >
+    >i.   Go to the **AVD-RG** resource group and click on **Overview**.
+    >
+    >   ![ws name.](media/w15.png)
+    > 
+    >ii.  Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources other than the ones shown in screenshot below.
+   >
+   >   ![ws name.](media/w27.png)
+   >
+   >iii. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
+   > 
+   >   ![ws name.](media/w28.png)
+   >
+   >iv.  Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
+   >
+   >v.   Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on **Go to Resource**.  
+   >
+   >   ![ws name.](media/71.png) 
 
 12. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
