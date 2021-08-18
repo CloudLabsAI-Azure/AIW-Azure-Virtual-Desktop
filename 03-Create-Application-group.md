@@ -13,11 +13,9 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/w1.png)
 
-
 2. You will be directed towards the Azure Virtual Desktop management window.  
 
    ![ws name.](media/64.png)
-
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
@@ -45,80 +43,80 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 9. In the *Basics* tab, do the following configuration: 
 
-  i.  Leave the following parameters to default:
+   i. Leave the following parameters to default:
    
-   - *Subscription*
-   - *Location*
+      - *Subscription*
+      - *Location*
          
-  ii.  Fill the remaining parameters as mentioned below:  
+   ii. Fill the remaining parameters as mentioned below:  
    
-   - Resource Group: *Select* **AVD-RG** *from the dropdown*.
-   - Host Pool: *Select* **AVD-HP-01** *Host pool from the dropdown*.
-   - Application Group Type: **RemoteApp** 
-   - Application Group Name: **AVD-AG-01**
-   - Click on **Next:Applications**
+      - Resource Group: *Select* **AVD-RG** *from the dropdown*.
+      - Host Pool: *Select* **AVD-HP-01** *Host pool from the dropdown*.
+      - Application Group Type: **RemoteApp** 
+      - Application Group Name: **AVD-AG-01**
+      - Click on **Next:Applications**
 
-   ![ws name.](media/uiupdate03.png)
+      ![ws name.](media/uiupdate03.png)
 
 10. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
 
-   ![ws name.](media/ag1.png)
+    ![ws name.](media/ag1.png)
 
 11. In this window, choose the parameters as mentioned below: 
 
-   - Application Source: **Start Menu** *(choose from the dropdown)*  
-   - Application: **Excel** *(choose from the dropdown)* 
-   - Leave rest of the parameters to default and click on **Save**.
+    - Application Source: **Start Menu** *(choose from the dropdown)*  
+    - Application: **Excel** *(choose from the dropdown)* 
+    - Leave rest of the parameters to default and click on **Save**.
    
-  ![ws name.](media/a34.png)
+    ![ws name.](media/a34.png)
  
 12. Click on **Add Applications** again. 
 
-   ![ws name.](media/ag2.png)
+    ![ws name.](media/ag2.png)
 
 13. Choose the parameters as mentioned below: 
 
-   - Application Source: **Start Menu** *(choose from the dropdown)*   
-   - Application: **Word** *(choose from the dropdown)*    
-   - Leave rest of the parameters to default and click on **Save**.  
+    - Application Source: **Start Menu** *(choose from the dropdown)*   
+    - Application: **Word** *(choose from the dropdown)*    
+    - Leave rest of the parameters to default and click on **Save**.  
    
-   ![ws name.](media/wordapp1.png)
+    ![ws name.](media/wordapp1.png)
 
 14. Click on **Next: Assignments**.
 
-   ![ws name.](media/ag3.png)
+    ![ws name.](media/ag3.png)
 
 15. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button. This will give you the access to application group.
  
-   ![ws name.](media/ag5.png)
+    ![ws name.](media/ag5.png)
 
 16. Click on **Next: Workspaces**.
 
-   ![ws name.](media/ag6.png)
+    ![ws name.](media/ag6.png)
 
 17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
-   - Register Application Group: **Yes**
-   - Register Application Group: _Select_ **AVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
+    - Register Application Group: **Yes**
+    - Register Application Group: _Select_ **AVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
 
-   ![ws name.](media/ag7.png)
+    ![ws name.](media/ag7.png)
 
 18. Click on **Review + Create**.
 
-   ![ws name.](media/review.png)
+    ![ws name.](media/review.png)
 
 19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-   ![ws name.](media/80.png)
+    ![ws name.](media/80.png)
 
-> **Note:** The deployment will take about a minute to succeed.
+    >**Note:** The deployment will take about a minute to succeed.
 
 20. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
-   ![ws name.](media/81.png)
+    ![ws name.](media/81.png)
 
 21. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
 
-   ![ws name.](media/uiupdate04.png)
+    ![ws name.](media/uiupdate04.png)
 
 22. Click on the **Next** button present in the bottom-right corner of this lab guide. 
