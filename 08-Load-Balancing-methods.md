@@ -58,25 +58,24 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 10. Click on the **AAD DC Administrators** group and then click on **Select**.
 
-   ![ws name.](media/lb13.png)
+    ![ws name.](media/lb13.png)
 
 11. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
-   ![ws name.](media/lb40.png)
+    ![ws name.](media/lb40.png)
 
 12. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
-   ![ws name.](media/lb41.png)
+    ![ws name.](media/lb41.png)
    
 13. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
-   ![ws name.](media/lb42.png)
+    ![ws name.](media/lb42.png)
 
 14. Once done, the users assigned to the Application group will look similar to the image given below.
 
-   ![ws name.](media/lb45.png)
-   
-   
+    ![ws name.](media/lb45.png)
+     
 ### **Task 2: Update Passwords for the new users**
 
 Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
@@ -95,11 +94,11 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 4. Use exisiting resource group - **AVD-RG** from the drop down and for:
 
-    - Storage Account: Select **Create new** and enter **sa{uniqueid}**, where **uniqueid** is the numerical value present in your username. 
-    - File Share: Select **Create new** and enter **fs{uniqueid}**, where **uniqueid** is the numerical value present in your username.
+   - Storage Account: Select **Create new** and enter **sa{uniqueid}**, where **uniqueid** is the numerical value present in your username. 
+   - File Share: Select **Create new** and enter **fs{uniqueid}**, where **uniqueid** is the numerical value present in your username.
 
-> **Note:** **UniqueID** is the numerical value present in your username. 
-> For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
+   >**Note:** **UniqueID** is the numerical value present in your username. 
+   >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
 
    ![ws name.](media/wvd12.png)
 
@@ -124,16 +123,14 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
    ![ws name.](media/pu1.png)
 
-> **Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
+   >**Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
 
 
 ### **Task 3: Change and experience Load Balancing methods**
 
-
 **A**. **Breadth-first**
    
 While creating AVD-HP-01 host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on AVD-HP-01 with both users simultaneously and see the user distribution.
-
 
 1. Paste this link ```aka.ms/wvdarmweb``` in your browser in the **JumpVM** and enter your **credentials** to login. 
 
@@ -145,10 +142,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/password.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login1.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+   ![](media/login1.png)
 
 2. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
@@ -166,7 +162,6 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/lb52.png)
 
-
 6. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
@@ -179,7 +174,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb16.png)
 
-> **Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
 
 9. Click on **Subscribe** button.
 
@@ -187,79 +182,71 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 10. Enter the user credentials to access the workspace.
 
-   - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
+    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
    
-   - Password: *Paste the password* **Azure1234567**.
+    - Password: *Paste the password* **Azure1234567**.
 
-   ![ws name.](media/password2.png)
+    ![ws name.](media/password2.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login2.png)
->
+    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+    ![](media/login2.png)
 
 11. In AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd.png)
+    ![ws name.](media/newrd.png)
 
 12. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**)*
-   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
+    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**)*
+    - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
-   ![ws name.](media/lb37.png)
+    ![ws name.](media/lb37.png)
   
-
 13. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd3.png) 
-
+    ![ws name.](media/newrd3.png) 
 
 14. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
-   ![ws name.](media/lb38.png)
-   
+    ![ws name.](media/lb38.png)
    
 15. Now click on **AVD-HP-01** host pool to access it.
 
-   ![ws name.](media/lb39.png)
-   
-   
+    ![ws name.](media/lb39.png)
+ 
 16. Under Manage blade, click on **Session hosts**.
 
-   ![ws name.](media/lb24.png)
-   
+    ![ws name.](media/lb24.png)
    
 17. You can see that both session hosts have one Active sessions each.
 
-   ![ws name.](media/lb47.png)
+    ![ws name.](media/lb47.png)
    
-   > **Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
-   > 
-   > Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
+    >**Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
+    > 
+    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 
 18. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/uiupdate14.png)
+    ![ws name.](media/uiupdate14.png)
 
 19. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/uiupdate13.png)
+    ![ws name.](media/uiupdate13.png)
 
->**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
-   
-
+    >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
+  
 **B**. **Depth first**
+   
+   Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
 
-Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
-
-> **Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
+   >**Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
 
 1. In *AVD-HP-01* host pool, click on **Properties** under *Settings* blade.
 
    ![ws name.](media/wvd8.png)
-   
    
 2. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
 
@@ -275,10 +262,9 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
 
    ![ws name.](media/password.png)
  
- > **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login1.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+ 
+   ![](media/login1.png)
 
 4. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
@@ -296,64 +282,55 @@ Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth
    
    ![ws name.](media/lb52.png)
 
-
 7. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
-   
-   
+    
 8. In **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application.
 
    ![ws name.](media/137.png)
    
-
 9. Now in the AVD client double click on the **Session Desktop** to access it. 
 
    ![ws name.](media/newrd.png)
 
 10. Enter your **credentials** to access the desktop and click on **Submit**.
 
-   - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**).*
-   - Password: *Paste the password* **Azure1234567**
+    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**).*
+    - Password: *Paste the password* **Azure1234567**
    
-
-   ![ws name.](media/lb51.png)
+    ![ws name.](media/lb51.png)
    
-
 11. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/lb55.png) 
-
+    ![ws name.](media/lb55.png) 
 
 12. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
-   ![ws name.](media/newrd3.png)
-   
+    ![ws name.](media/newrd3.png)
    
 13. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
-   ![ws name.](media/lb21.png)
+    ![ws name.](media/lb21.png)
    
-> **Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
->
-> Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
+    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
+    >
+    >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
 14. Verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media/uiupdate16.png)
+    ![ws name.](media/uiupdate16.png)
 
+    >**[Optional]**
+    >
+    >**Scale session hosts using Azure Automation**
+    >
+    >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
+    >
+    >Please follow the link given below to learn more about this feature. 
+    >
+    >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
 
-
-> **[Optional]**
->
-> **Scale session hosts using Azure Automation**
->
-> Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
->
-> Please follow the link given below to learn more about this feature. 
->
-> ```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
->
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
 
