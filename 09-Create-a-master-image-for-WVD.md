@@ -36,19 +36,19 @@ In this exercise, we are going to walk through the process of creating a master 
 
 5. On *Disks* tab, leave all configurations on default and click on **Next: Networking**.
   
-  ![ws name.](media/im2.png) 
+   ![ws name.](media/im2.png) 
 
 6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **avdvm-vnet** in the *Name* block and click on **OK**.
 
-  ![ws name.](media/im3.png) 
+   ![ws name.](media/im3.png) 
 
 7. Leave other configurations on default and click on **Review + create**.
 
-  ![ws name.](media/im4.png) 
+   ![ws name.](media/im4.png) 
 
 8. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-  ![ws name.](media/im5.png) 
+   ![ws name.](media/im5.png) 
 
 9. Once the deployment completes, click on **Go to resource**.
 
@@ -56,31 +56,31 @@ In this exercise, we are going to walk through the process of creating a master 
 
 10. On the **Overview** page, copy **Public IP address** of the virtual machine and paste it in a text editor as we will use it in next step.
 
-   ![ws name.](media/jvm21.png)
+    ![ws name.](media/jvm21.png)
 
 11. In **Your Own PC/computer/workstation**, search for *Remote Desktop Connection* and select **Remote Desktop Connection** from the suggestions.
 
-   ![ws name.](media/jvm17.png)
+    ![ws name.](media/jvm17.png)
 
 12. On Remote Desktop Connection box, paste the **Public IP address** against *Computer* block. Then click on **Connect**.
 
-   ![ws name.](media/jvm18.png)
+    ![ws name.](media/jvm18.png)
 
 13. In *Enter your credentials* box, enter the following values:
 
-   - Username: **azuser**
-   - Password: **Azure1234567**
-   - Click on **OK**
+    - Username: **azuser**
+    - Password: **Azure1234567**
+    - Click on **OK**
 
-   ![ws name.](media/jvm19.png)
+    ![ws name.](media/jvm19.png)
 
 14. On Remote Desktop Connection dialog box, click on **Yes**.
 
-   ![ws name.](media/jvm20.png)
+    ![ws name.](media/jvm20.png)
 
 15. The virtual machine will launch and look similar to the screenshot below.
 
-   ![ws name.](media/vmimage2.png)
+    ![ws name.](media/vmimage2.png)
 
 ## **Task 2: Run Windows Update**
 
@@ -149,7 +149,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/pathupdate1.png)
 
-> **Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
+   >**Note:** If in case you used a different username for the virtual machine, then in the above command replace ***azuser*** with the username of your Virtual Machine that you created earlier.
 
 7. Run the following command to allow script execution in Powershell.
 
@@ -167,22 +167,22 @@ The UI form offers the following actions:
 
    ![ws name.](media/im7.png)
 
-10.  Now select the following applications listed below:
+10. Now select the following applications listed below:
 
-   - **Install Office 365**
-   - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
-   - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
-   - **Install Microsoft Teams per Machine**
-   - **Install Microsoft Edge Chromium v80+**
-   - **Disable Windows Update**
-   - **Run System Clean Up (CleanMgr.exe)**
-   - At last, click on **Execute**.
+    - **Install Office 365**
+    - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
+    - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
+    - **Install Microsoft Teams per Machine**
+    - **Install Microsoft Edge Chromium v80+**
+    - **Disable Windows Update**
+    - **Run System Clean Up (CleanMgr.exe)**
+    - At last, click on **Execute**.
 
-   ![ws name.](media/jvm13.png)
+    ![ws name.](media/jvm13.png)
 
-> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
+    >**Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 
-   ![ws name.](media/im12.png)
+    ![ws name.](media/im12.png)
 
 11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
 
@@ -210,7 +210,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/im14.png)
 
-> **Note:** The system will automatically shut down in about 2 minutes and disconnect your RDP session.
+   >**Note:** The system will automatically shut down in about 2 minutes and disconnect your RDP session.
 
 ## **Task 5: Create a managed image from the Master Image VM**
 
@@ -284,12 +284,11 @@ The UI form offers the following actions:
 
 5. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
-  **A.** Session Host Specifications:
+   **A.** Session Host Specifications:
 
    - Resource Group: *Select* **AVD-RG** *from the drop down.*
    - Virtual machine location: **East US**, *location should be same as location of your resource group.*
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down._
-
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below.*
 
    ![ws name.](media/ch1.png)
@@ -300,16 +299,15 @@ The UI form offers the following actions:
 
    ![ws name.](media/im21.png)
    
-  
    - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: **Leave to default**
 
    ![ws name.](media/ch5.png)
 
-  **B**. Network and Security:
+   **B**. Network and Security:
 
-  Leave all values to default, except:
+   Leave all values to default, except:
 
    - Virtual network: **aadds-vnet** _(choose from dropdown)_
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
@@ -317,7 +315,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/network-security.png)
 
-  **C**. Domain Administrator Account:
+   **C**. Domain Administrator Account:
   
    - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -325,9 +323,9 @@ The UI form offers the following actions:
    
    ![ws name.](media/domainjoin.png)
 
-> **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
+   >**Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
 
-  **D**. Virtual Machine Administrator Account:
+   **D**. Virtual Machine Administrator Account:
   
    - Username: **azuser**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -338,10 +336,10 @@ The UI form offers the following actions:
 
 6.  In the *Workspace* section, we need to specify if we need to register the default application group to a workspace.
 
-   - Register desktop app group: *Choose* **Yes**
-   - To this workspace: *Click on* **Create new**
+    - Register desktop app group: *Choose* **Yes**
+    - To this workspace: *Click on* **Create new**
 
-   ![ws name.](media/67.png)
+    ![ws name.](media/67.png)
 
 7. Under the *Workspace name*, fill the name of workspace.
 
@@ -352,13 +350,13 @@ The UI form offers the following actions:
 
 8. Now click on **Review + create** on the bottom left corner.
 
-    ![ws name.](media/im24.png)
+   ![ws name.](media/im24.png)
 
 9. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-    ![ws name.](media/e40.png)
+   ![ws name.](media/e40.png)
 
-> **Note:** The deployment will take about 15 minutes to succeed.
+   >**Note:** The deployment will take about 15 minutes to succeed.
 
 ## **Task 7: Assign an Azure AD group to an application group**
 
@@ -384,14 +382,13 @@ The UI form offers the following actions:
 
    `https://rdweb.wvd.microsoft.com/arm/webclient`
 
-> **Note:** In case you are logged in with AVDUser01, then logout and login back using following credentials:
-> - Username: **<inject key="AzureAdUserEmail" />**
-> - Password: **<inject key="AzureAdUserPassword" />**
+   >**Note:** In case you are logged in with AVDUser01, then logout and login back using following credentials:
+   >- Username: **<inject key="AzureAdUserEmail" />**
+   >- Password: **<inject key="AzureAdUserPassword" />**
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+   > **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >
+   ![](media/login.png)
 
 2. The AVD dashboard will launch, then click on the tile named **Session Desktop** under workspace **AVD-Customimage-Workspace** to launch the desktop.
 
