@@ -21,15 +21,15 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 4. Now add the following configurations:
 
-  - Subscription: *Choose the default subscription.*
+   - Subscription: *Choose the default subscription.*
   
-  - Resource group: *Select **AVD-RG** from the drop down.*
+   - Resource group: *Select **AVD-RG** from the drop down.*
   
-  - Name: **<inject key="Log Analytics Workspace Name	" />**
+   - Name: **<inject key="Log Analytics Workspace Name	" />**
   
-  - Region: **East US**, *basically this should be same as the region of your resource group.*
+   - Region: **East US**, *basically this should be same as the region of your resource group.*
   
-  - Click on **Review + Create**
+   - Click on **Review + Create**
 
    ![ws name.](media/wiw3.png)
 
@@ -55,7 +55,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/wiw5.png)
    
-   > ***Note:** Due to a technical issue in Azure portal, you may find diagnostic settings pre-created in **Host Pool, Application Group and Workspace**. For now, we will delete it using following steps:* 
+   >***Note:** Due to a technical issue in Azure portal, you may find diagnostic settings pre-created in **Host Pool, Application Group and Workspace**. For now, we will delete it using following steps:* 
    
    > *i) In diagnostics settings, locate the pre-created diagnostics setting and click on **Edit setting**.* 
    
@@ -69,12 +69,12 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 4. Add the following configurations:
 
-  - Diagnostic settings name: **HostPoolMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection, HostRegistration and AgentHealthStatus.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.
+   - Diagnostic settings name: **HostPoolMonitoring**
+   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management, Connection, HostRegistration and AgentHealthStatus.** 
+   - Destination details: *Check the box for* **Send to Log Analytics**
+   - Subscription: *Choose the default subscription.*
+   - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+   - At last, click on **Save**.
 
    ![ws name.](media/jvm16.png)
 
@@ -94,12 +94,12 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 3. Add the following configurations:
 
-  - Diagnostic settings name: **ApplicationGroupMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.
+   - Diagnostic settings name: **ApplicationGroupMonitoring**
+   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+   - Destination details: *Check the box for* **Send to Log Analytics**
+   - Subscription: *Choose the default subscription.*
+   - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+   - At last, click on **Save**.
 
    ![ws name.](media/wiw8.png)
 
@@ -113,19 +113,18 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 6. Add the following configurations:
 
-  - Diagnostic settings name: **ApplicationGroupMonitoring1**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.
+   - Diagnostic settings name: **ApplicationGroupMonitoring1**
+   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
+   - Destination details: *Check the box for* **Send to Log Analytics**
+   - Subscription: *Choose the default subscription.*
+   - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+   - At last, click on **Save**.
 
    ![ws name.](media/wiw26.png)
 
 7. Once saved, it will look similar to the image shown below.
 
    ![ws name.](media/lb62.png)
-
 
 ### **Task 4: Enable diagnostics for Workspace**
  
@@ -139,19 +138,18 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
  
 3. Add the following configurations:
 
-  - Diagnostic settings name: **WorkspaceMonitoring**
-  - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management and Feed.** 
-  - Destination details: *Check the box for* **Send to Log Analytics**
-  - Subscription: *Choose the default subscription.*
-  - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-  - At last, click on **Save**.  
+   - Diagnostic settings name: **WorkspaceMonitoring**
+   - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error, Management and Feed.** 
+   - Destination details: *Check the box for* **Send to Log Analytics**
+   - Subscription: *Choose the default subscription.*
+   - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
+   - At last, click on **Save**.  
    
    ![ws name.](media/wiw13.png)
 
 4. Once saved, it will look similar to the image shown below.
 
    ![ws name.](media/lb64.png)
-
 
 ### **Task 5: Enable diagnostics for Session Hosts**   
 
@@ -163,30 +161,27 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lb68.png)
    
-> **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
-> - New VM Extensions Added
-> - New Monitoring Agents Installed
-> - Monitoring Agent Configured for Log Analytics 
+   >**Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
+   > - New VM Extensions Added
+   > - New Monitoring Agents Installed
+   > - Monitoring Agent Configured for Log Analytics 
  
 3. On successful insights deployment in **AVD-HP01-SH-0**, you will get insights view similar to the screenshot given below.
    
    ![ws name.](media/VM-SH0insights.png)
   
-
 4. Return to virtual machines. Open **AVD-HP01-SH-1** virtual machine, click on **Insights** under *Monitoring* blade, and click on **Enable** button.
 
    ![ws name.](media/lb66.png)
 
-
-> **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
-> - New VM Extensions Added
-> - New Monitoring Agents Installed
-> - Monitoring Agent Configured for Log Analytics 
+   > **Note:** Deployment can take 5-10 minutes to complete. Once complete, you will see the following items configured on the VM:
+   > - New VM Extensions Added
+   > - New Monitoring Agents Installed
+   > - Monitoring Agent Configured for Log Analytics 
 
 5. On successful insights deployment in **AVD-HP01-SH-1**, you will get insights view similar to the screenshot given below.
    
    ![ws name.](media/VM-SH1insights.png)
-
 
 ### **Task 6 : Run queries in Log Analytics Workspace**
 
@@ -202,25 +197,22 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lg2.png)
 
-
-
-> **[Optional]**
->
-> **Note:** The logs from AVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps at this point. We are providing these steps as a reference for your understanding, you do not need to execute them.
->
-> i. In the *Query Editor*, paste the following query and click on **Run** button.
->
->   ```
->   WVDConnections 
->   |sort by TimeGenerated asc, CorrelationId
->  |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
->  ```
->  
->   ![ws name.](media/lg1.png)
->
->ii. In results, logs will appear similar to one shown below.
->
->  ![ws name.](media/wiw17.png)
-
+   > **[Optional]**
+   >
+   > **Note:** The logs from AVD might take upto 24 hours to get populated in Log Analytics Workspace, hence it is impossible for you to replicate the below steps at this point. We are providing these steps as a reference for your understanding, you do not need to execute them.
+   >
+   > i. In the *Query Editor*, paste the following query and click on **Run** button.
+   >
+   >   ```
+   >   WVDConnections 
+   >   |sort by TimeGenerated asc, CorrelationId
+   >  |summarize Connectcount = dcount(CorrelationId) by bin(TimeGenerated, 1d),UserName = toupper(trim_end("@.*",UserName))
+   >  ```
+   >  
+   >![ws name.](media/lg1.png)
+   >
+   >ii. In results, logs will appear similar to one shown below.
+   >
+   >![ws name.](media/wiw17.png)
 
 4. Click on the **Next** button present in the bottom-right corner of this lab guide.
