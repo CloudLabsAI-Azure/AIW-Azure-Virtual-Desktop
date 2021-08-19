@@ -9,7 +9,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```aka.ms/wvdarmweb``` 
 
-> **Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
+   >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
 
 2. Now to login, enter the lab credentials as mentioned below:
 
@@ -21,10 +21,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+   ![](media/login.png)
 
 3. The AVD dashboard will launch, then click on **Word** application to access it. 
 
@@ -50,19 +49,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch6.png)
 
-> **Note:** If you get a popup saying *Move Text in and out of Remote Desktop*, click on the ***Don't show again*** checkbox and then click on ***Got it*** button.
->
->   ![ws name.](media/uiupdate06.png)
-
+   >**Note:** If you get a popup saying *Move Text in and out of Remote Desktop*, click on the ***Don't show again*** checkbox and then click on ***Got it*** button.
+   
+   ![ws name.](media/uiupdate06.png)
 
 8. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
    ![ws name.](media/ch7.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+ 
+   ![](media/login.png)
 
 9. Click on **Close** button on the window asking *Your privacy option*.
 
@@ -70,8 +67,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 10. Once signed in, the application will look similar to the screenshot below 
 
-   ![ws name.](media/ch8.png)
-
+    ![ws name.](media/ch8.png)
 
 ## **Task 2: Access the published Desktop**
 
@@ -117,6 +113,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 10. Click on **Refresh** button and make sure *No results* is displayed under Host pool.
 
-   ![ws name.](media/jvm10.png)
+    ![ws name.](media/jvm10.png)
 
 11. Click on the **Next** button present in the bottom-right corner of this lab guide. 

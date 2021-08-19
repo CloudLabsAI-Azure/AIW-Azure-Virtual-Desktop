@@ -15,7 +15,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 3. Copy and paste the below mentioned URL under **Email or Workspace URL** and click on **Next** button.
 
-```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery```
+   ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery```
 
    ![ws name.](media/labinst23.png)
 
@@ -29,10 +29,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+ 
+   ![](media/login.png)
 
 5. Once connected it will show up like the screenshot given below. Now we will jump to **Step 15**.
 
@@ -42,9 +41,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
-> **Note:** To download *WVD Mac Client* on **macOS**, use the link given below:
->
-> ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
+   >**Note:** To download *WVD Mac Client* on **macOS**, use the link given below:
+   >
+   >```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
 
 7. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on **Your Own PC/computer/workstation**.
    
@@ -56,66 +55,60 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 10. On **Installation scope** window select **Install just for you** and then click on **Install**.
 
-   ![ws name.](media/wvd41.png)
+    ![ws name.](media/wvd41.png)
 
 11. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
 
-   ![ws name.](media/137.png)
-   
+    ![ws name.](media/137.png)
    
 12. Once the application opens, click on **Subscribe**.
 
-   ![ws name.](media/a49.png)
-  
+    ![ws name.](media/a49.png)
   
 13. Enter your **credentials** to access the workspace.
 
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/95.png)
+    ![ws name.](media/95.png)
 
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/96.png)
+    ![ws name.](media/96.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+    ![](media/login.png)
    
 14. Make sure to **uncheck** *Allow my organization to manage my device* and click on **OK**.
 
-   ![ws name.](media/ex4t1s9.png)
+    ![ws name.](media/ex4t1s9.png)
    
    
 15. The WVD dashboard will launch, then double click on **Excel** application to access it.
 
-   ![ws name.](media/ex4t1s10.png)
+    ![ws name.](media/ex4t1s10.png)
    
-
 16. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
 
-   - Password: **<inject key="AzureAdUserPassword" />**
+    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/ch14.png)
+    ![ws name.](media/ch14.png)
 
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+    ![](media/login.png)
 
 17. Wait for the Application to connect.
 
-   ![ws name.](media/58.png)
+    ![ws name.](media/58.png)
    
-
 18. The Excel application will launch and look similar to the screenshot below.
 
-   ![ws name.](media/ch15.png) 
+    ![ws name.](media/ch15.png) 
     
 19. You can exit from the window of Excel Application by clicking on **X *i.e., the close button***.
 
-   ![ws name.](media/ch16.png)
+    ![ws name.](media/ch16.png)
    
 ## **Task 2: Access the Virtual Desktop**
 
@@ -124,26 +117,22 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex4t2s2.png)
    
-
 2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
    
-> **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
->
->    ![](media/login.png)
->
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   
+   ![](media/login.png)
 
 3. Wait for the Session Desktop to connect.
 
    ![ws name.](media/ex4t2s4.png)
-   
 
 4. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
    ![ws name.](media/ex4t2s5.png)   
-    
      
 5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
