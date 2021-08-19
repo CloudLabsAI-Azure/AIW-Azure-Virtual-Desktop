@@ -2,7 +2,7 @@
 
 ### 06 August 2021
   - Major update in Lab Guide
-  - UI changes in lab guide related to Hostpool is done. There were changes in Hostpool UI in Azure, we done the changes in lab guide accordingly. 
+  - UI changes in lab guide related to Hostpool is done in Exercise 1, Task 2. There were changes in Hostpool UI in Azure, we done the changes in lab guide accordingly. 
 
 -----------
 
