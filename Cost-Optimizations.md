@@ -74,8 +74,48 @@
 
 ## **Exercise 2: Experience VM start on connect**
 
-** Task 1: Stop the Session host VMs**
+### **Task 1: Stop the Session host VMs**
 
 1. In Azure Portal search for **Virtual Machines** and click on it.
 
   ![](media/avdv232.png)
+
+2. Select the **session host VMs** *(1)* and click on **Stop** *(2)*.
+
+  ![](media/avdv233.png)
+  
+3. On a prompt saying "Do you want to stop the selected Virtual Machines" click on **Yes**.
+
+  ![](media/avdv234.png)
+  
+  
+### **Task 2: Access the Session host desktop**
+
+1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+
+   ![ws name.](media/ex4t2s2.png)
+   
+2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
+
+   - Password: **<inject key="AzureAdUserPassword" />**
+   
+   ![ws name.](media/ch14.png)
+   
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   
+   ![](media/login.png)
+
+3. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
+
+   ![ws name.](media/avdv235.png)
+
+4. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+        
+   ![ws name.](media/ex4t2s5.png)   
+     
+5. Return to the Azure portal and click on **refresh** *(1)* to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the sessionDesktop was launched.
+
+  ![](media/avdv236.png)
+  
+  
+  
