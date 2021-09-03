@@ -126,3 +126,23 @@
 1. Now under Settings, click on **Devices** and explore the media devices connected to your local desktop.
 
    ![ws name.](media/avdv218.png)
+   
+1. Now, Close the settings tab and go to **calendar** which is located in the side blade. Select **Meet now**.
+
+   ![ws name.](media/teams13.png)
+   
+1. Leave the **Meeting name** as default and click on **Start meeting**.
+
+   ![ws name.](media/teams14.png)
+   
+1. Make sure both Video(1), and audio(2) are enabled. Click on **Join now(3)**.
+
+   ![ws name.](media/teams15.png)
+   
+1. Click on **Allow access** on Windows Security Alert prompt.
+
+   ![ws name.](media/teams16.png)
+   
+   >**NOTE**: If **Invite others** prompt appears, Close the tab and continue.
+  
+1. Now, You should be able to see yourself as the video is On.
