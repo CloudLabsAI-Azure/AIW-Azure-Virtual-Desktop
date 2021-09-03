@@ -101,10 +101,57 @@
 
    Click on **Add*.
    
-1. For **Display name**, provide **7-Zip** as the value and click on **Add**.
+1. For **Display name**, provide **7-Zip** as the value and enable state as **active**. click on **Add**.
 
-   ![ws name.](media/msix18.png)
+   ![ws name.](media/msix21.png)
    
 1. Under **Manage** blade, Select the **Application groups** tab and click on **AVD-AG-01**.
 
    ![ws name.](media/msix19.png)
+
+1. Under **Manage** blade, Select the **Applications* tab and click on **Add**.
+
+   ![ws name.](media/msix20.png)
+   
+1. In **Add Application** tab, 
+
+    - For **Application Source**, select **MSIX Package** from the drop-down. 
+    - For **Application name**, provide **7-Zip** as the value.
+    - CLick on **save**.
+
+    ![ws name.](media/msix23.png)
+    
+1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+
+   ![ws name.](media/137.png)
+   
+1. Once the application opens, click on **Subscribe**.
+
+   ![ws name.](media/a49.png)
+  
+1. Enter your **credentials** to access the workspace.
+
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
+   
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+
+   ![](media/skipfornow.png)
+
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+
+   ![ws name.](media/ex4t1s9.png)
+      
+1. The WVD dashboard will launch, then double click on **7-Zip File Manager** application to access it.
+
+   ![ws name.](media/msix24.png)
+   
+1. You should be able to see the file manager opened. 
+
+   ![ws name.](media/msix25.png)    
+    
