@@ -45,7 +45,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/avd1.png) 
 
-1. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Insights** under **Monitoring** blade
+1. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
    ![ws name.](media/mon2.png)
    
@@ -113,3 +113,59 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. Once the deployment is completed, **Refresh** the **Check Configuration** page. You'll see that all the required events will be configured.
    
    ![ws name.](media/mon19.png)
+
+Now that all the configuration has be done successfully. Let's check the implementation.
+
+1. Go to home page **Azure Virtual Desktop** and click on **Insights** under **Monitoring** blade.
+
+   ![ws name.](media/mon2.png)
+   
+1. You'll be able see all the insight. On the **overview** window, Confirm the **status** of both the **session host** and check the availablity.
+
+   ![ws name.](media/mon20.png)
+   
+1. Now, In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+
+   ![ws name.](media/137.png)
+   
+1. Once the application opens, click on **Subscribe**.
+
+   ![ws name.](media/a49.png)
+  
+1. Enter your **credentials** to access the workspace.
+
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
+   
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+
+   ![](media/skipfornow.png)
+
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+
+   ![ws name.](media/ex4t1s9.png)
+  
+1. The WVD dashboard will launch, then double click on Teams application to access it.
+
+   ![ws name.](media/teams12.png)
+   
+1. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
+
+    - Password: **<inject key="AzureAdUserPassword" />**
+   
+    ![ws name.](media/ch14.png)
+    
+1. Teams application will start loading. Once the app is launched keep it running.
+
+   ![ws name.](media/avdv214.png)
+
+
+
+   
+
+   
