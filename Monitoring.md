@@ -110,4 +110,6 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon18.png)
    
-1. 
+1. Once the deployment is completed, **Refresh** the **Check Configuration** page. You'll see that all the required events will be configured.
+   
+   ![ws name.](media/mon19.png)
