@@ -21,4 +21,28 @@
 
   ![](media/avdv238.png)
 
-6. After enrollment is done, check the value in the Per-user access pricing column of the subscriptions list to make sure it's changed from “Enrolling” to “Enrolled.”
+6. After enrollment is done, check the value in the Per-user access pricing column of the subscriptions list to make sure it's changed from “Enrolling” to “**Enrolled**.”
+
+
+### **Task 2: Accessing application as a external user**
+
+1. Return to WVD client application. On WVD dashboard, click on the application you want to launch.
+
+   ![ws name.](media/ex4t2s2.png)
+   
+2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your personal Corporate ID and password to access the Desktop.
+   
+   ![ws name.](media/ch14.png)
+   
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   
+   ![](media/login.png)
+
+3. Wait for the application to connect.
+
+   ![ws name.](media/ex4t2s4.png)
+
+4. Your application will launch as a external user and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+        
+     
+5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
