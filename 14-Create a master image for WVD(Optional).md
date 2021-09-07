@@ -1,8 +1,8 @@
-# Exercise 7: Create a master image for AVD(Optional)
+# Lab 14: Create a master image for AVD(Optional)
 
 In this exercise, we are going to walk through the process of creating a master image for your AVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for AVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for AVD.
 
-## **Task 1: Create a new Virtual Machine in Azure**
+## **Exercise 1: Create a new Virtual Machine in Azure**
 
 1. In the **JumpVM**, go to Azure portal home page and click on **Create a resource** button.
 
@@ -82,7 +82,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
     ![ws name.](media/vmimage2.png)
 
-## **Task 2: Run Windows Update**
+## **Exercise 2: Run Windows Update**
 
 Despite the Azure support teams best efforts, the Marketplace images are not always up to date. The best and most secure practice is to keep your master image up to date.
 
@@ -102,7 +102,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/im32.png)
 
-## **Task 3: Prepare AVD image**
+## **Exercise 3: Prepare AVD image**
 
 ### **Introduction to the script**
 
@@ -192,7 +192,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/e21.png)
 
-# **Task 4: Run Sysprep**
+# **Exercise 4: Run Sysprep**
 
 1. In **AVDVMWin10** virtual machine, search for *command prompt* and select **Run as administrator**.
 
@@ -212,7 +212,7 @@ The UI form offers the following actions:
 
    >**Note:** The system will automatically shut down in about 2 minutes and disconnect your RDP session.
 
-## **Task 5: Create a managed image from the Master Image VM**
+## **Exercise 5: Create a managed image from the Master Image VM**
 
 1. Navigate to Azure portal in the **JumpVM**, search for *virtual machine* and click on **Virtual Machines** to open it.
 
@@ -255,7 +255,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/jvm30.png)
 
-## **Task 6: Provision a Host Pool with a custom image**
+## **Exercise 6: Provision a Host Pool with a custom image**
 
 1. In azure portal search for *Azure Virtual Desktop* and select **Azure Virtual Desktop** from suggestions.
 
@@ -358,7 +358,7 @@ The UI form offers the following actions:
 
    >**Note:** The deployment will take about 15 minutes to succeed.
 
-## **Task 7: Assign an Azure AD group to an application group**
+## **Exercise 7: Assign an Azure AD group to an application group**
 
 1. In search bar of Azure portal, search for *Azure virtual desktop* and select **Azure virtual desktop** from the suggestions.
 
@@ -376,7 +376,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/im27.png)
 
-## **Task 8: Connect to AVD with the web client**
+## **Exercise 8: Connect to AVD with the web client**
 
 1. In the **JumpVM**, open new browser and navigate to the URL given below. 
 
