@@ -26,14 +26,14 @@
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWFYsj","C:\WebSocketService.msi")
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi")
 
-   msiexec /i C:\WebSocketService.msi /qn
+   msiexec /i C:\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true","C:\Teams_windows_x64.msi")
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi")
 
-   msiexec /i C:\Teams_windows_x64.msi ALLUSER=1
+   msiexec /i C:\AVDTeams.msi ALLUSER=1
 
    Restart-Computer -Force
    
