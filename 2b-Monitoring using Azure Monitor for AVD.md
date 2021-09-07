@@ -79,3 +79,7 @@
 1. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
+   
+1. Now, Navigate to Azure Virtusl Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
+
+   ![ws name.](media/mon2.png)
