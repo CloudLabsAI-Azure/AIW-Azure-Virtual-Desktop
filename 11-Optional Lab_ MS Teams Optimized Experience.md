@@ -1,4 +1,4 @@
-# Optional Lab: MS Teams Optimized Experience
+# Lab 11: MS Teams Optimized Experience
 
 1. Navigate to Azure portal, then search for Azure Virtual Desktop in search bar and select Azure Virtual Desktop from the suggestions.
 
