@@ -1,8 +1,8 @@
-# Exercise 5: Setup FSLogix
+# Lab 7: Setup FSLogix
 
 The Azure Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
 
-### **Task 1: Create Storage account and file share**
+### **Exercise 1: Create Storage account and file share**
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
@@ -87,7 +87,7 @@ In the following task, we will be creating a storage account with a file share w
     
     ![ws name.](media/fileshares.png)
     
-### **Task 2: Configure File share**
+### **Exercise 2: Configure File share**
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
    
@@ -118,7 +118,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
    ![ws name.](media/role_assignment1.png)
  
-### **Task 3: Configure Session Hosts**
+### **Exercise 3: Configure Session Hosts**
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
@@ -374,7 +374,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/wvd6.png)
    
-### **Task 4: Verifying the User profiles stored in File share**
+### **Exercise 4: Verifying the User profiles stored in File share**
 
 In this task, we will be accessing the file share to verify the user profiles stored in the *.vhd* format.
 
