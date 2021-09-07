@@ -1,5 +1,4 @@
-# MSIX App Attach(Optional)
-
+# lab 13: MSIX App Attach
 1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
 1. 11. In the right pane, click on **File shares** present under *Data Storage* blade.
 
