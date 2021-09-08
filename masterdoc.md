@@ -62,7 +62,7 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/3b-Explore-Azure-Security-Center.md",
         "Order": 15
-      },
+      }
     ]
   }
 ]
