@@ -1,6 +1,6 @@
 # **Lab 10: Use MEM to enforce MFA while using AVD**
 
-**Task 1: Setup Multi-Factor Authentication (MFA)**
+### **Exercise 1: Setup Multi-Factor Authentication (MFA)**
 
 1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to login then login using the following credentials:
   - Username: **<inject key="AzureAdUserEmail" />**
@@ -33,9 +33,7 @@
 
   ![](media/avdv214.png)
   
-  
-
-## **Task 2: Creating Conditional Access Policy**
+### **Exercise 2: Creating Conditional Access Policy**
 
 1. In Azure POrtal search for *Azure Active Directory* and click on the search reasult.
 
@@ -60,18 +58,18 @@
   - Name: **AVD-MFA** *(1)*
   
   - **Assignments**:
-    - Click on **Users and Groups** *(2)*.
-    - A new Window will slide in, there click on **Select users and Groups** *(3)* and then select the check box saying **Users and groups** *(4)*.
-    - Now a *Select* window will open, here search for ODL user and Select it *(5)*.
-    - Click on **Select** *(6)* button.
+  - Click on **Users and Groups** *(2)*.
+  - A new Window will slide in, there click on **Select users and Groups** *(3)* and then select the check box saying **Users and groups** *(4)*.
+  - Now a *Select* window will open, here search for ODL user and Select it *(5)*.
+  - Click on **Select** *(6)* button.
 
 
   ![](media/avdv26.png)
   
-   -  Click on **Cloud apps or actions** *(1)*
-   -  Click on **Select apps** *(2)*
-   -  Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
-   -  Now Click on **Select** *(4)* button.
+  - Click on **Cloud apps or actions** *(1)*
+  - Click on **Select apps** *(2)*
+  - Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
+  - Now Click on **Select** *(4)* button.
 
   ![](media/avdv27.png)
   
@@ -83,13 +81,13 @@
   ![](media/avdv28.png)
   
   - **Access Control**
-    - Click on **Grant** *(1)*.
-    - Select the Check Box saying **Require multi-factor authentication** *(2)*.
-    - Then click on **Select** *(3)*
+  - Click on **Grant** *(1)*.
+  - Select the Check Box saying **Require multi-factor authentication** *(2)*.
+  - Then click on **Select** *(3)*
 
 
 6. Toggle the **Enable Policy** switch to **Yes** and click on **Create**.
 
-  ![](media/avdv29.png)
+   ![](media/avdv29.png)
   
 7. Login to AVD Client to see the MFA getting triggered.
