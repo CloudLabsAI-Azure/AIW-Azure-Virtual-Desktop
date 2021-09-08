@@ -48,11 +48,11 @@
    
 1. Paste this link ```aka.ms/wvdarmweb``` in your browser in the **JumpVM** and enter your **credentials** to login. 
 
-   - Username: *Paste username* **AVDUser01** *which you copied earlier and then click on **Next**.*
+   - Username: *Paste username* **<inject key="AVD User 01" />** *which you copied earlier and then click on **Next**.*
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.
+   - Password: *Paste the password* **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
 
@@ -70,9 +70,9 @@
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username of* **AVDUser01** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste username of* **<inject key="AVD User 02" />** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)*
    
-   - Password: *Paste the password* **Azure1234567**
+   - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
    ![ws name.](media/lb52.png)
 
