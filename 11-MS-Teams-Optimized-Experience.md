@@ -26,14 +26,24 @@
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi")
-
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi","C:\RTC.msi")
+   
    msiexec /i C:\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi")
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
+
+   New-Item -ItemType directory -Path C:\LabFiles
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/7-Zip.vhd","C:\LabFiles\7-Zip.vhd")
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/msix.cer","C:\LabFiles\msix.cer")
+
+   Write-Output "The script is executed successfully"
 
    Restart-Computer -Force
    
