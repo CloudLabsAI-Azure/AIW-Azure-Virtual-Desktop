@@ -1,8 +1,8 @@
-# Lab 3 (Part-1): Onboard AVD to Azure Security Center
+# Lab 3: Onboard AVD to Azure Security Center(Part-1)
 
-## **Exercise 1: Enabling Azure Security Center for Azure Virtual Desktop environment**
+## Exercise 1: Enabling Azure Security Center for Azure Virtual Desktop environment
 
-### **Task 1: Enabling Azure Security Center**
+### Task 1: Enabling Azure Security Center
 
 1. In Azure Portal search for **Security Center** and click on it from the search results.
 
