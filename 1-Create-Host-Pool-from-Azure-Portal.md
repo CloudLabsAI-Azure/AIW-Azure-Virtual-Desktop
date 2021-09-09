@@ -2,7 +2,7 @@
 
  A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal. 
  
-### Getting Started with Lab	
+## Getting Started with Lab	
 
 1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
 
@@ -12,7 +12,7 @@
 
    ![](media/environmentdetails.png)	
 
-### **Exercise 1: Log in to Azure Portal**
+## Exercise 1: Log in to Azure Portal
 
 1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
 
@@ -49,7 +49,7 @@
    >**Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
 
-### **Exercise 2: Create Host Pool**
+## Exercise 2: Create Host Pool
 
 In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *AVD-HP01-SH-0* and *AVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *AVD-WS-01*.
 
