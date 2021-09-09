@@ -55,15 +55,15 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
 1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
-   ![ws name.](media/avd1.png) 
+   ![ws name.](media/2avd1.png) 
 
 2. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Host pools** under **Manage** blade
 
-   ![ws name.](media/avd2.png)
+   ![ws name.](media/2avd2.png)
 
 3. Now, click on **+ Create** to add create new Host Pool.
 
-   ![ws name.](media/avd3.png)
+   ![ws name.](media/2avd3.png)
 
 4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
@@ -97,7 +97,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    
    - Then click on **Next:Virtual Machines**.
    
-   ![ws name.](media/avd4.png)  
+   ![ws name.](media/2avd5.png)  
    
 5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
@@ -193,7 +193,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
     > 
     >ii. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you **DO NOT** delete any other resources other than the ones shown in screenshot below.
     >
-    > ![ws name.](media/w27.png)
+    > ![ws name.](media/2avd6.png)
     >
     >iii. Now under *Confirm delete* type **yes** in the bar and click on **Delete**.
     > 
