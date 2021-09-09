@@ -2,7 +2,7 @@
 
 The Azure Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
 
-### **Exercise 1: Create Storage account and file share**
+## Exercise 1: Create Storage account and file share
 
 In the following task, we will be creating a storage account with a file share which will be used to store user profiles for FSlogix.
 
@@ -63,7 +63,7 @@ In the following task, we will be creating a storage account with a file share w
    
 8. In the storage account, click on **File shares** present under **Data storage** blade. Then click on **Not configured** under **File share settings** page.
 
-   ![ws name.](media/notconfigured.png)
+   ![ws name.](media/2avd9.png)
 
 9. Click on **Set up** under **Azure Active Directory Domain Services** for enabling Identity-based access to users.
 
@@ -71,7 +71,7 @@ In the following task, we will be creating a storage account with a file share w
 
 10. Select **Enable** for the Azure Active Directory Domain Services and then click on **Save**.
      
-    ![ws name.](media/EnableAADDS.png)
+    ![ws name.](media/2avd10.png)
     
     >**Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
  
@@ -85,9 +85,9 @@ In the following task, we will be creating a storage account with a file share w
     - Tier: **Transaction Optimized**
     - Click on **Create**, this will create the file share.
     
-    ![ws name.](media/fileshares.png)
+    ![ws name.](media/2avd11.png)
     
-### **Exercise 2: Configure File share**
+## Exercise 2: Configure File share
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
    
@@ -116,7 +116,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
    - Then click on **Save**.
    
-   ![ws name.](media/role_assignment1.png)
+   ![ws name.](media/2avd12.png)
  
 ### **Exercise 3: Configure Session Hosts**
 
@@ -323,7 +323,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
-    ![ws name.](media/jvm8.png)
+    ![ws name.](media/2avd13.png)
     
 19. Click on **OK** to *Log off the user from VMs*.
 
