@@ -79,7 +79,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
     - Application Source: **Start Menu** *(choose from the dropdown)*   
     - Application: **Word** *(choose from the dropdown)*
-    - Display Name: **_Add a display name for your application._ **
+    - Display Name: **_Add a display name for your application._**
     - Leave rest of the parameters to default and click on **Save**.  
    
     ![ws name.](media/wordapp-01.png)
