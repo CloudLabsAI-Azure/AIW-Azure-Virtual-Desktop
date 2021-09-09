@@ -1,4 +1,4 @@
-# **Lab 3 (Part-1): Onboard AVD to Azure Security Center**
+# Lab 3 (Part-1): Onboard AVD to Azure Security Center
 
 ## **Exercise 1: Enabling Azure Security Center for Azure Virtual Desktop environment**
 
