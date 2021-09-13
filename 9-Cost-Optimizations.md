@@ -20,7 +20,7 @@
 
 5. On the create a custom role page, Provide **Custom role name** as **start VM on connect** *(1)* and click on **Next** *(2)*.
 
-   ![](media/2AVD14.png)
+   ![](media/2avd16.png)
 
 6. Under the Permissions tab, click on **+ Add Permissions**.
 
@@ -60,7 +60,7 @@
   
 2. On the left-hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
 
-   ![](media/avdv230.png)
+   ![](media/2avd17.png)
   
 3. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
 
