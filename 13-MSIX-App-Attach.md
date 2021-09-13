@@ -60,7 +60,7 @@
 
    ![ws name.](media/msix11.png)
    
-   >**NOTE**: **This step is required for this lab only. In the production environment, this is not required. You will use Azure active directory and Access control(IAM) to control access to the MSIX VHD file. For more information refer to ***Link yet to be Searched***.
+   >**NOTE**: **This step is required for this lab only**. In the production environment, this is not required. You will use Azure active directory and Access control(IAM) to control access to the MSIX VHD file. For more information refer to ***Link yet to be Searched***.
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
@@ -100,7 +100,7 @@
 
    ![ws name.](media/msix16.png)
 
-   Click on **Add*.
+   Click on **Add**.
    
 1. For **Display name**, provide **7-Zip** as the value and enable state as **active**. Click on **Add**.
 
