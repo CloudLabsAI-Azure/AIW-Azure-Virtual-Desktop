@@ -186,7 +186,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
     
     ```diff
 
-    -  [OPTIONAL STEP – ONLY needed in case the step before failed!]
+    - [OPTIONAL STEP – ONLY needed in case the step before failed!]
 
     ```
   
