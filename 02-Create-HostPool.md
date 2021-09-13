@@ -173,7 +173,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    ![ws name.](media/69.png)
 
 
-10. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+10. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
     ![ws name.](media/ch4.png)
 
@@ -183,9 +183,14 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
     ![ws name.](media/71.png)
 
-    > **[Optional]**
-    >
-    > **Note:** In case the previous deployment for Host Pool fails, follow the below steps. Else, continue from step 13:
+    
+    ```diff
+
+    -  [OPTIONAL STEP – ONLY needed in case the step before failed!]
+
+    ```
+  
+    > **Important Note:** In case the previous step for the Host Pool fails, only then follow the steps below. Otherwise continue from step 13
     >
     >i. Go to the **AVD-RG** resource group and click on **Overview**.
     >
