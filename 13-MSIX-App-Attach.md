@@ -1,5 +1,7 @@
 # Lab 13: MSIX App Attach
-1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
+
+1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
+
 1. In the right pane, click on **File shares** present under *Data Storage* blade.
 
     ![ws name.](media/uiupdate10.png)
@@ -46,7 +48,7 @@
 
    ![ws name.](media/msix8.png)
    
-1. Go to home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
+1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
    ![ws name.](media/msix9.png)
    
@@ -58,9 +60,9 @@
 
    ![ws name.](media/msix11.png)
    
-   >**NOTE**: **This step is only required for this lab only. In the production environment, this is not required. You will use Azure active directory and Acess control(IAM) to control access to MSIX VHD file. For more information refer to ***Link yet to be Searched***.
+   >**NOTE**: **This step is required for this lab only. In the production environment, this is not required. You will use Azure active directory and Access control(IAM) to control access to the MSIX VHD file. For more information refer to ***Link yet to be Searched***.
    
-1. Go to home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
+1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
    ![ws name.](media/msix12.png)
    
@@ -78,7 +80,7 @@
 
    ![ws name.](media/msix15.png)
 
-1. Navigate to Azure portal, then search for *Azure Virtual Desktop* in search bar and select **Azure Virtual Desktop** from the suggestions.
+1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
@@ -100,7 +102,7 @@
 
    Click on **Add*.
    
-1. For **Display name**, provide **7-Zip** as the value and enable state as **active**. click on **Add**.
+1. For **Display name**, provide **7-Zip** as the value and enable state as **active**. Click on **Add**.
 
    ![ws name.](media/msix21.png)
    
@@ -114,13 +116,13 @@
    
 1. In **Add Application** tab, 
 
-    - For **Application Source**, select **MSIX Package** from the drop-down. 
-    - For **Application name**, provide **7-Zip** as the value.
-    - CLick on **save**.
+   - For **Application Source**, select **MSIX Package** from the drop-down. 
+   - For **Application name**, provide **7-Zip** as the value.
+   - CLick on **save**.
 
-    ![ws name.](media/msix23.png)
+   ![ws name.](media/msix23.png)
     
-1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -138,7 +140,7 @@
 
    ![ws name.](media/96.png)
    
-   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
    ![](media/skipfornow.png)
 
