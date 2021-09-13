@@ -8,25 +8,24 @@
 
 2. Enter Azure Virtual Desktop into the search bar, then find and select Azure Virtual Desktop under Services.
 
-  ![](media/w1.png)
+   ![](media/w1.png)
 
-3. In the Azure Virtual Desktop overview page, select **Per-user access pricing** *(1)* from left hand blade under Licensing.
+3. In the Azure Virtual Desktop overview page, select **Per-user access pricing** *(1)* from the left-hand blade under Licensing.
 
-  - In the list of subscriptions, select your subscription *(2)*
-  - Select **Enroll** *(3)*.
+   - In the list of subscriptions, select your subscription *(2)*
+   - Select **Enroll** *(3)*.
 
-  ![](media/avdv237.png)
+   ![](media/avdv237.png)
 
 5. Review the Product Terms, then select **Enroll** to begin enrollment. It may take up to an hour for the enrollment process to finish.
 
-  ![](media/avdv238.png)
+   ![](media/avdv238.png)
 
 6. After enrollment is done, check the value in the Per-user access pricing column of the subscriptions list to make sure it's changed from “Enrolling” to “**Enrolled**.”
 
+### **Task 2: Accessing application as an external user**
 
-### **Task 2: Accessing application as a external user**
-
-1. Return to WVD client application. On WVD dashboard, click on the application you want to launch.
+1. Return to WVD client application. On the AVD dashboard, click on the application you want to launch.
 
    ![ws name.](media/ex4t2s2.png)
    
@@ -42,7 +41,6 @@
 
    ![ws name.](media/ex4t2s4.png)
 
-4. Your application will launch as a external user and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
-        
-     
+4. Your application will launch as an external user and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+          
 5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
