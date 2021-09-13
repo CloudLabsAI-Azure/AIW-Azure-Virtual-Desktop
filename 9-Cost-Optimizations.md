@@ -6,23 +6,23 @@
 
 1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
 
-2. Now in Aure portal search for **SUbscription* and click on the search result.
+2. Now in the Azure portal search for **Subscription* and click on the search result.
 
    ![](media/avdv219.png)
 
-3. On the Subscription page click on the name of your subscription.
+3. On the Subscription page, click on the name of your subscription.
 
    ![](media/avdv220.png)
   
-4. Now from the left hand side blade Click on **Access Control (IAM)** and then click on **+ Add** and select **Add custom role**.
+4. Now from the left-hand side blade, Click on **Access Control (IAM)** and then click on **+ Add** and select **Add custom role**.
 
    ![](media/avdv221.png)
 
-5. On the create a custom role page provide **Custom role name** as **start VM on connect** *(1)* and click on **Next** *(2)*.
+5. On the create a custom role page, Provide **Custom role name** as **start VM on connect** *(1)* and click on **Next** *(2)*.
 
    ![](media/2AVD14.png)
 
-6. Under Permissions tab click on **+ Add Permissions**.
+6. Under the Permissions tab, click on **+ Add Permissions**.
 
    ![](media/avdv223.png)
 
@@ -54,17 +54,17 @@
 
 ### **Task 1: Configuring Host pool Properties**
 
-1. In Azure portal search for **Azure Virtual Desktop** and click on it.
+1. In the Azure portal search for **Azure Virtual Desktop** and click on it.
 
-  ![](media/avdv229.png)
+   ![](media/avdv229.png)
   
-2. On the left hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
+2. On the left-hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
 
-  ![](media/avdv230.png)
+   ![](media/avdv230.png)
   
-3. On left hand side blade of the Host pool page. click on **Properties** *(1)*
+3. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
 
-  ![](media/avdv231.png)
+   ![](media/avdv231.png)
   
    - Toggle Start VM on connect to **Yes** *(2)*.
    - Click on **Save** *(3)*.
@@ -87,7 +87,7 @@
   
 ### Task 2: Access the Session host desktop
 
-1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+1. Return to WVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/ex4t2s2.png)
    
@@ -109,7 +109,7 @@
         
    ![ws name.](media/ex4t2s5.png)   
      
-5. Return to the Azure portal and click on **refresh** *(1)* to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the sessionDesktop was launched.
+5. Return to the Azure portal and click on **refresh** *(1)* to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
    ![](media/avdv236.png)
   
