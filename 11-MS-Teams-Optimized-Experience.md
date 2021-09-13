@@ -1,6 +1,6 @@
 # Lab 11: MS Teams Optimized Experience
 
-1. Navigate to Azure portal, then search for Azure Virtual Desktop in search bar and select Azure Virtual Desktop from the suggestions.
+1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
    ![ws name.](media/w1.png)
 
@@ -20,7 +20,7 @@
 
    ![ws name.](media/teams4.png)
    
-1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message wil be displayed in output window
+1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
 
    ```
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
@@ -53,7 +53,7 @@
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
 
-1. Navigate to Azure portal, then search for Azure Virtual Desktop in search bar and select Azure Virtual Desktop from the suggestions.
+1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
    ![ws name.](media/w1.png)
    
@@ -81,7 +81,7 @@
    
    ![ws name.](media/teams10.png)
 
-1. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+1. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -99,7 +99,7 @@
 
    ![ws name.](media/96.png)
    
-   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
    ![](media/skipfornow.png)
 
@@ -107,7 +107,7 @@
 
    ![ws name.](media/ex4t1s9.png)
   
-1. The WVD dashboard will launch, then double click on Teams application to access it.
+1. The WVD dashboard will launch, then double click on the Teams application to access it.
 
    ![ws name.](media/teams12.png)
    
@@ -149,7 +149,7 @@
 
    ![ws name.](media/teams15.png)
    
-1. Click on **Allow access** on Windows Security Alert prompt.
+1. Click on **Allow access** on the Windows Security alert prompt.
 
    ![ws name.](media/teams16.png)
    
