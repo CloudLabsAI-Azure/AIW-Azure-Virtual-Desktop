@@ -39,6 +39,10 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lb60.png)
    
+1. You can check the deployment  by clicking on **Go to resource**.
+
+   ![ws name.](media/2avd15.png)
+   
 ## **Exercise 2: Enable diagnostics for Workspace**
  
 1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
