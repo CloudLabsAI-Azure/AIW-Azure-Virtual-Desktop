@@ -1,5 +1,5 @@
 
-# Lab 2 Monitoring using Log Analytics(Part 1)
+# Lab 2: Monitoring using Log Analytics(Part 1)
 
 Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
 
@@ -39,17 +39,17 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lb60.png)
    
-   ### **Exercise 2: Enable diagnostics for Workspace**
+## **Exercise 2: Enable diagnostics for Workspace**
  
 1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
    ![ws name.](media/avd1.png) 
 
-1. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
+1. You will get directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
    ![ws name.](media/mon2.png)
    
-1. In **Insights** page, Select the following values and click on **open configuration Workbook**.
+1. On **Insights** page, Select the following values and click on **open configuration Workbook**.
    
    - Subscription: **Choose the default subscription**.
    - Resource group: **AVD-RG**.
@@ -62,11 +62,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon4.png)
    
-1. In **Deploy template** page, The diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
+1. On **Deploy template** page, The diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
    ![ws name.](media/mon5.png)
    
-1. Once the deployment is successfull, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
+1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
    ![ws name.](media/mon6.png)
    
@@ -74,11 +74,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon7.png)
    
-1. In **Deploy template** page, The diagnostic settings for the workspace are automated using a template. Look through the categories select and click on **deploy**.
+1. On **Deploy template** page, The diagnostic settings for the workspace are automated using a template. Look through the categories select and click on **deploy**.
 
    ![ws name.](media/mon8.png) 
 
-1. Once the deployment is successfull, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the workspace.
+1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the workspace.
 
    ![ws name.](media/mon9.png)
    
@@ -86,7 +86,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon13.png)
    
-1. In **Deploy template** page, Both the session host will be configured to send data to the selected workspace. Click on **Deploy**.
+1. On **Deploy template** page, Both the session host will be configured to send data to the selected workspace. Click on **Deploy**.
 
    ![ws name.](media/mon11.png)
    
@@ -94,11 +94,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon14.png)
    
-1. In **Deploy template** page, The required performance counters will be added to Log Analytics workspace. Click on **Deploy**
+1. On **Deploy template** page, The required performance counters will be added to the Log Analytics workspace. Click on **Deploy**
 
    ![ws name.](media/mon15.png)
    
-1. Once the deployment is successfull, **Refresh** the **Check Configuration** page. You'll see that all the performance counters will be configured.
+1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see that all the performance counters will be configured.
 
    ![ws name.](media/mon16.png)
    
@@ -106,7 +106,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon17.png)
    
-1. In **Deploy template** page, The required events will be added to Log Analytics workspace. Click on **Deploy**.
+1. On **Deploy template** page, The required events will be added to the Log Analytics workspace. Click on **Deploy**.
 
    ![ws name.](media/mon18.png)
    
@@ -114,12 +114,4 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
    ![ws name.](media/mon19.png)
 
-   >**NOTE**: Now that all the configuration has be done successfully. you'll be checking the implementation later in Lab 2(part 2).
-
-
-
-
-
-   
-
-   
+   >**NOTE**: Now that all the configuration has been done successfully. you'll be checking the implementation later in Lab 2(part 2).
