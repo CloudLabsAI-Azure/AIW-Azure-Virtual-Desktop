@@ -75,15 +75,15 @@
 
 1. In Azure Portal search for **Virtual Machines** and click on it.
 
-  ![](media/avdv232.png)
+   ![](media/avdv232.png)
 
 2. Select the **session host VMs** *(1)* and click on **Stop** *(2)*.
 
-  ![](media/avdv233.png)
+   ![](media/avdv233.png)
   
 3. On a prompt saying "Do you want to stop the selected Virtual Machines" click on **Yes**.
 
-  ![](media/avdv234.png)
+   ![](media/avdv234.png)
   
 ### Task 2: Access the Session host desktop
 
