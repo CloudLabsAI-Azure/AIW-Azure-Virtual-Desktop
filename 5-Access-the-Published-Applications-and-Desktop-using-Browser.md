@@ -1,7 +1,7 @@
 # Lab 5: Access the Published Applications and Desktop using Browser
 
 
-## **Exercise 1: Access the Published Application**
+## Exercise 1: Access the Published Application
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using browser.
 
@@ -69,7 +69,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/ch8.png)
 
-## **Exercise 2: Access the published Desktop**
+## Exercise 2: Access the published Desktop
 
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
