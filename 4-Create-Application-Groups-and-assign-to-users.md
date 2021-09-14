@@ -5,7 +5,7 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 1. RemoteApp 
 2. Desktop 
 
-### **Exercise 1: Create Application Group**
+### Exercise 1: Create Application Group
 
 An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
