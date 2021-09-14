@@ -5,7 +5,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 > **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
 
-## **Exercise 1: Access the Published Applications**
+## Exercise 1: Access the Published Applications
 
 1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
 
@@ -95,7 +95,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/jvm10.png)
    
-## **Exercise 2: Access the Virtual Desktop**
+## Exercise 2: Access the Virtual Desktop
 
 1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
