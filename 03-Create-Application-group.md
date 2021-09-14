@@ -66,6 +66,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
     - Application Source: **Start Menu** *(choose from the dropdown)*  
     - Application: **Excel** *(choose from the dropdown)* 
+    - Display Name: **Excel**
     - Leave rest of the parameters to default and click on **Save**.
    
     ![ws name.](media/a34.png)
@@ -77,7 +78,8 @@ An application group of type ‘Desktop’ was created automatically while creat
 13. Choose the parameters as mentioned below: 
 
     - Application Source: **Start Menu** *(choose from the dropdown)*   
-    - Application: **Word** *(choose from the dropdown)*    
+    - Application: **Word** *(choose from the dropdown)* 
+    - Display Name: **Word**   
     - Leave rest of the parameters to default and click on **Save**.  
    
     ![ws name.](media/wordapp1.png)
