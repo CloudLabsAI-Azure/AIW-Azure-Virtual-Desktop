@@ -1,8 +1,8 @@
-# **Lab 12: Licensing Azure Virtual Desktop for external users**
+# Lab 12: Licensing Azure Virtual Desktop for external users
 
-## **Exercise 1: Enroll your subscription in per-user access pricing**
+## Exercise 1: Enroll your subscription in per-user access pricing
 
-### **Task 1: Enroll your subscription in per-user access pricing**
+### Task 1: Enroll your subscription in per-user access pricing
 
 1. Sign in to the Azure portal at https://portal.azure.com.
 
@@ -23,7 +23,7 @@
 
 6. After enrollment is done, check the value in the Per-user access pricing column of the subscriptions list to make sure it's changed from “Enrolling” to “**Enrolled**.”
 
-### **Task 2: Accessing application as an external user**
+### Task 2: Accessing application as an external user
 
 1. Return to WVD client application. On the AVD dashboard, click on the application you want to launch.
 
