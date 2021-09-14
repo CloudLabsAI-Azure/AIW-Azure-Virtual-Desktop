@@ -10,7 +10,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
  **2. Depth-first**:  Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
 
-### **Exercise 1: Add new users to Azure Active Directory**
+## Exercise 1: Add new users to Azure Active Directory
 
 1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
 
@@ -76,7 +76,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media/lb45.png)
      
-### **Exercise 2: Update Passwords for the new users**
+## Exercise 2: Update Passwords for the new users
 
 Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
 
@@ -126,7 +126,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
    >**Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
 
 
-### **Exercise 3: Change and experience Load Balancing methods**
+## Exercise 3: Change and experience Load Balancing methods
 
 **A**. **Breadth-first**
    
@@ -330,6 +330,5 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
     >Please follow the link given below to learn more about this feature. 
     >
     >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
-
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
