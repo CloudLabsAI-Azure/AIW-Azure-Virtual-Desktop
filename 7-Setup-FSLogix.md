@@ -118,7 +118,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
    ![ws name.](media/2avd12.png)
  
-### **Exercise 3: Configure Session Hosts**
+## Exercise 3: Configure Session Hosts
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
@@ -374,7 +374,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/wvd6.png)
    
-### **Exercise 4: Verifying the User profiles stored in File share**
+## Exercise 4: Verifying the User profiles stored in File share
 
 In this task, we will be accessing the file share to verify the user profiles stored in the *.vhd* format.
 
