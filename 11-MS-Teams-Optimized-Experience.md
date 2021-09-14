@@ -1,5 +1,9 @@
 # Lab 11: MS Teams Optimized Experience
 
+## Exercise 1: Configuring Session host for implementing MS Teams
+
+   >**NOTE**: Make sure both the session hosts are running.
+   
 1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
    ![ws name.](media/w1.png)
@@ -35,6 +39,14 @@
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
 
+   Write-Output "The application is installed successfully"
+   
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/7-Zip.vhd","C:\LabFiles\7-Zip.vhd")
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/msix.cer","C:\LabFiles\msix.cer")
+
    Write-Output "The script is executed successfully"
    
    ```
@@ -67,6 +79,7 @@
    
    - **Application Source**: Start menu.
    - **Application**: Search for **Microsoft Teams** and select the same from dropdown.
+   - **Display name**: Microsoft Teams.
    - **Leave** the other option as **defaults**.
    
    ![ws name.](media/teams10.png)
