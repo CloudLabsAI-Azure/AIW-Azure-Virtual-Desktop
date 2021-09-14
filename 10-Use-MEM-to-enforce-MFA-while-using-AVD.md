@@ -1,6 +1,6 @@
-# **Lab 10: Use MEM to enforce MFA while using AVD**
+# Lab 10: Use MEM to enforce MFA while using AVD
 
-### **Exercise 1: Setup Multi-Factor Authentication (MFA)**
+### Exercise 1: Setup Multi-Factor Authentication (MFA)
 
 1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to login then login using the following credentials:
 
@@ -34,7 +34,7 @@
 
    ![](media/avdv214.png)
   
-### **Exercise 2: Creating Conditional Access Policy**
+### Exercise 2: Creating Conditional Access Policy
 
 1. In Azure POrtal search for *Azure Active Directory* and click on the search result.
 
