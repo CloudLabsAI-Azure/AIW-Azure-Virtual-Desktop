@@ -54,7 +54,7 @@ An application group of type ‘Desktop’ was created automatically while creat
       - Host Pool: *Select* **AVD-HP-01** *Host pool from the dropdown*.
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
-      - Click on **Next:Applications**
+      - Click on **Next: Applications**
 
       ![ws name.](media/uiupdate03.png)
 
@@ -69,7 +69,7 @@ An application group of type ‘Desktop’ was created automatically while creat
     - Display Name: **Excel**
     - Leave rest of the parameters to default and click on **Save**.
    
-    ![ws name.](media/a34.png)
+    ![ws name.](media/2avd29.png)
  
 12. Click on **Add Applications** again. 
 
@@ -82,7 +82,7 @@ An application group of type ‘Desktop’ was created automatically while creat
     - Display Name: **Word**    
     - Leave rest of the parameters to default and click on **Save**.  
    
-    ![ws name.](media/wordapp1.png)
+    ![ws name.](media/2avd30.png)
 
 14. Click on **Next: Assignments**.
 
