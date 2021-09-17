@@ -7,7 +7,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
-   ```aka.ms/wvdarmweb``` 
+   ``` 
+   aka.ms/wvdarmweb 
+   ``` 
 
    >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
 
