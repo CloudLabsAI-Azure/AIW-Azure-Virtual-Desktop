@@ -30,9 +30,9 @@
    
 1. Select the following options and click **Save**
 
-   -Role: Search and select **Storage File Data SMB share Contributor** role.
-   -Assign access to: **User, groups, or service principal**.
-   -Select: Search and select **<inject key="AzureAdUserEmail" />** user.
+   - Role: Search and select **Storage File Data SMB share Contributor** role.
+   - Assign access to: **User, groups, or service principal**.
+   - Select: Search and select **<inject key="AzureAdUserEmail" />** user.
    
    ![ws name.](media/msix6.png)
    
