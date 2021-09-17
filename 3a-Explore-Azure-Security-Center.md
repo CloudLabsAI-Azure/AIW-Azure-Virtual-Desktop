@@ -2,6 +2,8 @@
 
 Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud - whether they're in Azure or not - as well as on premises.
 
+In this lab, We'll be configuring Azure Security service for AVD.
+
 ## Exercise 1: Enabling Azure Security Center for Azure Virtual Desktop environment
 
 ### Task 1: Enabling Azure Security Center
