@@ -63,7 +63,7 @@ In the following task, we will be creating a storage account with a file share w
    
 8. In the storage account, click on **File shares** present under **Data storage** blade. Then click on **Not configured** under **File share settings** page.
 
-   ![ws name.](media/2avd9.png)
+   ![ws name.](media/2avd32.png)
 
 9. Click on **Set up** under **Azure Active Directory Domain Services** for enabling Identity-based access to users.
 
@@ -93,7 +93,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Open on the file share we created earlier.
 
-   ![ws name.](media/a65.png)
+   ![ws name.](media/2avd33.png)
      
    >**Note:** Overview page of the file share will look as shown below. The user won't have access to it until we perform the next steps of this task. 
 
@@ -402,7 +402,7 @@ In this task, we will be accessing the file share to verify the user profiles st
       
 5. Click on the **userprofile** fileshare.
 
-   ![ws name.](media/a65.png)
+   ![ws name.](media/2avd33.png)
 
 6. You will see the user folder created in the file share, click on the folder.
 
