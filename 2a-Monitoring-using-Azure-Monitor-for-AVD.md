@@ -1,5 +1,5 @@
 
-# Lab 2: Monitoring using Log Analytics(Part 1)
+# Lab 2: Monitoring using Log Analytics (Part 1)
 
 Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
 
@@ -60,7 +60,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Host Pool: **AVD-HP-01**
    - Time range: **Leave it to default**.
 
-   ![ws name.](media/mon3.png)
+   ![ws name.](media/2avd21.png)
 
 1. In **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name	" />** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool**.
 
@@ -72,7 +72,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media/mon6.png)
+   ![ws name.](media/2avd22.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
@@ -84,7 +84,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/mon9.png)
+   ![ws name.](media/2avd22.png)
    
 1. On **Check Configuration** page, Select **Session host data settings**. Select the **<inject key="Log Analytics Workspace Name	" />** analytics workspace and click on **Add host to workspace**.
 
@@ -104,7 +104,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see that all the performance counters will be configured.
 
-   ![ws name.](media/mon16.png)
+   ![ws name.](media/2avd24.png)
    
 1. On the same **Check Configuration** page, scroll down and click on **Configure events** in **Windows event logs** window.
 
