@@ -22,7 +22,7 @@
  
 1. Under **Operations** blade, Select **Run Command**. Select **RunPowerShellScript**.
 
-   ![ws name.](media/teams4.png)
+   ![ws name.](media/teams18.png)
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
 
@@ -51,9 +51,52 @@
    
    ```
 
-   ![ws name.](media/teams5.png)
+   ![ws name.](media/teams19.png)
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
+
+   > **NOTE**: The above mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
+
+1. Similarily for the 2nd session host, Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-1.azurehol1019.onmicrosoft.com** session host.
+
+   ![ws name.](media/teams17.png)
+   
+1. Under **Operations** blade, Select **Run Command**. Select **RunPowerShellScript**.
+
+   ![ws name.](media/teams18.png)
+   
+1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
+
+   ```
+   reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi","C:\RTC.msi")
+
+   msiexec /i C:\RTC.msi /qn
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
+
+   msiexec /i C:\AVDTeams.msi ALLUSER=1
+
+   Write-Output "The application is installed successfully"
+   
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/7-Zip.vhd","C:\LabFiles\7-Zip.vhd")
+
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/msix.cer","C:\LabFiles\msix.cer")
+
+   Write-Output "The script is executed successfully"
+   
+   ```
+
+   ![ws name.](media/teams19.png)
+
+   >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
+
+   > **NOTE**: The above mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
 
 1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
