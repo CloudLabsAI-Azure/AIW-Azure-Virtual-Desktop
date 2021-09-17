@@ -331,7 +331,11 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     >**Note:** This will log off the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
         
-20. Now paste this link ```aka.ms/wvdarmweb``` in your browser in the JumpVM, and enter your **credentials** to login. 
+20. Now paste below mentioned link in your browser in the JumpVM, and enter your **credentials** to login.
+
+    ```
+    aka.ms/wvdarmweb
+    ```  
 
     - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
    
