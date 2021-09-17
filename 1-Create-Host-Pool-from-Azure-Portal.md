@@ -112,17 +112,17 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    - Virtual machine location: **East US**, *location should be same as location of your resource group*.
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
    - Image type: **Gallery**
-   - Image: **Windows 10 Enterprise multi-session, version 1909 + Microsoft 365 Apps** *(choose from dropdown)*
-   - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
+   - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps (GEN 2)** *(choose from dropdown)*
+   - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
    
-   ![ws name.](media/ch1.png)
+   ![ws name.](media/2avd18.png)
 
    - Number of VMs: **2**
    - OS disk type: **Standard SSD**
    - Use managed disks: *Leave to default*
    - Boot Diagnostics: **Disable**
    
-   ![ws name.](media/uiupdate02.png)
+   ![ws name.](media/2avd19.png)
     
    **B**. Network and Security:
     
@@ -130,6 +130,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
     
    - Virtual network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
+   - Network Security Group: **Basic**
    - Public inbound ports: **No**
  
    ![ws name.](media/network-security.png)
@@ -179,16 +180,24 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
     > **Note:** The deployment will take about 15 minutes to succeed.
 
-11. Once the deployment is succeeded, open notifications and click on **Go to Resource**.  
+11. Once the deployment is succeeded, On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
-    ![ws name.](media/71.png)
+    ![ws name.](media/2avd1.png) 
 
-12. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
+12. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Host pools** under **Manage** blade
+
+    ![ws name.](media/2avd2.png)
+    
+13. Select the **AVD-HP-01** host pool which was created in this exercise.
+
+    ![ws name.](media/2avd20.png)
+
+14. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
 
     ![ws name.](media/ex1t2s14.png)
 
-13. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
+15. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
     ![ws name.](media/86.png)
 
-14. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
