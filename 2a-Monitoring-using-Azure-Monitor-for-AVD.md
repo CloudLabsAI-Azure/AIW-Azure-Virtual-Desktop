@@ -53,7 +53,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon2.png)
    
-1. On **Insights** page, Select the following values and click on **open configuration Workbook**.
+1. On **Insights** page, Select the following values and click on **Open Configuration Workbook**.
    
    - Subscription: **Choose the default subscription**.
    - Resource group: **AVD-RG**.
