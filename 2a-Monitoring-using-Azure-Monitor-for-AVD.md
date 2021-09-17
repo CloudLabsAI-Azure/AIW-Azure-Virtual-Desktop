@@ -43,7 +43,9 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/2avd15.png)
    
-1. Under **Workspace Data Sources** side blade, select **Virtual machines** and click on **AVD-HP01-SH-0** virtual machine. 
+## Walkaround to configure session hosts for Azure Monitor:
+
+1. In Log Analytics Workspace under **Workspace Data Sources** side blade, select **Virtual machines** and click on **AVD-HP01-SH-0** virtual machine. 
 
    ![ws name.](media/2avd25.png)
    
