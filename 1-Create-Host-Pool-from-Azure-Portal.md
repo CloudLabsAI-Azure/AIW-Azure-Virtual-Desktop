@@ -67,7 +67,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
 4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
-   **Project Details – (A)** Defines the Host Pool environment 
+   **A**. Project Details Defines the Host Pool environment 
 
    - Subscription: *Choose the default subscription*.
    - Resource Group: *Select **AVD-RG** from the drop down*.
@@ -77,7 +77,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
             
-   **Host Pool Type – (B)** Defines the type of host pool. 
+   **B**. Host Pool Type Defines the type of host pool. 
 
    - Host pool type: **Pooled** 
         
