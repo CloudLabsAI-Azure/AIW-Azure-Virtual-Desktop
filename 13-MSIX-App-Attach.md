@@ -74,7 +74,56 @@
 
    ![ws name.](media/msix11.png)
    
-# ADD STEPS TO INSTALL CERTIFICATE INTO THE SESSION VM.
+1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
+
+   ![ws name.](media/msix9.png)
+   
+1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+    
+   ![ws name.](media/msix10.png)
+   
+1. **Copy** the code mentioned below and paste the same into the window and click on **Run**.   
+
+   ```
+   
+   Import-Certificate -FilePath C:\LabFiles\msix.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople 
+   
+   ```
+   
+   ![ws name.](media/msix26.png)
+   
+   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
+   
+1. Once the execution iz completed, you'll be able see similar output as mentioned below.
+
+   ![ws name.](media/msix27.png)
+
+1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
+
+   ![ws name.](media/msix12.png)
+   
+1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+    
+   ![ws name.](media/msix13.png)
+   
+1. 1. **Copy** the code mentioned below and paste the same into the window and click on **Run**.   
+
+   ```
+   
+   Import-Certificate -FilePath C:\LabFiles\msix.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople 
+   
+   ```
+   
+   ![ws name.](media/msix26.png)
+   
+   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-1 session host.
+   
+1. Once the execution iz completed, you'll be able see similar output as mentioned below.
+
+   ![ws name.](media/msix27.png)
+   
+   
+   
 
 1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
 
