@@ -1,4 +1,6 @@
-# Lab 3: Onboard AVD to Azure Security Center(Part-1)
+# Lab 3: Onboard AVD to Azure Security Center (Part-1)
+
+Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud - whether they're in Azure or not - as well as on premises.
 
 ## Exercise 1: Enabling Azure Security Center for Azure Virtual Desktop environment
 
