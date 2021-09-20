@@ -48,17 +48,17 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/lb12.png)
 
-1. Click on the **AVD users** group and then click on **Select**.
+1. Click on the **permission - fslogixcontainer** group and then click on **Select**.
 
-   ![ws name.](media/2avd37.png)
+   ![ws name.](media/2avd43.png)
 
 1. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/im31.png)
 
-1. Click on the **AVD users** group and then click on **Select**.
+1. Click on the **permission - fslogixcontainer** group and then click on **Select**.
 
-   ![ws name.](media/2avd37.png)
+   ![ws name.](media/2avd43.png)
 
 1. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
