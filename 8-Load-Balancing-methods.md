@@ -137,11 +137,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
 
@@ -159,9 +159,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
-   - Password: *Paste the password* **Azure1234567**
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
    
    ![ws name.](media/lb52.png)
 
@@ -185,9 +185,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter the user credentials to access the workspace.
 
-   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
    
-   - Password: *Paste the password* **Azure1234567**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
    ![ws name.](media/password2.png)
 
@@ -205,8 +205,8 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
-   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
    ![ws name.](media/lb37.png)
   
@@ -264,11 +264,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.*
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
  
@@ -286,9 +286,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
-   - Password: *Paste the password* **Azure1234567**
+   - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
    ![ws name.](media/lb52.png)
 
@@ -312,9 +312,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter the user credentials to access the workspace.
 
-   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
    
-   - Password: *Paste the password* **Azure1234567**.
+   - Password: *Paste the password* **<inject key="AVD User Password" />**.
 
    ![ws name.](media/password2.png)
 
@@ -332,8 +332,8 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
-   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Password: *Paste the* **<inject key="AVD User Password" />***and click on* **OK**.* 
    
    ![ws name.](media/lb37.png)
   
