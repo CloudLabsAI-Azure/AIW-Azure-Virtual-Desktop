@@ -52,11 +52,11 @@
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
 
