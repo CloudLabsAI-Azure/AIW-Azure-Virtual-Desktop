@@ -37,6 +37,10 @@
    >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
    
     ![](media/skipfornow.png)
+    
+4. **Close** the recomendation page by clicking on the X mark.
+
+   ![](media/2avd46.png)
 
 4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
 
