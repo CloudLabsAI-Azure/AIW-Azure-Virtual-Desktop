@@ -131,7 +131,11 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
    
 While creating AVD-HP-01 host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on AVD-HP-01 with both users simultaneously and see the user distribution.
 
-1. Paste this link ```aka.ms/wvdarmweb``` in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+
+   ```
+   aka.ms/wvdarmweb
+   ```
 
    - Username: *Paste username* **AVDUser01** *which you copied earlier and then click on **Next**.*
    
