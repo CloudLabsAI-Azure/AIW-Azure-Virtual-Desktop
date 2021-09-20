@@ -46,13 +46,17 @@
     
    >**NOTE**: Keep the application open and do not close the Remote Desktop client.
    
-1. Paste this link ```aka.ms/wvdarmweb``` in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
-   - Username: *Paste username* **<inject key="AVD User 01" />** *which you copied earlier and then click on **Next**.*
+   ```
+   aka.ms/wvdarmweb
+   ```
+
+   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
    ![ws name.](media/username.png)
 
-   - Password: *Paste the password* **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password* **Azure1234567** *and click on* **Sign in**.
 
    ![ws name.](media/password.png)
 
@@ -66,13 +70,13 @@
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/uiupdate05.png)
+   ![ws name.](media/2avd31.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username of* **<inject key="AVD User 02" />** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />**
    
-   - Password: *Paste the password* **<inject key="AVD User Password" />**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />**
    
    ![ws name.](media/lb52.png)
 
