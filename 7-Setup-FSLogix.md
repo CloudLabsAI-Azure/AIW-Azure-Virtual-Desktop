@@ -89,7 +89,38 @@ In the following task, we will be creating a storage account with a file share w
     
 ## Exercise 2: Configure File share
 
-In this task, we will give *Storage File Data SMB Share Contributor* permissions to **<inject key="AzureAdUserEmail" />** so that their profiles can be stored in the fileshare.
+In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the fileshare.
+
+1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
+
+   ![ws name.](media/lb34.png)
+   
+1. Click on **Groups** under *Manage* blade.
+
+   ![ws name.](media/2avd34.png)
+   
+1. Click on **+ New group** to add a new group.
+
+   ![ws name.](media/2avd35.png)
+   
+1. Add the following configurations and leave rest to default:
+
+   - Group name: **permission - fslogixcontainer**
+   - Click on **Create**.
+
+   ![ws name.](media/2avd38.png)
+   
+1. Click on **permission - fslogixcontainer** group to open.
+
+   ![ws name.](media/2avd39.png)
+   
+1. Select **Member** from **Manage** blade and select **Add members**.
+
+   ![ws name.](media/2avd40.png)
+   
+1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select**.
+
+   ![ws name.](media/2avd41.png)
    
 1. Open on the file share we created earlier.
 
@@ -112,11 +143,11 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    > - *Storage File Data SMB Share Contributor* allows read, write, and delete access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
-   - Under **Select** search paste your username **<inject key="AzureAdUserEmail" />** and select it.
+   - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
    
    - Then click on **Save**.
    
-   ![ws name.](media/2avd12.png)
+   ![ws name.](media/2avd42.png)
  
 ## Exercise 3: Configure Session Hosts
 
