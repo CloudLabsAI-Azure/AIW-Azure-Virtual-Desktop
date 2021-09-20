@@ -15,16 +15,35 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
 
    ![ws name.](media/lb34.png)
+   
+1. Click on **Groups** under *Manage* blade.
 
-2. Click on **Users** under *Manage* blade.
+   ![ws name.](media/2avd34.png)
+   
+1. Click on **+ New group** to add a new user.
+
+   ![ws name.](media/2avd35.png)
+   
+1. Add the following configurations and leave rest to default:
+
+   - Group name: **AVD users**
+   - Click on **Create**.
+
+   ![ws name.](media/2avd36.png)
+
+1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
+
+   ![ws name.](media/lb34.png)
+
+1. Click on **Users** under *Manage* blade.
 
    ![ws name.](media/lb6.png)
 
-3. Click on **+ New user** to add a new user.
+1. Click on **+ New user** to add a new user.
 
    ![ws name.](media/lb5.png)
 
-4. Add the following configurations and leave rest to default:
+1. Add the following configurations and leave rest to default:
 
    - User name: **AVDUser01**
    - Name: **AVDUser01**
@@ -32,7 +51,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/lb8.png)
 
-5. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
+1. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
 
    - User name: **AVDUser02**
    - Name: **AVDUser02**
@@ -40,39 +59,39 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    
    ![ws name.](media/lb7.png)
 
-6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
+1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
    ![ws name.](media/lb11.png)
 
-7. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+1. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/lb12.png)
 
-8. Click on the **AAD DC Administrators** group and then click on **Select**.
+1. Click on the **AVD users** group and then click on **Select**.
 
-   ![ws name.](media/lb13.png)
+   ![ws name.](media/2avd37.png)
 
-9. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+1. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/im31.png)
 
-10. Click on the **AAD DC Administrators** group and then click on **Select**.
+1. Click on the **AVD users** group and then click on **Select**.
 
-    ![ws name.](media/lb13.png)
+   ![ws name.](media/2avd37.png)
 
-11. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+1. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
     ![ws name.](media/lb40.png)
 
-12. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+1. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
     ![ws name.](media/lb41.png)
    
-13. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
+1. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
     ![ws name.](media/lb42.png)
 
-14. Once done, the users assigned to the Application group will look similar to the image given below.
+1. Once done, the users assigned to the Application group will look similar to the image given below.
 
     ![ws name.](media/lb45.png)
      
