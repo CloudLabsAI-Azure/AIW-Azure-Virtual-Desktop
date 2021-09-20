@@ -137,7 +137,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Paste username* **AVDUser01** *which you copied earlier and then click on **Next**.*
+   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
    ![ws name.](media/username.png)
 
@@ -155,11 +155,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/uiupdate05.png)
+   ![ws name.](media/2avd31.png)
 
 4. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username of* **AVDUser01** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
    - Password: *Paste the password* **Azure1234567**
    
@@ -185,7 +185,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 10. Enter the user credentials to access the workspace.
 
-    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**), then click on **Next**.*
+    - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
     - Password: *Paste the password* **Azure1234567**.
 
@@ -201,7 +201,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 12. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**)*
+    - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
     - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
     ![ws name.](media/lb37.png)
