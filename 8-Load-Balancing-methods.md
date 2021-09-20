@@ -123,8 +123,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
    ![ws name.](media/pu1.png)
 
-   >**Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
-
+   >**Note: ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02*** is present in Environment Details tab.
 
 ## Exercise 3: Change and experience Load Balancing methods
 
