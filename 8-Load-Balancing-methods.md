@@ -333,7 +333,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 1. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-   - Password: *Paste the* **<inject key="AVD User Password" />***and click on* **OK**.* 
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
    ![ws name.](media/lb37.png)
   
