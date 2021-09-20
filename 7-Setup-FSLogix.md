@@ -130,11 +130,11 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/labinst13.png)
 
-2. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
+1. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
 
    ![ws name.](media/uiupdate11.png)
    
-3. Select following configuration for role assignment:  
+1. Select following configuration for role assignment:  
    
    - Role: **Storage File Data SMB Share Contributor**
    
