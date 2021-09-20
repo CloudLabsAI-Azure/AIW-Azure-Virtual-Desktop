@@ -149,15 +149,15 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![](media/login1.png)
 
-2. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
    ![ws name.](media/newrd1.png)
 
-3. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/2avd31.png)
 
-4. Enter your **credentials** to access the application and click on **Submit**.
+1. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
@@ -165,85 +165,84 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/lb52.png)
 
-6. The virtual Desktop will launch as shown below. 
+1. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
    
-7. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
-8. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
 
    ![ws name.](media/lb16.png)
 
    >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
 
-9. Click on **Subscribe** button.
+1. Click on **Subscribe** button.
 
    ![ws name.](media/a49.png)
 
-10. Enter the user credentials to access the workspace.
+1. Enter the user credentials to access the workspace.
 
-    - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
-    - Password: *Paste the password* **Azure1234567**.
+   - Password: *Paste the password* **Azure1234567**.
 
-    ![ws name.](media/password2.png)
+   ![ws name.](media/password2.png)
 
-    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
 
-    ![](media/login2.png)
+   ![](media/login2.png)
     
-11. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
 
-12. In AVD client, double click on the **Session Desktop** to access it. 
+1. In AVD client, double click on the **Session Desktop** to access it. 
 
-    ![ws name.](media/newrd.png)
+   ![ws name.](media/newrd.png)
 
-13. Enter your **credentials** to access the application and click on **Submit**.
+1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
-    - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
+   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
-    ![ws name.](media/lb37.png)
+   ![ws name.](media/lb37.png)
   
-14. The virtual Desktop will launch as shown below. 
+1. The virtual Desktop will launch as shown below. 
 
-    ![ws name.](media/newrd3.png) 
+   ![ws name.](media/newrd3.png) 
 
-15. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
+1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
-    ![ws name.](media/lb38.png)
+   ![ws name.](media/lb38.png)
    
-16. Now click on **AVD-HP-01** host pool to access it.
+1. Now click on **AVD-HP-01** host pool to access it.
 
-    ![ws name.](media/lb39.png)
+   ![ws name.](media/lb39.png)
  
-17. Under Manage blade, click on **Session hosts**.
+1. Under Manage blade, click on **Session hosts**.
 
-    ![ws name.](media/lb24.png)
+   ![ws name.](media/lb24.png)
    
-18. You can see that both session hosts have one Active sessions each.
+1. You can see that both session hosts have one Active sessions each.
 
-    ![ws name.](media/lb47.png)
+   ![ws name.](media/lb47.png)
    
-    >**Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
-    > 
-    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
+   >**Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
+   > 
+   >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
+1. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-19. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+   ![ws name.](media/uiupdate14.png)
 
-    ![ws name.](media/uiupdate14.png)
+1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-20. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+   ![ws name.](media/uiupdate13.png)
 
-    ![ws name.](media/uiupdate13.png)
-
-    >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
+   >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
   
 **B**. **Depth first**
    
@@ -259,9 +258,13 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb26.png)
    
-3. Now paste this link ```aka.ms/wvdarmweb``` in your browser inside the **JumpVM**, and enter your **credentials** to login. 
+3. 1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
-   - Username: *Paste username of* **AVDUser01** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)* and then click on **Next**.
+   ```
+   aka.ms/wvdarmweb
+   ```
+
+   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
    ![ws name.](media/username.png)
 
@@ -279,11 +282,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 5. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/uiupdate05.png)
+   ![ws name.](media/2avd31.png)
 
 6. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste username of* **AVDUser01** *which you copied earlier(for example: **AVDUser01@azurehol1055.onmicrosoft.com**)*
+   - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
    - Password: *Paste the password* **Azure1234567**
    
