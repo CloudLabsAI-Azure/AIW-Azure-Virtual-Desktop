@@ -194,35 +194,39 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
     >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
 
     ![](media/login2.png)
+    
+11. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
-11. In AVD client, double click on the **Session Desktop** to access it. 
+   ![ws name.](media/ex4t1s9.png)
+
+12. In AVD client, double click on the **Session Desktop** to access it. 
 
     ![ws name.](media/newrd.png)
 
-12. Enter your **credentials** to access the application and click on **Submit**.
+13. Enter your **credentials** to access the application and click on **Submit**.
 
     - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
     - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
     ![ws name.](media/lb37.png)
   
-13. The virtual Desktop will launch as shown below. 
+14. The virtual Desktop will launch as shown below. 
 
     ![ws name.](media/newrd3.png) 
 
-14. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
+15. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
     ![ws name.](media/lb38.png)
    
-15. Now click on **AVD-HP-01** host pool to access it.
+16. Now click on **AVD-HP-01** host pool to access it.
 
     ![ws name.](media/lb39.png)
  
-16. Under Manage blade, click on **Session hosts**.
+17. Under Manage blade, click on **Session hosts**.
 
     ![ws name.](media/lb24.png)
    
-17. You can see that both session hosts have one Active sessions each.
+18. You can see that both session hosts have one Active sessions each.
 
     ![ws name.](media/lb47.png)
    
@@ -231,11 +235,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
     >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 
-18. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+19. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
     ![ws name.](media/uiupdate14.png)
 
-19. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+20. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
     ![ws name.](media/uiupdate13.png)
 
