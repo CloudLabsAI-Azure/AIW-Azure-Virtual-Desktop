@@ -15,25 +15,6 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
 
    ![ws name.](media/lb34.png)
-   
-1. Click on **Groups** under *Manage* blade.
-
-   ![ws name.](media/2avd34.png)
-   
-1. Click on **+ New group** to add a new user.
-
-   ![ws name.](media/2avd35.png)
-   
-1. Add the following configurations and leave rest to default:
-
-   - Group name: **AVD users**
-   - Click on **Create**.
-
-   ![ws name.](media/2avd36.png)
-
-1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
-
-   ![ws name.](media/lb34.png)
 
 1. Click on **Users** under *Manage* blade.
 
