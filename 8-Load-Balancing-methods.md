@@ -254,11 +254,11 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/wvd8.png)
    
-2. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
+1. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
 
    ![ws name.](media/lb26.png)
    
-3. 1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
    ```
    aka.ms/wvdarmweb
@@ -276,15 +276,15 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
  
    ![](media/login1.png)
 
-4. In the AVD dashboard, click on the **Session Desktop** to access it. 
+1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
    ![ws name.](media/newrd1.png)
 
-5. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/2avd31.png)
 
-6. Enter your **credentials** to access the application and click on **Submit**.
+1. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Copy* **AVDUser01** *username from the **Environment Details tab** and paste it then click on **Next**.*
    
@@ -292,34 +292,60 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    
    ![ws name.](media/lb52.png)
 
-7. The virtual Desktop will launch as shown below. 
+1. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
     
-8. In **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application.
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
-9. Now in the AVD client double click on the **Session Desktop** to access it. 
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+
+   ![ws name.](media/lb16.png)
+
+   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+
+1. Click on **Subscribe** button.
+
+   ![ws name.](media/a49.png)
+
+1. Enter the user credentials to access the workspace.
+
+   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   
+   - Password: *Paste the password* **Azure1234567**.
+
+   ![ws name.](media/password2.png)
+
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+   ![](media/login2.png)
+    
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+
+   ![ws name.](media/ex4t1s9.png)
+
+1. In AVD client, double click on the **Session Desktop** to access it. 
 
    ![ws name.](media/newrd.png)
 
-10. Enter your **credentials** to access the desktop and click on **Submit**.
+1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste username of* **AVDUser02** *which you copied earlier(for example: **AVDUser02@azurehol1055.onmicrosoft.com**).*
-    - Password: *Paste the password* **Azure1234567**
+   - Username: *Copy* **AVDUser02** *username from the **Environment Details tab** and paste it then click on **Next**.*
+   - Password: *Paste the* **Azure1234567** *and click on* **OK**.* 
    
-    ![ws name.](media/lb51.png)
-   
-11. The virtual Desktop will launch as shown below. 
+   ![ws name.](media/lb37.png)
+  
+1. The virtual Desktop will launch as shown below. 
 
-    ![ws name.](media/lb55.png) 
+   ![ws name.](media/newrd3.png) 
 
-12. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
+1. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
     ![ws name.](media/newrd3.png)
    
-13. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
+1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
     ![ws name.](media/lb21.png)
    
@@ -327,7 +353,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
     >
     >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
-14. Verify that both users have been assigned to the particular session host. 
+1. Verify that both users have been assigned to the particular session host. 
 
     ![ws name.](media/uiupdate16.png)
 
