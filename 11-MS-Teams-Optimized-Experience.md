@@ -128,7 +128,7 @@
    - **Application Source**: Start menu.
    - **Application**: Search for **Microsoft Teams** and select the same from dropdown.
    - **Display name**: Microsoft Teams.
-   - **Leave** the other option as **defaults**.
+   - **Leave** the other options as **defaults**.
    
    ![ws name.](media/2avd49.png)
 
