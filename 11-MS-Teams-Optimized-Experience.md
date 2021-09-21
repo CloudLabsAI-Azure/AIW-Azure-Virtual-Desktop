@@ -130,7 +130,7 @@
    - **Display name**: Microsoft Teams.
    - **Leave** the other option as **defaults**.
    
-   ![ws name.](media/teams10.png)
+   ![ws name.](media/2avd49.png)
 
 1. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
