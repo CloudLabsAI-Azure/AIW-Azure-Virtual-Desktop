@@ -106,9 +106,14 @@
 
    ![ws name.](media/teams7.png)
    
-1. Under Settings, Select **RDP Properties** and select **Device redirection**. Make sure for **Audio output location** option, **Play sounds on the local computer** is selected.
+1. Under Settings, Select **RDP Properties** and select **Device redirection**. Select the following options and click on **Save**
+   
+   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** from the dropdown.
+   - Audio output location: Select **Play sounds on the remote computer** from the dropdown
+   - Camera redirection: Select **Redirect cameras** from the dropdown.
+   - Leave the rest properties as **defaults**.
 
-   ![ws name.](media/teams8.png)
+   ![ws name.](media/2avd47.png)
    
 1. Select **Application groups** from the side blade. You will see two application groups, Select the **AVD-AG-01** application group.
 
