@@ -113,7 +113,7 @@
    - Camera redirection: Select **Redirect cameras** from the dropdown.
    - Leave the rest properties as **defaults**.
 
-   ![ws name.](media/2avd47.png)
+   ![ws name.](media/2avd48.png)
    
 1. Select **Application groups** from the side blade. You will see two application groups, Select the **AVD-AG-01** application group.
 
