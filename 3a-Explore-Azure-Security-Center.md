@@ -24,5 +24,5 @@ In this lab, We'll be configuring Azure Security service for AVD.
 
   ![ws name.](media/avdv242.png)
   
-**Note:** The security Center takes time to collect the data, hence we will continue the lab at the end in **Lab 3 (Part 2): Explore Azure Security Center**.
+
 
