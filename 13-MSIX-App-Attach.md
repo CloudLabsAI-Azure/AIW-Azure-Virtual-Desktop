@@ -1,6 +1,6 @@
 # Lab 13: MSIX App Attach
 
-In this exercise, We'll be implementing MSIZ App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop.
+In this exercise, We'll be implementing MSIZ App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically
 
 ## Exercise 1: Configuring AVD for MSIX App Atach
 
@@ -128,7 +128,7 @@ In this exercise, We'll be implementing MSIZ App Attach for AVD. MSIX app attach
    
 1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
 
-   >**NOTE**: We'll be using this URL in further steps. Make sure you to **Save** it in Notepad,
+   >**NOTE**: We'll be using this URL in further steps. Make sure you to **Save** it in Notepad.
 
    ![ws name.](media/msix15.png)
 
