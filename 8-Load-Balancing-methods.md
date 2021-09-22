@@ -263,19 +263,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    ```
    aka.ms/wvdarmweb
    ```
-
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
-   ![ws name.](media/username.png)
-
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
-
-   ![ws name.](media/password.png)
- 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
- 
-   ![](media/login1.png)
-
+   >**NOTE**: If the session desktop is disconnected. Close the tab and perform the next step.
+   
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
    ![ws name.](media/newrd1.png)
@@ -299,32 +289,6 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
-   
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
-
-   ![ws name.](media/lb16.png)
-
-   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
-
-1. Click on **Subscribe** button.
-
-   ![ws name.](media/a49.png)
-
-1. Enter the user credentials to access the workspace.
-
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-   
-   - Password: *Paste the password* **<inject key="AVD User Password" />**.
-
-   ![ws name.](media/password2.png)
-
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
-
-   ![](media/login2.png)
-    
-1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
-
-   ![ws name.](media/ex4t1s9.png)
 
 1. In AVD client, double click on the **Session Desktop** to access it. 
 
