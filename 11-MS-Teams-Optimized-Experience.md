@@ -1,5 +1,7 @@
 # Lab 9: MS Teams Optimized Experience
 
+In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Virtual Desktop supports chat and collaboration. With media optimizations, it also supports calling and meeting functionality. With media optimization for Microsoft Teams, the Windows Desktop client handles audio and video locally for Teams calls and meetings.
+
 ## Exercise 1: Configuring Session host for implementing MS Teams
 
    >**NOTE**: Make sure both the session hosts are running.
