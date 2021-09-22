@@ -1,4 +1,4 @@
-# Lab 5: Access the Published Applications and Desktop using Browser
+# Lab 3: Access the Published Applications and Desktop using Browser
 
 
 ## Exercise 1: Access the Published Application
