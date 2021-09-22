@@ -246,8 +246,6 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 8. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
 
-   ![ws name.](media/up5.png)
-
 9. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
    ![ws name.](media/up6.png)
@@ -335,8 +333,6 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     ![ws name.](media/jvm24.png)
 
 14. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
-
-    ![ws name.](media/up5.png)
        
 15. Wait for some time for the script to execute.  Once done, it will show an output saying **Script Executed successfully**.
 
