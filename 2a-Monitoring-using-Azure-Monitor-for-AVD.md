@@ -134,4 +134,4 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
    ![ws name.](media/mon19.png)
 
-   >**NOTE**: Now that all the configuration has been done successfully. you'll be checking the implementation later in Lab 2 (part 2).
+ 
