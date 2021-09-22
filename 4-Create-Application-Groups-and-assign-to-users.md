@@ -1,4 +1,4 @@
-# Lab 4: Create Application Groups and assign to users
+# Lab 2: Create Application Groups and assign to users
 
 As explained in the General Hierarchy section, Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
