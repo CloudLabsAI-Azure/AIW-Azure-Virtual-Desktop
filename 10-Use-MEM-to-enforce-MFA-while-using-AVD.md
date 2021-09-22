@@ -36,7 +36,7 @@
   
 ### Exercise 2: Creating Conditional Access Policy
 
-1. In Azure POrtal search for *Azure Active Directory* and click on the search result.
+1. In Azure Portal search for *Azure Active Directory* and click on the search result.
 
    ![](media/avdv21.png)
   
