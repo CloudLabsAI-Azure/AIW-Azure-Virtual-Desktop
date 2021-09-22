@@ -12,11 +12,11 @@
 
    ![ws name.](media/64.png)
    
-1. Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-0.azurehol1047.onmicrosoft.com** session host.
+1. Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-0.azure...** session host.
 
    ![ws name.](media/teams1.png)
    
-1. Click on **AVD-HP01-SH-0.azurehol1047.onmicrosoft.com**.
+1. Click on **AVD-HP01-SH-0.azure...**.
 
    ![ws name.](media/teams2.png)
  
@@ -26,6 +26,9 @@
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
 
+   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
+
+
    ```
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
@@ -55,9 +58,7 @@
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
 
-   > **NOTE**: The above mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
-
-1. Similarily for the 2nd session host, Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-1.azurehol1019.onmicrosoft.com** session host.
+1. Similarily for the 2nd session host, Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-1.azure...** session host.
 
    ![ws name.](media/teams17.png)
    
@@ -65,7 +66,10 @@
 
    ![ws name.](media/teams18.png)
    
-1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
+1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window.
+
+   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
+   
 
    ```
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
@@ -95,8 +99,6 @@
    ![ws name.](media/teams19.png)
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
-
-   > **NOTE**: The above mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
 
 1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
