@@ -1,5 +1,9 @@
 # Lab 13: MSIX App Attach
 
+In this exercise, We'll be implementing MSIZ App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop.
+
+## Exercise 1: Configuring AVD for MSIX App Atach
+
 1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
 
 1. In the right pane, click on **File shares** present under *Data Storage* blade.
@@ -94,7 +98,7 @@
    
    >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
    
-1. Once the execution iz completed, you'll be able see similar output as mentioned below.
+1. Once the execution is completed, you'll be able see similar output as mentioned below.
 
    ![ws name.](media/msix27.png)
 
@@ -118,14 +122,13 @@
    
    >**NOTE**: This script will install the certificate in the AVD-HP01-SH-1 session host.
    
-1. Once the execution iz completed, you'll be able see similar output as mentioned below.
+1. Once the execution is completed, you'll be able see similar output as mentioned below.
 
    ![ws name.](media/msix27.png)
    
-   
-   
-
 1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
+
+   >**NOTE**: We'll be using this URL in further steps. Make sure you to **Save** it in Notepad,
 
    ![ws name.](media/msix15.png)
 
