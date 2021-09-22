@@ -64,7 +64,7 @@
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
 
-   ![](media/avdv231.png)
+   ![](media/2avd51.png)
   
    - Toggle Start VM on connect to **Yes** *(2)*.
    - Click on **Save** *(3)*.
