@@ -26,8 +26,7 @@
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
 
-   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
-
+   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
 
    ```
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
@@ -41,14 +40,6 @@
    $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
-
-   Write-Output "The application is installed successfully"
-   
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/7-Zip.vhd","C:\LabFiles\7-Zip.vhd")
-
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/msix.cer","C:\LabFiles\msix.cer")
 
    Write-Output "The script is executed successfully"
    
@@ -68,9 +59,8 @@
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window.
 
-   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD and it also downloads .VHD file and .cer file which we will be using in Exercise 13.
+   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
    
-
    ```
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
@@ -83,14 +73,6 @@
    $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
-
-   Write-Output "The application is installed successfully"
-   
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/7-Zip.vhd","C:\LabFiles\7-Zip.vhd")
-
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/msix.cer","C:\LabFiles\msix.cer")
 
    Write-Output "The script is executed successfully"
    
