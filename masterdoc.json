@@ -42,14 +42,6 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/13-MSIX-App-Attach.md",
         "Order": 10
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/2a-Monitoring-using-Azure-Monitor-for-AVD.md",
-        "Order": 11
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/3a-Explore-Azure-Security-Center.md",
-        "Order": 12
       }
     ]
   }
