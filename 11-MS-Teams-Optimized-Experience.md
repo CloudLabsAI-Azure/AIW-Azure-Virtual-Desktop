@@ -1,4 +1,4 @@
-# Lab 11: MS Teams Optimized Experience
+# Lab 9: MS Teams Optimized Experience
 
 ## Exercise 1: Configuring Session host for implementing MS Teams
 
