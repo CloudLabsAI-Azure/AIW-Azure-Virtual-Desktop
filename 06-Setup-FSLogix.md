@@ -38,7 +38,7 @@ In the following task, we will be creating a storage account with a file share w
    
 4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking** tab use the following configuration.
 
-   ![ws name.](https://github.com/Shivashant25/AIW-Azure-Virtual-Desktop/blob/main/media/ex%205%20t1%20s4.png?raw=true)
+   ![ws name.](media/2avd72.png)
 
 5. In the _Networking_ tab, use the following configurations:
 
