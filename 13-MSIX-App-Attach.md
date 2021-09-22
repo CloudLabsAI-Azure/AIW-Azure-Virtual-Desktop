@@ -43,9 +43,13 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/uiupdate10.png)
- 
-1. Go to **msixfile** file share and click on **Connect**.
+   ![ws name.](media/2avd61.png)
+   
+1. Under **Data storage**, select **File Shares** and click on **msixfile**.
+
+   ![ws name.](media/2avd57.png) 
+   
+1. In **msixfile** file share and click on **Connect**.
 
    ![ws name.](media/msix7.png)
    
@@ -79,6 +83,18 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix11.png)
    
+1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
+
+   ![ws name.](media/2avd61.png)
+ 
+1. Under **Data storage**, select **File Shares** and click on **msixfile**.
+
+   ![ws name.](media/2avd57.png) 
+   
+3. In **msixfile** file share, Click on **msix.cer** file and copy the **URL** and save it in **notepad**.
+   
+   ![ws name.](media/2avd58.png)
+   
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
    ![ws name.](media/msix9.png)
@@ -87,17 +103,29 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     
    ![ws name.](media/msix10.png)
    
-1. **Copy** the code mentioned below and paste the same into the window and click on **Run**.   
+1. **Copy** the code mentioned below and paste the same into the window. **DO NOT** run the command as the **CERTIFICATE PATH** should be updated.   
 
    ```
    
-   Import-Certificate -FilePath C:\LabFiles\msix.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople 
+   Import-Certificate -FilePath <CERTIFICATE PATH> -CertStoreLocation Cert:\LocalMachine\TrustedPeople
    
    ```
    
-   ![ws name.](media/msix26.png)
+   ![ws name.](media/2avd59.png)
    
    >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
+
+1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
+
+1. For **CERTIFICATE PATH** to be in correct format, Follow the below mentioned steps to create path.
+
+   - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
+   - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
+   - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
+
+   ![ws name.](media/2avd60.png)
+
+1. Click on **Run**   
    
 1. Once the execution is completed, you'll be able see similar output as mentioned below.
 
@@ -110,18 +138,30 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix13.png)
-   
-1. 1. **Copy** the code mentioned below and paste the same into the window and click on **Run**.   
+
+1. **Copy** the code mentioned below and paste the same into the window. **DO NOT** run the command as the **CERTIFICATE PATH** should be updated.   
 
    ```
    
-   Import-Certificate -FilePath C:\LabFiles\msix.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople 
+   Import-Certificate -FilePath <CERTIFICATE PATH> -CertStoreLocation Cert:\LocalMachine\TrustedPeople
    
    ```
    
-   ![ws name.](media/msix26.png)
+   ![ws name.](media/2avd59.png)
    
-   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-1 session host.
+   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
+
+1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
+
+1. For **CERTIFICATE PATH** to be in correct format, Follow the below mentioned steps to create path.
+
+   - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
+   - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
+   - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
+
+   ![ws name.](media/2avd60.png)
+
+1. Click on **Run**   
    
 1. Once the execution is completed, you'll be able see similar output as mentioned below.
 
