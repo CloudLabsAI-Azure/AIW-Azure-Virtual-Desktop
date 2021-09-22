@@ -216,6 +216,8 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    - CLick on **save**.
 
    ![ws name.](media/msix23.png)
+   
+   Now, The MSIX implementation is completed. We'll check the working of it.
     
 1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
@@ -243,11 +245,53 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/ex4t1s9.png)
       
-1. The WVD dashboard will launch, then double click on **7-Zip File Manager** application to access it.
+1. The WVD dashboard will launch, then double click on **SessionDesktop** application to access it.
 
-   ![ws name.](media/msix24.png)
+   ![ws name.](media/2avd62.png)
    
-1. You should be able to see the file manager opened. 
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 
-   ![ws name.](media/msix25.png)    
-    
+   - Password: **<inject key="AzureAdUserPassword" />**
+   
+   ![ws name.](media/ch14.png)
+   
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   
+   ![](media/login.png)
+
+1. Wait for the Session Desktop to connect.
+
+   ![ws name.](media/ex4t2s4.png)
+ 
+1. Once connected, In the **start menu** search for **7-Zip File Manager** and you'll be able to see that the application is present in session desktop.
+
+   ![](media/2avd63.png)
+   
+1. In the **start menu** search for **Apps & features** and click on it to open.
+
+   ![](media/2avd64.png)
+   
+1. In **Search bar**, Search for **7-Zip File Manager** and you'll able to see the application.
+
+   ![](media/2avd65.png)
+   
+1. In the **start menu** search for **Control Panel** and click on it to open.
+
+   ![](media/2avd68.png)
+   
+1. In Control Panel, Click on **Uninstall a program**.
+
+   ![](media/2avd69.png)
+   
+1. Here, you'll notice that **7-Zip File Manager** is not present as an application.
+
+   ![](media/2avd70.png) 
+   
+1. In the **start menu** search for **Computer Management** and click on it to open.
+
+   ![](media/2avd66.png)
+
+1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be see that VHD has been mounted. This is where the **7-ZIP File Manager** present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
+
+   ![](media/2avd67.png)
+
