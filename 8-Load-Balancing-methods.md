@@ -185,7 +185,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Enter the user credentials to access the workspace.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
@@ -343,7 +343,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
-    ![ws name.](media/newrd3.png)
+    ![ws name.](media/86.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
