@@ -1,4 +1,4 @@
-# Lab 9: Cost Optimizations
+# Lab 7: Cost Optimizations
 
 ## Exercise 1: Enable Start Virtual Machine on Connect
 
