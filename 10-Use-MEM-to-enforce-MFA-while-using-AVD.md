@@ -1,4 +1,4 @@
-# Lab 10: Use MEM to enforce MFA while using AVD
+# Lab 8: Use MEM to enforce MFA while using AVD
 
 ### Exercise 1: Setup Multi-Factor Authentication (MFA)
 
