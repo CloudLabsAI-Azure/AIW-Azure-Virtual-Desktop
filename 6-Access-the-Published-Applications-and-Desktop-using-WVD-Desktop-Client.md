@@ -1,4 +1,4 @@
-# Lab 6: Access the Published Applications and Desktop using WVD Desktop Client
+# Lab 4: Access the Published Applications and Desktop using WVD Desktop Client
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD Desktop client.
 
