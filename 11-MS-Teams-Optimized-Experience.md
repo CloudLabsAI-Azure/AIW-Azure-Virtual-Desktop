@@ -45,7 +45,7 @@
    
    ```
 
-   ![ws name.](media/teams19.png)
+   ![ws name.](media/2avd56.png)
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
 
@@ -78,7 +78,7 @@
    
    ```
 
-   ![ws name.](media/teams19.png)
+   ![ws name.](media/2avd56.png)
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
 
