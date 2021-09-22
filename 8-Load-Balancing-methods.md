@@ -343,7 +343,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
 
-    ![ws name.](media/86.png)
+    ![ws name.](media/2avd50.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
