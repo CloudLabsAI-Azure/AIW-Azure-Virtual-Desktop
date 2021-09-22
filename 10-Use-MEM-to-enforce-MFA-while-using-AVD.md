@@ -28,11 +28,9 @@
   
 6. After answering the call, you will be asked to press the "**#**" key to complete the verification.
 
-   ![](media/avdv213.png)
-
 7. Now after few seconds the status will change to **Verification Successful**, click on **Done** to finish the MFA registration.
 
-   ![](media/avdv214.png)
+   ![](media/avdv213.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
