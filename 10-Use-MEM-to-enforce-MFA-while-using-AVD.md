@@ -86,4 +86,32 @@
 
    ![](media/avdv29.png)
   
-7. Login to AVD Client to see the MFA getting triggered.
+7. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
+
+   ``` 
+   aka.ms/wvdarmweb 
+   ``` 
+
+   >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
+
+8. Now to login, enter the lab credentials as mentioned below:
+
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
+   
+9. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
+
+   ![ws name.](media/2avd54.png)
+
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+   ![](media/login.png)
+   
+10. The AVD dashboard will be launched. 
+
+    ![](media/2avd55.png)
