@@ -183,10 +183,9 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
 
     ![ws name.](media/71.png)
 
-
     ## [OPTIONAL STEP – ONLY needed in case the step before failed!]
   
-    >### **Important Note:** In case the previous step for the Host Pool fails, only then follow the steps below. Otherwise continue from step 13
+    >###Important Note: In case the previous step for the Host Pool fails, only then follow the steps below. Otherwise continue from step 13
     >
     >i. Go to the **AVD-RG** resource group and click on **Overview**.
     >
