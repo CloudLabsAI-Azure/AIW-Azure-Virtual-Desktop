@@ -48,20 +48,8 @@
         "Order": 11
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/12-Licensing-Azure-Virtual-Desktop-for-external-users.md",
-        "Order": 12
-      },
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/13-MSIX-App-Attach.md",
-        "Order": 13
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/2b-Monitoring-using-Azure-Monitor-for-AVD.md",
-        "Order": 14
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/3b-Explore-Azure-Security-Center.md",
-        "Order": 15
+        "Order": 12
       }
     ]
   }
