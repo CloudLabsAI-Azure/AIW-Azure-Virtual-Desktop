@@ -94,11 +94,11 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 4. Use exisiting resource group - **AVD-RG** from the drop down and for:
 
+   >**Note:** **UniqueID** is the numerical value present in your username. 
+   >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996.
+
    - Storage Account: Select **Create new** and enter **sa{uniqueid}**, where **uniqueid** is the numerical value present in your username. 
    - File Share: Select **Create new** and enter **fs{uniqueid}**, where **uniqueid** is the numerical value present in your username.
-
-   >**Note:** **UniqueID** is the numerical value present in your username. 
-   >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
 
    ![ws name.](media/wvd12.png)
 
