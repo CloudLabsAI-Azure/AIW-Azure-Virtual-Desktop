@@ -1,5 +1,7 @@
 # Lab 8: Use MEM to enforce MFA while using AVD
 
+In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
+
 ### Exercise 1: Setup Multi-Factor Authentication (MFA)
 
 1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to login then login using the following credentials:
