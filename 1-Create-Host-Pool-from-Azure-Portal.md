@@ -40,7 +40,7 @@
     
 4. **Close** the recomendation page by clicking on the X mark.
 
-   ![](media/2avd46.png)
+   ![](media/2avd73.png)
 
 4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
 
