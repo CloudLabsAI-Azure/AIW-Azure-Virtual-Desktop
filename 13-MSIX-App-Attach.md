@@ -9,7 +9,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the right pane, click on **File shares** present under *Data Storage* blade.
 
-    ![ws name.](media/uiupdate10.png)
+    ![ws name.](media/2avd74.png)
  
 1. Enter the following name for your file share.
     
@@ -21,7 +21,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     
 1. Go to **msixfile** file share and select **upload**.
 
-   ![ws name.](media/msix2.png)
+   ![ws name.](media/2avd74.png)
    
    ![ws name.](media/msix3.png)
    
@@ -97,7 +97,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
-   ![ws name.](media/msix9.png)
+   ![ws name.](media/2avd75.png)
    
 1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
@@ -133,7 +133,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
-   ![ws name.](media/msix12.png)
+   ![ws name.](media/2avd76.png)
    
 1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
@@ -173,7 +173,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    >**NOTE**: We'll be using this URL in further steps. Make sure you to **Save** it in Notepad.
 
-   ![ws name.](media/msix15.png)
+   ![ws name.](media/2avd77.png)
 
 1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
