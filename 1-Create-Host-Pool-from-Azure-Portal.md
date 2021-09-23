@@ -28,15 +28,15 @@
 
    >**Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.
    
-    ![](media/w26.png)
-      
+   ![](media/w26.png)
+     
    >**Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
    
-    ![](media/wvd.png) 
+   ![](media/wvd.png) 
    
    >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
    
-    ![](media/skipfornow.png)
+   ![](media/skipfornow.png)
     
 4. **Close** the recomendation page by clicking on the X mark.
 
