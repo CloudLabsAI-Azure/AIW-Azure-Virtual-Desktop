@@ -57,7 +57,7 @@
 
 In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *AVD-HP01-SH-0* and *AVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *AVD-WS-01*.
 
-1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On **Azure portal** search for **Azure Virtual Desktop** in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
    ![ws name.](media/2avd1.png) 
 
