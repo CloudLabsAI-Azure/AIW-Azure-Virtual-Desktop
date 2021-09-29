@@ -1,6 +1,6 @@
-# Exercise 4: Access the Published Applications and Desktop using WVD Desktop Client
+# Exercise 4: Access the Published Applications and Desktop using AVD Desktop Client
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using WVD Desktop client.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using AVD Desktop client.
 
 > **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
@@ -41,11 +41,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client```
 
-   >**Note:** To download *WVD Mac Client* on **macOS**, use the link given below:
+   >**Note:** To download *AVD Mac Client* on **macOS**, use the link given below:
    >
    >```https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos```
 
-7. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **WVD Desktop Client** on **Your Own PC/computer/workstation**.
+7. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **AVD Desktop Client** on **Your Own PC/computer/workstation**.
    
    ![ws name.](media/a48.png)
       
