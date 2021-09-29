@@ -325,7 +325,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
     >
     >**Scale session hosts using Azure Automation**
     >
-    >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Windows Virtual Desktop environment. 
+    >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Azure Virtual Desktop environment. 
     >
     >Please follow the link given below to learn more about this feature. 
     >
