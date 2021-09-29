@@ -25,7 +25,7 @@
 
 ### Task 2: Accessing application as an external user
 
-1. Return to WVD client application. On the AVD dashboard, click on the application you want to launch.
+1. Return to AVD client application. On the AVD dashboard, click on the application you want to launch.
 
    ![ws name.](media/ex4t2s2.png)
    
