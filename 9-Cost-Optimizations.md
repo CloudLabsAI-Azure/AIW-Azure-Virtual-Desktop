@@ -89,7 +89,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
 ### Task 2: Access the Session host desktop
 
-1. Return to WVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/ex4t2s2.png)
    
