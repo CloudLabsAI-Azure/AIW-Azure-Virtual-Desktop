@@ -4,23 +4,19 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
 ## Exercise 1: Configuring Session host for implementing MS Teams
 
-   >**NOTE**: Make sure both the session hosts are running.
+#### NOTE: Make sure that both the session hosts are running.
    
-1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
+1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
-   ![ws name.](media/w1.png)
+   ![ws name.](media/up11.png)
+      
+1. Click on **AVD-HP01-SH-0**.
 
-1. You will be directed towards the Azure Virtual Desktop management window.  
-
-   ![ws name.](media/64.png)
+   ![ws name.](media/fs4.png)
    
-1. Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-0.azure...** session host.
+1. Make sure that the **Status** of the virtual machine is in **Running** state.
 
-   ![ws name.](media/teams1.png)
-   
-1. Click on **AVD-HP01-SH-0.azure...**.
-
-   ![ws name.](media/teams2.png)
+   ![ws name.](media/2avd79.png)
  
 1. Under **Operations** blade, Select **Run Command**. Select **RunPowerShellScript**.
 
@@ -51,10 +47,14 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
 
-1. Similarily for the 2nd session host, Click on the Session host tab and you will see two session hosts. Select **AVD-HP01-SH-1.azure...** session host.
+1. Similarly, Navigate to virtual machines and click on **AVD-HP01-SH-1**.
 
-   ![ws name.](media/teams17.png)
-   
+    ![ws name.](media/fs8.png)
+    
+1. Make sure that the **Status** of the virtual machine is in **Running** state.
+
+   ![ws name.](media/2avd80.png)    
+
 1. Under **Operations** blade, Select **Run Command**. Select **RunPowerShellScript**.
 
    ![ws name.](media/teams18.png)
