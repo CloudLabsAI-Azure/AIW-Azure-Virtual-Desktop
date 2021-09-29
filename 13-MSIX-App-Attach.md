@@ -20,8 +20,6 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     ![ws name.](media/msix1.png)
     
 1. Go to the **msixfile** file share which you just created and select **upload**.
-
-   ![ws name.](media/2avd74.png)
    
    ![ws name.](media/msix3.png)
    
