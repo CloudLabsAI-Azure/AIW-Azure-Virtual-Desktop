@@ -245,9 +245,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/ex4t1s9.png)
       
-1. The WVD dashboard will launch, then double click on **SessionDesktop** application to access it.
+1. The AVD dashboard will launch, then double click on **SessionDesktop** application to access it.
 
-   ![ws name.](media/2avd62.png)
+   ![ws name.](media/2avd78.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 
