@@ -19,7 +19,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    > https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos
    > ```
 
-2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **AVD Desktop Client** on **Your Own PC/computer/workstation**.
+2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
    ![ws name.](media/a48.png)
       
