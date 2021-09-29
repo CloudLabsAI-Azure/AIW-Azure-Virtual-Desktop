@@ -79,7 +79,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/ch16.png)
 
-15. Return back to the Azure Portal, search for *Windows virtual desktop* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+15. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
     ![ws name.](media/w1.png)
 
