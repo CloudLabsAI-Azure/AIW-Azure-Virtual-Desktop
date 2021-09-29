@@ -117,7 +117,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
    - Image type: **Gallery**
    - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps (GEN2)** *(choose from dropdown)*
-   - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
+   - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
    
    ![ws name.](media/2avd18.png)
 
