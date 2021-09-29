@@ -26,7 +26,7 @@
 
    ![ws name.](media/ex4t1s9.png)
       
-1. The WVD dashboard will launch, then double click on **Excel** application to access it.
+1. The AVD dashboard will launch, then double click on **Excel** application to access it.
 
     ![ws name.](media/remotedesktop.png)
    
