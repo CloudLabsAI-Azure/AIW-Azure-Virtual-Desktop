@@ -115,7 +115,7 @@ The UI form offers the following actions:
    - **Microsoft Teams** - Install the **latest** version of Microsoft Teams *per-machine*.
    - **Microsoft Edge Chromium** - Install the **latest** version of Microsoft Edge Enterprise.
    - **FSLogix Profile Containers** - Install the **latest** version of the FSLogix Agent and apply recommended settings.
-   - **OS Settings** - Apply the recommended WVD/AVD settings for image capture.
+   - **OS Settings** - Apply the recommended AVD settings for image capture.
 
 
 ### **Running the script**
