@@ -30,12 +30,12 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi","C:\RTC.msi")
+   $WebClient.DownloadFile("https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v2/LabFiles/RTC.msi","C:\RTC.msi")
 
    msiexec /i C:\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
+   $WebClient.DownloadFile("https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true","C:\AVDTeams.msi")
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
 
@@ -67,14 +67,15 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/RTC.msi","C:\RTC.msi")
+   $WebClient.DownloadFile("https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v2/LabFiles/RTC.msi","C:\RTC.msi")
 
    msiexec /i C:\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/aiw-avd-v2/lab-files/AVDTeams.msi","C:\AVDTeams.msi")
+   $WebClient.DownloadFile("https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true","C:\AVDTeams.msi")
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
+
 
    Write-Output "The script is executed successfully"
    
