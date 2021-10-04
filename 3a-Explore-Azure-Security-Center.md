@@ -20,7 +20,7 @@ In this lab, We'll be configuring Azure Security service for AVD.
 
   ![ws name.](media/avdv241.png)
   
-4. In Settings | Azure Defender plans page, click on **Azure Defender on** *(1)* and make sure that the toggle switch for **Server** is set to **On** then click on **Save**.
+4. In **Settings | Azure Defender plans page**, click on **Azure Defender on** *(1)* and make sure that the toggle switch for **Server** is set to **On** then click on **Save**.
 
   ![ws name.](media/avdv242.png)
   
