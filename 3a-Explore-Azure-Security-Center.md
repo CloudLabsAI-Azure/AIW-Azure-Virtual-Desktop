@@ -16,7 +16,7 @@ In this lab, We'll be configuring Azure Security service for AVD.
 
   ![ws name.](media/avdv240.png)
 
-3. Now in Security center | Pricing and settings page, click on your Log Analytics workspace i.e. **<inject key="Log Analytics Workspace Name	" />**.
+3. Now in **Security center | Pricing and settings page**, click on your Log Analytics workspace i.e. **<inject key="Log Analytics Workspace Name	" />**.
 
   ![ws name.](media/avdv241.png)
   
