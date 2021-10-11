@@ -107,11 +107,11 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
 1. In **Assignments** page, **Provide** the information as mentioned below, 
    
-   ![ws name.](media/gsw4.png)
-   
    - Create test user account: **Unselect** the option
    - Assign existing users or groups: **Select** the option
    - click on **Review and Create**.
+
+   ![ws name.](media/gsw4.png)
    
 1. Verify the options and **click** on **Create**.
 
