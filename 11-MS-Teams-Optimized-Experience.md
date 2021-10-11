@@ -27,6 +27,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
 
    ```
+   
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
@@ -64,6 +65,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
    
    ```
+   
    reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 
    $WebClient = New-Object System.Net.WebClient
