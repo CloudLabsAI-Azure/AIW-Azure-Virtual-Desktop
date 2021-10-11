@@ -117,13 +117,21 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw5.png)
    
-   **NOTE**: It takes 20 mins to get deployed successfully.
+   >**NOTE**: It takes 20 mins to get deployed successfully.
    
 1. Once the deployment is successful, **Click** on **Go to resource**.
 
    ![ws name.](media/gsw7.png)
    
-1. It will take you the created **Host pool** page. Here make sure that 2 VMs, 1 Application group, and 1 Appliccation is created.
+1. It will take you to the **Host pool**. Reources created are as follows,
+
+   - **Host Pool**: 1 (EB-AVD-HP)
+   - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)
+   - **Aplication Group**: 1 (EB-AVD-HP-DAG)
+   - **Application**: 1 (SessionDesktop)
+   - **Workspace**: 1 (EB-AVD-WS)
 
    ![ws name.](media/gsw8.png)
+   
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
