@@ -76,7 +76,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    msiexec /i C:\AVDTeams.msi ALLUSER=1
 
-
    Write-Output "The script is executed successfully"
    
    ```
