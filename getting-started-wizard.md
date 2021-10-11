@@ -67,8 +67,6 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 1. On **Getting Started Wizard** page, **Provide** the information as mentioned below,
 
    **A**.Project Details:
-   
-   ![ws name.](media/gsw6.png)
 
    - Subscription: Select the ***default***
    - Identity provider: Select ***Existing active directory***
@@ -88,6 +86,8 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Domain admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Virtual Machines**.
+
+   ![ws name.](media/gsw6.png)
    
 1. In **Virtual Machines** tab, **Provide** the information as mentioned below,
    
