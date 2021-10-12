@@ -120,7 +120,7 @@
 
    ![ws name.](media/mon22.png)
    
-1. Spend some time on the page to explore different monitoring abilities offeres by Azure Insights.
+1. Spend some time on the page to explore different monitoring abilities offered by Azure Insights.
 
 1. Click on the Next button present in the bottom-right corner of this lab guide.
    
