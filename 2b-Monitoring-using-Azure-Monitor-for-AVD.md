@@ -98,15 +98,23 @@
 
 >**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such scenario, Please refresh the **Insights** page untill the data is loaded.
    
-1. Now, Navigate to Azure Virtusl Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
+1. Now, Navigate to Azure Virtual Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
 
    ![ws name.](media/mon2.png)
    
-1. In **Insights** page, **Click** on **Overview** tab (1). Here **expand** (2) the **EB-AVD-HP** host pool. You'll be able to monitor the status and health of the session hosts (3).
+1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here **expand** *(2)* the **EB-AVD-HP** host pool. You'll be able to monitor the status and health of the session hosts (3).
 
    ![ws name.](media/mon21.png)
    
-1. **Click** on **Clients** (1) tab, Here you'll be able monitor the number of users connected to AVD using browser and remote client application.
+1. **Click** on **Users** *(1)* tab, In **UPN to search for** blank paste **<inject key="Avd User 01" />** *(2)* and wait for the data to load. This tab gives overview of the user's usage. Scroll down and explore different information loaded.
+
+   ![ws name.](media/mon23.png)
+   
+1. **Click** on **Utilization** tab, This tab gives information about sessions summary, cores info, and more information about the utilization of resources.
+
+   ![ws name.](media/mon24.png)
+   
+1. **Click** on **Clients** *(1)* tab, Here you'll be able monitor the number of users connected to AVD using browser and remote client application.
 
    ![ws name.](media/mon22.png)
    
