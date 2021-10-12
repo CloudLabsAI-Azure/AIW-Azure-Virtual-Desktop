@@ -1,6 +1,8 @@
-# Lab 2: Monitoring using Azure Monitor for AVD (Part 2)
+# Lab 2b: Monitoring using Azure Monitor for AVD
 
-## Exercise 1: Access AVD using browser and Remote client
+## Exercise 1: Exploring Insights for AVD
+
+### Task 1: Access AVD using browser and Remote client
 
 1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
@@ -16,7 +18,7 @@
 
    ![ws name.](media/password.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
 
    ![](media/login1.png)
 
@@ -50,7 +52,7 @@
 
    ![ws name.](media/lb16.png)
 
-   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+   >**NOTE**: We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
 
 1. Click on **Subscribe** button.
 
@@ -64,7 +66,7 @@
 
    ![ws name.](media/password2.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
 
    ![](media/login2.png)
     
@@ -94,7 +96,7 @@
    >**NOTE**: **DO NOT** close the session or the AVD Remote client. Keep it running.
 
 
-## Exercise 2: Exploring Insights for AVD
+### Task 2: Exploring Insights data
 
 >**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such scenario, Please refresh the **Insights** page untill the data is loaded.
    
