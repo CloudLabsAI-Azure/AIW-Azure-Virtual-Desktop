@@ -27,7 +27,7 @@ An application group of type ‘Desktop’ was created automatically while creat
       
 5. Under **Manage** blade, open **Assignments** and then click on **+ Add**. 
 
-   ![ws name.](media/2avd7.png)   
+   ![ws name.](media/2avd83.png)   
  
 6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" />**. Then under the search bar, click on your username to select it.
 
@@ -39,7 +39,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
 8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
 
-   ![ws name.](media/wvd3.png)
+   ![ws name.](media/2avd84.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
