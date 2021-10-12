@@ -38,6 +38,8 @@
 
    ![ws name.](media/newrd2.png)
    
+   >**NOTE**: **DO NOT** close the session or the AVD web client. Keep it running.
+   
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
@@ -86,6 +88,8 @@
 1. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
+   
+   >**NOTE**: **DO NOT** close the session or the AVD Remote client. Keep it running.
    
 1. Now, Navigate to Azure Virtusl Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
 
