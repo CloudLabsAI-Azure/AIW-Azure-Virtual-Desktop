@@ -42,22 +42,6 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. You can check the deployment  by clicking on **Go to resource**.
 
    ![ws name.](media/2avd15.png)
-
-1. In Log Analytics Workspace under **Workspace Data Sources** side blade, select **Virtual machines** and click on **AVD-HP01-SH-0** virtual machine. 
-
-   ![ws name.](media/2avd25.png)
-   
-1. In **AVD-HP01-SH-0** virtual machine page, Click on **Connect**.
-
-   ![ws name.](media/2avd26.png)
-   
-1. Similarly, Select **AVD-HP01-SH-1** virtual machine and click on **Connect**.
-
-   ![ws name.](media/2avd27.png)
-   
-1. **Wait** till both the virtual machine's **Log Analytics Connection** status is changed to **Connected**. Once connected, You'll see the **green corrected symbol** for both the VMs.
-
-   ![ws name.](media/2avd28.png)
    
 ## Exercise 2: Enable diagnostics for Workspace
  
