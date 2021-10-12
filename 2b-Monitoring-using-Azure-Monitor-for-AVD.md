@@ -1,4 +1,4 @@
-# Lab 2: Monitoring using Azure Monitor for AVD(Part 2)
+# Lab 2: Monitoring using Azure Monitor for AVD (Part 2)
 
 ## Exercise 1: Access AVD using browser and Remote client
 
