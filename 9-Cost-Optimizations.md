@@ -71,7 +71,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
    - Toggle Start VM on connect to **Yes** *(2)*.
    - Click on **Save** *(3)*.
 
-## Exercise 2: Experience VM start on connect
+## Exercise 3: Experience VM start on connect
 
 ### Task 1: Stop the Session host VMs
 
