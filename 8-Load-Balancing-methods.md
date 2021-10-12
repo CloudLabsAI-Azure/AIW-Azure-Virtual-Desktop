@@ -62,15 +62,15 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
-    ![ws name.](media/lb40.png)
+    ![ws name.](media/2avd87.png)
 
-1. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+1. Open application group **EB-AVD-HP-DAG** and click on **Assignments** under *Manage* blade.
 
-    ![ws name.](media/lb41.png)
+    ![ws name.](media/2avd89.png)
    
 1. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
-    ![ws name.](media/lb42.png)
+    ![ws name.](media/2avd90.png)
 
 1. Once done, the users assigned to the Application group will look similar to the image given below.
 
@@ -218,13 +218,13 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb38.png)
    
-1. Now click on **AVD-HP-01** host pool to access it.
+1. Now click on **EB-AVD-HP** host pool to access it.
 
-   ![ws name.](media/lb39.png)
+   ![ws name.](media/2avd91.png)
  
 1. Under Manage blade, click on **Session hosts**.
 
-   ![ws name.](media/lb24.png)
+   ![ws name.](media/2avd92.png)
    
 1. You can see that both session hosts have one Active sessions each.
 
