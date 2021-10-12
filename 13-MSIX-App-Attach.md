@@ -165,7 +165,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix27.png)
    
-## Exercise 2: Creating MSIX Package in AVD environmnt
+## Exercise 2: Creating MSIX Package in AVD environment
    
 1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
 
