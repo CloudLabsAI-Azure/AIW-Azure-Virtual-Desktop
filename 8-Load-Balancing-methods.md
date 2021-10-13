@@ -60,7 +60,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/2avd43.png)
 
-1. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+1. Navigate to the host pool *EB-AVD-HP* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
     ![ws name.](media/2avd87.png)
 
@@ -74,7 +74,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Once done, the users assigned to the Application group will look similar to the image given below.
 
-    ![ws name.](media/lb45.png)
+    ![ws name.](media/2avd93.png)
      
 ## Exercise 2: Update Passwords for the new users
 
@@ -129,7 +129,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 **A**. **Breadth-first**
    
-While creating AVD-HP-01 host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on AVD-HP-01 with both users simultaneously and see the user distribution.
+While creating EB-AVD-HP host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on EB-AVD-HP with both users simultaneously and see the user distribution.
 
 1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
@@ -228,7 +228,7 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
    
 1. You can see that both session hosts have one Active sessions each.
 
-   ![ws name.](media/lb47.png)
+   ![ws name.](media/2avd101.png)
    
    >**Note:** This shows how users are distributed among different session hosts under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
    > 
@@ -236,27 +236,27 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
 1. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/uiupdate14.png)
+   ![ws name.](media/2avd99.png)
 
 1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
-   ![ws name.](media/uiupdate13.png)
+   ![ws name.](media/2avd100.png)
 
    >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
   
 **B**. **Depth first**
    
-   Here we will change the load balancing method of *AVD-HP-01* host pool to *Depth first* and see how user distribution changes in the Host pool.
+   Here we will change the load balancing method of *EB-AVD-HP* host pool to *Depth first* and see how user distribution changes in the Host pool.
 
    >**Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
 
-1. In *AVD-HP-01* host pool, click on **Properties** under *Settings* blade.
+1. In *EB-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
-   ![ws name.](media/wvd8.png)
+   ![ws name.](media/2avd95.png)
    
 1. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
 
-   ![ws name.](media/lb26.png)
+   ![ws name.](media/2avd102.png)
    
 1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
@@ -305,9 +305,9 @@ While creating AVD-HP-01 host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/newrd3.png) 
 
-1. Return back to the Azure portal in the **JumpVM**, navigate to **AVD-HP-01** host pool and open **Session Hosts** present under *Manage* blade.
+1. Return back to the Azure portal in the **JumpVM**, navigate to **EB-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
-    ![ws name.](media/2avd50.png)
+    ![ws name.](media/2avd103.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
