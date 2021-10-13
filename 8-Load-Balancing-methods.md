@@ -18,11 +18,11 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on **Users** under *Manage* blade.
 
-   ![ws name.](media/lb6.png)
+   ![ws name.](media/2avd104.png)
 
 1. Click on **+ New user** to add a new user.
 
-   ![ws name.](media/lb5.png)
+   ![ws name.](media/2avd105.png)
 
 1. Add the following configurations and leave rest to default:
 
@@ -30,7 +30,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Name: **AVDUser01**
    - Click on **Create**.
 
-   ![ws name.](media/lb8.png)
+   ![ws name.](media/2avd106.png)
 
 1. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
 
@@ -38,11 +38,11 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Name: **AVDUser02**
    - Click on **Create**
    
-   ![ws name.](media/lb7.png)
+   ![ws name.](media/2avd107.png)
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
-   ![ws name.](media/lb11.png)
+   ![ws name.](media/2avd108.png)
 
 1. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
@@ -70,7 +70,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    
 1. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
-    ![ws name.](media/2avd90.png)
+    ![ws name.](media/2avd109.png)
 
 1. Once done, the users assigned to the Application group will look similar to the image given below.
 
