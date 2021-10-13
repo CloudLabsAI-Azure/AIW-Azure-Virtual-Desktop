@@ -42,11 +42,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
 1. Review the configuration and click on **Create**.
 
-   ![](media/avdv227.png)
+   ![](media/2avd110.png)
 
 1. In **Access Control (IAM)** click on **+ Add** *(1)* and select **Add role assignment** *(2)*.
 
-   ![](media/avdv228.png)
+   ![](media/2avd111.png)
   
    - Under Role, search and select **start VM on connect** *(3)*.
    - Under Select, search for **Windows Virtual desktop** **(4)** and select it *(5)*
@@ -62,11 +62,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
 1. On the left-hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
 
-   ![](media/2avd17.png)
+   ![](media/2avd112.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
 
-   ![](media/2avd51.png)
+   ![](media/2avd113.png)
   
    - Toggle Start VM on connect to **Yes** *(2)*.
    - Click on **Save** *(3)*.
