@@ -90,22 +90,23 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/w1.png)
    
-1. Select **Host pools** from the side blade and select **AVD-HP-01**.
+1. Select **Host pools** from the side blade and select **EB-AVD-HP**.
 
-   ![ws name.](media/teams7.png)
+   ![ws name.](media/2avd120.png)
    
-1. Under Settings, Select **RDP Properties** and select **Device redirection**. Select the following options and click on **Save**
+1. Under Settings, Select **RDP Properties** *(1)* and select **Device redirection** *(2)*. Select the following options.
    
-   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** from the dropdown.
-   - Audio output location: Select **Play sounds on the remote computer** from the dropdown
-   - Camera redirection: Select **Redirect cameras** from the dropdown.
+   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** *(3)* from the dropdown.
+   - Audio output location: Select **Play sounds on the remote computer** *(4)* from the dropdown
+   - Camera redirection: Select **Redirect cameras** *(5)* from the dropdown.
    - Leave the rest properties as **defaults**.
+   - click on **Save** *(6)*.
 
-   ![ws name.](media/2avd48.png)
+   ![ws name.](media/2avd121.png)
    
 1. Select **Application groups** from the side blade. You will see two application groups, Select the **AVD-AG-01** application group.
 
-   ![ws name.](media/teams6.png)
+   ![ws name.](media/2avd122.png)
    
 1. Under Manage, select **Applications** and select **Add**.
 
@@ -195,3 +196,5 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    >**NOTE**: If **Invite others** prompt appears, Close the tab and continue.
   
 1. Now, You should be able to see yourself as the video is On.
+
+1. Click on the Next button present in the bottom-right corner of this lab guide.
