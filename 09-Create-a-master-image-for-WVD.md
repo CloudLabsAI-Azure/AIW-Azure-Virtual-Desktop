@@ -172,8 +172,6 @@ The UI form offers the following actions:
     - **Install Office 365**
     - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
     - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
-    - **Install Microsoft Teams per Machine**
-    - **Install Microsoft Edge Chromium v80+**
     - **Disable Windows Update**
     - **Run System Clean Up (CleanMgr.exe)**
     - At last, click on **Execute**.
@@ -184,7 +182,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/im12.png)
 
-11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
+11. Once the script completes, select the **Start** icon and note that **Microsoft Office** has been installed.
 
     ![ws name.](media/e20.png)
 
