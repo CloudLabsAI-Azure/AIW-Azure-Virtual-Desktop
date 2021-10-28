@@ -167,27 +167,25 @@ The UI form offers the following actions:
 
    ![ws name.](media/im7.png)
 
-10.  Now select the following applications listed below:
+10. Now select the following applications listed below:
 
-   - **Install Office 365**
-   - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
-   - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
-   - **Install Microsoft Teams per Machine**
-   - **Install Microsoft Edge Chromium v80+**
-   - **Disable Windows Update**
-   - **Run System Clean Up (CleanMgr.exe)**
-   - At last, click on **Execute**.
+    - **Install Office 365**
+    - **Install FSLogix Agent -** *Blank out the value for FSLogix Agent, as shown in the image below.*
+    - **Install OneDrive per Machine -** *Blank out the value for OneDrive per Machine, as shown in the image below.*
+    - **Disable Windows Update**
+    - **Run System Clean Up (CleanMgr.exe)**
+    - At last, click on **Execute**.
 
-   ![ws name.](media/jvm13.png)
+    ![ws name.](media/jvm13.png)
 
-> **Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
+    >**Note:** This script takes about 15 minutes time to run, so be patient as it may seem like nothing is happening for a while, and then applications will begin to install. It will begin configuring the image. **DO NOT close any of the remaining windows that appear until the script has finished execution**. Doing so will interrupt the process and will require you to start over.
 
-   ![ws name.](media/im12.png)
+    ![ws name.](media/im12.png)
 
-11. Once the script completes, select the **Start** icon and note that **Microsoft Office, Microsoft Edge Chromium,** and **Microsoft Teams** have been installed.
+11. Once the script completes, select the **Start** icon and note that **Microsoft Office** has been installed.
 
     ![ws name.](media/e20.png)
-
+    
 12. Now open file explorer and delete **customizations.zip** file and **Customizations** folder from downloads.
 
     ![ws name.](media/e21.png)
