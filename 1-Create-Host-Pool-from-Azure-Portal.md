@@ -53,155 +53,86 @@
    >**Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
 
 
-## Exercise 2: Create Host Pool
+## Exercise 1: Create Host Pool using Getting Started Wizard
 
-In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, then add two session hosts (virtual machines) i.e. *AVD-HP01-SH-0* and *AVD-HP01-SH-1*  and register the default desktop application group from this hostpool to a new workspace named *AVD-WS-01*.
+In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
 
-1. On **Azure portal** search for **Azure Virtual Desktop** in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On the **Azure portal** search for **Azure Virtual Desktop** in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
 
-   ![ws name.](media/2avd1.png) 
-
-2. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Host pools** under **Manage** blade
-
-   ![ws name.](media/2avd2.png)
-
-3. Now, click on **+ Create** to add create new Host Pool.
-
-   ![ws name.](media/2avd3.png)
-
-4. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
-
-   **A**. Project Details Defines the Host Pool environment 
-
-   - Subscription: *Choose the default subscription*.
-   - Resource Group: *Select **AVD-RG** from the drop down*.
-   - Host Pool Name: **AVD-HP-01**
-   - Location: **East US**, *basically this should be same as the region of your resource group*.      
-   - Validation environmet: **No**
-      
-   >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
-            
-   **B**. Host Pool Type Defines the type of host pool. 
-
-   - Host pool type: **Pooled** 
-        
-   > **Note:** Host Pools are of 2 types: Pooled and Personal.  
-   > - **Pooled**, where session hosts can accept connections from any user authorized to an app group within the host pool.
-   > - **Personal**, where each session host is assigned to individual users.
-     
-   - Load Balancing Algorithm: **Breadth First**
+   ![ws name.](media/2avd1.png)
    
-   > **Note:** Load Balancing Algorithm is of two types: *Breadth-first* and *Depth-first*. 
-   > - **Breadth-first** load balancing allows you to evenly distribute user sessions across the session hosts in a host pool. 
-   > - **Depth-first** load balancing allows you to saturate a session host with user sessions in a host pool. 
+1. On the AVD page, **Click** on the **Getting Started**(1) from the side blade and click on **Start**(2).
 
-   - Max session Limit: **5**   
-      
-   > **Note:** Max session Limit limits the simultaneous number of users on the same session host.
+   ![ws name.](media/gsw1.png)
    
-   - Then click on **Next:Virtual Machines**.
+1. On **Getting Started Wizard** page, **Provide** the information as mentioned below,
+
+   **A**.Project Details:
+
+   - Subscription: Select the ***default***
+   - Identity provider: Select ***Existing active directory***
+   - Identity Service Provider: Select ***Azure AD Doamin Services*** from the drop-down
+   - Resource Group: ***AVD-HostPool-RG***
+   - Region: **East US**, *basically this should be same as the region of your resource group*
+   - Virtual Network: **aadds-vnet** *(choose from dropdown)*
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    
-   ![ws name.](media/2avd5.png)  
+   **B**. Domain administrator credentials:
    
-5. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
+   - Azure admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/66.png)
+   **C**. Domain administrator credentials:
+   
+   - Domain admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - **Click** on **Virtual Machines**.
 
-6. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
-
-   **A**. Session Host Specifications:     
-
-   - Resource Group: *Select **AVD-RG** from the drop down*.
-   - Name prefix: **AVD-HP01-SH** 
-   - Virtual machine location: **East US**, *location should be same as location of your resource group*.
-   - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
-   - Image type: **Gallery**
+   ![ws name.](media/gsw6.png)
+   
+1. In **Virtual Machines** tab, **Provide** the information as mentioned below,
+   
+   - Users per virtual machine: Select ***Multiple users***
+   - Image type: ***Gallery***
    - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps (GEN2)** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
+   - **Click** on **Assignments**.
+
+     ![ws name.](media/2avd18.png)
    
-   ![ws name.](media/2avd18.png)
+   - Name prefix: **AVD-HP01-SH**
+   - Number of VIrtual Machines: **2**
+   - Link Azure template: **Unselect** the option
 
-   - Number of VMs: **2**
-   - OS disk type: **Standard SSD**
-   - Use managed disks: *Leave to default*
-   - Boot Diagnostics: **Disable**
+   ![ws name.](media/gsw3.png)
    
-   ![ws name.](media/2avd19.png)
-    
-   **B**. Network and Security:
-    
-   Leave all values to default, except:
-    
-   - Virtual network: **aadds-vnet** *(choose from dropdown)*
-   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
-   - Network Security Group: **Basic**
-   - Public inbound ports: **No**
- 
-   ![ws name.](media/network-security.png)
- 
-   **C**. Domain Administrator Account:
-  
-   - Select which directory you would like to join: Choose **Azure Directory** from dropdown
-   - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
-   - Specify Domain or Unit: **No**
+1. In **Assignments** page, **Provide** the information as mentioned below, 
    
-   ![ws name.](media/domainjoin.png)
+   - Create test user account: **Unselect** the option
+   - Assign existing users or groups: **Select** the option
+   - click on **Review and Create**.
 
-   > **Note:** This Administrator Account details will be used for domain joining the virtual machines to the Windows AD domain we created using AADDS.
-
-   **D**. Virtual Machine Administrator Account:
-  
-   - Username: **hostadmin**
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
-   - Confirm Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *again.*
-   - Click on **Next: Workspace** to proceed. 
+   ![ws name.](media/gsw4.png)
    
-   ![ws name.](media/ex1t2s6c.png)
+1. Verify the options and **click** on **Create**.
+
+   ![ws name.](media/gsw5.png)
    
-7. In the Workspace section, we need to specify if we need to register the default application group to a workspace. 
-
-   - Register desktop app group: *Choose* **Yes** 
-   - To this workspace: *Click on* **Create new**
-
-   ![ws name.](media/67.png)
+   >**NOTE**: It takes 20 mins to get deployed successfully.
    
-8. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
+1. Once the deployment is successful, **Click** on **Go to resource**.
 
-   - Workspace name: **AVD-WS-01** 
-   - Click on **OK**
-     
-   ![ws name.](media/68.png) 
+   ![ws name.](media/gsw7.png)
+   
+1. It will take you to the **Host pool**. Reources created are as follows,
 
-9. Now click on **Review + create** on the bottom left corner. 
+   - **Host Pool**: 1 (EB-AVD-HP)
+   - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)
+   - **Aplication Group**: 1 (EB-AVD-HP-DAG)
+   - **Application**: 1 (SessionDesktop)
+   - **Workspace**: 1 (EB-AVD-WS)
 
-   ![ws name.](media/69.png)
-
-
-10. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
-
-    ![ws name.](media/ch4.png)
-
-    > **Note:** The deployment will take about 15 minutes to succeed.
-
-11. Once the deployment is succeeded, On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
-
-    ![ws name.](media/2avd1.png) 
-
-12. You will get directed towards the Azure Virtual Desktop (here after referred to as AVD) management window. Select **Host pools** under **Manage** blade
-
-    ![ws name.](media/2avd2.png)
-    
-13. Select the **AVD-HP-01** host pool which was created in this exercise.
-
-    ![ws name.](media/2avd20.png)
-
-14. You will see that the host pool **AVD-HP-01** is created with two session hosts in it and a default application group (of type Desktop).  
-
-    ![ws name.](media/ex1t2s14.png)
-
-15. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
-
-    ![ws name.](media/86.png)
-
-15. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+   ![ws name.](media/gsw8.png)
+   
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+   
