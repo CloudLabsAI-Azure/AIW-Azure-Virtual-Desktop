@@ -100,6 +100,10 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/ag7.png)
 
+1. Click Next and on the Advanced section, Switch on the diagnostics option and the **Send to logs workspace** option. Select the Logs Workspace created at the start of the lab.
+
+   ![ws name.](media/advanced-diagnostics.png)
+
 1. Click on **Review + Create**.
 
    ![ws name.](media/review.png)
@@ -118,53 +122,8 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/82.png)
 
-## **Task 2: Enable diagnostics for Application Groups**
 
-In this task we will configure diagnostics for the Application Groups we have configured in the previous task
-
-1. Navigate back to Azure Virtual Desktop and open **Application groups**.
-
-   ![ws name.](media/wiw10.png)
-   
-1. Click on **AVD-HP-01-DAG**. Then select **Diagnostic settings** present under *Monitoring* blade and click on **+Add diagnostic setting**.
-
-   ![ws name.](media/wiw20.png) 
-   
-1. Add the following configurations:
-
-    - Diagnostic settings name: **ApplicationGroupMonitoring**
-    - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-    - Destination details: *Check the box for* **Send to Log Analytics**
-    - Subscription: *Choose the default subscription.*
-    - Log Analytics Workspace: *Select the log analytics workspace from the drop down, that we just created.*
-    - At last, click on **Save**.
-
-    ![ws name.](media/wiw8.png)
-
-1. Once saved, it will look similar to the image shown below.
-
-   ![ws name.](media/lb63.png)
-   
-1. Navigate back to **Application groups** and click on **AVD-AG-01**.
-
-   ![ws name.](media/wiw25.png)
-
-1. Add the following configurations:
-
-    - Diagnostic settings name: **ApplicationGroupMonitoring1**
-    - Category details: *Check all the boxes present under logs i.e.,* **Checkpoint, Error and Management.** 
-    - Destination details: *Check the box for* **Send to Log Analytics**
-    - Subscription: *Choose the default subscription.*
-    - Log Analytics Workspace: *Select the log analytics workpsace from the drop down, that we just created.*
-    - At last, click on **Save**.
-
-    ![ws name.](media/wiw26.png)
-
-1. Once saved, it will look similar to the image shown below.
-
-    ![ws name.](media/lb62.png)
-
-## **Task 3: Enable diagnostics for Session Hosts**
+## **Task 2: Enable diagnostics for Session Hosts**
 
 In this task we will configure diagnostics for the session hosts
 

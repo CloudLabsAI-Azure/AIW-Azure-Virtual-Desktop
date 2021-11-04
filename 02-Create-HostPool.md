@@ -130,6 +130,10 @@ In this task, we will create a Host Pool named *AVD-HP-01* of pooled type, then 
 
    ![ws name.](media/68.png) 
 
+1. Select Next and Tick the diagnostics box to open the selection for the logs workspace as shown below. Select the **Send to Log Analytics workspace** option and select Logs Workspace created at the start of the lab.
+
+   ![ws name.](media/advanced-diagnostics.png) 
+
 1. Now click on **Review + create** on the bottom left corner. 
 
     ![ws name.](media/69.png)
@@ -171,7 +175,7 @@ In this task, we will create a Host Pool named *AVD-HP-01* of pooled type, then 
 1. Now click on **Session Hosts** present under **Manage** blade. Here you can view the session hosts created. 
 
     ![ws name.](media/86.png)
-
+<!-- 
 ## **Task 2: Enable diagnostics for the Host Pool**
 
 In this task we will configure diagnostic features for this host pool to allow us to analyse monitoring data later in this lab.
@@ -245,3 +249,4 @@ In this task we will configure diagnostics for the Azure Virtual Desktop workspa
    ![ws name.](media/lb64.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+ -->
