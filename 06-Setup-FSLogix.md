@@ -173,7 +173,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  #Download FSLogix Installation bundle
 
  if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
-       Invoke-WebRequest -Uri "https://experienceazure.blob.core.windows.net/templates/wvd/FSLogix_Apps_Installation.zip" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+      wget  -Uri "https://aka.ms/fslogix/download" -OutFile "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
 
  #Extract the downloaded FSLogix bundle
  function Expand-ZIPFile($file, $destination){
@@ -189,7 +189,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 }
    #Install FSLogix
    if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
-       $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
+       $pathvargs = $LabFilesDirectory+{\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
        Invoke-Command -ScriptBlock $pathvargs
    }
    #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
