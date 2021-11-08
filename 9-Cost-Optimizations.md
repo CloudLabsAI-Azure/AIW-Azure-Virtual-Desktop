@@ -42,11 +42,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
 1. Review the configuration and click on **Create**.
 
-   ![](media/avdv227.png)
+   ![](media/2avd110.png)
 
 1. In **Access Control (IAM)** click on **+ Add** *(1)* and select **Add role assignment** *(2)*.
 
-   ![](media/avdv228.png)
+   ![](media/2avd111.png)
   
    - Under Role, search and select **start VM on connect** *(3)*.
    - Under Select, search for **Windows Virtual desktop** **(4)** and select it *(5)*
@@ -62,11 +62,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
 1. On the left-hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
 
-   ![](media/2avd17.png)
+   ![](media/2avd112.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
 
-   ![](media/2avd51.png)
+   ![](media/2avd114.png)
   
    - Toggle Start VM on connect to **Yes** *(2)*.
    - Click on **Save** *(3)*.
@@ -81,11 +81,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 1. Select the **session host VMs** *(1)* and click on **Stop** *(2)*.
 
-   ![](media/avdv233.png)
+   ![](media/2avd115.png)
   
 1. On a prompt saying "Do you want to stop the selected Virtual Machines" click on **Yes**.
 
-   ![](media/avdv234.png)
+   ![](media/2avd116.png)
   
 ### Task 2: Access the Session host desktop
 
@@ -113,7 +113,9 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
      
 1. Return to the Azure portal and click on **refresh** *(1)* to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
-   ![](media/avdv236.png)
+   ![](media/2avd117.png)
+   
+1. Click on the Next button present in the bottom-right corner of this lab guide.
   
   
   

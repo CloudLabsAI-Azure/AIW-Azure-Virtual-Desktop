@@ -103,6 +103,7 @@ ________________________
 **Lab 9: MS Teams Optimized Experience**
 
 - Exercise 1: Configuring Session host for implementing MS Teams
+- Exercise 2: Accessing MS Teams using Remote Desktop Application
 
 **Lab 10: MSIX App Attach**
 

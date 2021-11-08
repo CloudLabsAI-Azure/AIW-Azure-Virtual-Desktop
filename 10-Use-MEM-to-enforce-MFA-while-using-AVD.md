@@ -42,7 +42,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
   
 2. From the left-hand side blade, click on **Security** under Manage.
 
-   ![](media/avdv22.png)
+   ![](media/2avd118.png)
   
 3. In **Security** page select **Conditional Access** under Protect.
 
@@ -68,7 +68,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
    - Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
    - Now Click on **Select** *(4)* button.
 
-   ![](media/avdv26.png)
+   ![](media/2avd119.png)
   
    - Click on **Conditions** *(1)*
    - Then select **Client apps** *(2)*.

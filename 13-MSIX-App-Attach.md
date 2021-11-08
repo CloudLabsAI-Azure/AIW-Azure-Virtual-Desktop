@@ -9,7 +9,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the right pane, click on **File shares** present under *Data Storage* blade.
 
-    ![ws name.](media/2avd74.png)
+    ![ws name.](media/2avd123.png)
  
 1. Enter the following name for your file share.
     
@@ -25,7 +25,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Browse the files go to ``C:\LabFiles``. Select **7-Zip.vhd**, **msix.cer** files and Click on **Open**.
 
-   ![ws name.](media/msix4.png)
+   ![ws name.](media/2avd125.png)
    
 1. Select **Access Control(IAM)** from the side blade. Click on **Add** and select **Add Role Assignment**.
 
@@ -39,9 +39,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    ![ws name.](media/msix6.png)
    
-1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
+1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd61.png)
+   ![ws name.](media/2avd126.png)
    
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
@@ -57,7 +57,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
-   ![ws name.](media/msix9.png)
+   ![ws name.](media/2avd127.png)
    
 1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
@@ -71,7 +71,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
-   ![ws name.](media/msix12.png)
+   ![ws name.](media/2avd128.png)
    
 1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
@@ -83,7 +83,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd61.png)
+   ![ws name.](media/2avd129.png)
  
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
@@ -180,10 +180,14 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. You will be directed towards the Azure Virtual Desktop management window.  
 
    ![ws name.](media/64.png)
+   
+1. Select **Host pools** from the side blade and **select** the **EB-AVD-HP** host pool.
+
+   ![ws name.](media/2avd120.png)
 
 1. Under **Manage** blade, Select the **MSIX** tab and click on **Add**.
 
-   ![ws name.](media/msix17.png)
+   ![ws name.](media/2avd124.png)
    
 1. Paste the **URL** and follow the below mentioned steps to create **UNC** path.
 
@@ -203,9 +207,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix19.png)
 
-1. Under **Manage** blade, Select the **Applications* tab and click on **Add**.
+1. Under **Manage** blade, Select the **Applications** tab and click on **Add**.
 
-   ![ws name.](media/msix20.png)
+   ![ws name.](media/2avd122.png)
    
 1. In **Add Application** tab, 
 

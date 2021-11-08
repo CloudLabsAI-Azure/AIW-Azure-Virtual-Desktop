@@ -19,15 +19,15 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
-   ![ws name.](media/wvd2.png)
+   ![ws name.](media/2avd81.png)
    
-4. Click on **AVD-HP-01-DAG** application group.
+4. Click on **EB-AVD-HP-DAG** application group.
 
-   ![ws name.](media/91.png)
+   ![ws name.](media/2avd82.png)
       
 5. Under **Manage** blade, open **Assignments** and then click on **+ Add**. 
 
-   ![ws name.](media/2avd7.png)   
+   ![ws name.](media/2avd83.png)   
  
 6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" />**. Then under the search bar, click on your username to select it.
 
@@ -39,7 +39,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
 8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
 
-   ![ws name.](media/wvd3.png)
+   ![ws name.](media/2avd84.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
@@ -50,8 +50,8 @@ An application group of type ‘Desktop’ was created automatically while creat
          
    ii. Fill the remaining parameters as mentioned below:  
    
-      - Resource Group: *Select* **AVD-RG** *from the dropdown*.
-      - Host Pool: *Select* **AVD-HP-01** *Host pool from the dropdown*.
+      - Resource Group: *Select* **AVD-HP01-SH** *from the dropdown*.
+      - Host Pool: *Select* **EB-AVD-HP** *Host pool from the dropdown*.
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
       - Click on **Next: Applications**
@@ -99,7 +99,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
     - Register Application Group: **Yes**
-    - Register Application Group: _Select_ **AVD-WS-01** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
+    - Register Application Group: _Select_ **EB-AVD-WS** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
 
     ![ws name.](media/ag7.png)
 
