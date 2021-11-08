@@ -1,4 +1,4 @@
-## Getting Started with Lab	
+# Getting Started with Lab	
 
 1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
 
@@ -47,3 +47,4 @@
    ![](media/jvm4.png)
    
    >**Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+

@@ -77,7 +77,7 @@ In the following task, we will be creating a storage account with a file share w
  
 11. In the right pane, click on **File shares** present under *Data Storage* blade.
 
-    ![ws name.](media/uiupdate10.png)
+    ![ws name.](media/2avd88.png)
  
 12. Enter the following name for your file share.
     
