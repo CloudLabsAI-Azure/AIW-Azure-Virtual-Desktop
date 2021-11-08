@@ -1,9 +1,58 @@
 # Lab 2b: Monitoring using Azure Monitor for AVD
 
+## Exercise 1: Exploring Insights for AVD
+
+### Task 1: Access AVD using browser and Remote client
+
+1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+
+   ```
+   aka.ms/wvdarmweb
+   ```
+
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   
+   ![ws name.](media/username.png)
+
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+
+   ![ws name.](media/password.png)
+
+   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+
+   ![](media/login1.png)
+
+1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+
+   ![ws name.](media/newrd1.png)
+
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
+
+   ![ws name.](media/2avd31.png)
+
+1. Enter your **credentials** to access the application and click on **Submit**.
+
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   
+   ![ws name.](media/lb52.png)
+
+1. The virtual Desktop will launch as shown below. 
+
+   ![ws name.](media/newrd2.png)
+   
+   >**NOTE**: **DO NOT** close the session or the AVD web client. Keep it running.
+   
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+
+   ![ws name.](media/137.png)
+   
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
 
    ![ws name.](media/lb16.png)
 
-   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+   >**NOTE**: We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
 
 1. Click on **Subscribe** button.
 
@@ -17,7 +66,7 @@
 
    ![ws name.](media/password2.png)
 
-   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
 
    ![](media/login2.png)
     
@@ -30,6 +79,9 @@
    ![ws name.](media/newrd.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
+
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
    ![ws name.](media/lb37.png)
   
@@ -40,6 +92,15 @@
 1. The virtual Desktop will launch as shown below. 
 
    ![ws name.](media/newrd2.png)
+   
+   >**NOTE**: **DO NOT** close the session or the AVD Remote client. Keep it running.
+
+
+### Task 2: Exploring Insights data
+
+>**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such scenario, Please refresh the **Insights** page untill the data is loaded.
+   
+1. Now, Navigate to Azure Virtual Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
 
    ![ws name.](media/mon2.png)
    
