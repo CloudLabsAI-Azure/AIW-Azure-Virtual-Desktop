@@ -21,11 +21,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    - Subscription: *Choose the default subscription.*
   
-   - Resource group: *Select **AVD-RG** from the drop down.*
+   - Resource group: *Select **AVD-Hostpool-RG-avd** from the drop down.*
   
    - Name: **<inject key="Log Analytics Workspace Name	" />**
   
-   - Region: **East US**, *basically this should be same as the region of your resource group.*
+   - Region: This should be same as the region of *AVD-RG* resource group.*
   
    - Click on **Review + Create**
 
@@ -72,8 +72,8 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. On **Insights** page, Select the following values and click on **Open Configuration Workbook**.
    
    - Subscription: **Choose the default subscription**.
-   - Resource group: **AVD-RG**.
-   - Host Pool: **AVD-HP-01**
+   - Resource group: **avd-hotpool-rg-avd**.
+   - Host Pool: **EB-AVD-HP**
    - Time range: **Leave it to default**.
 
    ![ws name.](media/2avd21.png)
@@ -102,9 +102,9 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/2avd22.png)
    
-1. On **Check Configuration** page, Select **Session host data settings**. Select the **<inject key="Log Analytics Workspace Name	" />** analytics workspace and click on **Add host to workspace**.
+1. On **Check Configuration** page, Select **Session host data settings**. Select the **<inject key="Log Analytics Workspace Name	" />** analytics workspace.
 
-   ![ws name.](media/mon13.png)
+   ![ws name.](media/gsu2.png)
    
 1. On **Deploy template** page, Both the session host will be configured to send data to the selected workspace. Click on **Deploy**.
 
