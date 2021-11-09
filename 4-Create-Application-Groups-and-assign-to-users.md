@@ -1,4 +1,4 @@
-# Lab 2: Create Application Groups and assign to users
+# Lab 3: Create Application Groups and assign to users
 
 As explained in the General Hierarchy section, Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
@@ -99,9 +99,9 @@ An application group of type ‘Desktop’ was created automatically while creat
 17. In the *Workspace* tab, choose the parameters as mentioned below:  
 
     - Register Application Group: **Yes**
-    - Register Application Group: _Select_ **EB-AVD-WS** _workspace from the dropdown(the default ‘Desktop’ type application group on the same Session Host *(AVD-HP01-SH-01)* is registered to this workspace.)_
+    - Register Application Group: Leave the value to default
 
-    ![ws name.](media/ag7.png)
+    ![ws name.](media/gsu3.png)
 
 18. Click on **Review + Create**.
 
