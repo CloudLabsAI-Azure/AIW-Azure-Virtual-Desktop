@@ -1,4 +1,4 @@
-# Lab 2b: Monitoring using Azure Monitor for AVD
+# Lab 2(B): Monitoring using Azure Monitor for AVD
 
 ## Exercise 1: Exploring Insights for AVD
 
