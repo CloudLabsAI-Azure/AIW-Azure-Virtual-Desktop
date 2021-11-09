@@ -1,4 +1,4 @@
-# Lab 6: Load Balancing methods
+# Lab 7: Load Balancing methods
 
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool.
 While configuring  a host pool, we can select load balancing methods as per the needs.
