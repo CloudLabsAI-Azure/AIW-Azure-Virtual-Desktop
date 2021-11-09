@@ -23,7 +23,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Identity provider: Select ***Existing active directory***
    - Identity Service Provider: Select ***Azure AD Doamin Services*** from the drop-down
    - Resource Group: ***AVD-HostPool-RG***
-   - Region: **East US**, *basically this should be same as the region of your resource group*
+   - Region: This should be same as the region of your *AVD-RG* resource group
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    
@@ -46,7 +46,6 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Image type: ***Gallery***
    - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps (GEN2)** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
-   - **Click** on **Assignments**.
 
      ![ws name.](media/2avd18.png)
    
