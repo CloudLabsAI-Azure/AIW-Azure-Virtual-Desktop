@@ -1,4 +1,4 @@
-# Lab 4: Access the Published Applications and Desktop using AVD Desktop Client
+# Lab 5: Access the Published Applications and Desktop using AVD Desktop Client
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using AVD Desktop client.
 
