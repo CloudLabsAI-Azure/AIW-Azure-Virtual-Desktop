@@ -1,4 +1,4 @@
-# Lab 8: Use MEM to enforce MFA while using AVD
+# Lab 9: Use MEM to enforce MFA while using AVD
 
 In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
 
