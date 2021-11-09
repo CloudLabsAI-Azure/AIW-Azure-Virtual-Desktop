@@ -1,4 +1,4 @@
-# Lab 7: Cost Optimizations
+# Lab 8: Cost Optimizations
 
 In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature which lets you save costs by allowing users to turn on their VMs only when they need them.
 
