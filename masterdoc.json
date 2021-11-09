@@ -50,6 +50,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/13-MSIX-App-Attach.md",
         "Order": 12
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v2/2b-Monitoring-using-Azure-Monitor-for-AVD.md",
+        "Order": 13
       }
     ]
   }
