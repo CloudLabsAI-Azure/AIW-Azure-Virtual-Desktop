@@ -106,11 +106,8 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/gsu2.png)
    
-1. On **Deploy template** page, Both the session host will be configured to send data to the selected workspace. Click on **Deploy**.
-
-   ![ws name.](media/mon11.png)
    
-1. Once the deployment is successful, On **Check Configuration** page click on **configure performance counters** in **performance counter** window.
+1. On **Check Configuration** page click on **configure performance counters** in **performance counter** window.
 
    ![ws name.](media/mon14.png)
    
