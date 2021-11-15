@@ -221,7 +221,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Under **Manage** blade, Select the **Applications** tab and click on **Add**.
 
-   ![ws name.](media/2avd122.png)
+   ![ws name.](media/addappli-v2.png)
    
 1. In **Add Application** tab, 
 
