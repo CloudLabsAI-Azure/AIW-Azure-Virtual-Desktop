@@ -45,7 +45,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. In Log Analytics Workspace under **Workspace Data Sources** side blade, select **Virtual machines** and click on **AVD-HP01-SH-0** virtual machine. 
 
-   ![ws name.](media/2avd25.png)
+   ![ws name.](media/avd-v2.png)
    
 1. In **AVD-HP01-SH-0** virtual machine page, Click on **Connect**.
 
