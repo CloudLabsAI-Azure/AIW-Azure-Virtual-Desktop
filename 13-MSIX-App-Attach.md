@@ -53,7 +53,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd126.png)
+   ![ws name.](media/stacc-v2.png)
    
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
@@ -95,7 +95,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd129.png)
+   ![ws name.](media/stacc-v2.png)
  
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
