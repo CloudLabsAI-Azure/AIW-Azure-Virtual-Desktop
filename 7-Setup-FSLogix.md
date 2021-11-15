@@ -136,18 +136,26 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Select following configuration for role assignment:  
    
-   - Role: **Storage File Data SMB Share Contributor**
+   - Role: Search for **Storage File Data SMB Share Contributor** and select it, then click on **Next**.
+
+     ![ws name.](media/role%20assignemnt-v2.png)
    
    >**Note:** There are three Azure built-in roles for granting share-level permissions to users:
    > - *Storage File Data SMB Share Reader* allows read access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Contributor* allows read, write, and delete access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
-   - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
+   - Under **Members** tab, follow the mentioned details:
+
+      - Assign access to: Select **User, group, or service principal**
+      
+      - Click on **+  Select members**.
+
+      - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
    
-   - Then click on **Save**.
+      - Then click on **Select**.
    
-   ![ws name.](media/2avd42.png)
+     ![ws name.](media/members-v2.png)
  
 ## Exercise 3: Configure Session Hosts
 
