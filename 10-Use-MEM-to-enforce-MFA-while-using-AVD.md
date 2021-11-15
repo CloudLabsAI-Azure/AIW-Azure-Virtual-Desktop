@@ -68,7 +68,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
    - Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
    - Now Click on **Select** *(4)* button.
 
-   ![](media/2avd119.png)
+   ![](media/cloudapps-v2.png)
   
    - Click on **Conditions** *(1)*
    - Then select **Client apps** *(2)*.
@@ -84,7 +84,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
 
    ![](media/avdv28.png)
    
-6. Toggle the **Enable Policy** switch to **Yes** and click on **Create**.
+6. Toggle the **Enable Policy** switch to **On** and click on **Create**.
 
    ![](media/avdv29.png)
   
