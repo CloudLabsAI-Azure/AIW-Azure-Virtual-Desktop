@@ -112,7 +112,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Click on **permission - fslogixcontainer** group to open.
 
-   ![ws name.](media/2avd39.png)
+   ![ws name.](media/permission-v2.png)
    
 1. Select **Member** from **Manage** blade and select **Add members**.
 
