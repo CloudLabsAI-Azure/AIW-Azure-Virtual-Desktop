@@ -29,11 +29,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Click on **Review + Create**
 
-   ![ws name.](media/wiw3.png)
+   ![ws name.](media/LAW-V2.png)
 
 1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-   ![ws name.](media/wiw18.png)
+   ![ws name.](media/Create%20LAW-V2.png)
 
 1. Once the deployment gets succeeded, it will look similar to the image shown below.
 
