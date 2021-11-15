@@ -155,7 +155,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/2avd31.png)
+   ![ws name.](media/Accessallowres-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -272,7 +272,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/2avd31.png)
+   ![ws name.](media/Accessallowres-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
