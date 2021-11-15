@@ -390,7 +390,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 21. Click on the **Session Desktop** Desktop to launch it.
 
-    ![ws name.](media/ex3t2s2.png)
+    ![ws name.](media/session%20desktop-v2.png)
 
 22. Select Allow on the prompt asking permission to access local resources.
 
