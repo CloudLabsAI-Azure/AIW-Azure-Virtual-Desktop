@@ -44,13 +44,23 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/2avd110.png)
 
-1. In **Access Control (IAM)** click on **+ Add** *(1)* and select **Add role assignment** *(2)*.
-
-   ![](media/2avd111.png)
+1. In **Access Control (IAM)** click on **+ Add**  and select **Add role assignment** .
   
-   - Under Role, search and select **start VM on connect** *(3)*.
-   - Under Select, search for **Windows Virtual desktop** **(4)** and select it *(5)*
-   - Click on **Save** *(6)*.
+   - Under Role, search and select **start VM on connect**, then click on **Next**.
+
+     ![](media/startvm-v2.png)
+     
+   - Under **Members** tab,enter the below mentioned details:
+
+      - Assign access to: 	**User, group, or service principal (1)**
+  
+      - Click on **+ Select members (2)**
+     
+      - Under Select, search for **Windows Virtual desktop and select it **(3)**
+      
+      - Click on **Select (4)**.
+
+    ![](media/roleass-v2.png)
 
 ## Exercise 2: Configure the Start VM on Connect feature
 
