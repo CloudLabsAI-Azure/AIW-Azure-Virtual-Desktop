@@ -24,7 +24,7 @@
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd1.png)
+   ![ws name.](media/sess-v2.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
