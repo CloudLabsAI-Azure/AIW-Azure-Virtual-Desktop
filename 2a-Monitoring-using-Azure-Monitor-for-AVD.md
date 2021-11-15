@@ -57,7 +57,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. **Wait** till both the virtual machine's **Log Analytics Connection** status is changed to **Connected**. Once connected, You'll see the **green corrected symbol** for both the VMs.
 
-   ![ws name.](media/2avd28.png)
+   ![ws name.](media/hostpool-V2.png)
    
 ## Exercise 2: Enable diagnostics for Workspace
  
