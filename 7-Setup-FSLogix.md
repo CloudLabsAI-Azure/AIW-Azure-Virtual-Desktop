@@ -362,7 +362,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
-    ![ws name.](media/2avd13.png)
+    ![ws name.](media/loggoff-v2.png)
     
 19. Click on **OK** to *Log off the user from VMs*.
 
