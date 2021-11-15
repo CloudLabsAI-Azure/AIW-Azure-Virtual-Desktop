@@ -33,11 +33,23 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Select the following options and click **Save**
 
-   - Role: Search and select **Storage File Data SMB share Contributor** role.
-   - Assign access to: **User, groups, or service principal**.
-   - Select: Search and select **<inject key="AzureAdUserEmail" />** user.
+   - Role: Search and select **Storage File Data SMB share Contributor** role,then click on **Next**
+
+     ![](media/role%20assignemnt-v2.png)
+     
+   - Under **Members**, enter the below details:
+  
+      - Assign access to : **User, group, or service principal (1)**
+
+      - Click on **+ Select members (2)**
+      
+      - Select: Search and select **<inject key="AzureAdUserEmail" />** user (3).
+
+      - Click on **Select (4)**
    
-   ![ws name.](media/msix6.png)
+   ![ws name.](media/members1-v2.png)
+   
+   - Select **Review + assign**
    
 1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
