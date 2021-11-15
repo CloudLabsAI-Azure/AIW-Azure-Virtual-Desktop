@@ -42,7 +42,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
-   ![ws name.](media/2avd108.png)
+   ![ws name.](media/user-v2.png)
 
 1. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
