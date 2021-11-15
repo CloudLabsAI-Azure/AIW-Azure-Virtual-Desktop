@@ -268,7 +268,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd1.png)
+   ![ws name.](media/desktp-v2.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
