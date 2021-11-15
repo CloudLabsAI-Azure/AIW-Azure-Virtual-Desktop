@@ -101,7 +101,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Click on **+ New group** to add a new group.
 
-   ![ws name.](media/2avd35.png)
+   ![ws name.](media/groups-v2.png)
    
 1. Add the following configurations and leave rest to default:
 
