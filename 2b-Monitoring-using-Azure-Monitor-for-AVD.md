@@ -76,7 +76,7 @@
 
 1. In AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd.png)
+   ![ws name.](media/sess-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
