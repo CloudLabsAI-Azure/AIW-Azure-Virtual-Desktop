@@ -116,4 +116,4 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
    
 10. The AVD dashboard will be launched. 
 
-    ![](media/2avd55.png)
+    ![](media/EB-AVD-WS.png)
