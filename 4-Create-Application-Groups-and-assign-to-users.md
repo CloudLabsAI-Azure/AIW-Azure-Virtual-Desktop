@@ -109,7 +109,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-    ![ws name.](media/80.png)
+    ![ws name.](media/create%20AG-V2.png)
 
     >**Note:** The deployment will take about a minute to succeed.
 
