@@ -145,7 +145,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    > - *Storage File Data SMB Share Contributor* allows read, write, and delete access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
-   - Under **Members** tab, follow the mentioned details:
+   - Under **Members** tab, follow the below steps:
 
       - Assign access to: Select **User, group, or service principal**
       
@@ -156,7 +156,11 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
       - Then click on **Select**.
    
      ![ws name.](media/members-v2.png)
- 
+     
+  - Click on **Review + assign**
+
+     ![ws name.](media/review%2Bassign-v2.png)
+  
 ## Exercise 3: Configure Session Hosts
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
