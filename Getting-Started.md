@@ -46,5 +46,5 @@
 
    ![](media/jvm4.png)
    
-   >**Note:** You will be using ***AVD-RG*** throughout the lab. Other two resource groups listed in the portal are not to be used in the lab.
+   
 
