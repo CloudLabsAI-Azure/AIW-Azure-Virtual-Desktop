@@ -61,6 +61,8 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
       - Click on **Select (4)**.
 
     ![](media/roleass-v2.png)
+    
+  - Click on **Review + assign**
 
 ## Exercise 2: Configure the Start VM on Connect feature
 
