@@ -101,7 +101,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Click on **+ New group** to add a new group.
 
-   ![ws name.](media/2avd35.png)
+   ![ws name.](media/groups-v2.png)
    
 1. Add the following configurations and leave rest to default:
 
@@ -112,7 +112,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Click on **permission - fslogixcontainer** group to open.
 
-   ![ws name.](media/2avd39.png)
+   ![ws name.](media/permission-v2.png)
    
 1. Select **Member** from **Manage** blade and select **Add members**.
 
@@ -136,19 +136,31 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Select following configuration for role assignment:  
    
-   - Role: **Storage File Data SMB Share Contributor**
+   - Role: Search for **Storage File Data SMB Share Contributor** and select it, then click on **Next**.
+
+     ![ws name.](media/role%20assignemnt-v2.png)
    
    >**Note:** There are three Azure built-in roles for granting share-level permissions to users:
    > - *Storage File Data SMB Share Reader* allows read access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Contributor* allows read, write, and delete access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
-   - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
+   - Under **Members** tab, follow the below steps:
+
+      - Assign access to: Select **User, group, or service principal**
+      
+      - Click on **+  Select members**.
+
+      - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
    
-   - Then click on **Save**.
+      - Then click on **Select**.
    
-   ![ws name.](media/2avd42.png)
- 
+     ![ws name.](media/members-v2.png)
+     
+  - Click on **Review + assign**
+
+     ![ws name.](media/review%2Bassign-v2.png)
+  
 ## Exercise 3: Configure Session Hosts
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
@@ -350,7 +362,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 
-    ![ws name.](media/2avd13.png)
+    ![ws name.](media/loggoff-v2.png)
     
 19. Click on **OK** to *Log off the user from VMs*.
 
@@ -378,11 +390,11 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 21. Click on the **Session Desktop** Desktop to launch it.
 
-    ![ws name.](media/ex3t2s2.png)
+    ![ws name.](media/session%20desktop-v2.png)
 
 22. Select Allow on the prompt asking permission to access local resources.
 
-    ![ws name.](media/2avd31.png)
+    ![ws name.](media/Accessallowres-v2.png)
 
 23. Enter your **Credentials** to access the desktop.
 
@@ -415,7 +427,7 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Networking**.
 
-   ![ws name.](media/jvm15.png)
+   ![ws name.](media/storacc-v2.png)
    
 3. Under **Allow access from** select **All networks** and click on **save icon**.
 

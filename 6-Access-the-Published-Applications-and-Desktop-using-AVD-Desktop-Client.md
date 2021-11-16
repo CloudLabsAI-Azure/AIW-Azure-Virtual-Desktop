@@ -59,7 +59,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
       
 10. The AVD dashboard will launch, then double click on **Excel** application to access it.
 
-    ![ws name.](media/remotedesktop.png)
+    ![ws name.](media/remote%20desktop-v2.png)
    
 11. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
 
@@ -103,7 +103,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Return to AVD client application. On AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
-   ![ws name.](media/ex4t2s2.png)
+   ![ws name.](media/session%20desktop-v2.png)
    
 2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 

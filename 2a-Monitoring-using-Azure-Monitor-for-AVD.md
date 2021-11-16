@@ -29,11 +29,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Click on **Review + Create**
 
-   ![ws name.](media/wiw3.png)
+   ![ws name.](media/LAW-V2.png)
 
 1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-   ![ws name.](media/wiw18.png)
+   ![ws name.](media/Create%20LAW-V2.png)
 
 1. Once the deployment gets succeeded, it will look similar to the image shown below.
 
@@ -41,11 +41,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. You can check the deployment  by clicking on **Go to resource**.
 
-   ![ws name.](media/2avd15.png)
+   ![ws name.](media/avd%20monitoring-V2.png)
 
 1. In Log Analytics Workspace under **Workspace Data Sources** side blade, select **Virtual machines** and click on **AVD-HP01-SH-0** virtual machine. 
 
-   ![ws name.](media/2avd25.png)
+   ![ws name.](media/avd-v2.png)
    
 1. In **AVD-HP01-SH-0** virtual machine page, Click on **Connect**.
 
@@ -57,7 +57,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. **Wait** till both the virtual machine's **Log Analytics Connection** status is changed to **Connected**. Once connected, You'll see the **green corrected symbol** for both the VMs.
 
-   ![ws name.](media/2avd28.png)
+   ![ws name.](media/hostpool-V2.png)
    
 ## Exercise 2: Enable diagnostics for Workspace
  

@@ -33,15 +33,27 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Select the following options and click **Save**
 
-   - Role: Search and select **Storage File Data SMB share Contributor** role.
-   - Assign access to: **User, groups, or service principal**.
-   - Select: Search and select **<inject key="AzureAdUserEmail" />** user.
+   - Role: Search and select **Storage File Data SMB share Contributor** role,then click on **Next**
+
+     ![](media/role%20assignemnt-v2.png)
+     
+   - Under **Members**, enter the below details:
+  
+      - Assign access to : **User, group, or service principal (1)**
+
+      - Click on **+ Select members (2)**
+      
+      - Select: Search and select **<inject key="AzureAdUserEmail" />** user (3).
+
+      - Click on **Select (4)**
    
-   ![ws name.](media/msix6.png)
+   ![ws name.](media/members1-v2.png)
+   
+   - Select **Review + assign**
    
 1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd126.png)
+   ![ws name.](media/stacc-v2.png)
    
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
@@ -83,7 +95,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
 
-   ![ws name.](media/2avd129.png)
+   ![ws name.](media/stacc-v2.png)
  
 1. Under **Data storage**, select **File Shares** and click on **msixfile**.
 
@@ -209,7 +221,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Under **Manage** blade, Select the **Applications** tab and click on **Add**.
 
-   ![ws name.](media/2avd122.png)
+   ![ws name.](media/addappli-v2.png)
    
 1. In **Add Application** tab, 
 
@@ -249,7 +261,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
       
 1. The AVD dashboard will launch, then double click on **SessionDesktop** application to access it.
 
-   ![ws name.](media/2avd78.png)
+   ![ws name.](media/7-zip.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
 

@@ -42,7 +42,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
-   ![ws name.](media/2avd108.png)
+   ![ws name.](media/user-v2.png)
 
 1. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
@@ -151,11 +151,11 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd1.png)
+   ![ws name.](media/desktp-v2.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/2avd31.png)
+   ![ws name.](media/Accessallowres-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -201,7 +201,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
 1. In AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd.png)
+   ![ws name.](media/desktp-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -268,11 +268,11 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd1.png)
+   ![ws name.](media/desktp-v2.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/2avd31.png)
+   ![ws name.](media/Accessallowres-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -292,7 +292,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
 1. In AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/newrd.png)
+   ![ws name.](media/desktp-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
