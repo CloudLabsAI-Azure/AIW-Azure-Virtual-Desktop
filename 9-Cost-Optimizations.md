@@ -8,7 +8,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
 
-1. Now in the Azure portal search for **Subscription* and click on the search result.
+1. Now in the Azure portal search for **Subscription** and click on the search result.
 
    ![](media/avdv219.png)
 
@@ -16,7 +16,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv220.png)
   
-1. Now from the left-hand side blade, Click on **Access Control (IAM)** and then click on **+ Add** and select **Add custom role**.
+1. Now from the left-hand side blade, Click on **Access Control (IAM) (1)** and then click on **+ Add (2)** and select **Add custom role (3)**.
 
    ![](media/avdv221.png)
 
@@ -28,7 +28,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv223.png)
 
-1. In Add Permissions search for **Virtual Machines** *(1)* and select **Microsoft Compute** from the search results *(2)*.
+1. In Add Permissions search for **Virtual Machines** *(1)* and select **Microsoft Compute (2)** from the search results.
 
    ![](media/avdv224.png)
 
@@ -105,13 +105,13 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![ws name.](media/session%20desktop-v2.png)
    
-1. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
    
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    
    ![](media/login.png)
 
@@ -128,6 +128,3 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
    ![](media/2avd117.png)
    
 1. Click on the Next button present in the bottom-right corner of this lab guide.
-  
-  
-  
