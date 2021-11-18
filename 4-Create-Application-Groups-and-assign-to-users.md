@@ -1,15 +1,15 @@
-# Lab 3: Create Application Groups and assign to users
+# Lab 3: Create Application Groups and assign them to users
 
-As explained in the General Hierarchy section, Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
+As explained in the General Hierarchy section, an Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
 1. RemoteApp 
 2. Desktop 
 
 ### Exercise 1: Create Application Group
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
-1. Navigate to Azure portal, then search for *Azure Virtual Desktop* in search bar and select **Azure Virtual Desktop** from the suggestions.
+1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
@@ -21,7 +21,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/2avd81.png)
    
-4. Click on **EB-AVD-HP-DAG** application group.
+4. Click on the **EB-AVD-HP-DAG** application group.
 
    ![ws name.](media/2avd82.png)
       
@@ -33,7 +33,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/w7.png)
    
-7. At last, click on **Select** button. 
+7. At last, click on the **Select** button. 
  
    ![ws name.](media/w6.png) 
  
@@ -88,7 +88,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
     ![ws name.](media/ag3.png)
 
-15. Click on the **+Add Azure AD users or user groups**, then copy and paste your username **<inject key="AzureAdUserEmail" />** in the search bar. When your username appears under the search bar, select it and then click on **Select** button. This will give you the access to application group.
+15. Click on the **+Add Azure AD users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it and then click on the **Select (3)** button. This will give you access to the application group.
  
     ![ws name.](media/ag5.png)
 
