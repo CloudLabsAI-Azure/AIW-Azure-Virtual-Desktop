@@ -1,10 +1,10 @@
 # Lab 9: Use MEM to enforce MFA while using AVD
 
-In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
+In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
 
 ### Exercise 1: Setup Multi-Factor Authentication (MFA)
 
-1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to login then login using the following credentials:
+1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to log in then log in using the following credentials:
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
@@ -13,7 +13,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
 
    ![](media/avdv210.png)
   
-3. Enter the details required to setup MFA.
+3. Enter the details required to set up MFA.
 
    ![](media/avdv211.png)
 
@@ -21,16 +21,15 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
    - Country Code: Select the country code of your mobile number *(2)*.
    - Mobile Number: Enter the number which you want to use for the MFA *(3)*.
    - Method: Select the preferred method of authentication as **Call me** *(4)*.
+   - Click on **Next**.
 
-4. Click on **Next**.
-
-5. Now you will get a verification call on the provided contact details.
+4. Now you will get a verification call on the provided contact details.
 
    ![](media/avdv212.png)
   
-6. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+5. After answering the call, you will be asked to press the "**#**" key to complete the verification.
 
-7. Now after few seconds the status will change to **Verification Successful**, click on **Done** to finish the MFA registration.
+6. Now after a few seconds the status will change to **Verification Successful**, click on **Done** to finish the MFA registration.
 
    ![](media/avdv213.png)
   
@@ -110,7 +109,7 @@ In this lab, We'll be enabling Multi-Factor autentication, Multi-factor authenti
 
    ![ws name.](media/2avd54.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login.png)
    
