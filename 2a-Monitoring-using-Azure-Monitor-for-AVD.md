@@ -25,7 +25,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Name: **<inject key="Log Analytics Workspace Name	" />**
   
-   - Region: This should be same as the region of *AVD-RG* resource group.*
+   - Region: This should be same as the region of *AVD-RG* resource group.
   
    - Click on **Review + Create**
 
@@ -61,7 +61,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 ## Exercise 2: Enable diagnostics for Workspace
  
-1. On **Azure portal** search for *Azure Virtual Desktop* in the search bar (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On **Azure portal** search for **Azure Virtual Desktop (1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/avd1.png) 
 
@@ -102,7 +102,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/2avd22.png)
    
-1. On **Check Configuration** page, Select **Session host data settings**. Select the **<inject key="Log Analytics Workspace Name	" />** analytics workspace.
+1. On **Check Configuration** page, Select **Session host data settings (1)**. Select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
    ![ws name.](media/gsu2.png)
    
