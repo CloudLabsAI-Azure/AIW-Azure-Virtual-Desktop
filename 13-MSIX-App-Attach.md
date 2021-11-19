@@ -1,5 +1,11 @@
 # Lab 11: MSIX App Attach
 
+## **Scenario**
+
+Contoso wants few application to be installed in all the sessions host. So contoso had decided implement MSIX app attach inorder to install few application across the all session hosts and users should be able to access them. you will help contoso to install one of the application that is, 7-Zip file manager using MSIX app attach feature.
+
+## **Overview**
+
 In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
 Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach`` for more information.
 
