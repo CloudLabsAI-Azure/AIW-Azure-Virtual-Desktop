@@ -1,115 +1,74 @@
+### **Azure Virtual Desktop**
 
-# Overview
-   
-Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
+## **Overview**
 
-Here's what you can do when you run Azure Virtual Desktop on Azure:
+Contoso IT consulting services, headquartered in Los Angeles, California, is one among the top IT companies in the country and it is located throughout North America. These locations continue to grow through acquisition. The nature of their business requires a high level of security of Personal Identifiable Information (PII) for their employees.
 
-   - Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability.
-   - Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios.
-   - Provide Windows 7 virtual desktops with free Extended Security Updates.
-   - Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer.
-   - Virtualize both desktops and apps.
-   - Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience.
+## **Hands-on Labs Scenario**
 
-## **General Hierarchy**
+Contoso IT consulting services has grown rapidly and this has created a new challenge. Contoso has a requirement for providing it's staff with a secured environment to access their work application and also certain staff required access to a fully managed desktop that is goverened by policies. Contoso wants their resources to provide more control and flexibility over the computing environment. They want their resources to be highly available.
 
-### **Host Pools**
+Recently contoso is experiencing a huge rise in supporting their remote working staff, essentially staff that is working from home and because Contoso does not have a capacity to provide such huge number of managed physical computers and the Board of Directors has been unwilling to increase capital expenditures for new equipment. Contoso has been evaluating the value of the public cloud and views Microsoft Azure as an excellent option to maintain availability and increase scalability of resources to the organization. Contoso have decided to use Azure virtual desktop which is the cloud Desktop-as-a-Service (DaaS) offered by Microsoft as part of Azure and Microsoft 365.
 
-Host pools are a collection of one or more identical virtual machines within Azure Virtual Desktop tenant environments. Each host pool can be associated with multiple RemoteApp groups, one desktop app group, and multiple session hosts. Host Pools can be one of two types: 
+They need your help to configure the infrastructure and deploy a solution. You need to choose the right approach to set up and deploy the solution on Azure. However, you will be doing it in phases as the development and testing progress.
+ 
+## **Lab Context**
 
-   - **Personal**, where each session host is assigned to individual users. 
-   - **Pooled**, where session hosts can accept connections from any user authorized to an application group within the host pool. You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Azure Virtual Desktop sessions. You control the resources published to users through application groups. 
+In this hands-on lab, you will implement an Azure Virtual Desktop (formerly Windows Virtual Desktop) Infrastructure and learn how-to setup a working AVD environment end-to-end in a typical Enterprise model. At the end of the lab, attendees will have deployed an Azure Active Directory Tenant that is running on Azure. Azure Active Directory (Azure AD) is Microsoft’s enterprise cloud-based identity and access management (IAM) solution.
 
+You will also deploy the Azure infrastructure for the Azure Virtual Desktop Tenant(s), Host pool which is  a collection of one or more identical virtual machines (VMs), also known as session hosts within Azure Virtual Desktop environments. A default Application group will be created which is a collection of remote applications that you can present to a user or group of users. You will publish desktops and remote apps with the help of application group. You will be configuring FSLogix for user profile solution which stores a complete user profile in a single container. You will be configurig MSIX app attach to publish the apps securely as a package. You will be configuring a specific version of Microsoft Teams which is meant for AVD inorder to improve commmunication and acheive A/V experience. Finally, you will configure monitoring and security for the Azure Virtual Desktop infrastructure.
 
-### **Application Groups**
+## **Lab 1: Create Host Pool using Getting Started Wizard**
 
-An Application group is a logical grouping of applications installed on session hosts in the host pool. An application group can be one of two types: 
+In this lab with the help of **Getting Started** wizard we will be creating an Azure Virtual Desktop host pool for pooled desktops. This is a set of computers or hosts which operate on an as-needed basis. In a pooled configuration we will be hosting multiple non-persistent sessions, with no user profile information stored locally. This is where FSLogix Profile Containers provide the users profile to the host dynamically. This provides the ability for an organization to fully utilize the compute resources on a single host and lower the total overhead, cost, and number of remote workstations.
 
-   - **RemoteApp**, where users access the RemoteApps you individually select and publish to the application group. 
-   - **Desktop**, where users access the full desktop By default, a desktop application group (named “Desktop Application Group”) is automatically created whenever you create a host pool. You can remove this application group at any time. However, you can’t create another desktop application group in the host pool while a desktop application group already exists. To publish RemoteApps, you must create a RemoteApp application group. You can create multiple RemoteApp application groups to accommodate different worker scenarios. Different RemoteApp application groups can also contain overlapping RemoteApps. 
+## **Lab 2 (A): Monitoring using Log Analytics**
 
-
-### **Workspaces** 
-
-A workspace is a logical grouping of application groups in Azure Virtual Desktop. Each Azure Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
-
-### **End users**
-
-After you’ve assigned users to their application groups, they can connect to a Azure Virtual Desktop deployment with any of the Azure Virtual Desktop clients. 
-
-________________________
-
-
-
-
-
-
-
-
-# Lab Outline
-
-**Pre-requisites to deploy Azure Virtual Desktop**
-
-**Lab 1: Create Host Pool from Azure Portal**
-
-- Getting Started with the Lab
-- Exercise 1: Create Host Pool using Getting Started Wizard
+In this lab we will deploy a Log Analytics workspace then, we will setup monitoring for our AVD host pools. There are multiple reasons why monitoring serves a critical role: troubleshooting, performance, security, etc. There are also multiple components that make up the AVD service, which can add some variation on how customers implement monitoring
     
-**Lab 2: Create Application Groups and assign to users**
+## **Lab 3: Create Application Groups and assign to users**
     
-- Exercise 1: Create Application Group
+In this lab we will be creating a application group, adding new applications and will be assigning users who will be able to access to those applications.
     
-**Lab 3: Access the Published Applications and Desktop using Browser**
+## **Lab 4: Access the Published Applications and Desktop using Browser**
 
-- Exercise 1: Access the Published Application
-- Exercise 2: Access the published Desktop
+In this lab we will be accessing the published applications and session desktop in our Azure Virtual Desktop environment with the help of a browser.
     
-**Lab 4: Access the Published Applications and Desktop using AVD Desktop Client**
+## **Lab 5: Access the Published Applications and Desktop using AVD Desktop Client**
     
-- Exercise 1: Access the Published Applications
-- Exercise 2: Access the Virtual Desktop
+In this lab we will be accessing the published applications and session desktop in our Azure Virtual Desktop environment with the help of AVD Desktop Client on out local system.
     
-**Lab 5: Setup FSLogix**
+## **Lab 6: Setup FSLogix**
+ 
+In this lab, you will be creating an Azure File share and enabling SMB access via Active Directory authentication. Azure Files is a platform service (PaaS) and is one of the recommended solutions for hosting FSLogix containers for AVD users. At the end of this exercise, you will have the following components:
+
+- A new storage account in your Azure subscription.
+- A new Azure file share for your FSLogix profile containers.
+- AD authentication enabled for your Azure storage account.
+- Permissions applied for user access to the file share.
     
-- Exercise 1: Create Storage account and file share
-- Exercise 2: Configure File share
-- Exercise 3: Configure Session Hosts
-- Exercise 4: Verifying the User profiles stored in File share
+## **Lab 7: Load Balancing methods**
     
-**Lab 6: Load Balancing methods**
-    
-- Exercise 1: Add new users to Azure Active Directory
-- Exercise 2: Update Passwords for the new users
-- Exercise 3: Change and experience Load Balancing methods
-    
-**Lab 7: Cost Optimizations**
+In this lab we will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
 
-- Exercise 1: Enable Start Virtual Machine on Connect
-  - Task 1: Create a custom role for Start VM on Connect
-  
-- Exercise 2: Configure the Start VM on Connect feature
-  - Task 1: Configuring Host pool Properties
+## **Lab 8: Cost Optimizations**
 
-- Exercise 3: Experience VM start on connect
-  - Task 1: Stop the Session host VMs
-  - Task 2: Access the Session host desktop
+In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature in host pool which lets you save costs by allowing users to turn on their VMs only when they need them.
 
-**Lab 8: Use MEM to enforce MFA while using AVD**
+## **Lab 9: Use MEM to enforce MFA while using AVD**
 
-- Exercise 1: Setup Multi-Factor Authentication (MFA)
-- Exercise 2: Creating Conditional Access Policy
+In this lab we will setup Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy.
 
-**Lab 9: MS Teams Optimized Experience**
+## **Lab 10: MS Teams Optimized Experience**
 
-- Exercise 1: Configuring Session host for implementing MS Teams
-- Exercise 2: Accessing MS Teams using Remote Desktop Application
+In this lab we will be configuring Session host for implementing MS Teams and configure hostpool for teams requirements. Later we will be accessing MS Teams using Remote Desktop Application
 
-**Lab 10: MSIX App Attach**
+## **Lab 11: MSIX App Attach**
 
-- Exercise 1: Configuring AVD for MSIX App Attach
-- Exercise 2: Creating MSIX Package in AVD environment
+In this lab, first we will be configuring AVD for MSIX App Attach then later will be creating MSIX Package in AVD environment.
 
-**Summary**
+## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
-Click on the **Next** button present in the bottom-right corner of this lab guide.  
+In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
+
+Click on the **Next** button present in the bottom-right corner of this lab guide.
