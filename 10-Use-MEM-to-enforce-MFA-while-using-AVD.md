@@ -1,5 +1,11 @@
 # Lab 9: Use MEM to enforce MFA while using AVD
 
+## **Scenario**
+
+Contoso wants their resources to be secure and protected from any kind of unethical activities. So Contoso wants to enable Multi factor authentication (MFA) for session login. You will guide contoso to set up MFA for sign-ins.
+
+## **Overview**
+
 In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
 
 ### Exercise 1: Setup Multi-Factor Authentication (MFA)
@@ -116,3 +122,5 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 10. The AVD dashboard will be launched. 
 
     ![](media/EB-AVD-WS.png)
+    
+11. Click on the **Next** button present in the bottom-right corner of this lab guide.
