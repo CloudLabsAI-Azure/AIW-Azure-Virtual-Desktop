@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso is an IT consulting service based company. One of the major challenge faced by employees who are working from home is about communication. Contoso wants to improve communcation among the employees. You will help contoso to configure and set up Microsoft Teams for Azure virtual desktop.
+Contoso is an IT based consulting service company. One of the major challenge faced by employees who are working from home is about communication. Contoso wants to improve communcation among the employees. You will help contoso to configure and set up Microsoft Teams for Azure virtual desktop.
 
 ## **Overview**
 
