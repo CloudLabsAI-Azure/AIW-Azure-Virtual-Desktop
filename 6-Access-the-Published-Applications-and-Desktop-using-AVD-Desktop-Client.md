@@ -1,5 +1,11 @@
 # Lab 5: Access the Published Applications and Desktop using AVD Desktop Client
 
+## **Scenario**
+
+Contoso wants their AVD environment to be flexible interms of accessing the sessions by their employees. You will help contoso to test the access to AVD session using AVD Client application using your local computer.
+
+## **Overview**
+
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the AVD Desktop client.
 
 >#### **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
