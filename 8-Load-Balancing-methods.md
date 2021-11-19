@@ -1,5 +1,12 @@
 # Lab 7: Load Balancing methods
 
+
+## **Scenario**
+
+Contoso's AVD environment set up is working smoothly. But contoso is confused about which load balancing to be used in order to run the sessions efficiently. You will guide contoso to explore about different types of load balancing offered by Azure.
+
+## **Overview**
+
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool.
 While configuring a host pool, we can select load balancing methods as per the needs.
 
@@ -307,28 +314,28 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **EB-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
-    ![ws name.](media/2avd103.png)
+   ![ws name.](media/2avd103.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
-    ![ws name.](media/lb21.png)
+   ![ws name.](media/lb21.png)
    
-    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
-    >
-    >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
+   >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
+   >
+   >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
 1. Verify that both users have been assigned to the particular session host. 
 
-    ![ws name.](media/uiupdate16.png)
+   ![ws name.](media/uiupdate16.png)
 
-    >**[Optional]**
-    >
-    >**Scale session hosts using Azure Automation**
-    >
-    >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Azure Virtual Desktop environment. 
-    >
-    >Please follow the link given below to learn more about this feature. 
-    >
-    >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
+   >**[Optional]**
+   >
+   >**Scale session hosts using Azure Automation**
+   >
+   >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Azure Virtual Desktop environment. 
+   >
+   >Please follow the link given below to learn more about this feature. 
+   >
+   >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
 
-Click on the **Next** button present in the bottom-right corner of this lab guide.
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
