@@ -1,5 +1,12 @@
 # Lab 2(A): Monitoring using Log Analytics
 
+
+## **Scenario**
+
+Contoso is interested in setting up a operation center focused on monitoring of the host pools, user access, and many more .You will help Contoso to setup a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resource. You will create a Log analytics analytics workspace and map it to the AVD environment using Azure Insights.
+
+## **Overview**
+
 Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
 
 ## Exercise 1: Create Log Analytics
@@ -129,5 +136,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. Once the deployment is completed, **Refresh** the **Check Configuration** page. You'll see that all the required events will be configured.
    
    ![ws name.](media/mon19.png)
+   
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
  
