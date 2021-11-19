@@ -1,9 +1,14 @@
 # Lab 4: Access the Published Applications and Desktop using Browser
 
+## **Scenario**
 
-## Exercise 1: Access the Published Application
+Contoso wants their AVD environment to be flixible interms of accessing the sessions by their employees. You will help contoso to test the access to AVD session using Browser.
+
+## **Overview**
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the browser.
+
+## Exercise 1: Access the Published Application
 
 1. Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
