@@ -1,5 +1,11 @@
 # Lab 10: MS Teams Optimized Experience
 
+## **Scenario**
+
+Contoso is an IT consulting service based company. One of the major challenge faced by employees who are working from home is about communication. Contoso wants to improve communcation among the employees. You will help contoso to configure and set up Microsoft Teams for Azure virtual desktop.
+
+## **Overview**
+
 In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Virtual Desktop supports chat and collaboration. With media optimizations, it also supports calling and meeting functionality. With media optimization for Microsoft Teams, the Remote Desktop client handles audio and video locally for Teams calls and meetings.
 
 ## Exercise 1: Configuring Session host for implementing MS Teams
