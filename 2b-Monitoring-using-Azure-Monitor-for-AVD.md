@@ -1,10 +1,10 @@
 # Lab 2(B): Monitoring using Azure Monitor for AVD
 
-## Exercise 1: Exploring Insights for AVD
-
 ## **Overview**
 
-In this exercise, We'll be reviewing the AVD environment using Azure Insights which you had configured in part A of Exercise 2.
+In this exercise, We'll be reviewing monitoring data of the AVD environment using Azure Insights which you had configured in part A of Exercise 2.
+
+## Exercise 1: Exploring Insights for AVD
 
 ### Task 1: Access AVD using the browser and Remote client
 
