@@ -1,5 +1,11 @@
 # Lab 3: Create Application Groups and assign them to users
 
+## **Scenario**
+
+Contoso wants restrict the access the application of different teams in the organisation. So contoso wants to create seperate application group and assign only specific set of users to it. You'll help contoso to configure and create application group and add applications to it.
+
+## **Overview**
+
 As explained in the General Hierarchy section, an Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
 1. RemoteApp 
