@@ -1,7 +1,7 @@
 # Lab 7: Load Balancing methods
 
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool.
-While configuring  a host pool, we can select load balancing methods as per the needs.
+While configuring a host pool, we can select load balancing methods as per the needs.
 
 The following load-balancing methods are available in Azure Virtual Desktop:
 
@@ -32,7 +32,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/2avd106.png)
 
-1. Click on **+ New user** to add one more user, then add the following configurations and leave rest to default.
+1. Click on **+ New user** to add one more user, then add the following configurations and leave the rest to default.
 
    - User name: **AVDUser02**
    - Name: **AVDUser02**
@@ -40,7 +40,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    
    ![ws name.](media/2avd107.png)
 
-1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
+1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
    ![ws name.](media/user-v2.png)
 
@@ -68,7 +68,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media/2avd89.png)
    
-1. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
+1. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on the **Select** button.
 
     ![ws name.](media/2avd109.png)
 
@@ -78,9 +78,9 @@ The following load-balancing methods are available in Azure Virtual Desktop:
      
 ## Exercise 2: Update Passwords for the new users
 
-Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
+Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as the user needs to reset the password after registering to AADDS. 
 
-1. In Azure portal, click on the **Cloud Shell** icon.
+1. In the Azure portal, click on the **Cloud Shell** icon.
 
    ![ws name.](media/a105.png)
    
@@ -92,7 +92,7 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
    ![ws name.](media/wvd11.png)
 
-4. Use exisiting resource group - **AVD-RG** from the drop down and for:
+4. Use existing resource group - **AVD-RG** from the drop-down and for:
 
    >**Note:** **UniqueID** is the numerical value present in your username. 
    >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996.
@@ -129,9 +129,9 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 
 **A**. **Breadth-first**
    
-While creating EB-AVD-HP host pool, we selected load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on EB-AVD-HP with both users simultaneously and see the user distribution.
+While creating the EB-AVD-HP host pool, we selected the load balancing method as *Breadth-first*.  Now we are going to log in to Desktop App created on EB-AVD-HP with both users simultaneously and see the user distribution.
 
-1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
    ```
    aka.ms/wvdarmweb
@@ -145,7 +145,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/password.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login1.png)
 
@@ -177,9 +177,9 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/lb16.png)
 
-   >**Note:** We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+   >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
-1. Click on **Subscribe** button.
+1. Click on the **Subscribe** button.
 
    ![ws name.](media/a49.png)
 
@@ -191,7 +191,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/password2.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login2.png)
     
@@ -199,7 +199,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/ex4t1s9.png)
 
-1. In AVD client, double click on the **Session Desktop** to access it. 
+1. In the AVD client, double click on the **Session Desktop** to access it. 
 
    ![ws name.](media/desktp-v2.png)
 
@@ -234,21 +234,21 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
    > 
    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
-1. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+1. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on the **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/2avd99.png)
 
-1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on the **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
 
    ![ws name.](media/2avd100.png)
 
-   >**Note:** We need to log off the users from session hosts so that when the users login again, connection is made based on the *Depth-first load balancing method*.
+   >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
-**B**. **Depth first**
+**B**. **Depth-first**
    
-   Here we will change the load balancing method of *EB-AVD-HP* host pool to *Depth first* and see how user distribution changes in the Host pool.
+   Here we will change the load balancing method of *EB-AVD-HP* host pool to *Depth-first* and see how user distribution changes in the Host pool.
 
-   >**Note:** If previous session is closed, visit to  `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
+   >**Note:** If the previous session is closed, visit `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
 
 1. In *EB-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
@@ -258,7 +258,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/2avd102.png)
    
-1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
    ```
    aka.ms/wvdarmweb
@@ -290,7 +290,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
    ![ws name.](media/137.png)
 
-1. In AVD client, double click on the **Session Desktop** to access it. 
+1. In the AVD client, double click on the **Session Desktop** to access it. 
 
    ![ws name.](media/desktp-v2.png)
 
@@ -313,7 +313,7 @@ While creating EB-AVD-HP host pool, we selected load balancing method as *Breadt
 
     ![ws name.](media/lb21.png)
    
-    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
+    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
     >
     >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    

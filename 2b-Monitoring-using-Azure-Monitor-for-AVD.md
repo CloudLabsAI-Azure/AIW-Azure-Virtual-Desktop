@@ -2,15 +2,15 @@
 
 ## Exercise 1: Exploring Insights for AVD
 
-### Task 1: Access AVD using browser and Remote client
+### Task 1: Access AVD using the browser and Remote client
 
-1. Paste the below mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
    ```
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
    ![ws name.](media/username.png)
 
@@ -18,7 +18,7 @@
 
    ![ws name.](media/password.png)
 
-   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login1.png)
 
@@ -28,7 +28,7 @@
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/2avd31.png)
+   ![ws name.](media/Accessallowres-v2.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -52,9 +52,9 @@
 
    ![ws name.](media/lb16.png)
 
-   >**NOTE**: We need to unsubscribe from the feed, because in Exercise 4 we subscribed to AVD feed using a different user.
+   >**NOTE**: We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
-1. Click on **Subscribe** button.
+1. Click on the **Subscribe** button.
 
    ![ws name.](media/a49.png)
 
@@ -66,7 +66,7 @@
 
    ![ws name.](media/password2.png)
 
-   >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login2.png)
     
@@ -74,7 +74,7 @@
 
    ![ws name.](media/ex4t1s9.png)
 
-1. In AVD client, double click on the **Session Desktop** to access it. 
+1. In the AVD client, double click on the **Session Desktop** to access it. 
 
    ![ws name.](media/sess-v2.png)
 
@@ -98,7 +98,7 @@
 
 ### Task 2: Exploring Insights data
 
->**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such scenario, Please refresh the **Insights** page untill the data is loaded.
+>**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such a scenario, Please refresh the **Insights** page until the data is loaded.
    
 1. Now, Navigate to Azure Virtual Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
 
@@ -108,7 +108,7 @@
 
    ![ws name.](media/mon21.png)
    
-1. **Click** on **Users** *(1)* tab, In **UPN to search for** blank paste **<inject key="Avd User 01" />** *(2)* and wait for the data to load. This tab gives overview of the user's usage. Scroll down and explore different information loaded.
+1. **Click** on **Users** *(1)* tab, In **UPN to search for** blank paste **<inject key="Avd User 01" />** *(2)* and wait for the data to load. This tab gives an overview of the user's usage. Scroll down and explore different information loaded.
 
    ![ws name.](media/mon23.png)
    
@@ -116,11 +116,10 @@
 
    ![ws name.](media/mon24.png)
    
-1. **Click** on **Clients** *(1)* tab, Here you'll be able monitor the number of users connected to AVD using browser and remote client application.
+1. **Click** on **Clients** *(1)* tab, Here you'll be able to monitor the number of users connected to AVD using the browser and remote client application.
 
    ![ws name.](media/mon22.png)
    
 1. Spend some time on the page to explore different monitoring abilities offered by Azure Insights.
 
 1. Click on the Next button present in the bottom-right corner of this lab guide.
-   

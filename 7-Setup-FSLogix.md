@@ -89,7 +89,7 @@ In the following task, we will be creating a storage account with a file share w
     
 ## Exercise 2: Configure File share
 
-In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the fileshare.
+In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
 
 1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
 
@@ -114,7 +114,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/permission-v2.png)
    
-1. Select **Member** from **Manage** blade and select **Add members**.
+1. Select **Members (1)** from **Manage** blade and select **Add members (2)**.
 
    ![ws name.](media/2avd40.png)
    
@@ -130,13 +130,13 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/labinst13.png)
 
-1. Click on **Access Control (IAM)**, then click on **Add** and select **Add role assignment**.
+1. Click on **Access Control (IAM) (1)**, then click on **Add (2)** and select **Add role assignment (3)**.
 
    ![ws name.](media/uiupdate11.png)
    
 1. Select following configuration for role assignment:  
    
-   - Role: Search for **Storage File Data SMB Share Contributor** and select it, then click on **Next**.
+   - Role: Search for **Storage File Data SMB Share Contributor (1)** and select it, then click on **Next (2)**.
 
      ![ws name.](media/role%20assignemnt-v2.png)
    
@@ -147,13 +147,13 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
    - Under **Members** tab, follow the below steps:
 
-      - Assign access to: Select **User, group, or service principal**
+      - Assign access to: Select **User, group, or service principal (1)**
       
-      - Click on **+  Select members**.
+      - Click on **+  Select members (2)**.
 
-      - Under **Select** search paste your group **permission - fslogixcontainer** and select it.
+      - Under **Select** search paste your group **permission - fslogixcontainer (3)** and select it.
    
-      - Then click on **Select**.
+      - Then click on **Select (4)**.
    
      ![ws name.](media/members-v2.png)
      
@@ -236,7 +236,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
    New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
 
-   #Display script completion in console
+   #Display script completion in the console
    Write-Host "Script Executed successfully"
 ```
  
@@ -370,7 +370,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     >**Note:** This will log off the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
         
-20. Now paste below mentioned link in your browser in the JumpVM, and enter your **credentials** to login.
+20. Now paste the below-mentioned link in your browser in the JumpVM, and enter your **credentials** to login.
 
     ```
     aka.ms/wvdarmweb
@@ -433,7 +433,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/a88.png)
     
-   >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the fileshare.
+   >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the file shares.
     
 4. Open the storage account we created earlier, then select **Fileshare** from the left side menu.
 

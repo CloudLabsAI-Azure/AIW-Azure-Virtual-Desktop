@@ -3,7 +3,7 @@
 
 ## Exercise 1: Access the Published Application
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using browser.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the browser.
 
 1. Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
@@ -23,11 +23,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
    ![](media/login.png)
 
-3. The AVD dashboard will launch, then click on **Word** application to access it. 
+3. The AVD dashboard will launch, then click on the **Word** application to access it. 
 
    ![ws name.](media/word-v2.png)
 
@@ -59,11 +59,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch7.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
  
    ![](media/login.png)
 
-9. Click on **Close** button on the window asking *Your privacy option*.
+9. Click on the **Close** button on the window asking *Your privacy option*.
 
    ![ws name.](media/ch19.png)
 
@@ -97,7 +97,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex3t2s5.png)
    
-6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
+6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
@@ -105,7 +105,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/jvm7.png)
 
-8. Click on **Sessions** tab, select both Host pools by clicking on the checkbox and then click on **Log off** button.
+8. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
 
    ![ws name.](media/2avd85.png)
 
@@ -113,7 +113,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/jvm9.png)
 
-10. Click on **Refresh** button and make sure *No results* is displayed under Host pool.
+10. Click on the **Refresh** button and make sure *No results* is displayed under Host pool.
 
     ![ws name.](media/jvm10.png)
 

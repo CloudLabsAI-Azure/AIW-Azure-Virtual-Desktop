@@ -1,6 +1,6 @@
 # Lab 11: MSIX App Attach
 
-In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
+In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
 Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach`` for more information.
 
 ## Exercise 1: Configuring AVD for MSIX App Attach
@@ -27,13 +27,13 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/2avd125.png)
    
-1. Select **Access Control(IAM)** from the side blade. Click on **Add** and select **Add Role Assignment**.
+1. Select **Access Control(IAM) (1)** from the side blade. Click on **Add (2)** and select **Add Role Assignment (3)**.
 
    ![ws name.](media/msix5.png)
    
 1. Select the following options and click **Save**
 
-   - Role: Search and select **Storage File Data SMB share Contributor** role,then click on **Next**
+   - Role: Search and select **Storage File Data SMB share Contributor** role, then click on **Next**
 
      ![](media/role%20assignemnt-v2.png)
      
@@ -55,7 +55,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/stacc-v2.png)
    
-1. Under **Data storage**, select **File Shares** and click on **msixfile**.
+1. Under **Data storage**, select **File Shares (1)** and click on **msixfile (2)**.
 
    ![ws name.](media/2avd57.png) 
    
@@ -63,7 +63,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix7.png)
    
-1. Under **Windows** tab. Select **Storage account key** and **copy** the code from the window.
+1. Under the **Windows** tab. Select **Storage account key** and **copy** the code from the window.
 
    ![ws name.](media/msix8.png)
    
@@ -101,7 +101,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/2avd57.png) 
    
-3. In **msixfile** file share, Click on **msix.cer** file and copy the **URL** and save it in **notepad**.
+3. In **msixfile** file share, Click on **msix.cer (1)** file and copy the **URL (2)** and save it in **notepad**.
    
    ![ws name.](media/2avd58.png)
    
@@ -127,7 +127,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
 
-1. For **CERTIFICATE PATH** to be in correct format, Follow the below mentioned steps to create path.
+1. For **CERTIFICATE PATH** to be in the correct format, Follow the below-mentioned steps to create the path.
 
    - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
@@ -137,7 +137,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Click on **Run**   
    
-1. Once the execution is completed, you'll be able see similar output as mentioned below.
+1. Once the execution is completed, you'll be able to see similar output as mentioned below.
 
    ![ws name.](media/msix27.png)
 
@@ -163,7 +163,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
 
-1. For **CERTIFICATE PATH** to be in correct format, Follow the below mentioned steps to create path.
+1. For **CERTIFICATE PATH** to be in the correct format, Follow the below-mentioned steps to create the path.
 
    - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
@@ -173,7 +173,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Click on **Run**   
    
-1. Once the execution is completed, you'll be able see similar output as mentioned below.
+1. Once the execution is completed, you'll be able to see similar output as mentioned below.
 
    ![ws name.](media/msix27.png)
    
@@ -181,7 +181,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
 
-   >**NOTE**: We'll be using this URL in further steps. Make sure you to **Save** it in Notepad.
+   >**NOTE**: We'll be using this URL in further steps. Make sure you **Save** it in Notepad.
 
    ![ws name.](media/2avd77.png)
 
@@ -197,11 +197,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/2avd120.png)
 
-1. Under **Manage** blade, Select the **MSIX** tab and click on **Add**.
+1. Under **Manage** blade, Select the **MSIX packages (1)** tab and click on **Add (2)**.
 
    ![ws name.](media/2avd124.png)
    
-1. Paste the **URL** and follow the below mentioned steps to create **UNC** path.
+1. Paste the **URL** and follow the below-mentioned steps to create **UNC** path.
 
    - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
@@ -219,7 +219,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix19.png)
 
-1. Under **Manage** blade, Select the **Applications** tab and click on **Add**.
+1. Under **Manage** blade, Select the **Applications (1)** tab and click on **Add (2)**.
 
    ![ws name.](media/addappli-v2.png)
    
@@ -233,7 +233,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    Now, The MSIX implementation is completed. We'll check the working of it.
     
-1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -259,53 +259,18 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/ex4t1s9.png)
       
-1. The AVD dashboard will launch, then double click on **SessionDesktop** application to access it.
+1. The AVD dashboard will launch, then double click on the **SessionDesktop** application to access it.
 
    ![ws name.](media/7-zip.png)
    
-1. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
    
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    
    ![](media/login.png)
 
 1. Wait for the Session Desktop to connect.
-
-   ![ws name.](media/ex4t2s4.png)
- 
-1. Once connected, In the **start menu** search for **7-Zip File Manager** and you'll be able to see that the application is present in session desktop.
-
-   ![](media/2avd63.png)
-   
-1. In the **start menu** search for **Apps & features** and click on it to open.
-
-   ![](media/2avd64.png)
-   
-1. In **Search bar**, Search for **7-Zip File Manager** and you'll able to see the application.
-
-   ![](media/2avd65.png)
-   
-1. In the **start menu** search for **Control Panel** and click on it to open.
-
-   ![](media/2avd68.png)
-   
-1. In Control Panel, Click on **Uninstall a program**.
-
-   ![](media/2avd69.png)
-   
-1. Here, you'll notice that **7-Zip File Manager** is not present as an application.
-
-   ![](media/2avd70.png) 
-   
-1. In the **start menu** search for **Computer Management** and click on it to open.
-
-   ![](media/2avd66.png)
-
-1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be see that VHD has been mounted. This is where the **7-ZIP File Manager** present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
-
-   ![](media/2avd67.png)
-

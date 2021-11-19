@@ -1,6 +1,6 @@
 # Lab 5: Access the Published Applications and Desktop using AVD Desktop Client
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using AVD Desktop client.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the AVD Desktop client.
 
 >#### **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
@@ -27,11 +27,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 4. Check the agreement box and click on **Next**.
 
-5. On **Installation scope** window select **Install just for you** and then click on **Install**.
+5. On the **Installation scope** window select **Install just for you** and then click on **Install**.
 
    ![ws name.](media/wvd41.png)
 
-6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -49,7 +49,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
    
-   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
    ![](media/skipfornow.png)
 
@@ -57,11 +57,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex4t1s9.png)
       
-10. The AVD dashboard will launch, then double click on **Excel** application to access it.
+10. The AVD dashboard will launch, then double click on the **Excel** application to access it.
 
     ![ws name.](media/remote%20desktop-v2.png)
    
-11. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
+11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
     - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -79,7 +79,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/ch16.png)
 
-15. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
+15. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
     ![ws name.](media/w1.png)
 
@@ -87,7 +87,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/jvm7.png)
 
-17. Click on **Sessions** tab, select both Host pools by clicking on the checkbox and then click on **Log off** button.
+17. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
 
     ![ws name.](media/2avd86.png)
 
@@ -95,23 +95,23 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/jvm9.png)
 
-19. Click on **Refresh** button and make sure *No results* is displayed under Host pool.
+19. Click on the **Refresh** button and make sure *No results* is displayed under Host pool.
 
     ![ws name.](media/jvm10.png)
    
 ## Exercise 2: Access the Virtual Desktop
 
-1. Return to AVD client application. On AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/session%20desktop-v2.png)
    
-2. A window saying *Connecting to: Session Desktop* will appear. Wait for few seconds, then enter your password to access the Desktop.
+2. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
    
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    
    ![](media/login.png)
 

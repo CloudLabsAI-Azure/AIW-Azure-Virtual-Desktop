@@ -18,13 +18,13 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd79.png)
  
-1. Under **Operations** blade, Select **Run Command**. Select **RunPowerShellScript**.
+1. Under **Operations (1)** blade, Select **Run Command (2)**. Select **RunPowerShellScript (3)**.
 
    ![ws name.](media/teams18.png)
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window
 
-   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
+   >**NOTE**: The below-mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
 
    ```
    
@@ -62,7 +62,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Paste the following commands into the Powershell script window and select **Run**. Once the execution is completed, **The operation completed successfully** message will be displayed in the output window.
 
-   >**NOTE**: The below mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
+   >**NOTE**: The below-mentioned script downloads WebRTC and MS Teams which are specially meant for AVD.
    
    ```
    
@@ -112,7 +112,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams9.png)
    
-1. In **Add Application** tab, select the following options and click on **Save**.
+1. In the **Add Application** tab, select the following options and click on **Save**.
    
    - **Application Source**: Start menu.
    - **Application**: Search for **Microsoft Teams** and select the same from dropdown.
@@ -123,7 +123,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 ## Exercise 2: Accessing MS Teams using Remote Desktop Application
 
-1. In your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -153,7 +153,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams12.png)
    
-1. A window saying *Starting your app*, will appear. Wait for few seconds, then enter your password to access the Application.
+1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
     - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -179,7 +179,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv218.png)
    
-1. Now, Close the settings tab and go to **calendar** which is located in the side blade. Select **Meet now**.
+1. Now, Close the settings tab and go to **calendar (1)** which is located in the side blade. Select **Meet now (2)**.
 
    ![ws name.](media/teams13.png)
    
@@ -195,7 +195,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams16.png)
    
-   >**NOTE**: If **Invite others** prompt appears, Close the tab and continue.
+   >**NOTE**: If the **Invite others** prompt appears, Close the tab and continue.
   
 1. Now, You should be able to see yourself as the video is On.
 
