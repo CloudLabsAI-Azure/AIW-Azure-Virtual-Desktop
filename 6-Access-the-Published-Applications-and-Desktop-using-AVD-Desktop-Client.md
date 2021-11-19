@@ -10,7 +10,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 >#### **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
-
 ## Exercise 1: Access the Published Applications
 
 1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
