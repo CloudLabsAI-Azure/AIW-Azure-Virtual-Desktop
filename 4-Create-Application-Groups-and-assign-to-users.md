@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants restrict the access the application of different teams in the organisation. So contoso wants to create seperate application group and assign only specific set of users to it. You'll help contoso to configure and create application group and add applications to it.
+Contoso wants to restrict the access to the applications used by different teams in the organisation. So contoso wants to create seperate application group and assign only specific set of users to it. You'll help contoso to configure and create application group and add applications to it.
 
 ## **Overview**
 
