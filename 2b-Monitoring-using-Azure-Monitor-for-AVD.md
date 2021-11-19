@@ -2,6 +2,10 @@
 
 ## Exercise 1: Exploring Insights for AVD
 
+## **Overview**
+
+In this exercise, We'll be reviewing the AVD environment using Azure Insights which you had configured in part A of Exercise 2.
+
 ### Task 1: Access AVD using the browser and Remote client
 
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
@@ -122,4 +126,3 @@
    
 1. Spend some time on the page to explore different monitoring abilities offered by Azure Insights.
 
-1. Click on the Next button present in the bottom-right corner of this lab guide.
