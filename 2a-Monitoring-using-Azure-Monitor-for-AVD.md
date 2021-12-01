@@ -93,11 +93,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/gsu2.png)
    
-1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window
+1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window.
 
    ![ws name.](media/monu1.png)
    
-1. On the **Deploy template** page, The required session hosts configuration will be added to the Log Analytics workspace. Click on **Deploy**
+1. On the **Deploy template** page, The required session hosts configuration will be added to the Log Analytics workspace. Click on **Deploy**.
 
    ![ws name.](media/monu2.png)
    
