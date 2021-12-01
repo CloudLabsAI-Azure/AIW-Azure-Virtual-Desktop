@@ -45,26 +45,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lb60.png)
    
-1. You can check the deployment by clicking on **Go to resource**.
 
-   ![ws name.](media/avd%20monitoring-V2.png)
-
-1. In Log Analytics Workspace under **Workspace Data Sources** side blade, select **Virtual machines (1)** and click on **AVD-HP01-SH-0 (2)** virtual machine. 
-
-   ![ws name.](media/avd-v2.png)
-   
-1. On the **AVD-HP01-SH-0** virtual machine page, Click on **Connect**.
-
-   ![ws name.](media/2avd26.png)
-   
-1. Similarly, Select **AVD-HP01-SH-1** virtual machine and click on **Connect**.
-
-   ![ws name.](media/2avd27.png)
-   
-1. **Wait** till both the virtual machine's **Log Analytics Connection** status is changed to **Connected**. Once connected, You'll see the **green corrected symbol** for both the VMs.
-
-   ![ws name.](media/hostpool-V2.png)
-   
 ## Exercise 2: Enable diagnostics for Workspace
  
 1. On **Azure portal** search for **Azure Virtual Desktop (1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
@@ -112,6 +93,13 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/gsu2.png)
    
+1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window
+
+   ![ws name.](media/monu1.png)
+   
+1. On the **Deploy template** page, The required session hosts configuration will be added to the Log Analytics workspace. Click on **Deploy**
+
+   ![ws name.](media/monu2.png)
    
 1. On **Check Configuration** page click on **configure performance counters** in **performance counter** window.
 
