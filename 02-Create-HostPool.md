@@ -72,7 +72,7 @@ In this exercise, we will create a Host Pool named *AVD-HP-01* of pooled type, t
    - Subscription: *Choose the default subscription*.
    - Resource Group: *Select **AVD-RG** from the drop down*.
    - Host Pool Name: **AVD-HP-01**
-   - Location: **East US**, *basically this should be same as the region of your resource group*.      
+   - Location: *basically this should be same as the region of your **AVD-RG** resource group*.      
    - Validation environmet: **No**
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
