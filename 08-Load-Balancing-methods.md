@@ -43,90 +43,70 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
    ![ws name.](media/lb11.png)
+   
+7. Click on **AVDUser01**.
 
-7. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+   ![ws name.](media/passup1.png)
+   
+8. In AVDUser01 page click on **Reset password** and under the new dialog window click on **Reset password** again.
+
+   ![ws name.](media/passup2.png)
+
+9. Copy the temporary password and save it  in a text editor, for example notepad.
+
+   ![ws name.](media/passup3.png)
+   
+10. Now open a Private browser window and go to ```https://portal.azure.com```.
+
+11. Use the AVDUser01 user principal name and the temporay password we saved in this task earlier.
+
+   ![ws name.](media/passup4.png)
+   
+ 12. Now you will be presented with a **Update your password** window, update the password with following values and click on **Sign in**.
+
+   - Current password: *Enter the temporary password we saved in step 9*
+   - New password: Enter **Azure1234567**
+   - Confirm password: **Azure1234567**
+
+   ![ws name.](media/passup5.png)
+   
+13. Close the private window and repeat *step number 7 to 12* for user *AVDUser02*
+
+13. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/lb12.png)
 
-8. Click on the **AAD DC Administrators** group and then click on **Select**.
+14. Click on the **AAD DC Administrators** group and then click on **Select**.
 
    ![ws name.](media/lb13.png)
 
-9. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+15. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/im31.png)
 
-10. Click on the **AAD DC Administrators** group and then click on **Select**.
+16. Click on the **AAD DC Administrators** group and then click on **Select**.
 
     ![ws name.](media/lb13.png)
 
-11. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+17. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
     ![ws name.](media/lb40.png)
 
-12. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+18. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
     ![ws name.](media/lb41.png)
    
-13. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
+19. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
     ![ws name.](media/lb42.png)
 
-14. Once done, the users assigned to the Application group will look similar to the image given below.
+20. Once done, the users assigned to the Application group will look similar to the image given below.
 
     ![ws name.](media/lb45.png)
      
-### **Task 2: Update Passwords for the new users**
-
-Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
-
-1. In Azure portal, click on the **Cloud Shell** icon.
-
-   ![ws name.](media/a105.png)
-   
-2. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
-
-   ![ws name.](media/wvd10.png)
-
-3. Click on **Show Advanced Settings**.
-
-   ![ws name.](media/wvd11.png)
-
-4. Use exisiting resource group - **AVD-RG** from the drop down and for:
-
-   - Storage Account: Select **Create new** and enter **sa{uniqueid}**, where **uniqueid** is the numerical value present in your username. 
-   - File Share: Select **Create new** and enter **fs{uniqueid}**, where **uniqueid** is the numerical value present in your username.
-
-   >**Note:** **UniqueID** is the numerical value present in your username. 
-   >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
-
-   ![ws name.](media/wvd12.png)
-
-5. After the terminal launches it will look like this.
-
-   ![ws name.](media/40.png)
-
-6. Copy and paste the following script and hit **Enter**.
-
-   ```
-   $domain = ((Get-AzADUser | where {$_.Type -eq "Member"}).UserPrincipalName.Split('@'))[1]
-   $password= ConvertTo-SecureString "Azure1234567" -AsPlainText -Force
-   $users = @("AVDUser01@$domain","AVDUser02@$domain")
-   $users | foreach{
-       Update-AzADUser -UserPrincipalName $_ -Password $password
-   }
-   ```
- 
-   ![ws name.](media/pu2.png)
- 
-7. Output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
-
-   ![ws name.](media/pu1.png)
-
-   >**Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
 
 
-### **Task 3: Change and experience Load Balancing methods**
+### **Task 2: Change and experience Load Balancing methods**
 
 **A**. **Breadth-first**
    
