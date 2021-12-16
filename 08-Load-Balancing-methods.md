@@ -104,57 +104,9 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media/lb45.png)
      
-### **Task 2: Update Passwords for the new users**
-
-Here, we will use Azure Cloud Shell to run a script that will change the passwords for the users created, as user needs to reset password after registering to AADDS. 
-
-1. In Azure portal, click on the **Cloud Shell** icon.
-
-   ![ws name.](media/a105.png)
-   
-2. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
-
-   ![ws name.](media/wvd10.png)
-
-3. Click on **Show Advanced Settings**.
-
-   ![ws name.](media/wvd11.png)
-
-4. Use exisiting resource group - **AVD-RG** from the drop down and for:
-
-   - Storage Account: Select **Create new** and enter **sa{uniqueid}**, where **uniqueid** is the numerical value present in your username. 
-   - File Share: Select **Create new** and enter **fs{uniqueid}**, where **uniqueid** is the numerical value present in your username.
-
-   >**Note:** **UniqueID** is the numerical value present in your username. 
-   >For example, if your username is *odl_user_258996@azurehol1004.onmicrosoft.com*, the *UniqueID* will be 258996. 
-
-   ![ws name.](media/wvd12.png)
-
-5. After the terminal launches it will look like this.
-
-   ![ws name.](media/40.png)
-
-6. Copy and paste the following script and hit **Enter**.
-
-   ```
-   $domain = ((Get-AzADUser | where {$_.Type -eq "Member"}).UserPrincipalName.Split('@'))[1]
-   $password= ConvertTo-SecureString "Azure1234567" -AsPlainText -Force
-   $users = @("AVDUser01@$domain","AVDUser02@$domain")
-   $users | foreach{
-       Update-AzADUser -UserPrincipalName $_ -Password $password
-   }
-   ```
- 
-   ![ws name.](media/pu2.png)
- 
-7. Output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
-
-   ![ws name.](media/pu1.png)
-
-   >**Note:** Make sure you have noted down the ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02***.
 
 
-### **Task 3: Change and experience Load Balancing methods**
+### **Task 2: Change and experience Load Balancing methods**
 
 **A**. **Breadth-first**
    
