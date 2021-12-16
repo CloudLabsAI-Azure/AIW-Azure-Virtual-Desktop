@@ -70,7 +70,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/passup5.png)
    
-13. Close the private window and repeat *step number 7 to 12* for AVDUser02
+13. Close the private window and repeat *step number 7 to 12* for user *AVDUser02*
 
 13. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
