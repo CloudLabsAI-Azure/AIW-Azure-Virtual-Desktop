@@ -43,36 +43,64 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 6. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste in a text editor so that we can use it further.
 
    ![ws name.](media/lb11.png)
+   
+7. Click on **AVDUser01**.
 
-7. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+   ![ws name.](media/passup1.png)
+   
+8. In AVDUser01 page click on **Reset password** and under the new dialog window click on **Reset password** again.
+
+   ![ws name.](media/passup2.png)
+
+9. Copy the temporary password and save it  in a text editor, for example notepad.
+
+   ![ws name.](media/passup3.png)
+   
+10. Now open a Private browser window and go to ```https://portal.azure.com```.
+
+11. Use the AVDUser01 user principal name and the temporay password we saved in this task earlier.
+
+   ![ws name.](media/passup4.png)
+   
+ 12. Now you will be presented with a **Update your password** window, update the password with following values and click on **Sign in**.
+
+   - Current password: *Enter the temporary password we saved in step 9*
+   - New password: Enter **Azure1234567**
+   - Confirm password: **Azure1234567**
+
+   ![ws name.](media/passup5.png)
+   
+13. Close the private window and repeat *step number 7 to 12* for AVDUser02
+
+13. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/lb12.png)
 
-8. Click on the **AAD DC Administrators** group and then click on **Select**.
+14. Click on the **AAD DC Administrators** group and then click on **Select**.
 
    ![ws name.](media/lb13.png)
 
-9. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+15. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
 
    ![ws name.](media/im31.png)
 
-10. Click on the **AAD DC Administrators** group and then click on **Select**.
+16. Click on the **AAD DC Administrators** group and then click on **Select**.
 
     ![ws name.](media/lb13.png)
 
-11. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+17. Navigate to the host pool *AVD-HP-01* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
     ![ws name.](media/lb40.png)
 
-12. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
+18. Open application group **AVD-HP-01-DAG** and click on **Assignments** under *Manage* blade.
 
     ![ws name.](media/lb41.png)
    
-13. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
+19. Click on **+ Add**, then in the search bar, type *AVDUser* and select both **AVDUser01** & **AVDUser02** that we created earlier. At last, click on **Select** button.
 
     ![ws name.](media/lb42.png)
 
-14. Once done, the users assigned to the Application group will look similar to the image given below.
+20. Once done, the users assigned to the Application group will look similar to the image given below.
 
     ![ws name.](media/lb45.png)
      
