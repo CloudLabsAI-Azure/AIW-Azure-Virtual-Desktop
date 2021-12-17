@@ -109,11 +109,18 @@ Here, we will use Azure Cloud Shell to run a script that will change the passwor
 6. Copy and paste the following script and hit **Enter**.
 
    ```
-   $domain = ((Get-AzADUser | where {$_.Type -eq "Member"}).UserPrincipalName.Split('@'))[1]
-   $password= ConvertTo-SecureString "Azure1234567" -AsPlainText -Force
+   Connect-AzureAD
+   Get-AzureADDomain
+   $domain = Get-AzureADDomain
+   $domain = $domain.Name
+   $PasswordProfile = @{
+   Password = 'Azure1234567'
+   ForceChangePasswordNextSignIn = $False
+   }
    $users = @("AVDUser01@$domain","AVDUser02@$domain")
+   $users
    $users | foreach{
-       Update-AzADUser -UserPrincipalName $_ -Password $password
+   Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
    }
    ```
  
