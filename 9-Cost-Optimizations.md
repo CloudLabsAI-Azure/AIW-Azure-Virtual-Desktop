@@ -58,7 +58,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
   
       - Click on **+ Select members (2)**
      
-      - Under Select, search for **Windows Virtual desktop and select it **(3)**
+      - Under Select, search for **Windows Virtual desktop** and select it **(3)**
       
       - Click on **Select (4)**.
 
