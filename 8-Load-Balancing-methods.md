@@ -87,7 +87,8 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 Here, we will use powershell to run a script that will change the passwords for the users created, as the user needs to reset the password after registering to AADDS. 
 
-1. Inside the Jump VM, click on the windows button and look for **PowerShell** and click on it.
+1. Inside the Jump VM, click on the windows button and look for **PowerShell (1)** and click on **Windows PowerShell (2)**.
+   
    ![ws name.](media/lab7-avd1.png)
    
 2. Run the following command in your terminal to set up your Azure account permissions locally.
