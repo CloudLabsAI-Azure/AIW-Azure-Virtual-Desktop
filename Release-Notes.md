@@ -4,6 +4,7 @@
 
   - Major update with lab
   - A new version of the lab has been released, with additonal exercises
+-----------
 
 ### 06 August 2021
 
