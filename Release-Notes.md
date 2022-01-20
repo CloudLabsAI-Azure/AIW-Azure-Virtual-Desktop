@@ -1,5 +1,11 @@
 # Release Notes
 
+### 24 January 2022
+
+  - Major update with lab
+  - A new version of the lab has been released, with additonal exercises
+-----------
+
 ### 06 August 2021
 
   - Major update in the Lab Guide
