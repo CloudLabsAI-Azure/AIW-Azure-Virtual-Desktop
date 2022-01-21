@@ -53,7 +53,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv23.png)
   
-4. Under the Policies page click on **+ New Policy**.
+4. Under the Policies page click on **+ New Policy** and select **Create new policy**.
 
    ![](media/avdv24.png)
 
