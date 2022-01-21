@@ -122,7 +122,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/2avd40.png)
    
-1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select**.
+1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select** option.
 
    ![ws name.](media/2avd41.png)
    
