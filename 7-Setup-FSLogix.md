@@ -32,8 +32,6 @@ In the following task, we will be creating a storage account with a file share w
    
    - Performance: **Standard**   
    
-   - Account kind: **StorageV2(general purpose v2)**
-   
    - Replication: **Geo-redundant storage (GRS)**
    
    - Make read access to the data available in the event of regional unavailability.
@@ -124,7 +122,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/2avd40.png)
    
-1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select**.
+1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select** option.
 
    ![ws name.](media/2avd41.png)
    
