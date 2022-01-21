@@ -32,8 +32,6 @@ In the following task, we will be creating a storage account with a file share w
    
    - Performance: **Standard**   
    
-   - Account kind: **StorageV2(general purpose v2)**
-   
    - Replication: **Geo-redundant storage (GRS)**
    
    - Make read access to the data available in the event of regional unavailability.
