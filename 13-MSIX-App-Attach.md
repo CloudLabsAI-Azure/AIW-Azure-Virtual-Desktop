@@ -13,7 +13,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
 
-1. In the right pane, click on **File shares** present under *Data Storage* blade and click on **+File Share**.
+1. In the right pane, click on **File shares (1)** present under *Data Storage* blade and click on **+File Share (2)**.
 
     ![ws name.](media/2avd123-new.png)
  
