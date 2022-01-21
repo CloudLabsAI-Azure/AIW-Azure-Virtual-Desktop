@@ -103,7 +103,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On **Check Configuration** page click on **configure performance counters** in **performance counter** window.
 
-   ![ws name.](media/mon14.png)
+   ![ws name.](media/mon14-new.png)
    
 1. On the **Deploy template** page, The required performance counters will be added to the Log Analytics workspace. Click on **Deploy**
 
