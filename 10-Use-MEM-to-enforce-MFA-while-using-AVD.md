@@ -18,26 +18,39 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 2. On a prompt saying "Help us protect your account" click on **Next**.
 
    ![](media/mfa-00.png)
-  
-3. Enter the details required to set up MFA.
 
-   ![](media/avdv211.png)
+3. Download an **Microsoft Authenticator** app in your Mobile from App Store. After downloading and installing Microsoft Authenticator app in mobile then select **Next**
 
-   - Select the method as: **Authentication phone** *(1)*.
-   - Country Code: Select the country code of your mobile number *(2)*.
-   - Mobile Number: Enter the number which you want to use for the MFA *(3)*.
-   - Method: Select the preferred method of authentication as **Call me** *(4)*.
+   ![](media/mfa-01.png)
+   
+4. In Microsoft Authenticator app, set up your account by adding an work or school account. After adding an account select **Next**.
+
+   ![](media/mfa-02.png)
+   
+5. To connect the Microsoft Authenticator app with your account, **Scan the QR code** and select **Next**.
+
+   ![](media/mfa-03.png)
+   
+6. A Notification to Approve will pop-up in your mobile. Approve that and select **Next**.
+
+   ![](media/mfa-04.png)
+   
+7. Enter the details required to set up MFA.
+
+   - Country Code: Select the country code of your mobile number *(1)*.
+   - Mobile Number: Enter the number which you want to use for the MFA *(2)*.
+   - Method: Select the preferred method of authentication as **Call me** *(3)*.
    - Click on **Next**.
 
-4. Now you will get a verification call on the provided contact details.
+   ![](media/mfa-05-updated.png)
 
-   ![](media/avdv212.png)
+8. Now you will get a verification call on the provided contact details. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+
+   ![](media/mfa-06.png)
   
-5. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
-6. Now after a few seconds the status will change to **Verification Successful**, click on **Done** to finish the MFA registration.
-
-   ![](media/avdv213.png)
+   ![](media/mfa-07.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
