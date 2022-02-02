@@ -126,22 +126,22 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/95.png)
+     ![ws name.](media/95.png)
 
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/96.png)
+     ![ws name.](media/96.png)
    
 11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
 
-   ![ws name.](media/2avd54.png)
+     ![ws name.](media/2avd54.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/login.png)
+     ![](media/login.png)
    
 12. The AVD dashboard will be launched. 
 
-    ![](media/EB-AVD-WS.png)
+     ![](media/EB-AVD-WS.png)
     
 13. Click on the **Next** button present in the bottom-right corner of this lab guide.
