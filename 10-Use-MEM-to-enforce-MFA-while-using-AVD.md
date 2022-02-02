@@ -15,9 +15,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
   
-2. On a prompt saying "More Information Required" click on **Next**.
+2. On a prompt saying "Help us protect your account" click on **Next**.
 
-   ![](media/avdv210.png)
+   ![](media/mfa-00.png)
   
 3. Enter the details required to set up MFA.
 
@@ -53,19 +53,19 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/aad-properties-02.png)
 
-2. From the left-hand side blade, click on **Security** under Manage.
+4. From the left-hand side blade, click on **Security** under Manage.
 
    ![](media/2avd118.png)
   
-3. In **Security** page select **Conditional Access** under Protect.
+5. In **Security** page select **Conditional Access** under Protect.
 
    ![](media/avdv23.png)
   
-4. Under the Policies page click on **+ New Policy**. Select **Create new policy**.
+6. Under the Policies page click on **+ New Policy**. Select **Create new policy**.
 
    ![](media/avdv24.png)
 
-5. Configure the Conditional Access Policy with the following details:
+7. Configure the Conditional Access Policy with the following details:
 
    - Name: **AVD-MFA** *(1)*
    - **Assignments**:
@@ -97,11 +97,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv28.png)
    
-6. Toggle the **Enable Policy** switch to **On** and click on **Create**.
+8. Toggle the **Enable Policy** switch to **On** and click on **Create**.
 
    ![](media/avdv29.png)
   
-7. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
+9. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
    ``` 
    aka.ms/wvdarmweb 
@@ -109,7 +109,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
 
-8. Now to login, enter the lab credentials as mentioned below:
+10. Now to login, enter the lab credentials as mentioned below:
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -119,7 +119,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/96.png)
    
-9. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
 
    ![ws name.](media/2avd54.png)
 
@@ -127,8 +127,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/login.png)
    
-10. The AVD dashboard will be launched. 
+12. The AVD dashboard will be launched. 
 
     ![](media/EB-AVD-WS.png)
     
-11. Click on the **Next** button present in the bottom-right corner of this lab guide.
+13. Click on the **Next** button present in the bottom-right corner of this lab guide.
