@@ -44,7 +44,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 1. In Azure Portal search for *Azure Active Directory* and click on the search result.
 
    ![](media/avdv21.png)
-  
+
+2. From the left-hand side blade, click on **Properties** *(1)* under Manage and scroll down to select **Manage Security Defaults** *(2)* at the bottom of the page.
+
+   ![](media/aad-properties-01.png)
+   
+3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** *(1)* and check the box for **My organization is using Conditional Access** *(2)*. Then select **Save** *(3)*.
+
+   ![](media/aad-properties-02.png)
+
 2. From the left-hand side blade, click on **Security** under Manage.
 
    ![](media/2avd118.png)
@@ -70,10 +78,10 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    - Click on **Cloud apps or actions** *(1)*
    - Click on **Select apps** *(2)*
-   - Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** *(3)* next to the search reuslt
    - Now Click on **Select** *(4)* button.
 
-   ![](media/cloudapps-v2.png)
+   ![](media/conditional-access-apps.png)
   
    - Click on **Conditions** *(1)*
    - Then select **Client apps** *(2)*.
