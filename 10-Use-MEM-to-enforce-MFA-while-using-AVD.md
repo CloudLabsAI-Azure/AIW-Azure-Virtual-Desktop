@@ -132,7 +132,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media/96.png)
    
-11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approvral or Call. If you get Notification pop-up click on Approve. If you get call, Answer the call and you will be asked to press the "#" key to complete the verification. 
 
      ![ws name.](media/2avd54.png)
 
