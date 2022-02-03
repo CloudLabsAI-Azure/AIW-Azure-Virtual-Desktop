@@ -12,7 +12,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 1. Now in the Azure portal search for **Subscription** and click on the search result.
 
-   ![](media/avdv219.png)
+   ![](media/subscription-select-01.png)
 
 1. On the Subscription page, click on the name of your subscription.
 
@@ -79,11 +79,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
    ![](media/2avd112.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
+  
+   - Toggle **Start VM on connect** to **Yes** *(2)*.
+   - Click on **Save** *(3)*.
 
    ![](media/2avd114.png)
-  
-   - Toggle Start VM on connect to **Yes** *(2)*.
-   - Click on **Save** *(3)*.
 
 ## Exercise 3: Experience VM start on connect
 

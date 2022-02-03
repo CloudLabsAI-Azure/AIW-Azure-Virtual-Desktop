@@ -42,7 +42,7 @@ In the following task, we will be creating a storage account with a file share w
    
 4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking** tab use the following configuration.
 
-   ![ws name.](https://github.com/Shivashant25/AIW-Azure-Virtual-Desktop/blob/main/media/ex%205%20t1%20s4.png?raw=true)
+   ![ws name.](media/storage-account-networking.png)
 
 5. In the _Networking_ tab, use the following configurations:
 
@@ -272,9 +272,9 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/fs8.png)
 
-11. Select **RunPowerShellScript**.
+11. Click on **Run command** under **Operations** tab. Then select **RunPowerShellScript**.
 
-    ![ws name.](media/a68.png)
+    ![ws name.](media/vm2-run-command.png)
         
 12. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do Not** run the script right away.
 

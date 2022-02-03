@@ -29,7 +29,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    ![ws name.](media/msix3.png)
    
-1. Browse the files go to ``C:\LabFiles``. Select **7-Zip.vhd**, **msix.cer** files and Click on **Open**.
+1. Browse the files go to ``C:\LabFiles``. Select **7-Zip.vhd**, **msix.cer** files and Click on **Open** then select **Upload**.
 
    ![ws name.](media/2avd125.png)
    
@@ -217,9 +217,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    Click on **Add**.
    
-1. For **Display name**, provide **7-Zip** as the value and enable state as **active**. Click on **Add**.
+1. For **Display name**, provide **7-Zip** as the value and enable state as **Active**. Click on **Add**.
 
-   ![ws name.](media/msix21.png)
+   ![ws name.](media/msix-package-01.png)
    
 1. Under **Manage** blade, Select the **Application groups** tab and click on **AVD-AG-01**.
 

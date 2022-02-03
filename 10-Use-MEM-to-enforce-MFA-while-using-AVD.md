@@ -15,49 +15,70 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
   
-2. On a prompt saying "More Information Required" click on **Next**.
+2. On a prompt saying "Help us protect your account" click on **Next**.
 
-   ![](media/avdv210.png)
-  
-3. Enter the details required to set up MFA.
+   ![](media/mfa-00.png)
 
-   ![](media/avdv211.png)
+3. Download an **Microsoft Authenticator** app in your Mobile from App Store. After downloading and installing Microsoft Authenticator app in mobile then select **Next**
 
-   - Select the method as: **Authentication phone** *(1)*.
-   - Country Code: Select the country code of your mobile number *(2)*.
-   - Mobile Number: Enter the number which you want to use for the MFA *(3)*.
-   - Method: Select the preferred method of authentication as **Call me** *(4)*.
+   ![](media/mfa-01.png)
+   
+4. In Microsoft Authenticator app, set up your account by adding an work or school account. After adding an account select **Next**.
+
+   ![](media/mfa-02.png)
+   
+5. To connect the Microsoft Authenticator app with your account, **Scan the QR code** and select **Next**.
+
+   ![](media/mfa-03.png)
+   
+6. A Notification to Approve will pop-up in your mobile. Approve that and select **Next**.
+
+   ![](media/mfa-04.png)
+   
+7. Enter the details required to set up MFA.
+
+   - Country Code: Select the country code of your mobile number *(1)*.
+   - Mobile Number: Enter the number which you want to use for the MFA *(2)*.
+   - Method: Select the preferred method of authentication as **Call me** *(3)*.
    - Click on **Next**.
 
-4. Now you will get a verification call on the provided contact details.
+   ![](media/mfa-05-updated.png)
 
-   ![](media/avdv212.png)
+8. Now you will get a verification call on the provided contact details. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+
+   ![](media/mfa-06.png)
   
-5. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
-6. Now after a few seconds the status will change to **Verification Successful**, click on **Done** to finish the MFA registration.
-
-   ![](media/avdv213.png)
+   ![](media/mfa-07.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
 1. In Azure Portal search for *Azure Active Directory* and click on the search result.
 
    ![](media/avdv21.png)
-  
-2. From the left-hand side blade, click on **Security** under Manage.
+
+2. From the left-hand side blade, click on **Properties** *(1)* under Manage and scroll down to select **Manage Security Defaults** *(2)* at the bottom of the page.
+
+   ![](media/aad-properties-01.png)
+   
+3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** *(1)* and check the box for **My organization is using Conditional Access** *(2)*. Then select **Save** *(3)*.
+
+   ![](media/aad-properties-02.png)
+
+4. From the left-hand side blade, click on **Security** under Manage.
 
    ![](media/2avd118.png)
   
-3. In **Security** page select **Conditional Access** under Protect.
+5. In **Security** page select **Conditional Access** under Protect.
 
    ![](media/avdv23.png)
   
-4. Under the Policies page click on **+ New Policy**. Select **Create new policy**.
+6. Under the Policies page click on **+ New Policy**. Select **Create new policy**.
 
    ![](media/avdv24.png)
 
-5. Configure the Conditional Access Policy with the following details:
+7. Configure the Conditional Access Policy with the following details:
 
    - Name: **AVD-MFA** *(1)*
    - **Assignments**:
@@ -70,10 +91,10 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    - Click on **Cloud apps or actions** *(1)*
    - Click on **Select apps** *(2)*
-   - Search for **Windows Virtual Desktop** and click on the **check box** *(3)* next to the search reuslt
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** *(3)* next to the search reuslt
    - Now Click on **Select** *(4)* button.
 
-   ![](media/cloudapps-v2.png)
+   ![](media/conditional-access-apps.png)
   
    - Click on **Conditions** *(1)*
    - Then select **Client apps** *(2)*.
@@ -89,11 +110,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv28.png)
    
-6. Toggle the **Enable Policy** switch to **On** and click on **Create**.
+8. Toggle the **Enable Policy** switch to **On** and click on **Create**.
 
    ![](media/avdv29.png)
   
-7. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
+9. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
    ``` 
    aka.ms/wvdarmweb 
@@ -101,26 +122,26 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
 
-8. Now to login, enter the lab credentials as mentioned below:
+10. Now to login, enter the lab credentials as mentioned below:
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/95.png)
+     ![ws name.](media/95.png)
 
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/96.png)
+     ![ws name.](media/96.png)
    
-9. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approvral or Call. If you get Notification pop-up click on Approve. If you get call, Answer the call and you will be asked to press the "#" key to complete the verification. 
 
-   ![ws name.](media/2avd54.png)
+     ![ws name.](media/2avd54.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/login.png)
+     ![](media/login.png)
    
-10. The AVD dashboard will be launched. 
+12. The AVD dashboard will be launched. 
 
-    ![](media/EB-AVD-WS.png)
+     ![](media/EB-AVD-WS.png)
     
-11. Click on the **Next** button present in the bottom-right corner of this lab guide.
+13. Click on the **Next** button present in the bottom-right corner of this lab guide.

@@ -256,11 +256,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. In *EB-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
-   ![ws name.](media/2avd95.png)
+   ![ws name.](media/host-pool-properties.png)
    
 1. Change the load balancing algorithm to **Depth-first** then click on **Save icon**.
 
-   ![ws name.](media/2avd102.png)
+   ![ws name.](media/host-pool-depth-first.png)
    
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
 
