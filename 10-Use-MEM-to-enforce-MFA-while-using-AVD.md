@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants their resources to be secure and protected from any kind of unethical activities. So Contoso wants to enable Multi factor authentication (MFA) for session login. You will guide contoso to set up MFA for sign-ins.
+Contoso wants their resources to be secure and protected from any kind of unethical activities. So Contoso wants to enable Multi factor authentication (MFA) for session login. You will guide Contoso to set up MFA for sign-ins.
 
 ## **Overview**
 
@@ -19,11 +19,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/mfa-00.png)
 
-3. Download an **Microsoft Authenticator** app in your Mobile from App Store. After downloading and installing Microsoft Authenticator app in mobile then select **Next**
+3. Download the **Microsoft Authenticator** app on your Mobile from App Store. After installing the app, select **Next**.
 
    ![](media/mfa-01.png)
    
-4. In Microsoft Authenticator app, set up your account by adding an work or school account. After adding an account select **Next**.
+4. In the Microsoft Authenticator app, set up your account by adding a work or school account. After adding an account select **Next**.
 
    ![](media/mfa-02.png)
    
@@ -31,15 +31,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/mfa-03.png)
    
-6. A Notification to Approve will pop-up in your mobile. Approve that and select **Next**.
+6. A Notification to Approve will pop-up on your mobile. Approve that and select **Next**.
 
    ![](media/mfa-04.png)
    
 7. Enter the details required to set up MFA.
 
-   - Country Code: Select the country code of your mobile number *(1)*.
-   - Mobile Number: Enter the number which you want to use for the MFA *(2)*.
-   - Method: Select the preferred method of authentication as **Call me** *(3)*.
+   - Country Code: Select the country code of your mobile number (1)
+   - Mobile Number: Enter the number which you want to use for the MFA (2)
+   - Method: Select the preferred method of authentication as **Call me** (3)
    - Click on **Next**.
 
    ![](media/mfa-05-updated.png)
@@ -58,11 +58,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv21.png)
 
-2. From the left-hand side blade, click on **Properties** *(1)* under Manage and scroll down to select **Manage Security Defaults** *(2)* at the bottom of the page.
+2. From the left-hand side blade, click on **Properties** (1) under Manage and scroll down to select **Manage Security Defaults** (2) at the bottom of the page.
 
    ![](media/aad-properties-01.png)
    
-3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** *(1)* and check the box for **My organization is using Conditional Access** *(2)*. Then select **Save** *(3)*.
+3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** (1) and check the box for **My organization is using Conditional Access** (2). Then select **Save** (3).
 
    ![](media/aad-properties-02.png)
 
@@ -80,33 +80,33 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 7. Configure the Conditional Access Policy with the following details:
 
-   - Name: **AVD-MFA** *(1)*
+   - Name: **AVD-MFA** (1)
    - **Assignments**:
-   - Click on **Users and Groups** *(2)*.
-   - A new window will slide in, there click on **Select users and Groups** *(3)* and then select the check box saying **Users and groups** *(4)*.
-   - Now a *Select* window will open, here search for ODL user and Select it *(5)*.
-   - Click on **Select** *(6)* button.
+   - Click on **Users and Groups** (2)
+   - A new window will slide in, there click on **Select users and Groups** (3) and then select the check box saying **Users and groups** (4)
+   - Now a *Select* window will open, here search for ODL user and Select it (5)
+   - Click on **Select** (6) button
    
    ![](media/avdv25.png)
    
-   - Click on **Cloud apps or actions** *(1)*
-   - Click on **Select apps** *(2)*
-   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** *(3)* next to the search reuslt
-   - Now Click on **Select** *(4)* button.
+   - Click on **Cloud apps or actions** (1)
+   - Click on **Select apps** (2)
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** (3) next to the search reusult
+   - Now Click on **Select** (4) button.
 
    ![](media/conditional-access-apps.png)
   
-   - Click on **Conditions** *(1)*
-   - Then select **Client apps** *(2)*.
-   - Now in the Client Apps blade toggle the *Configure* switch to **Yes** *(3)* and make sure that all the checkboxes below are selected.
-   - Then click on **Done** *(4)*
+   - Click on **Conditions** (1)
+   - Then select **Client apps** (2)
+   - Now in the Client Apps blade toggle the *Configure* switch to **Yes** (3) and make sure that all the checkboxes below are selected.
+   - Then click on **Done** (4)
 
    ![](media/avdv27.png)
   
    - **Access Control**
-   - Click on **Grant** *(1)*.
-   - Select the Check Box saying **Require multi-factor authentication** *(2)*.
-   - Then click on **Select** *(3)*
+   - Click on **Grant** (1)
+   - Select the Check Box saying **Require multi-factor authentication** (2)
+   - Then click on **Select** (3)
 
    ![](media/avdv28.png)
    
@@ -132,7 +132,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media/96.png)
    
-11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approvral or Call. If you get Notification pop-up click on Approve. If you get call, Answer the call and you will be asked to press the "#" key to complete the verification. 
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approval or Call. If you get a Notification pop-up click on Approve. If you get a call, answer it and you will be asked to press the "#" key to complete the verification. 
 
      ![ws name.](media/2avd54.png)
 
