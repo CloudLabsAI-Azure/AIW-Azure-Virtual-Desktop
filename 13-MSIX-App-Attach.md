@@ -35,7 +35,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Select **Access Control(IAM) (1)** from the side blade. Click on **Add (2)** and select **Add Role Assignment (3)**.
 
-   ![ws name.](media/msix5.png)
+   ![ws name.](media/updmsix5.png)
    
 1. Select the following options and click **Save**
 
