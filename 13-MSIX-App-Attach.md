@@ -281,4 +281,38 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. Wait for the Session Desktop to connect.
 
+   ![ws name.](media/ex4t2s4.png)
+
+1. Once connected, In the **start menu** search for **7-Zip File Manager** and you'll be able to see that the application is present in session desktop.
+
+   ![](media/2avd63.png)
+
+1. In the **start menu** search for **Apps & features** and click on it to open.
+
+   ![](media/2avd64.png)
+
+1. In **Search bar**, Search for **7-Zip File Manager** and you'll able to see the application.
+
+   ![](media/2avd65.png)
+
+1. In the **start menu** search for **Control Panel** and click on it to open.
+
+   ![](media/2avd68.png)
+
+1. In Control Panel, Click on **Uninstall a program**.
+
+   ![](media/2avd69.png)
+
+1. Here, you'll notice that **7-Zip File Manager** is not present as an application.
+
+   ![](media/2avd70.png) 
+
+1. In the **start menu** search for **Computer Management** and click on it to open.
+
+   ![](media/2avd66.png)
+
+1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be see that VHD has been mounted. This is where the **7-ZIP File Manager** present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
+
+   ![](media/2avd67.png)
+
 1. Click on the Next button present in the bottom-right corner of this lab guide.
