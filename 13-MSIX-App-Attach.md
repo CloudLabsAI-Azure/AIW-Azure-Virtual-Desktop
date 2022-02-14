@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants few application to be installed in all the sessions host. So contoso had decided implement MSIX app attach inorder to install few application across the all session hosts and users should be able to access them. you will help contoso to install one of the application that is, 7-Zip file manager using MSIX app attach feature.
+Contoso wants a few application to be installed in all the sessions host. So Contoso had decided to implement MSIX app attach in order to install the application across the session hosts and users should be able to access them. You will help Contoso to install one of the application that is, 7-Zip file manager using the MSIX app attach feature.
 
 ## **Overview**
 
