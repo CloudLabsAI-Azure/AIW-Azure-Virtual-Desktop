@@ -189,6 +189,8 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv218.png)
    
+   >**Note**: If you are not able to select other audio devices. Please skip the step and continue with the lab.
+   
 1. Now, Close the settings tab and go to **calendar** (1) which is located in the side blade. Select **Meet now** (2).
 
    ![ws name.](media/teams13.png)
@@ -200,6 +202,8 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Make sure both Video (1), and Audio (2) are enabled. Click on **Join now** (3).
 
    ![ws name.](media/teams15.png)
+   
+   >**Note**: If the audio is not working. Please skip the step and continue with the lab as this is an expected issue.
    
 1. Click on **Allow access** on the Windows Security alert prompt.
 
