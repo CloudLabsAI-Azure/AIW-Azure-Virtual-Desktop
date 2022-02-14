@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants their AVD environment to be flexible interms of accessing the sessions by their employees. You will help contoso to test the access to AVD session using Browser.
+Contoso wants their AVD environment to be flexible in terms of accessing the sessions by their employees. You will help Contoso to test the access to AVD session using Browser.
 
 ## **Overview**
 
