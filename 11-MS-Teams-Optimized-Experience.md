@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso is an IT based consulting service company. One of the major challenge faced by employees who are working from home is about communication. Contoso wants to implement Azure Virtual Desktop's Optimized Audio Video Experience for their Teams Users. AVD's Teams Optimized experience ensures better QoS of the Audio/Video while attending Teams Online meetings. You will help contoso to configure and set up Microsoft Teams for Azure virtual desktop.
+Contoso is an IT-based consulting service company. One of the major challenges faced by employees who are working from home is communication. Contoso wants to implement Azure Virtual Desktop's Optimized Audio Video Experience for their Teams Users. AVD's Teams Optimized experience ensures better QoS of the Audio/Video while attending Teams Online meetings. You will help Contoso to configure and set up Microsoft Teams for Azure virtual desktop.
 
 ## **Overview**
 
@@ -24,7 +24,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd79.png)
  
-1. Under **Operations (1)** blade, Select **Run Command (2)**. Select **RunPowerShellScript (3)**.
+1. Under **Operations** (1) blade, Select **Run Command** (2). Select **RunPowerShellScript** (3).
 
    ![ws name.](media/teams18.png)
    
@@ -100,13 +100,13 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd120.png)
    
-1. Under Settings, Select **RDP Properties** *(1)* and select **Device redirection** *(2)*. Select the following options.
+1. Under Settings, Select **RDP Properties** (1) and select **Device redirection** (2). Select the following options.
    
-   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** *(3)* from the dropdown.
-   - Audio output location: Select **Play sounds on the remote computer** *(4)* from the dropdown
-   - Camera redirection: Select **Redirect cameras** *(5)* from the dropdown.
+   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** (3) from the dropdown.
+   - Audio output location: Select **Play sounds on the remote computer** (4) from the dropdown
+   - Camera redirection: Select **Redirect cameras** (5) from the dropdown.
    - Leave the rest properties as **defaults**.
-   - click on **Save** *(6)*.
+   - click on **Save** (6).
 
    ![ws name.](media/2avd121.png)
    
@@ -173,15 +173,15 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv214.png)
    
-1. After the Teams application is launched, click on the **three dots** *(1)* then **About** *(2)* and click on **Version** *(3)*.
+1. After the Teams application is launched, click on the **three dots** (1) then **About** (2) and click on **Version** (3).
 
    ![ws name.](media/avdv215.png)
 
-1. Now we will get a message on top of the teams application saying **The Teams Version 1.x.x.. is WVD Media Optimised**.
+1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is WVD Media Optimised**.
 
    ![ws name.](media/avdv216.png)
    
-1. Again click on the **three dots** *(1)* on the top and select **Settings** *(2)*.
+1. Again click on the **three dots** (1) on the top and select **Settings** (2).
 
    ![ws name.](media/avdv217.png)
    
@@ -189,7 +189,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv218.png)
    
-1. Now, Close the settings tab and go to **calendar (1)** which is located in the side blade. Select **Meet now (2)**.
+1. Now, Close the settings tab and go to **calendar** (1) which is located in the side blade. Select **Meet now** (2).
 
    ![ws name.](media/teams13.png)
    
@@ -197,7 +197,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams14.png)
    
-1. Make sure both Video(1), and audio(2) are enabled. Click on **Join now(3)**.
+1. Make sure both Video (1), and Audio (2) are enabled. Click on **Join now** (3).
 
    ![ws name.](media/teams15.png)
    
