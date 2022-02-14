@@ -28,7 +28,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Storage account name: **<inject key="Storage Account Name" />**   
       
-   - Region: **East US**, *this should be same as the location of your resource group*.  
+   - Region: *this should be same as the location of your resource group*.  
    
    - Performance: **Standard**   
    
@@ -362,7 +362,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
      
 17. Click on **Users**, then in the search bar paste your username **<inject key="AzureAdUserEmail" />** and then click on your user.
 
-    ![ws name.](media/fs15.png)
+    ![ws name.](media/AVD-users.png)
     
 18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
 

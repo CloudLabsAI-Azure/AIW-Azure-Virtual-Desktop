@@ -238,11 +238,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    > 
    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
-1. Open **AVD-HP01-SH-0** session host, there you can see the user logged in to that session host. Now select the user and click on the **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+1. Open **AVD-HP01-SH-0** session host and click on **Users**, there you can see the user logged in to that session host. Now select the user and click on the **Log off users** button and select **OK** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
 
    ![ws name.](media/2avd99.png)
 
-1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, there you can see the user logged in to that session host. Now select the user and click on the **Log off all active users** button and select **Yes** to the prompt asking *Do you want to Log off active users of the virtual machine*.
+1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, click on **Users** and you can see the user logged in to that session host. Now select the user and click on the **Log off users** button and select **OK** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-1*.
 
    ![ws name.](media/2avd100.png)
 
@@ -321,9 +321,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    >
    >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
-1. Verify that both users have been assigned to the particular session host. 
+1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media/uiupdate16.png)
+   ![ws name.](media/AVD-hostpool02.png)
 
    >**[Optional]**
    >
