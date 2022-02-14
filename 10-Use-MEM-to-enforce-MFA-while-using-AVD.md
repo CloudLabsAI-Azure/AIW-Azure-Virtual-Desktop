@@ -91,7 +91,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    - Click on **Cloud apps or actions** (1)
    - Click on **Select apps** (2)
-   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** (3) next to the search reusult
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** (3) next to the search result
    - Now Click on **Select** (4) button.
 
    ![](media/conditional-access-apps.png)
