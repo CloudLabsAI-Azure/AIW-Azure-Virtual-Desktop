@@ -1,10 +1,10 @@
 # Lab 14: Create a master image for AVD
 
-In this exercise, we are going to walk through the process of creating a master image for your AVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications and configurations. There are many ways to create and manage images for AVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for AVD.
+In this exercise, we are going to walk through the process of creating a master image for your AVD host pools. The basic concept for a master image is to start with a clean base install of Windows and layer on mandatory updates, applications, and configurations. There are many ways to create and manage images for AVD. The steps covered in this exercise are going to walk you through a basic build and capture process that includes core applications and recommended configuration options for AVD.
 
 ## **Exercise 1: Create a new Virtual Machine in Azure**
 
-1. In the **JumpVM**, go to Azure portal home page and click on **Create a resource** button.
+1. In the **JumpVM**, go to the Azure portal home page and click on **Create a resource** button.
 
    ![ws name.](media/e1.png)
 
@@ -12,7 +12,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/e2.png)
 
-3. On *Microsoft Windows 10* page, select **Windows 10 Enterprise multi-session, Version 1909** from dropdown menu and click on **Create**.
+3. On *Microsoft Windows 10* page, select **Windows 10 Enterprise multi-session, Version 1909** from the dropdown menu and click on **Create**.
 
    ![ws name.](media/e3.png)
 
@@ -34,11 +34,11 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/upd1.png) 
 
-5. On *Disks* tab, leave all configurations on default and click on **Next: Networking**.
+5. On the *Disks* tab, leave all configurations on default and click on **Next: Networking**.
   
    ![ws name.](media/im2.png) 
 
-6. On *Networking* tab, click on **Create new** for **Virtual network**. Then enter **avdvm-vnet** in the *Name* block and click on **OK**.
+6. On the *Networking* tab, click on **Create new** for **Virtual network**. Then enter **avdvm-vnet** in the *Name* block and click on **OK**.
 
    ![ws name.](media/im3.png) 
 
@@ -54,7 +54,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
    ![ws name.](media/vmimage1.png)
 
-10. On the **Overview** page, copy **Public IP address** of the virtual machine and paste it in a text editor as we will use it in next step.
+10. On the **Overview** page, copy **Public IP address** of the virtual machine and paste it in a text editor as we will use it in the next step.
 
     ![ws name.](media/jvm21.png)
 
@@ -62,7 +62,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
     ![ws name.](media/jvm17.png)
 
-12. On Remote Desktop Connection box, paste the **Public IP address** against *Computer* block. Then click on **Connect**.
+12. On the Remote Desktop Connection box, paste the **Public IP address** against the *Computer* block. Then click on **Connect**.
 
     ![ws name.](media/jvm18.png)
 
@@ -74,7 +74,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
     ![ws name.](media/jvm19.png)
 
-14. On Remote Desktop Connection dialog box, click on **Yes**.
+14. On the Remote Desktop Connection dialog box, click on **Yes**.
 
     ![ws name.](media/jvm20.png)
 
@@ -86,7 +86,7 @@ In this exercise, we are going to walk through the process of creating a master 
 
 Despite the Azure support teams best efforts, the Marketplace images are not always up to date. The best and most secure practice is to keep your master image up to date.
 
-1. Open **AVDVMWin10** virtual machine that you created in the Task 1. Click on **Start** button and then open **Settings**.
+1. Open **AVDVMWin10** virtual machine that you created in Task 1. Click on the **Start** button and then open **Settings**.
 
    ![ws name.](media/e11.png)
 
@@ -98,7 +98,7 @@ Despite the Azure support teams best efforts, the Marketplace images are not alw
 
    ![ws name.](media/e13.png)
 
-4. Once the installation of updates complete, a message will appear asking **Restart required**. Click on **Restart now** to restart the virtual machine.
+4. Once the installation of updates is complete, a message will appear asking **Restart required**. Click on **Restart now** to restart the virtual machine.
 
    ![ws name.](media/im32.png)
 
@@ -121,7 +121,7 @@ The UI form offers the following actions:
 ### **Running the script**
 
 
-1. Reconnect to **AVDVMWin10** virtual machine that you created in the Task 1. Inside the virtual machine click on **Start** and open **Microsoft edge browser**.
+1. Reconnect to **AVDVMWin10** virtual machine that you created in Task 1. Inside the virtual machine click on **Start** and open **Microsoft edge browser**.
 
    ![ws name.](media/e14.png)
 
@@ -163,7 +163,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/pathupdate3.png)
 
-9. This will trigger the Powershell to launch an application that will look similar to image shown below.
+9. This will trigger Powershell to launch an application that will look similar to the image shown below.
 
    ![ws name.](media/im7.png)
 
@@ -204,7 +204,7 @@ The UI form offers the following actions:
    
    ![ws name.](media/im13.png)
 
-3. Run the following command to sysprep the VM and shutdown. A window will appear which wil show that *Sysprep is working*.
+3. Run the following command to sysprep the VM and shutdown. A window will appear which will show that *Sysprep is working*.
 
    ` sysprep.exe /oobe /generalize /shutdown `
 
@@ -214,11 +214,11 @@ The UI form offers the following actions:
 
 ## **Exercise 5: Create a managed image from the Master Image VM**
 
-1. Navigate to Azure portal in the **JumpVM**, search for *virtual machine* and click on **Virtual Machines** to open it.
+1. Navigate to the Azure portal in the **JumpVM**, search for *virtual machine* and click on **Virtual Machines** to open it.
 
    ![ws name.](media/e26.png)
 
-2. On the Virtual machines blade, open the VM we used for creating master image i.e., **avdwin10**.
+2. On the Virtual machines' blade, open the VM we used for creating the master image i.e., **avdwin10**.
 
    ![ws name.](media/im28.png)
 
@@ -257,7 +257,7 @@ The UI form offers the following actions:
 
 ## **Exercise 6: Provision a Host Pool with a custom image**
 
-1. In azure portal search for *Azure Virtual Desktop* and select **Azure Virtual Desktop** from suggestions.
+1. In the Azure portal search for *Azure Virtual Desktop* and select **Azure Virtual Desktop** from suggestions.
 
    ![ws name.](media/e33.png)
 
@@ -341,7 +341,7 @@ The UI form offers the following actions:
 
     ![ws name.](media/67.png)
 
-7. Under the *Workspace name*, fill the name of workspace.
+7. Under the *Workspace name*, fill in the name of the workspace.
 
    - Workspace name: **AVD-CustomImage-workspace**
    - Click on **OK**
@@ -360,15 +360,15 @@ The UI form offers the following actions:
 
 ## **Exercise 7: Assign an Azure AD group to an application group**
 
-1. In search bar of Azure portal, search for *Azure virtual desktop* and select **Azure virtual desktop** from the suggestions.
+1. In the search bar of the Azure portal, search for *Azure virtual desktop* and select **Azure virtual desktop** from the suggestions.
 
    ![ws name.](media/e33.png)
 
-2. Under *Manage* blade, select **Application groups**. Then click on the *Default Application group* that was created while creating Host pool in previous task.
+2. Under *Manage* blade, select **Application groups**. Then click on the *Default Application group* that was created while creating the Host pool in the previous task.
 
    ![ws name.](media/im25.png)
 
-3. Now click on **Assignments** under Manage blade, and then click on **+ Add** button.
+3. Now click on **Assignments** under Manage blade, and then click on the **+ Add** button.
 
    ![ws name.](media/im26.png)
 
@@ -378,7 +378,7 @@ The UI form offers the following actions:
 
 ## **Exercise 8: Connect to AVD with the web client**
 
-1. In the **JumpVM**, open new browser and navigate to the URL given below. 
+1. In the **JumpVM**, open a new browser and navigate to the URL given below. 
 
    `https://rdweb.wvd.microsoft.com/arm/webclient`
 
@@ -386,7 +386,7 @@ The UI form offers the following actions:
    >- Username: **<inject key="AzureAdUserEmail" />**
    >- Password: **<inject key="AzureAdUserPassword" />**
 
-   > **Note:** If there's a dialog box saying ***Help us protect your account***, then select **Skip for now** option.
+   > **Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    >
    ![](media/login.png)
 
@@ -409,7 +409,7 @@ The UI form offers the following actions:
 
    ![ws name.](media/lb57.png)
 
-6. At last, validate the components relative to the configuration we made in previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
+6. At last, validate the components relative to the configuration we made in the previous task. The desktop should show icons for ***Microsoft Edge*** and ***Microsoft Teams***. When you go to the ***Windows start menu***, you can find the ***Office applications***.
 
    ![ws name.](media/vmimage12.png)
 
