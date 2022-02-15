@@ -82,12 +82,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Name: **AVD-MFA** (1)
    - **Assignments**:
-   - Click on **Users and Groups** (2)
+   - Click on **Users or workload identities** (2)
    - A new window will slide in, there click on **Select users and Groups** (3) and then select the check box saying **Users and groups** (4)
    - Now a *Select* window will open, here search for ODL user and Select it (5)
    - Click on **Select** (6) button
    
-   ![](media/avdv25.png)
+   ![](media/feb2.png)
    
    - Click on **Cloud apps or actions** (1)
    - Click on **Select apps** (2)
