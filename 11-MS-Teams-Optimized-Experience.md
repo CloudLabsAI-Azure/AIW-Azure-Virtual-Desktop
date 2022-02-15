@@ -52,7 +52,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd56.png)
 
-   >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
+   >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart. If you see any error in the output window, Please ignore the error and continue with next steps.
 
 1. Similarly, Navigate to virtual machines and click on **AVD-HP01-SH-1**.
 
@@ -90,7 +90,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd56.png)
 
-   >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart.
+   >**NOTE**: Wait for 3 minutes as the Session VM will take time to restart. If you see any error in the output window, Please ignore the error and continue with next steps.
 
 1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
@@ -180,6 +180,8 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is WVD Media Optimised**.
 
    ![ws name.](media/avdv216.png)
+   
+   >**Note**: If you see a message saying **AVD Media not connected**. Please skip the step and continue with the lab.
    
 1. Again click on the **three dots** (1) on the top and select **Settings** (2).
 
