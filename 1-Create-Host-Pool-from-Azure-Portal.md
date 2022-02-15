@@ -72,7 +72,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw5.png)
    
-   >**NOTE**: It takes 20 mins to get deployed successfully.
+   >**NOTE**: Usually it takes 20 mins to get deployed successfully. Sometimes it might take upto 90 minutes.
    
 1. Once the deployment is successful, **Click** on **Go to resource**.
 
