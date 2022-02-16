@@ -164,7 +164,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
    >**NOTE**: Wait Untill the execution completes  and **DO NOT CLOSE** PowerShell application.
 
-1. Once the execution is completed. Close the Remote Desktop Connection.
+1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
 
    ![ws name.](media/tm21.png)
 
@@ -256,7 +256,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
    >**NOTE**: Wait Untill the execution completes  and **DO NOT CLOSE** PowerShell application.
 
-1. Once the execution is completed. Close the Remote Desktop Connection.
+1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
 
    ![ws name.](media/21.png)
 
