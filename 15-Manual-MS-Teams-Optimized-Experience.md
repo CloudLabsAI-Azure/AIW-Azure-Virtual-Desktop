@@ -48,7 +48,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
    In **IPv4 IP Address Configuration**,
    
-   - **Name**: ***SH-0-IP*** *(1)*
+   - **Name**: ***SH-1-IP*** *(1)*
    - **Routing preference**: ***Microsoft network*** *(2)*
    - **Idle timeout (minutes)**: Leave it to ***default***
    - **DNS name label**: Leave it to ***default***
@@ -60,13 +60,13 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/tm5.png)
    
-1. Select the **SH-1-IP** *(1)*, Click on **Associate** *(2)* and provide the fololowing details.
+1. Select the **SH-0-IP** *(1)*, Click on **Associate** *(2)* and provide the fololowing details.
 
    - **Resource Type**: ***Network Interface***. *(3)*
    - **Network Interface**: ***AVD-HP01-SH-01-nic*** *(4)*
    - Click on ***Ok*** *(5)*
    
-   ![ws name.](media/tm6.png)
+   ![ws name.](media/tm6.1.png)
    
 1. Select the **SH-1-IP** *(1)*, Click on **Associate** *(2)* and provide the fololowing details.
 
@@ -126,7 +126,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
   
    >**Note**: Click on ***Yes*** if ***Do you want allow this app to make changes to your device*** prompt pop-up. Please close the ***Microsoft Teams*** application if it is running.
    
-1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The operation completed successfully** message will be displayed as the output
+1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
 
    >**NOTE**: The below-mentioned script unistalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer whose version doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
@@ -176,7 +176,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd80.png)
    
-1. Select **Networking** *(1)* from the side blade. In **Inbounds port rules**, If you see a rule named **Port_3389**. Please skip step 22 to step 23.
+1. Select **Networking** *(1)* from the side blade. In **Inbounds port rules** *(2)*, If you see a rule named **Port_3389** *(3)*. Please skip step 22 to step 23.
 
    ![ws name.](media/tm19.png)
    
@@ -218,7 +218,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
   
    >**Note**: Click on ***Yes*** if ***Do you want allow this app to make changes to your device*** prompt pop-up. Please close the ***Microsoft Teams*** application if it is running.
    
-1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The operation completed successfully** message will be displayed as the output
+1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
 
    >**NOTE**: The below-mentioned script unistalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer whose version doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
@@ -258,7 +258,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
 1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
 
-   ![ws name.](media/21.png)
+   ![ws name.](media/tm21.png)
    
 1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
