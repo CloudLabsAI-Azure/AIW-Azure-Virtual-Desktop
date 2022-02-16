@@ -128,7 +128,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
 
-   >**NOTE**: The below-mentioned script unistalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer whose version doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
+   >**NOTE**: The below-mentioned script uninstalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer version which doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
    ```
    
@@ -220,7 +220,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
 
-   >**NOTE**: The below-mentioned script unistalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer whose version doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
+   >**NOTE**: The below-mentioned script uninstalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer version which doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
    ```
    
