@@ -259,6 +259,14 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
 
    ![ws name.](media/21.png)
+   
+1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
+
+   ![ws name.](media/up11.png)
+   
+1. Select **AVD-HP01-SH-0** and **AVD-HP01-SH-1** and click on **Restart**.
+
+   ![ws name.](media/tm22.png)
 
 1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
 
@@ -349,8 +357,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv216.png)
    
-   >**Note**: If you see a message saying **AVD Media not connected**. Please skip the step and continue with the lab.
-   
 1. Again click on the **three dots** (1) on the top and select **Settings** (2).
 
    ![ws name.](media/avdv217.png)
@@ -358,8 +364,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Now under Settings, click on **Devices** and explore the media devices connected to your local desktop.
 
    ![ws name.](media/avdv218.png)
-   
-   >**Note**: If you are not able to select other audio devices. Please skip the step and continue with the lab.
    
 1. Now, Close the settings tab and go to **calendar** (1) which is located in the side blade. Select **Meet now** (2).
 
@@ -372,8 +376,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Make sure both Video (1), and Audio (2) are enabled. Click on **Join now** (3).
 
    ![ws name.](media/teams15.png)
-   
-   >**Note**: If the audio is not working. Please skip the step and continue with the lab as this is an expected issue.
    
 1. Click on **Allow access** on the Windows Security alert prompt.
 
