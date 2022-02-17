@@ -149,7 +149,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    $WebClient = New-Object System.Net.WebClient
    $WebClient.DownloadFile("https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/LabFiles/RTC.msi","C:\LabFiles\RTC.msi")
 
-   msiexec /i C:\RTC.msi /qn
+   msiexec /i C:\LabFiles\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
    
@@ -241,7 +241,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    $WebClient = New-Object System.Net.WebClient
    $WebClient.DownloadFile("https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/LabFiles/RTC.msi","C:\LabFiles\RTC.msi")
 
-   msiexec /i C:\RTC.msi /qn
+   msiexec /i C:\LabFiles\RTC.msi /qn
 
    $WebClient = New-Object System.Net.WebClient
    
