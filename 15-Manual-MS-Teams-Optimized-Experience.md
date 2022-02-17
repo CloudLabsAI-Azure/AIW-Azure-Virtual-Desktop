@@ -63,7 +63,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Select the **SH-0-IP** *(1)*, Click on **Associate** *(2)* and provide the fololowing details.
 
    - **Resource Type**: ***Network Interface***. *(3)*
-   - **Network Interface**: ***AVD-HP01-SH-01-nic*** *(4)*
+   - **Network Interface**: ***AVD-HP01-SH-0-nic*** *(4)*
    - Click on ***Ok*** *(5)*
    
    ![ws name.](media/tm6.1.png)
