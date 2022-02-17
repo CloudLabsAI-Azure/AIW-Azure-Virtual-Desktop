@@ -120,13 +120,17 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/tm14.png)
    
-1. Once logged into the virtual machine, In **Search bar** , Search for **Windows PowerShell** *(1)*. Select the application *(2)* and click **Run as Administrator** *(3)*.
+1. Once logged into the virtual machine, In **Search bar**, Search for **Windows PowerShell** *(1)*. Select the application *(2)* and click **Run as Administrator** *(3)* and keep the application running.
 
    ![ws name.](media/tm15.png)
   
    >**Note**: Click on ***Yes*** if ***Do you want allow this app to make changes to your device*** prompt pop-up. Please close the ***Microsoft Teams*** application if it is running.
+
+1. In **Search bar**,Search for **Notepad** *(1)* and click on the application *(2)* to open.
+
+   ![ws name.](media/tm23.png)
    
-1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
+1. Paste the following the commands in the notepad.
 
    >**NOTE**: The below-mentioned script uninstalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer version which doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
@@ -160,11 +164,18 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    Write-Output "The script is executed successfully"
    
    ```
+   
+   ![ws name.](media/tm24.png)
+   
+1. Select all the commands from the notepad and paste it into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output.
+
    ![ws name.](media/tm20.png)
    
    >**NOTE**: Wait Untill the execution completes  and **DO NOT CLOSE** PowerShell application.
 
-1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
+1. Once the execution is completed. Close the PowerShell application and Notepad. close the Remote Desktop Connection.
+
+   >**Note**: Don't save the notepad. You can directly close the application.
 
    ![ws name.](media/tm21.png)
 
@@ -212,13 +223,17 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/tm14.png)
    
-1. Once logged into the virtual machine, In **Search bar** , Search for **Windows PowerShell** *(1)*. Select the application *(2)* and click **Run as Administrator** *(3)*.
+1. Once logged into the virtual machine, In **Search bar**, Search for **Windows PowerShell** *(1)*. Select the application *(2)* and click **Run as Administrator** *(3)* and keep the application running.
 
    ![ws name.](media/tm15.png)
   
    >**Note**: Click on ***Yes*** if ***Do you want allow this app to make changes to your device*** prompt pop-up. Please close the ***Microsoft Teams*** application if it is running.
+
+1. In **Search bar**,Search for **Notepad** *(1)* and click on the application *(2)* to open.
+
+   ![ws name.](media/tm23.png)
    
-1. Paste the following commands into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output
+1. Paste the following the commands in the notepad.
 
    >**NOTE**: The below-mentioned script uninstalls the Remote Desktop webRTC Redirector service and Teams Machine-Wide Installer version which doesn't support our lab and   downloads the supporting version of the WebRTC and MS Teams and install them.
 
@@ -252,11 +267,18 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    Write-Output "The script is executed successfully"
    
    ```
+   
+   ![ws name.](media/tm24.png)
+   
+1. Select all the commands from the notepad and paste it into the Powershell script window and execute the the commands. Once the execution is completed, **The script is executed successfully** message will be displayed as the output.
+
    ![ws name.](media/tm20.png)
    
    >**NOTE**: Wait Untill the execution completes  and **DO NOT CLOSE** PowerShell application.
 
-1. Once the execution is completed. Close the PowerShell application and close the Remote Desktop Connection.
+1. Once the execution is completed. Close the PowerShell application and Notepad. close the Remote Desktop Connection.
+
+   >**Note**: Don't save the notepad. You can directly close the application.
 
    ![ws name.](media/tm21.png)
    
