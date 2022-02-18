@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso was getting complaints from the end users stating that they were losing their User Profile when they connect to different session host. Contoso wants to implement FSLogix which will help end user to have seperate storage containers for their user data and will help in maintaining consistency. You will help contoso to implement FSLogix in the Azure virtual desktop environment.
+Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connect to a different session host. Contoso wants to implement FSLogix which will help the end users to have a separate storage containers for their user data and will help in maintaining consistency. You will help Contoso to implement FSLogix in the Azure virtual desktop environment.
 
 ## **Overview**
 
