@@ -3,7 +3,7 @@
 
 ## **Scenario**
 
-Contoso's AVD environment set up is working smoothly. But contoso is confused about which load balancing to be used in order to run the sessions efficiently. You will guide contoso to explore about different types of load balancing offered by Azure.
+Contoso's AVD environment set up is working smoothly. But Contoso is confused about which load balancing to be used in order to run the sessions efficiently. You will guide Contoso to explore about different types of load balancing offered by Azure.
 
 ## **Overview**
 
