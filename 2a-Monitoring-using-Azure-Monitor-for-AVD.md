@@ -3,7 +3,7 @@
 
 ## **Scenario**
 
-Contoso is interested in setting up a operation center focused on monitoring of the host pools, user access, and many more .You will help Contoso to setup a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resource. You will create a Log analytics analytics workspace and map it to the AVD environment using Azure Insights.
+Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso to set up a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resource. You will create a Log analytics workspace and map it to the AVD environment using Azure Insights.
 
 ## **Overview**
 
@@ -65,7 +65,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/2avd21.png)
 
-1. In **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name	" /> (1)** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
+1. In the **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name	" /> (1)** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
 
    ![ws name.](media/mon4.png)
    
@@ -101,7 +101,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/monu2.png)
    
-1. On **Check Configuration** page click on **configure performance counters** in **performance counter** window.
+1. On the **Check Configuration** page click on **configure performance counters** in the **performance counter** window.
 
    ![ws name.](media/mon14-new.png)
    
