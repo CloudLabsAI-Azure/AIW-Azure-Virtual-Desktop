@@ -10,10 +10,10 @@
 
    ![](media/w1.png)
 
-3. In the Azure Virtual Desktop overview page, select **Per-user access pricing** *(1)* from the left-hand blade under Licensing.
+3. In the Azure Virtual Desktop overview page, select **Per-user access pricing** (1) from the left-hand blade under Licensing.
 
-   - In the list of subscriptions, select your subscription *(2)*
-   - Select **Enroll** *(3)*.
+   - In the list of subscriptions, select your **subscription** (2).
+   - Select **Enroll** (3).
 
    ![](media/avdv237.png)
 
