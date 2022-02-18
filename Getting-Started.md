@@ -1,6 +1,6 @@
 # Getting Started with Lab	
 
-1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
+1. Once you launch the lab, a virtual machine (JumpVM) on the left and a lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
 
    ![](media/jumpvm.png)	
 
@@ -34,7 +34,7 @@
    
    ![](media/skipfornow.png)
     
-4. **Close** the recomendation page by clicking on the X mark.
+4. **Close** the recommendation page by clicking on the X mark.
 
    ![](media/2avd73.png)
 
@@ -42,7 +42,7 @@
 
    ![](media/jvm3.png)
 
-5. You will see a list of resource groups as show in the image below. Click on **AVD-RG** to open it.
+5. You will see a list of resource groups as shown in the image below. Click on **AVD-RG** to open it.
 
    ![](media/jvm4.png)
    
