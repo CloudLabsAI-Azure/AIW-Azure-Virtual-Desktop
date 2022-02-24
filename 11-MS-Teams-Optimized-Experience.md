@@ -41,11 +41,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    msiexec /i C:\RTC.msi /qn
 
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true","C:\AVDTeams.msi")
-
-   msiexec /i C:\AVDTeams.msi ALLUSER=1
-
    Write-Output "The script is executed successfully"
    
    ```
@@ -78,11 +73,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    $WebClient.DownloadFile("https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/LabFiles/RTC.msi","C:\RTC.msi")
 
    msiexec /i C:\RTC.msi /qn
-
-   $WebClient = New-Object System.Net.WebClient
-   $WebClient.DownloadFile("https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true","C:\AVDTeams.msi")
-
-   msiexec /i C:\AVDTeams.msi ALLUSER=1
 
    Write-Output "The script is executed successfully"
    
