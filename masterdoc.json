@@ -12,6 +12,57 @@
         "Order": 2
       },
       {
+<<<<<<< HEAD
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/0-Pre-requisite.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/1-Create-Host-Pool-from-Azure-Portal.md",
+        "Order": 4
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/2a-Monitoring-using-Azure-Monitor-for-AVD.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/4-Create-Application-Groups-and-assign-to-users.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/5-Access-the-Published-Applications-and-Desktop-using-Browser.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/6-Access-the-Published-Applications-and-Desktop-using-AVD-Desktop-Client.md",
+        "Order": 8
+      },
+      {
+       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/2b-Monitoring-using-Azure-Monitor-for-AVD.md",
+       "Order": 9
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/7-Setup-FSLogix.md",
+        "Order": 10
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/8-Load-Balancing-methods.md",
+        "Order": 10
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/9-Cost-Optimizations.md",
+        "Order": 11
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/10-Use-MEM-to-enforce-MFA-while-using-AVD.md",
+        "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/11-MS-Teams-Optimized-Experience.md",
+        "Order": 13
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/13-MSIX-App-Attach.md",
+=======
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/1-Create-Host-Pool-from-Azure-Portal.md",
         "Order": 3
       },
@@ -57,6 +108,7 @@
       },
        {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/UK-variant-V2/2b-Monitoring-using-Azure-Monitor-for-AVD.md",
+>>>>>>> 8f507ea3c18c9ee4b35cbeb6eecff61afae05877
         "Order": 14
       }
     ]

@@ -1,4 +1,4 @@
-# Lab 10: MS Teams Optimized Experience
+# Lab 10: MS Teams Optimized Experience [Optional]
 
 ## **Scenario**
 

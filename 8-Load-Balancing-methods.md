@@ -1,4 +1,4 @@
-# Lab 7: Load Balancing methods
+# Lab 7: Load Balancing methods [Optional]
 
 
 ## **Scenario**

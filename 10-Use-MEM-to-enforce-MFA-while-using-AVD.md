@@ -1,4 +1,4 @@
-# Lab 9: Use MEM to enforce MFA while using AVD
+# Lab 9: Use MEM to enforce MFA while using AVD [Optional]
 
 ## **Scenario**
 
