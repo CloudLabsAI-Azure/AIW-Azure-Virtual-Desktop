@@ -24,7 +24,7 @@ In this lab with the help of **Getting Started** wizard we will be creating an A
 
 You will be deploying the AVD Host Pool in an already deployed Azure active directory domain service(AAD DS) instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide Identity and Authentication service.
 
-## **Lab 2 (A): Monitoring using Log Analytics**
+## **Lab 2 (A): Monitoring Setup using Log Analytics**
 
 In this lab we will deploy a Log Analytics workspace then, we will setup monitoring for our AVD host pools. There are multiple reasons why monitoring serves a critical role: troubleshooting, performance, security, etc. There are also multiple components that make up the AVD service, which can add some variation on how customers implement monitoring
     
@@ -39,6 +39,10 @@ In this lab we will be accessing the published applications and session desktop 
 ## **Lab 5: Access the Published Applications and Desktop using AVD Desktop Client**
     
 In this lab we will be accessing the published applications and session desktop in our Azure Virtual Desktop environment with the help of AVD Desktop Client on out local system.
+
+## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
+
+In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
     
 ## **Lab 6: Setup FSLogix**
  
@@ -53,24 +57,22 @@ In this lab, you will be creating an Azure File share and enabling SMB access vi
     
 In this lab we will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
 
-## **Lab 8: Cost Optimizations**
+## **Lab 8: Cost Optimizations [Optional]**
 
 In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature in host pool which lets you save costs by allowing users to turn on their VMs only when they need them.
 
-## **Lab 9: Use MEM to enforce MFA while using AVD**
+## **Lab 9: Use MEM to enforce MFA while using AVD [Optional]**
 
 In this lab we will setup Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy.
 
-## **Lab 10: MS Teams Optimized Experience**
+## **Lab 10: MS Teams Optimized Experience [Optional]**
 
 In this lab we will be configuring Session host for implementing MS Teams and configure hostpool for teams requirements. Later we will be accessing MS Teams using Remote Desktop Application
 
-## **Lab 11: MSIX App Attach**
+## **Lab 11: MSIX App Attach [Optional]**
 
 In this lab, first we will be configuring AVD for MSIX App Attach then later will be creating MSIX Package in AVD environment.
 
-## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
-In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
