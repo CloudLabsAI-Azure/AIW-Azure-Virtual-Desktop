@@ -209,7 +209,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  #Download FSLogix Installation bundle
 
  if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
-       Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/avd-v2fslogixzip/FSLogix_Apps_Installation.zip" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+       Invoke-WebRequest -Uri "https://aka.ms/fslogix/download" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
 
  #Extract the downloaded FSLogix bundle
  function Expand-ZIPFile($file, $destination){
@@ -295,7 +295,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  #Download FSLogix Installation bundle
 
  if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
-       Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/avd-v2fslogixzip/FSLogix_Apps_Installation.zip" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+       Invoke-WebRequest -Uri "https://aka.ms/fslogix/download" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
 
  #Extract the downloaded FSLogix bundle
  function Expand-ZIPFile($file, $destination){
