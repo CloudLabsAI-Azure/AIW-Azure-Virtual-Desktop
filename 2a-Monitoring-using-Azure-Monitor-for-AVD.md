@@ -9,8 +9,8 @@ Contoso is interested in setting up an operation center focused on monitoring th
 
 Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many other Azure services. This lets admins identify issues through a single interface. The service creates activity logs for both user and administrative actions.
 
-## Exercise 1: Create Log Analytics
-
+## Exercise 1: Create Log Analytics workspace
+**Note: Skip this exercise if already completed as part of pre-requisites section.**
 1. On the Azure portal, click on **Create a resource** given under *Azure services*.
 
    ![ws name.](media/wiw.png)
