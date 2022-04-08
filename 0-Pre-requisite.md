@@ -65,3 +65,40 @@ In this task, you will setup the Lab VM environment respective to your region. N
 
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.  
+
+## **Task 4: Create Log Analytics workspace**
+
+1. On the Azure portal, click on **Create a resource** given under *Azure services*.
+
+   ![ws name.](media/wiw.png)
+
+1. Type *Log Analytics Workspace* in the search bar and click on **Log Analytics Workspace** from the suggestions.
+
+   ![ws name.](media/wiw1.png)
+
+1. On the Log Analytics Workspace page, click on **Create**.
+
+   ![ws name.](media/wiw2.png)
+
+1. Now add the following configurations:
+
+   - Subscription: *Choose the default subscription.*
+  
+   - Resource group: *Select **AVD-Hostpool-RG-avd** from the drop down.*
+  
+   - Name: **<inject key="Log Analytics Workspace Name	" />**
+  
+   - Region: This should be same as the region of *AVD-RG* resource group.
+  
+   - Click on **Review + Create**
+
+   ![ws name.](media/LAW-V2.png)
+
+1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
+
+   ![ws name.](media/Create%20LAW-V2.png)
+
+1. Once the deployment gets succeeded, it will look similar to the image shown below.
+
+   ![ws name.](media/lb60.png)
+   
