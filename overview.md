@@ -53,7 +53,7 @@ In this lab, you will be creating an Azure File share and enabling SMB access vi
 - AD authentication enabled for your Azure storage account.
 - Permissions applied for user access to the file share.
     
-## **Lab 7: Load Balancing methods**
+## **Lab 7: Load Balancing methods [Optional]**
     
 In this lab we will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
 
