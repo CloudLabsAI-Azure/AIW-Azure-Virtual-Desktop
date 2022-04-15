@@ -1,9 +1,8 @@
 # Release Notes
 
-### 07 April 2022
+### 07 March 2022
 
-  - Lab guide instructions updated
-  - UI updates
+  - In Lab 11: MSIX App Attach, Exercise 2: Creating MSIX Package in AVD environment, UI for MSIX App attach in Azure Portal has been updated.
 -----------
 
 ### 24 January 2022
