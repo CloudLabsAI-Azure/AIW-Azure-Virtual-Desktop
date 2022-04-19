@@ -132,7 +132,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media/96.png)
    
-11. A dialog box will pop-up to authenticate your login which is the indication of MFA implementation. Either you will receive a Notification for Approval in authenticator app or SMS code for verification. Click on Approve if you get a Notification pop-up in authenticator app or enter vrification code as you opted to complete the verification. 
+11. A dialog box will pop-up to authenticate your login which is the indication of MFA implementation. Either you will receive a Notification for Approval or SMS code for verification. Click on Approve if you get a Notification pop-up or enter vrification code to complete the verification. 
 
      ![ws name.](media/MFA4.png)
 
