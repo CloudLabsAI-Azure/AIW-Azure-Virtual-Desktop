@@ -11,7 +11,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 ## Exercise 1: Configuring AVD for MSIX App Attach
 
-1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account which was created in **Exercise 5: Setup FSLogix**.
+1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" enableCopy="false" />** account which was created in **Exercise 5: Setup FSLogix**.
 
 1. In the right pane, click on **File shares (1)** present under *Data Storage* blade and click on **+File Share (2)**.
 
@@ -57,7 +57,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    - Select **Review + assign**
    
-1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
+1. Search for **Storage accounts** in the search bar and select the **<inject key="Storage Account Name" enableCopy="false" />** account.
 
    ![ws name.](media/stacc-v2.png)
    
@@ -99,7 +99,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix11.png)
    
-1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" />** account.
+1. Search for **Stoarage accounts** in the search bar and select the **<inject key="Storage Account Name" enableCopy="false" />** account.
 
    ![ws name.](media/stacc-v2.png)
  
