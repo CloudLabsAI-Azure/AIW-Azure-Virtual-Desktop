@@ -39,14 +39,14 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Country Code: Select the country code of your mobile number (1)
    - Mobile Number: Enter the number which you want to use for the MFA (2)
-   - Method: Select the preferred method of authentication as **Call me** (3)
+   - Method: Select the preferred method of authentication as **Text me a code** (3)
    - Click on **Next**.
 
-   ![](media/mfa-05-updated.png)
+   ![](media/MFA1.png)
 
-8. Now you will get a verification call on the provided contact details. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+8. Now you will recieve an SMS with 6 digit verification code to the provided contact. Enter the verification code to complete the verification.
 
-   ![](media/mfa-06.png)
+   ![](media/MFA2.png)
   
 9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
@@ -132,9 +132,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media/96.png)
    
-11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approval or Call. If you get a Notification pop-up click on Approve. If you get a call, answer it and you will be asked to press the "#" key to complete the verification. 
+11. A dialog box will pop-up to authenticate your login which is the indication of MFA implementation. Either you will receive a Notification for Approval in authenticator app or SMS code for verification. Click on Approve if you get a Notification pop-up in authenticator app or enter vrification code as you opted to complete the verification. 
 
-     ![ws name.](media/2avd54.png)
+     ![ws name.](media/MFA4.png)
 
     >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
