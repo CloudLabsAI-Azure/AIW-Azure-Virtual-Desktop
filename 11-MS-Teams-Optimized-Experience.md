@@ -137,9 +137,9 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/96.png)
    
-1. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Answer the call, you will be asked to press the "#" key to complete the verification.
+1. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Enter the 6 verification code to complete the verification.
 
-   ![ws name.](media/2avd54.png)
+   ![ws name.](media/MFA4.png)
    
    >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
