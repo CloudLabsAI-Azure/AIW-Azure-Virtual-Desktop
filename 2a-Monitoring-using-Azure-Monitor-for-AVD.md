@@ -65,7 +65,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/2avd21.png)
 
-1. In the **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name	" /> (1)** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
+1. In the **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name" enableCopy="false" /> (1)** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
 
    ![ws name.](media/mon4.png)
    

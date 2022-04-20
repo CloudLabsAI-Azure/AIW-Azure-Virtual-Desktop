@@ -39,12 +39,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Country Code: Select the country code of your mobile number (1)
    - Mobile Number: Enter the number which you want to use for the MFA (2)
-   - Method: Select the preferred method of authentication as **Call me** (3)
+   - Method: Select the preferred method of authentication (3)
    - Click on **Next**.
 
    ![](media/mfa-05-updated.png)
 
-8. Now you will get a verification call on the provided contact details. After answering the call, you will be asked to press the "**#**" key to complete the verification.
+8. Authenticate the login according to the authentication method you have chosen in the previous step to complete the verification.
 
    ![](media/mfa-06.png)
   
@@ -132,7 +132,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media/96.png)
    
-11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. You might receive a Notification for Approval or Call. If you get a Notification pop-up click on Approve. If you get a call, answer it and you will be asked to press the "#" key to complete the verification. 
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication menthod you have chosen in exercise 1, step 7 to complete the verification.
 
      ![ws name.](media/2avd54.png)
 
