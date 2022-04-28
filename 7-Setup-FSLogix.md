@@ -433,9 +433,9 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/storacc-v2.png)
    
-3. Under **Allow access from** select **All networks** and click on **save icon**.
+3. Under **Public network access** select **Enabled from all networks** and click on **save icon**.
 
-   ![ws name.](media/a88.png)
+   ![ws name.](media/stgup2.png)
     
    >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the file shares.
     
