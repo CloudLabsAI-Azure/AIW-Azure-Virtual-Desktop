@@ -46,7 +46,7 @@ In the following task, we will be creating a storage account with a file share w
 
 5. In the _Networking_ tab, use the following configurations:
 
-   - Connectivity method: **Public endpoint(selected networks)**
+   - Network access: **Enable public access from selected virtual networks and IP addresses**
      
    >**Note:** This will make sure that your storage account is not accessible from the public network making it more secure.
    - Virtual network subscription: *Select the default subscription*.
@@ -55,7 +55,7 @@ In the following task, we will be creating a storage account with a file share w
    - Leave the rest to default settings.
    - Click on **Review + Create**.
      
-   ![ws name.](media/fs1.png)
+   ![ws name.](media/stgup1.png)
      
 6. Click on **Create**.
 
