@@ -13,6 +13,14 @@
 1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
 
    ![azure portal.](media/portal_avd.png)  
+   
+1. When you click on Azure portal, edge browser welcome screen will come up, select **Start without your data**.
+
+   ![](media/Startwithoutdata.png)
+   
+1. On next window, click on **Confirm and start browsing**.
+
+    ![](media/confirmandstart.png)
 
 2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
