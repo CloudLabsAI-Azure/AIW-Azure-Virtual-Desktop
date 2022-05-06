@@ -50,7 +50,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
   
 9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
-   ![](media/mfa-07.png)
+   ![](media/done1.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
