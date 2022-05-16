@@ -21,7 +21,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. On the Log Analytics Workspace page, click on **Create**.
 
-   ![ws name.](media/wiw2.png)
+   ![ws name.](media/Log-analytics-create.png)
 
 1. Now add the following configurations:
 
