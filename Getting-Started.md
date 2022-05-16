@@ -6,7 +6,7 @@
 
 2. To get lab environment details, click on the **Environment Details** tab located next to the *Lab Guide* tab. 	
 
-   ![](media/environmentdetails.png)	
+   ![](media/environmentdetails1.png)	
 
 ## Exercise 1: Log in to Azure Portal
 
@@ -27,8 +27,6 @@
    ![](media/w26.png)
      
    >**Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
-   
-   ![](media/wvd.png) 
    
    >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
    
