@@ -28,7 +28,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Storage account name: **<inject key="Storage Account Name" />**   
       
-   - Region: *this should be same as the location of your resource group*.  
+   - Region: Select **<inject key="Region" enableCopy="false" />** region from the dropdown.  
    
    - Performance: **Standard**   
    
