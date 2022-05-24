@@ -65,6 +65,10 @@
 11. On **Host pool assignments** tab, select **EB-AVD-HP** from the drop-down and click on **Review + create**.
 
      ![](../Azure-Virtual-Desktop-v3/media/review%2Bcrete.png)
+     
+12. Review the changes and click on **Create**.
+
+     ![](../Azure-Virtual-Desktop-v3/media/crearesp.png)
     
 
 
