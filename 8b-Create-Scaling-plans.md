@@ -17,3 +17,9 @@
 1. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
    ![](../Azure-Virtual-Desktop-v3/media/AVD.png)
+   
+2. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create a scaling plan (2)**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/scaling%20plans.png)
+   
+3. 
