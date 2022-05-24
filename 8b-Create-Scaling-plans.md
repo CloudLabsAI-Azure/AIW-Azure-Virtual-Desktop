@@ -42,7 +42,9 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/general%20schedule.png)
    
-6. 
+6. On the **Ramp-up** tab, observe the vaules and leave everything as default then click on **Next**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/ramp-up.png)
     
 
 
