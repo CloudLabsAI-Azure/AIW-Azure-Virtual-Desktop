@@ -22,4 +22,16 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/scaling%20plans.png)
    
-3. 
+3. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
+
+    - Subscription : Select your **Subscription (1)** from frop-down list
+    - Resource group : Select **AVD-HostPool-RG-avd (2)**
+    - Name:Enter **AVD-SP-01 (3)**
+    - Location : Select the location same as the Resource group **(4)**
+    - Friendly name: Enter **AVD-SP-01 (5)**
+    - Time zone : Select your **Time Zone (6)**
+    - Click on **Next : Schedules > (7)**
+
+    
+
+
