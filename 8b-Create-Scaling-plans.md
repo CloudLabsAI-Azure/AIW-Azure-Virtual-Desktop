@@ -45,6 +45,24 @@
 6. On the **Ramp-up** tab, observe the vaules and leave everything as default then click on **Next**.
 
    ![](../Azure-Virtual-Desktop-v3/media/ramp-up.png)
+   
+7. On the **Peak hours** tab, observe the vaules and leave everything as default then click on **Next**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/peakhours.png)
+   
+8. On the **Ramp-down** tab, observe the vaules and leave everything as default then click on **Next**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/rampdown.png)
+   
+9. On the **Off-peak hours** tab, observe the vaules and leave everything as default then click on **Add**.
+
+  ![](../Azure-Virtual-Desktop-v3/media/offpeakhours.png)
+  
+10. After adding the schedule,click on **Next: Host pool assignments >**
+
+    ![](../Azure-Virtual-Desktop-v3/media/nextHPS.png)
+    
+11. 
     
 
 
