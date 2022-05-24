@@ -69,6 +69,10 @@
 12. Review the changes and click on **Create**.
 
      ![](../Azure-Virtual-Desktop-v3/media/crearesp.png)
+     
+13. After the  successful deployment, click on **Go to resource**.
+
+     ![](../Azure-Virtual-Desktop-v3/media/gotoresourcee.png)
     
 
 
