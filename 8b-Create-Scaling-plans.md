@@ -32,6 +32,8 @@
     - Time zone : Select your **Time Zone (6)**
     - Click on **Next : Schedules > (7)**
 
+    ![](../Azure-Virtual-Desktop-v3/media/sp-basics.png)
+
     
 
 
