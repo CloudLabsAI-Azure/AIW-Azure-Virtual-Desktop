@@ -34,6 +34,15 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/sp-basics.png)
 
+4. On **Schedules** tab, click on **Add Schedule**
+
+   ![](../Azure-Virtual-Desktop-v3/media/add%20schedule.png)
+   
+5. On the **General** tab of **Add a schedule** page, observe the vaules and leave everything as default, then click on **Next**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/general%20schedule.png)
+   
+6. 
     
 
 
