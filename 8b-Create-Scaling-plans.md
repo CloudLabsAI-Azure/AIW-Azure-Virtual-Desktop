@@ -40,11 +40,16 @@
    
 5. On the **General** tab of **Add a schedule** page, observe the vaules and leave everything as default, then click on **Next**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/general%20schedule.png)
+    ![](../Azure-Virtual-Desktop-v3/media/general1.png)
    
-6. On the **Ramp-up** tab, observe the vaules and leave everything as default then click on **Next**.
+6. On the **Ramp-up** tab, follow the below instructions:
 
-    ![](../Azure-Virtual-Desktop-v3/media/ramp-up.png)
+    - Start time (24 hour system) : Enter your ***Start time (1)***
+    - Load Balancing Algorithm : Choose ***Breadth-first (2)***
+    - Minimum percentage of hosts (%) : Enter ***20 (3)***
+    - Capacity threshold (%) : Enter ***60 (4)***
+    
+      ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
    
 7. On the **Peak hours** tab, observe the vaules and leave everything as default then click on **Next**.
 
