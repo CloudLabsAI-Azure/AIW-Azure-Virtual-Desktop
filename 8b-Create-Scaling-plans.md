@@ -72,9 +72,13 @@
 
       ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
    
-9. On the **Off-peak hours** tab, observe the vaules and leave everything as default then click on **Add**.
+9. On the **Off-peak hours** tab, follow the below instructions:
 
-    ![](../Azure-Virtual-Desktop-v3/media/offpeakhours.png)
+     - Start time (24 hour system) : Enter your ***Start time (1)***
+     - Load Balancing Algorithm : Choose ***Depth-first (2)***
+     - Click on ***Add (3)***
+
+      ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
   
 10. After adding the schedule,click on **Next: Host pool assignments >**
 
