@@ -82,19 +82,19 @@
   
 10. After adding the schedule,click on **Next: Host pool assignments >**
 
-     ![](../Azure-Virtual-Desktop-v3/media/nextHPS.png)
+     ![](../Azure-Virtual-Desktop-v3/media/hpa1.png)
     
-11. On **Host pool assignments** tab, select **EB-AVD-HP** from the drop-down and click on **Review + create**.
+11. On **Host pool assignments** tab, select **EB-AVD-HP (1)** from the drop-down and click on **Review + create (2)**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/review%2Bcrete.png)
+     ![](../Azure-Virtual-Desktop-v3/media/hpsrc.png)
      
 12. Review the changes and click on **Create**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/crearesp.png)
+     ![](../Azure-Virtual-Desktop-v3/media/spcreate.png)
      
 13. After the  successful deployment, click on **Go to resource**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/gotoresourcee.png)
+     ![](../Azure-Virtual-Desktop-v3/media/GTR.png)
     
 
 
