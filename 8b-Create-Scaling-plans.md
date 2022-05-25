@@ -20,23 +20,23 @@
    
 2. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create a scaling plan (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/scaling%20plans.png)
+    ![](../Azure-Virtual-Desktop-v3/media/csp.png)
    
 3. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
 
-    - Subscription : Select your **Subscription (1)** from frop-down list
-    - Resource group : Select **AVD-HostPool-RG-avd (2)**
-    - Name:Enter **AVD-SP-01 (3)**
-    - Location : Select the location same as the Resource group **(4)**
-    - Friendly name: Enter **AVD-SP-01 (5)**
-    - Time zone : Select your **Time Zone (6)**
-    - Click on **Next : Schedules > (7)**
+    - Subscription : Select your ***Subscription (1)*** from frop-down list
+    - Resource group : Select ***AVD-HostPool-RG-avd (2)***
+    - Name:Enter ***AVD-SP-01 (3)***
+    - Location : Select the location same as the Resource group ***(4)***
+    - Friendly name: Enter ***AVD-SP-01 (5)***
+    - Time zone : Select your ***Time Zone (6)***
+    - Click on ***Next : Schedules > (7)***
 
-    ![](../Azure-Virtual-Desktop-v3/media/sp-basics.png)
+    ![](../Azure-Virtual-Desktop-v3/media/basicsp1.png)
 
 4. On **Schedules** tab, click on **Add Schedule**
 
-    ![](../Azure-Virtual-Desktop-v3/media/add%20schedule.png)
+    ![](../Azure-Virtual-Desktop-v3/media/addschedule1.png)
    
 5. On the **General** tab of **Add a schedule** page, observe the vaules and leave everything as default, then click on **Next**.
 
