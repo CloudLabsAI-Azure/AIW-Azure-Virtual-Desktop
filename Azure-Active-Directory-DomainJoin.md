@@ -26,7 +26,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    - Subscription: Select the ***default***
    - Identity provider: Select ***Existing active directory***
-   - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
+   - Identity Service Provider: Select ***Active Directory*** from the drop-down
    - Resource Group: Enter ***AVD-HostPool-RG***
    - Region: This should be same as the region of your *AVD-RG* resource group
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
@@ -43,7 +43,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Virtual Machines**.
 
-   ![ws name.](media/gsw6.png)
+   ![ws name.](media/aadj.png)
    
 1. In **Virtual Machines** tab, **Provide** the information as mentioned below,
    
