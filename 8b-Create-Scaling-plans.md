@@ -32,7 +32,7 @@
     - Time zone : Select your ***Time Zone (6)***
     - Click on ***Next : Schedules > (7)***
 
-    ![](../Azure-Virtual-Desktop-v3/media/basicsp1.png)
+    ![](../Azure-Virtual-Desktop-v3/media/schedulee.png)
 
 4. On **Schedules** tab, click on **+ Add Schedule**
 
@@ -50,7 +50,7 @@
     - Capacity threshold (%) : Enter ***60 (4)***
     - Click on ***Next (5)***
     
-      ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
+    ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
    
 7. On the **Peak hours** tab, follow the below instructions:
 
@@ -70,7 +70,7 @@
      - Delay time before logging out users and shutting down VMs (min) : Enter ***30 (6)***
      - Click on ***Next (7)***
 
-      ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
+     ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
    
 9. On the **Off-peak hours** tab, follow the below instructions:
 
@@ -78,7 +78,7 @@
      - Load Balancing Algorithm : Choose ***Depth-first (2)***
      - Click on ***Add (3)***
 
-      ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
+     ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
   
 10. After adding the schedule,click on **Next: Host pool assignments >**
 
