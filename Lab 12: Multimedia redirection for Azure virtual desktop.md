@@ -20,11 +20,7 @@
 
    ![ws name.](media/96.png)
    
-1. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication menthod you have chosen in lab 9, exercise 1 to complete the verification.
-
-   ![ws name.](media/2avd54.png)
-   
-   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
+1. If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
    ![](media/skipfornow.png)
 
