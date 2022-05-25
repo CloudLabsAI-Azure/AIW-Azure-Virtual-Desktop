@@ -78,18 +78,6 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw7.png)
    
-   >**Note**: If the host pool deployment fails, please follow the steps below else we can move to step 8.
-   >
-   >**i.** In Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** *(1)* then click on **Delete resource group** *(2)*.
-   >
-   >![ws name.](media/fla1.png)
-   >
-   >**ii.** On the popup on the right hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** *(1)* and then click on **Delete** *(2)*.
-   >
-   > ![ws name.](media/fla2.png)
-   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
-
-   
 1. It will take you to the **Host pool**. Reources created are as follows,
 
    - **Host Pool**: 1 (EB-AVD-HP)
