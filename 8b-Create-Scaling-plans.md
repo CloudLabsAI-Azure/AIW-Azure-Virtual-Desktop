@@ -34,7 +34,7 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/basicsp1.png)
 
-4. On **Schedules** tab, click on **Add Schedule**
+4. On **Schedules** tab, click on **+ Add Schedule**
 
     ![](../Azure-Virtual-Desktop-v3/media/addschedule1.png)
    
@@ -48,12 +48,17 @@
     - Load Balancing Algorithm : Choose ***Breadth-first (2)***
     - Minimum percentage of hosts (%) : Enter ***20 (3)***
     - Capacity threshold (%) : Enter ***60 (4)***
+    - Click on ***Next (5)**
     
       ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
    
-7. On the **Peak hours** tab, observe the vaules and leave everything as default then click on **Next**.
+7. On the **Peak hours** tab, follow the below instructions:
 
-    ![](../Azure-Virtual-Desktop-v3/media/peakhours.png)
+    - Start time (24 hour system) : Enter your ***Start time (1)***
+    - Load Balancing Algorithm : Choose ***Depth-first (2)***
+    - Click on ***Next (3)***
+    
+    ![](../Azure-Virtual-Desktop-v3/media/peakhours1.png)
    
 8. On the **Ramp-down** tab, observe the vaules and leave everything as default then click on **Next**.
 
