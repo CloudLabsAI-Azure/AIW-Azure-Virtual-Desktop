@@ -1,3 +1,5 @@
+# Lab 12: Multimedia redirection for Azure virtual desktop
+
 
 
 1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
