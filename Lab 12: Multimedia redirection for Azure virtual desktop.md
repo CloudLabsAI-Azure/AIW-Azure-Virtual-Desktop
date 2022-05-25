@@ -1,6 +1,11 @@
 # Lab 12: Multimedia redirection for Azure virtual desktop
 
 
+## **Overview**
+
+In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Virtual Desktop supports chat and collaboration. With media optimizations, it also supports calling and meeting functionality. With media optimization for Microsoft Teams, the Remote Desktop client handles audio and video locally for Teams calls and meetings.
+
+
 
 1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
