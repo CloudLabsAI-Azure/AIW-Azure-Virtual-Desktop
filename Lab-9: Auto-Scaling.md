@@ -95,6 +95,9 @@
 13. After the  successful deployment, click on **Go to resource**.
 
      ![](../Azure-Virtual-Desktop-v3/media/GTR.png)
-    
+ 
+ 14. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
+
+     ![](../Azure-Virtual-Desktop-v3/media/overviewsp.png)
 
 
