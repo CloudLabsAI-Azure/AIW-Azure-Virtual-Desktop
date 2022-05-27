@@ -46,8 +46,8 @@
 
     - Start time (24 hour system) : Enter your ***Start time (1)***
     - Load Balancing Algorithm : Choose ***Breadth-first (2)***
-    - Minimum percentage of hosts (%) : Enter ***20 (3)***
-    - Capacity threshold (%) : Enter ***60 (4)***
+    - Minimum percentage of hosts (%) : ***20 (3)***
+    - Capacity threshold (%) : ***60 (4)***
     - Click on ***Next (5)***
     
     ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
@@ -65,7 +65,7 @@
      - Start time (24 hour system) : Enter your ***Start time (1)***
      - Load Balancing Algorithm : Choose ***Depth-first (2)***
      - Minimum percentage of hosts (%) : Enter ***10 (3)***
-     - Capacity threshold (%) : Enter ***90 (4)***
+     - Capacity threshold (%) : ***90 (4)***
      - Force logoff users : Choose ***Yes (5)***
      - Delay time before logging out users and shutting down VMs (min) : Enter ***30 (6)***
      - Click on ***Next (7)***
