@@ -1,5 +1,5 @@
 
-# Lab 8b: Create Scaling plans
+# Lab 9: Auto Scaling
 
 
 ### Overview
