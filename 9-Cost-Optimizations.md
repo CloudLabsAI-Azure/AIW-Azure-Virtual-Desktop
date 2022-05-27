@@ -1,4 +1,4 @@
-# Lab 8: Cost Optimizations
+# Lab 10: Cost Optimizations
 
 ## **Overview**
 
