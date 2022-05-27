@@ -7,32 +7,11 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
 
 
-1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
-   ![ws name.](media/137.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
    
-1. Once the application opens, click on **Subscribe**.
 
-   ![ws name.](media/a49.png)
-  
-1. Enter your **credentials** to access the workspace.
-
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
-   
-   ![ws name.](media/95.png)
-
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
-
-   ![ws name.](media/96.png)
-   
-1. If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
-
-   ![](media/skipfornow.png)
-
-1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
-
-   ![ws name.](media/ex4t1s9.png)
-  
 1. The AVD dashboard will launch, then double click on the Teams application to access it.
 
    ![ws name.](media/teams12.png)
