@@ -27,7 +27,7 @@ Application Masking is used to manage user access of installed components. Appli
 
    ![](../Azure-Virtual-Desktop-v3/media/installapp.png)
    
-6. Click on ***Yes***, if you are prompted with any pop-out.
+6. Click on ***Yes***, if you are prompted with pop-out.
 
 7. Now navigate back to the same path in file explorer and double click on ***FSlogixAppsRuleEditorSetup*** to install ***Rule Editor*** app.
 
@@ -37,7 +37,7 @@ Application Masking is used to manage user access of installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/ruleeditorsetup.png)
     
-9.  Click on ***Yes***, if you are prompted with any pop-out.
+9.  Click on ***Yes***, if you are prompted with pop-out.
 
 10. 
 
