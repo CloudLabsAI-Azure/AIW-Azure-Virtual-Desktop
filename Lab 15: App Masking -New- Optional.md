@@ -20,3 +20,5 @@ Application Masking is used to manage user access of installed components. Appli
 3. After extracting the zip folder, navigate to the path ```C:\Users\demouser\Downloads\FSLogix_Apps_2.9.8171.14983\x64\Release``` to setup FSLogix app.
 
 4. Double click on the **FSLogixAppsSetup** to install the app setup.
+
+   ![](../Azure-Virtual-Desktop-v3/media/FSLAS.png)
