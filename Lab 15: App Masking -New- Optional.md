@@ -39,7 +39,19 @@ Application Masking is used to manage user access of installed components. Appli
     
 9.  Click on ***Yes***, if you are prompted with pop-out.
 
-10. 
+10. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
+
+    ![](../Azure-Virtual-Desktop-v3/media/selectRE.png)
+    
+11. On FSLogix Apps RuleEditor application, click on **New**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/new.png)
+    
+12. Enter the file name as **hidepowershell (1)** and click on **Enter file name (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
+    
+13. 
 
 
    
