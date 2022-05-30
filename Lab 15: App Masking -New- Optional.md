@@ -29,4 +29,6 @@ Application Masking is used to manage user access of installed components. Appli
    
 6. Click on ***Yes***, if you are prompted with any pop-out.
 
-7. 
+7. Now navigate back to the same path in file explorer and double click on ***FSlogixAppsRuleEditorSetup*** to install ***Rule Editor*** app.
+
+   
