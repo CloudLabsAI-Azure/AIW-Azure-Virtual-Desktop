@@ -68,4 +68,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
   
 1. Now, You should be able to see yourself as the video is On.
 
+   ![](../Azure-Virtual-Desktop-v3/media/cam.png)
+
 1. Click on the Next button present in the bottom-right corner of this lab guide.
