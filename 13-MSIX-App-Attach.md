@@ -1,4 +1,4 @@
-# Lab 14: MSIX App Attach
+# Lab 13: MSIX App Attach
 
 ## **Scenario**
 
