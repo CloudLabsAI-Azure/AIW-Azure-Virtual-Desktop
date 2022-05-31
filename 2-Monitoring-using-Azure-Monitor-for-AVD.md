@@ -1,4 +1,4 @@
-# Lab : Monitoring using Log Analytics
+# Lab 2 : Monitoring using Log Analytics
 
 
 ## **Scenario**
