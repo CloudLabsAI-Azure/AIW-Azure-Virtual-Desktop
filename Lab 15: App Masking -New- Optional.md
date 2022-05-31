@@ -96,5 +96,9 @@ Application Masking is used to manage user access of installed components. Appli
 21. After adding the User, click on **Apply (1)** and **Ok (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/applyandadd.png)
+    
+ 22. Now you have added the User to the same hiding rules to hide PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host in Remote desktop.
+
+     ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
 
    
