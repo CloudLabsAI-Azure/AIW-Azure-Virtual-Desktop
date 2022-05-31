@@ -9,13 +9,12 @@
 Application Masking is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
 
 
-1. Inside the Jump VM, copy and paste the below-mentioned URL to download the **FSLogix**.
+1. Inside the Jump VM, copy and paste the below-mentioned URL to download the **FSLogix** and  extract the files to the default path
 
   ```
   https://download.microsoft.com/download/e/a/1/ea1bcf0a-e66d-48d2-ac9f-e385e5a7456e/FSLogix_Apps_2.9.8171.14983.zip
   ```
   
-2. After downloading, extract the files to the default path.
 
 3. After extracting the zip folder, navigate to the path ```C:\Users\demouser\Downloads\FSLogix_Apps_2.9.8171.14983\x64\Release``` to setup FSLogix app.
 
