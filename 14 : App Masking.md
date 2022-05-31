@@ -1,4 +1,4 @@
-# Lab 15: App Masking -New- Optional
+# Lab 15: App Masking
 
 
 ##  Exercise-1: App Masking
