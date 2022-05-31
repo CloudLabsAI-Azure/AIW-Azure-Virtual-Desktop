@@ -25,7 +25,11 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
-4. 
+4. On **Add Role Assignemnt** page, search for **Azure Virtual Desktop Autoscale** and select it, then click on **Next**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
+   
+5. 
 
 4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
