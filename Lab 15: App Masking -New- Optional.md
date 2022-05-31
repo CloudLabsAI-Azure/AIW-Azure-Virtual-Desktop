@@ -1,21 +1,21 @@
 # Lab 15: App Masking -New- Optional
 
 
-##  Exercise-1 : App Masking
+##  Exercise-1: App Masking
 
 
 ### Overview
 
-Application Masking is used to manage user access of installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
+Application Masking is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
 
 
-1. Inside the Jump VM, copy and paste the below mentioned URL to dowload the **FSLogix**.
+1. Inside the Jump VM, copy and paste the below-mentioned URL to download the **FSLogix**.
 
   ```
   https://download.microsoft.com/download/e/a/1/ea1bcf0a-e66d-48d2-ac9f-e385e5a7456e/FSLogix_Apps_2.9.8171.14983.zip
   ```
   
-2. After downloding, extract the files to default path.
+2. After downloading, extract the files to the default path.
 
 3. After extracting the zip folder, navigate to the path ```C:\Users\demouser\Downloads\FSLogix_Apps_2.9.8171.14983\x64\Release``` to setup FSLogix app.
 
@@ -23,27 +23,27 @@ Application Masking is used to manage user access of installed components. Appli
 
    ![](../Azure-Virtual-Desktop-v3/media/FSLAS.png)
    
-5. On the **Microsoft FSLogix Apps Setup** dialoge box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
+5. On the **Microsoft FSLogix Apps Setup** dialog box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
 
    ![](../Azure-Virtual-Desktop-v3/media/installapp.png)
    
-6. Click on ***Yes***, if you are prompted with pop-out.
+6. Click on ***Yes***, if you are prompted with a pop-out.
 
 7. Now navigate back to the same path in file explorer and double click on ***FSlogixAppsRuleEditorSetup*** to install ***Rule Editor*** app.
 
     ![](../Azure-Virtual-Desktop-v3/media/ruleeditor.png)
     
-8.  On the **Microsoft FSLogix Apps RuleEditor Setup** dialoge box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
+8.  On the **Microsoft FSLogix Apps RuleEditor Setup** dialog box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
 
     ![](../Azure-Virtual-Desktop-v3/media/ruleeditorsetup.png)
     
-9.  Click on ***Yes***, if you are prompted with pop-out.
+9.  Click on ***Yes***, if you are prompted with a pop-out.
 
 10. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
 
     ![](../Azure-Virtual-Desktop-v3/media/selectRE.png)
     
-11. On FSLogix Apps RuleEditor application, click on **New**.
+11. On the FSLogix Apps RuleEditor application, click on **New**.
 
     ![](../Azure-Virtual-Desktop-v3/media/new.png)
     
@@ -60,11 +60,11 @@ Application Masking is used to manage user access of installed components. Appli
     
     ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
     
-14. After Scan completes succesfully, click on ***Ok***.
+14. After Scan completes successfully, click on ***Ok***.
 
      ![](../Azure-Virtual-Desktop-v3/media/scnok.png)
      
-15. Now you have created the hiding rules to hide PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
+15. Now you have created the hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
 
      ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
      
@@ -72,13 +72,13 @@ Application Masking is used to manage user access of installed components. Appli
 
      ![](../Azure-Virtual-Desktop-v3/media/powershell.png)
      
-    **Note :** In the same way, you can apply the hiding rule to session desktop in the remote desktop from your JumpVM.
+    **Note:** In the same way, you can apply the hiding rule to the session desktop in the remote desktop from your JumpVM.
     
 17. Navigate back to FSLogix App Rule Editor and click on **Manage Assignments**.
 
     ![](../Azure-Virtual-Desktop-v3/media/manageassign.png)
     
-18. On Assignments tab, click on **Add**.
+18. On the Assignments tab, click on **Add**.
 
     ![](/Azure-Virtual-Desktop-v3/media/add.png)
     
@@ -97,11 +97,11 @@ Application Masking is used to manage user access of installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/applyandadd.png)
     
- 22. Now you have added the User to the same hiding rules to hide PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host in Remote desktop.
+ 22. Now you have added the User to the same hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host on the Remote desktop.
 
      ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
      
-23. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+23. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
      ```
      aka.ms/wvdarmweb
@@ -135,7 +135,7 @@ Application Masking is used to manage user access of installed components. Appli
    
      ![ws name.](media/lb52.png)
      
-27. Within the sesion desktop , go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+27. Within the session desktop, go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](../Azure-Virtual-Desktop-v3/media/powershell.png)
 
