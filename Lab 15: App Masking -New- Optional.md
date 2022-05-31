@@ -51,7 +51,7 @@ Application Masking is used to manage user access to installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
     
-13. On the **Rule Set : hidepowershell** dialogue box, follow the below instructions:
+13. On the **Rule Set : hidepowershell** dialog box, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
     -  Click on ***Browse (2)***
@@ -86,7 +86,7 @@ Application Masking is used to manage user access to installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/user.png)
     
-20. On the **Select User** dialogue box, follow the below instructions:
+20. On the **Select User** dialog box, follow the below instructions:
 
     - **User** : Paste the username  **<inject key="Avd User 01" /> (1)**
     - Click on **Ok (2)**
