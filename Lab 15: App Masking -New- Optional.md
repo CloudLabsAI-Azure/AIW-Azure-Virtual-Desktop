@@ -127,7 +127,7 @@ Application Masking is used to manage user access to installed components. Appli
 
 25. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
    
