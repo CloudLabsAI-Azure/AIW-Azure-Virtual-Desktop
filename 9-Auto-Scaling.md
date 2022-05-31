@@ -21,6 +21,11 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/sybname.png)
 
+3. Now select **Access Control (1)** and click on **Add (2)** then select **Add role assignment (3)**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
+   
+4. 
 
 4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
