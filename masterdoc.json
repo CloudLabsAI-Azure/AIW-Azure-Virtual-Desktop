@@ -52,7 +52,7 @@
         "Order": 12
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/12%3A%20Multimedia%20redirection%20for%20Azure%20virtual%20desktop.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/12-Multimedia%20redirection%20for%20Azure%20virtual%20desktop.md",
         "Order": 13
       },
        {
@@ -60,11 +60,11 @@
         "Order": 14
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/14%20%3A%20App%20Masking.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/14-App-Masking.md",
         "Order": 15
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/15.%20Azure-Active-Directory-DomainJoin.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/15-Azure-Active-Directory-DomainJoin.md",
         "Order": 16
       },
       {
