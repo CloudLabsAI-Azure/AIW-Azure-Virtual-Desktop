@@ -100,5 +100,40 @@ Application Masking is used to manage user access of installed components. Appli
  22. Now you have added the User to the same hiding rules to hide PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host in Remote desktop.
 
      ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
+     
+23. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
+
+   ```
+   aka.ms/wvdarmweb
+   ```
+
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
+   
+   ![ws name.](media/username.png)
+
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+
+   ![ws name.](media/password.png)
+
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+
+   ![](media/login1.png)
+
+24. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+
+   ![ws name.](media/desktp-v2.png)
+
+25. Select **Allow** on the prompt asking permission to *Access local resources*.
+
+   ![ws name.](media/Accessallowres-v2.png)
+
+26. Enter your **credentials** to access the application and click on **Submit**.
+
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   
+   ![ws name.](media/lb52.png)
+
 
    
