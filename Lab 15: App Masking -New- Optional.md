@@ -135,7 +135,10 @@ Application Masking is used to manage user access of installed components. Appli
    
      ![ws name.](media/lb52.png)
      
-27. 
+27. Within the sesion desktop , go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
+     ![](../Azure-Virtual-Desktop-v3/media/powershell.png)
+
+28. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
    
