@@ -21,7 +21,7 @@ Application Masking is used to manage user access to installed components. Appli
 
    ![](../Azure-Virtual-Desktop-v3/media/FSLAS.png)
    
-4. On the **Microsoft FSLogix Apps Setup** dialog box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
+4. On the **Microsoft FSLogix Apps Setup** dialog box, check the box next to ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
 
    ![](../Azure-Virtual-Desktop-v3/media/installapp.png)
    
