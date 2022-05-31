@@ -13,8 +13,16 @@
 
 ## Exercise 1: Create a Scaling Plan
 
+1. From the Azure Portal menu, search for **Subscription** and select it
 
-1. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
+    ![](../Azure-Virtual-Desktop-v3/media/subscriptions.png)
+    
+2. Select your **Subscription** from **Subscriptions** page.
+
+   ![](../Azure-Virtual-Desktop-v3/media/sybname.png)
+
+
+4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
     ![](../Azure-Virtual-Desktop-v3/media/avd2.png)
    
