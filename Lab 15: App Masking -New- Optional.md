@@ -64,6 +64,10 @@ Application Masking is used to manage user access of installed components. Appli
 
      ![](../Azure-Virtual-Desktop-v3/media/scnok.png)
      
-15. 
+15. Now you have created the hiding rules to hide PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
+
+     ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
+     
+16. 
 
    
