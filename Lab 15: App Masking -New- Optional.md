@@ -78,7 +78,7 @@ Application Masking is used to manage user access to installed components. Appli
     
 17. On the Assignments tab, click on **Add**.
 
-    ![](/Azure-Virtual-Desktop-v3/media/add.png)
+    ![](../Azure-Virtual-Desktop-v3/media/add.png)
     
 18. Click on **User**.
 
