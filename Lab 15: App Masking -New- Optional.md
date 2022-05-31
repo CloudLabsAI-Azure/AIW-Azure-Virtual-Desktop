@@ -51,7 +51,19 @@ Application Masking is used to manage user access of installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
     
-13. 
+13. On the **Rule Set : hidepowershell** dialogue box, follow the below instructions:
 
+    - Select ***Choose from installed programs (1)***
+    -  Click on ***Browse (2)***
+    -  Navigate to the mentioned path ***C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell (3)***
+    -  Click on ***Scan (4)***
+    
+    ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
+    
+14. After Scan completes succesfully, click on ***Ok***.
+
+     ![](../Azure-Virtual-Desktop-v3/media/scnok.png)
+     
+15. 
 
    
