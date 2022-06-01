@@ -26,7 +26,7 @@ Application Masking is used to manage user access to installed components. Appli
 
    ![](../Azure-Virtual-Desktop-v3/media/installapp.png)
    
-5. Click on ***Yes***, if you are prompted with a pop-out.
+5. Click on ***Yes***, if you are prompted with a pop-out to accept the System Permissions.
 
 6. Now navigate back to the same path in file explorer and double click on ***FSlogixAppsRuleEditorSetup*** to install ***Rule Editor*** app.
 
@@ -36,7 +36,7 @@ Application Masking is used to manage user access to installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/ruleeditorsetup.png)
     
-8.  Click on ***Yes***, if you are prompted with a pop-out.
+8.  Click on ***Yes***, if you are prompted with a pop-out to accept the System Permissions.
 
 9. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
 
