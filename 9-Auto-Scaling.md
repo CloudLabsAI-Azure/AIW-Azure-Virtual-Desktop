@@ -37,7 +37,9 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/searchmem.png)
     
-7. 
+7. After adding members, review the configuration and click on **Review + assign**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/review%2Bassign.png)
 
 4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
