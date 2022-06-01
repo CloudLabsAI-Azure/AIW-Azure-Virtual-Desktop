@@ -29,7 +29,15 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
-5. 
+5. Click on **+ Select members**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
+   
+6. On **Select members** tab, search for **Windows Virtual Desktop** and select it then click on **Select**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/searchmem.png)
+    
+7. 
 
 4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
 
