@@ -29,7 +29,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
-5. Click on **+ Select members**.
+5. Under **Members** tab, click on **+ Select members**.
 
    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
    
