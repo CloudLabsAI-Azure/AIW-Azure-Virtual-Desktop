@@ -256,3 +256,27 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](../Azure-Virtual-Desktop-v3/media/enabled1.png)
     
+1. From the Start menu, search for **Registry Editor** and select it.
+
+    ![](../Azure-Virtual-Desktop-v3/media/registry.png)
+    
+1. Navigate to the path **HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services**.
+
+1. Right click on the Terminal Services workspace, select **New (1)** and click on **DWORD (32-bit) value (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/dword.png)
+    
+1. Enter the **Value name** as **fEnableScreenCaptureProtection**.
+
+1. Now right click on the newly created register key *fEnableScreenCaptureProtection* and click on **Modify**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/modify.png)
+    
+1. On **Edit DWORD (32-bit) value** dialog box, follow the below instructions:
+
+    - Value data : Enter **1 (1)**
+    - Select **Decimal (2)** under **Base**
+    - Click on **Ok (3)**
+
+     ![](../Azure-Virtual-Desktop-v3/media/decimal.png)
+     
