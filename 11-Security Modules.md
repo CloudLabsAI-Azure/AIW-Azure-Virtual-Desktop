@@ -215,3 +215,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 1. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
 
    ![ws name.](media/avdv235.png)
+   
+1. From the Session desktop, open **Microsoft edge**
+
+   ![](../Azure-Virtual-Desktop-v3/media/msedge.png)
+   
+1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below mentioned URL and extract the contents of the cab file and zip archive.
+
+   ```
+   https://aka.ms/avdgpo
+   ```
+   
+1. 
