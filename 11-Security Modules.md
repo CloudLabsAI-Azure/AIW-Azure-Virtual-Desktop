@@ -199,3 +199,19 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    ![ws name.](media/ex4t1s9.png)
    
 1. The AVD dashboard will launch, then double click on the **Session Desktop** application to access it.
+
+   ![ws name.](media/session%20desktop-v2.png)
+   
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+
+   - Password: **<inject key="AzureAdUserPassword" />**
+   
+   ![ws name.](media/ch14.png)
+   
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+   
+   ![](media/login.png)
+
+1. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
+
+   ![ws name.](media/avdv235.png)
