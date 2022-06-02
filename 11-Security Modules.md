@@ -158,4 +158,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/2avd91.png)
    
-1.
+1. Under Settings blade, click on **Properties**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/properties1.png)
+   
+1. On Properties page, select **Yes** for **Validation environment** under Configuration tab and click on **Save**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/saveprop.png)
+   
+1. 
