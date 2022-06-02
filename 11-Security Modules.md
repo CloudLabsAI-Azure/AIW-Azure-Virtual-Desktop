@@ -166,4 +166,34 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/saveprop.png)
    
-1. 
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+
+   ![ws name.](media/137.png)
+   
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+
+   ![ws name.](media/lb16.png)
+
+   >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
+
+1. Click on the **Subscribe** button.
+
+   ![ws name.](media/a49.png)
+
+1. Enter the user credentials to access the workspace.
+
+    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   
+      ![ws name.](media/95.png)
+
+    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+     ![ws name.](media/96.png)
+   
+    >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
+
+     ![](media/skipfornow.png)
+
+9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+
+   ![ws name.](media/ex4t1s9.png)
