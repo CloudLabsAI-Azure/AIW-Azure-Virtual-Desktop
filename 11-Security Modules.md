@@ -150,3 +150,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 ## Exercise 3 : Screen Capture Protection
 
 
+1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
+
+   ![ws name.](media/lb38.png)
+   
+1. Now click on **EB-AVD-HP** host pool to access it.
+
+   ![ws name.](media/2avd91.png)
+   
+1.
