@@ -244,4 +244,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. On the Local group policy editor pane, navigate to the path **Computer Configuration -> Administrative Templates -> Windows Components -> Remote Desktop Services -> Remote Desktop Session Host -> Azure Virtual Desktop**.
 
-1. 
+1. On the Azure Virtual Desktop tab, right click on the **Enable Screen Capture Protection (1)** and click on **Edit (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/edit.png)
+    
+1. On **Enable Screen Capture Protection** tab, follow the below instructions:
+ 
+    - Check the box next to **Enabled (1)**
+    - Click on **Apply (2)**
+    - Click on **Ok (3)**
+
+     ![](../Azure-Virtual-Desktop-v3/media/enabled.png)
+    
