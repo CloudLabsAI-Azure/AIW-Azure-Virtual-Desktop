@@ -145,3 +145,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      ![](media/EB-AVD-WS.png)
     
 13. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+## Exercise 3 : Screen Capture Protection
+
+
