@@ -254,5 +254,5 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Click on **Apply (2)**
     - Click on **Ok (3)**
 
-     ![](../Azure-Virtual-Desktop-v3/media/enabled.png)
+     ![](../Azure-Virtual-Desktop-v3/media/enabled1.png)
     
