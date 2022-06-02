@@ -238,4 +238,10 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/continue.png)
    
+1. From the Start menu, search for **group policy** and select **Edit group policy**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/groupplocy.png)
    
+1. On the Local group policy editor pane, navigate to the path **Computer Configuration -> Administrative Templates -> Windows Components -> Remote Desktop Services -> Remote Desktop Session Host -> Azure Virtual Desktop**.
+
+1. 
