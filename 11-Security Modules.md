@@ -331,4 +331,10 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
        ![](../Azure-Virtual-Desktop-v3/media/conditions.png)
        
-    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path
+    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path **C:\Windows\System32\mshta (3)** and select vesion `*` **(4)** then click on **Next (5)**.
+
+       ![](../Azure-Virtual-Desktop-v3/media/publisher.png)
+       
+    - On **Expectations (1)** tab, leave everything as default and click on **Create (2)**.
+
+      ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
