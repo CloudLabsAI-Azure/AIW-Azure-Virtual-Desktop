@@ -287,3 +287,20 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
    
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
+
+
+## Exercise 3 : App Locker
+
+1. Within the same Session Desktop, from the Start menu search for **Services** and select it.
+
+   ![](../Azure-Virtual-Desktop-v3/media/services.png)
+   
+1. On the **Services** tab, right click on **Application Identity (1)** and click on **Start (2)**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/applicationidentity.png)
+   
+1. Minimize the Services tab and search for **Local Security Policy** from Start menu and select it.
+
+    ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy.png)
+    
+1. Navigate to **Application Control Policy** > **App Locker**
