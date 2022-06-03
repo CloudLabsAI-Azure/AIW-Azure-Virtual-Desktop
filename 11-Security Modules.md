@@ -331,4 +331,4 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
        ![](../Azure-Virtual-Desktop-v3/media/conditions.png)
        
-    - 
+    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path
