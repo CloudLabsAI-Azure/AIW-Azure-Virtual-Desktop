@@ -280,3 +280,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](../Azure-Virtual-Desktop-v3/media/decimal.png)
      
+1. Restore down the session host and take screenshot using Snipping tool from your Local desktop.
+
+1. You will get the blacked out screenshot as it is mentioned in the below screenshot.
