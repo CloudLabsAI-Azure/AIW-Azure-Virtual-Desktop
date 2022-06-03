@@ -338,3 +338,5 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - On **Expectations (1)** tab, leave everything as default and click on **Create (2)**.
 
       ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
+      
+    - If you get any pop-out **App Locker** permissions, click on **No**.
