@@ -339,6 +339,14 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
       ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
       
-    - If you get any pop-out **App Locker** permissions, click on **No**.
+    - If you get any pop-out **App Locker** permissions, click on **Yes**.
 
 1. After creating the rule, from the Start menu, search for **Command Prompt** and select it.
+
+    ![](../Azure-Virtual-Desktop-v3/media/cmd.png)
+    
+1. In the Command prompy, run the command `mshta` and observe the output. You will see it is blocked because the deny rule that you have set up applied to everyone.
+
+    ![](../Azure-Virtual-Desktop-v3/media/mshta.png)
+    
+1. Now you have successfully created App Locker in the Session desktop.
