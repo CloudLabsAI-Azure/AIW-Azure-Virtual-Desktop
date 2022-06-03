@@ -303,4 +303,32 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy.png)
     
-1. Navigate to **Application Control Policy** > **App Locker**
+1. Navigate to **Application Control Policy** -> **App Locker**.
+
+1. Right click on **App Locker (1)** and click on **Properties (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/prop.png)
+    
+1. On **App Locker Properties** tab, check the box next to **Configured** for **Exercutable runs (1)**, **Windows Installer Rules (2)**, **Script Rules (3)**, **Packaged app Rules (4)** and click on **Apply (5)** then select **Ok (6)**.
+
+     ![](../Azure-Virtual-Desktop-v3/media/lockerprop.png)
+     
+1. Now right click on **Executable Rules (1)** under App Locker and click on **Create New Rule (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/executablerule.png)
+    
+1. On **Create New Rules** tab, follow the below instructions:
+
+    - Leave everything default under **Before You Begin** and click on **Next**.
+
+      ![](../Azure-Virtual-Desktop-v3/media/beforeyoubegin.png)
+      
+    - On **Permissions (1)** tab, click on **Deny (2)** under Action and select **Next (3)**.
+
+      ![](../Azure-Virtual-Desktop-v3/media/permissions1.png)
+      
+    - On **Conditions (1)** tab, observe the default options and click on **Next (2)**.
+
+       ![](../Azure-Virtual-Desktop-v3/media/conditions.png)
+       
+    - 
