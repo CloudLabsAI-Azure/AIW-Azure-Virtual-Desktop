@@ -283,3 +283,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 1. Restore down the session host and take screenshot using Snipping tool from your Local desktop.
 
 1. You will get the blacked out screenshot as it is mentioned in the below screenshot.
+
+   ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
+   
+1. Now you have successfully enabled the Screen Capture Protection in your Session host.
