@@ -25,13 +25,13 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Now add the following configurations:
 
-   - Subscription: *Choose the default subscription.*
+   - Subscription: Leave it to ***default***
   
    - Resource group: *Select **AVD-Hostpool-RG-avd** from the drop down.*
   
    - Name: **<inject key="Log Analytics Workspace Name	" />**
   
-   - Region: This should be same as the region of *AVD-RG* resource group.
+   - Region: Select **<inject key="Region" />** from the drop-down list
   
    - Click on **Review + Create**
 
