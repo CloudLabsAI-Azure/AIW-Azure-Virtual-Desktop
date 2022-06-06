@@ -1,5 +1,5 @@
 
-# Lab 9: Auto Scaling
+# Lab 8: Auto Scaling
 
 
 ### Overview
