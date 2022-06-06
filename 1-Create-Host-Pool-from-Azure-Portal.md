@@ -24,7 +24,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    **A**.Project Details:
 
-   - Subscription: Select the ***default***
+   - Subscription: Leave it to ***default***
    - Identity provider: Select ***Existing active directory***
    - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
    - Resource Group: Enter ***AVD-HostPool-RG***
