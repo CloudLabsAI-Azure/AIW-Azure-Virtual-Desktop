@@ -95,11 +95,11 @@ In the following task, we will be creating a storage account with a file share w
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
 
-1. In Azure Portal, click on the **Show portals menu** button and select **Azure Active Directory**.
+1. In Azure Portal, click on the **Show portal menu** button and select **Azure Active Directory**.
 
    ![ws name.](media/lb34.png)
    
-1. Click on **Groups** under *Manage* blade.
+1. Click on **Groups** under *Manage*.
 
    ![ws name.](media/2avd34.png)
    
@@ -118,11 +118,11 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/permission-v2.png)
    
-1. Select **Members (1)** from **Manage** blade and select **Add members (2)**.
+1. Click on **Members (1)** under **Manage** and select **+ Add members (2)**.
 
    ![ws name.](media/2avd40.png)
    
-1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select** option.
+1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select**.
 
    ![ws name.](media/2avd41.png)
    
