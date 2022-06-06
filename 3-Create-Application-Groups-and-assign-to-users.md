@@ -60,7 +60,7 @@ An application group of type ‘Desktop’ was created automatically while creat
       - Host Pool: *Select* **EB-AVD-HP** *Host pool from the dropdown*.
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
-      - Click on **Next: Applications**
+      - Click on **Next: Applications >**
 
       ![ws name.](media/gsu4.png)
 
@@ -90,7 +90,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    
     ![ws name.](media/2avd30.png)
 
-14. Click on **Next: Assignments**.
+14. Click on **Next: Assignments >**.
 
     ![ws name.](media/ag3.png)
 
@@ -98,7 +98,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
     ![ws name.](media/ag5.png)
 
-16. Click on **Next: Workspaces**.
+16. Click on **Next: Workspaces >**.
 
     ![ws name.](media/ag6.png)
 
