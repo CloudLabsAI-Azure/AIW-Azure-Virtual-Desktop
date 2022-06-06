@@ -22,25 +22,25 @@ In the following task, we will be creating a storage account with a file share w
 
 3. Use the following configuration for the storage account.
    
-   - Subscription: *Select the default subscription*. 
+   - Subscription: Leave it to ***default***.
    
    - Resource Group: *Select **AVD-RG** from the drop-down*. 
    
    - Storage account name: **<inject key="Storage Account Name" />**   
       
-   - Region: *this should be same as the location of your resource group*.  
+   - Region: Select **<inject key="Region" />** from the drop-down list.  
    
    - Performance: **Standard**   
    
    - Replication: **Geo-redundant storage (GRS)**
    
-   - Make read access to the data available in the event of regional unavailability.
+   - **Select** Make read access to the data available in the event of regional unavailability.
    
-   - At last, click on **Next: Advanced**
+   - At last, click on **Next: Advanced >**
    
    ![ws name.](media/uiupdate08.png)
    
-4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking** tab use the following configuration.
+4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab use the following configuration.
 
    ![ws name.](media/storage-account-networking.png)
 
@@ -49,11 +49,11 @@ In the following task, we will be creating a storage account with a file share w
    - Network access: **Enable public access from selected virtual networks and IP addresses**
      
    >**Note:** This will make sure that your storage account is not accessible from the public network making it more secure.
-   - Virtual network subscription: *Select the default subscription*.
+   - Virtual network subscription: Leave it to ***default***.
    - Virtual Network: **aadds-vnet**
    - Subnets: **sessionhost-subnet (10.0.1.0/24)**
    - Leave the rest to default settings.
-   - Click on **Review + Create**.
+   - Click on **Review + create**.
      
    ![ws name.](media/stgup1.png)
      
