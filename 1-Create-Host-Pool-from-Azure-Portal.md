@@ -49,7 +49,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
    - Users per virtual machine: Select ***Multiple users***
    - Image type: ***Gallery***
-   - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps (GEN2)** *(choose from dropdown)*
+   - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps - Gen 2** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
      ![ws name.](media/2avd18.png)
@@ -57,6 +57,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Name prefix: **AVD-HP01-SH**
    - Number of VIrtual Machines: **2**
    - Link Azure template: **Unselect** the option
+   - **Click** on **Next : Assignments >**.
 
    ![ws name.](media/gsw3.png)
    
