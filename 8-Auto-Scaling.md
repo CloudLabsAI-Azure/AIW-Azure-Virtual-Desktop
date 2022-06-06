@@ -13,7 +13,7 @@
 
 ## Exercise 1: Create a Scaling Plan
 
-1. From the Azure Portal menu, search for **Subscription** and select it
+1. In the Azure Portal, search for **Subscriptions** and select it from the search result.
 
     ![](../Azure-Virtual-Desktop-v3/media/subscriptions.png)
     
@@ -21,7 +21,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/sybname.png)
 
-3. Now select **Access Control (1)** and click on **Add (2)** then select **Add role assignment (3)**.
+3. Now select **Access Control (IAM) (1)** and click on **Add (2)** then select **Add role assignment (3)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
