@@ -65,7 +65,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
    - Create test user account: **Unselect** the option
    - Assign existing users or groups: **Select** the option
-   - click on **Review and Create**.
+   - click on **Next : Review + create >**.
 
    ![ws name.](media/gsw4.png)
    
