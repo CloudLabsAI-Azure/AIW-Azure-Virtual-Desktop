@@ -170,7 +170,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/137.png)
    
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipsis* and select **Unsubscribe**. Click on **Yes** if prompted.
 
    ![ws name.](media/lb16.png)
 
@@ -198,11 +198,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/ex4t1s9.png)
    
-1. The AVD dashboard will launch, then double click on the **Session Desktop** application to access it.
+1. Once you are signed in into the AVD client, double click on the **SessionDesktop**.
 
    ![ws name.](media/session%20desktop-v2.png)
    
-1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+1. A window saying *Connecting to: SessionDesktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -220,7 +220,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/msedge.png)
    
-1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below mentioned URL and extract the contents of the cab file and zip archive.
+1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below URL and extract the contents of the cab file and zip archive.
 
    ```
    https://aka.ms/avdgpo
