@@ -54,15 +54,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
   
 ### Exercise 2: Creating Conditional Access Policy
 
-1. In Azure Portal search for *Azure Active Directory* and click on the search result.
+1. In Azure Portal search for *Azure Active Directory* **(1)** and click on it from the search result **(2)**.
 
    ![](media/avdv21.png)
 
-2. From the left-hand side blade, click on **Properties** (1) under Manage and scroll down to select **Manage Security Defaults** (2) at the bottom of the page.
+2. From the left-hand side blade, click on **Properties** **(1)** under **Manage** and scroll down to select **Manage Security Defaults** **(2)** at the bottom of the page.
 
    ![](media/aad-properties-01.png)
    
-3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** (1) and check the box for **My organization is using Conditional Access** (2). Then select **Save** (3).
+3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** **(1)** and check the box for **My organization is using Conditional Access** **(2)**. Then select **Save** **(3)**.
 
    ![](media/aad-properties-02.png)
 
@@ -150,7 +150,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 ## Exercise 3 : Screen Capture Protection
 
 
-1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
+1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pools** from the search result.
 
    ![ws name.](media/lb38.png)
    
@@ -158,11 +158,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/2avd91.png)
    
-1. Under Settings blade, click on **Properties**.
+1. Under Settings, click on **Properties**.
 
    ![](../Azure-Virtual-Desktop-v3/media/properties1.png)
    
-1. On Properties page, select **Yes** for **Validation environment** under Configuration tab and click on **Save**.
+1. On the Properties page, select **Yes** for **Validation environment** and click on **Save**.
 
    ![](../Azure-Virtual-Desktop-v3/media/saveprop.png)
    
