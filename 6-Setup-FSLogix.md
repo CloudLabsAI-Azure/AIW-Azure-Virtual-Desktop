@@ -177,7 +177,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
    ![ws name.](media/fs4.png)
       
-3. Then click on **Run command** under **Operations** tab .
+3. Then click on **Run command** under **Operations**.
 
    ![ws name.](media/wvd51.png)
   
@@ -189,7 +189,9 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
    ![ws name.](media/a69.png)
    
-6. **Copy** the script is given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do not** run the script right away.
+6. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
+
+>**Note** : **Do not** run the script right away.
 
 
 ```
@@ -255,6 +257,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    >ii) Configure the required registries
    > 
    >iii) Set the profile container location to the Azure file share location we created.
+   
  
 7. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
@@ -272,11 +275,15 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/fs8.png)
 
-11. Click on **Run command** under **Operations** tab. Then select **RunPowerShellScript**.
+11. Click on **Run command** under **Operations**. Then select **RunPowerShellScript**.
 
     ![ws name.](media/vm2-run-command.png)
         
-12. **Copy** the script given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do Not** run the script right away.
+12. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
+
+>**Note :** **Do Not** run the script right away.
+
+
 
 ```
  #Variables
