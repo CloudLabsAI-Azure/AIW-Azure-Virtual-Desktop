@@ -73,13 +73,13 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/setup.png)
 
-10. Select **Enable** for the Azure Active Directory Domain Services and then click on **Save**.
+10. **Select** Enable Azure Active Directory Domain Services and then click on **Save**.
      
     ![ws name.](media/2avd10.png)
     
     >**Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
  
-11. In the right pane, click on **File shares** present under *Data Storage* blade.
+11. Return to the **<inject key="Storage Account Name" />**  storage account and on the left pane, click on **File shares** present under *Data Storage*, then click on  **+ File share**.
 
     ![ws name.](media/2avd88.png)
  
