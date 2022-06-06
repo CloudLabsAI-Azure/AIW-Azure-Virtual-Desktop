@@ -21,7 +21,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/sybname.png)
 
-3. Now select **Access Control (IAM) (1)** and click on **Add (2)** then select **Add role assignment (3)**.
+3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
@@ -51,13 +51,13 @@
    
 3. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
 
-    - Subscription : Select your ***Subscription (1)*** from frop-down list
-    - Resource group : Select ***AVD-HostPool-RG-avd (2)***
-    - Name:Enter ***AVD-SP-01 (3)***
-    - Location : Select the location same as the Resource group ***(4)***
-    - Friendly name: Enter ***AVD-SP-01 (5)***
-    - Time zone : Select your ***Time Zone (6)***
-    - Click on ***Next : Schedules > (7)***
+    - Subscription : Leave it to **default (1)**
+    - Resource group : Select **AVD-HostPool-RG-avd (2)**
+    - Name:Enter **AVD-SP-01 (3)**
+    - Location : Select **<inject key="Region" />** from the drop-down list **(4)**
+    - Friendly name: Enter **AVD-SP-01 (5)**
+    - Time zone : Select your **Time Zone (6)**
+    - Click on **Next : Schedules > (7)**
 
     ![](../Azure-Virtual-Desktop-v3/media/schedulee.png)
 
@@ -71,39 +71,39 @@
    
 6. On the **Ramp-up** tab, follow the below instructions:
 
-    - Start time (24 hour system) : Enter your ***Start time (1)***
-    - Load Balancing Algorithm : Choose ***Breadth-first (2)***
-    - Minimum percentage of hosts (%) : ***20 (3)***
-    - Capacity threshold (%) : ***60 (4)***
-    - Click on ***Next (5)***
+    - Start time (24 hour system) : Enter your **Start time (1)**
+    - Load Balancing Algorithm : Choose **Breadth-first (2)**
+    - Minimum percentage of hosts (%) : **20 (3)**
+    - Capacity threshold (%) : **60 (4)**
+    - Click on **Next (5)**
     
     ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
    
 7. On the **Peak hours** tab, follow the below instructions:
 
-    - Start time (24 hour system) : Enter your ***Start time (1)***
-    - Load Balancing Algorithm : Choose ***Depth-first (2)***
-    - Click on ***Next (3)***
+    - Start time (24 hour system) : Enter your **Start time (1)**
+    - Load Balancing Algorithm : Choose **Depth-first (2)**
+    - Click on **Next (3)**
     
     ![](../Azure-Virtual-Desktop-v3/media/peakhours1.png)
    
 8. On the **Ramp-down** tab, follow the below instructions:
 
-     - Start time (24 hour system) : Enter your ***Start time (1)***
-     - Load Balancing Algorithm : Choose ***Depth-first (2)***
-     - Minimum percentage of hosts (%) : Enter ***10 (3)***
-     - Capacity threshold (%) : ***90 (4)***
-     - Force logoff users : Choose ***Yes (5)***
-     - Delay time before logging out users and shutting down VMs (min) : Enter ***30 (6)***
-     - Click on ***Next (7)***
+     - Start time (24 hour system) : Enter your **Start time (1)**
+     - Load Balancing Algorithm : Choose **Depth-first (2)**
+     - Minimum percentage of hosts (%) : Enter **10 (3)**
+     - Capacity threshold (%) : **90 (4)**
+     - Force logoff users : Choose **Yes (5)**
+     - Delay time before logging out users and shutting down VMs (min) : Enter **30 (6)**
+     - Click on **Next (7)**
 
      ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
    
 9. On the **Off-peak hours** tab, follow the below instructions:
 
-     - Start time (24 hour system) : Enter your ***Start time (1)***
-     - Load Balancing Algorithm : Choose ***Depth-first (2)***
-     - Click on ***Add (3)***
+     - Start time (24 hour system) : Enter your **Start time (1)**
+     - Load Balancing Algorithm : Choose **Depth-first (2)**
+     - Click on **Add (3)**
 
      ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
   
