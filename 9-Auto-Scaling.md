@@ -25,7 +25,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
-4. On **Add Role Assignemnt** page, search for **Azure Virtual Desktop Autoscale** and select it, then click on **Next**.
+4. On **Add Role Assignment** page, search for **Azure Virtual Desktop Autoscale** and select it, then click on **Next**.
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
@@ -61,11 +61,11 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/schedulee.png)
 
-4. On **Schedules** tab, click on **+ Add Schedule**
+4. On the **Schedules** tab, click on **+ Add Schedule**
 
     ![](../Azure-Virtual-Desktop-v3/media/addschedule1.png)
    
-5. On the **General** tab of **Add a schedule** page, observe the vaules and leave everything as default, then click on **Next**.
+5. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
 
     ![](../Azure-Virtual-Desktop-v3/media/general1.png)
    
@@ -107,7 +107,7 @@
 
      ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
   
-10. After adding the schedule,click on **Next: Host pool assignments >**
+10. After adding the schedule, click on **Next: Host pool assignments >**
 
      ![](../Azure-Virtual-Desktop-v3/media/hpa1.png)
     
@@ -119,7 +119,7 @@
 
      ![](../Azure-Virtual-Desktop-v3/media/spcreate.png)
      
-13. After the  successful deployment, click on **Go to resource**.
+13. After the successful deployment, click on **Go to resource**.
 
      ![](../Azure-Virtual-Desktop-v3/media/GTR.png)
  
