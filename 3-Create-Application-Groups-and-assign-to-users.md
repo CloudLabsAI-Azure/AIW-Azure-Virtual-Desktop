@@ -98,7 +98,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
     ![ws name.](media/ag5.png)
 
-16. Click on **Next: Workspaces >**.
+16. Click on **Next: Workspace >**.
 
     ![ws name.](media/ag6.png)
 
