@@ -46,5 +46,5 @@
 
    ![](media/jvm4.png)
    
-   
+6. Click on the **Next** button present in the bottom-right corner of this lab guide.   
 
