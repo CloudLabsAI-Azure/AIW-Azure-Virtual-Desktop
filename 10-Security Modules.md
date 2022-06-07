@@ -42,11 +42,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Method: Select **Text me a code** (3)
    - Click on **Next**.
 
-   ![](media/textme.png)
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v2/media/textme.png?raw=true)
 
 8. Authenticate the login according to the authentication method you have chosen in the previous step to complete the verification.
 
-   ![](media/SMSverified.png)
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/media/SMSverified.png)
    
 9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
