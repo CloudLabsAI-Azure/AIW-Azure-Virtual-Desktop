@@ -39,15 +39,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Country Code: Select the country code of your mobile number (1)
    - Mobile Number: Enter the number which you want to use for the MFA (2)
-   - Method: Select the preferred method of authentication (3)
+   - Method: Select **Text me a code** (3)
    - Click on **Next**.
 
-   ![](media/mfa-05-updated.png)
+   ![](media/textme.png)
 
 8. Authenticate the login according to the authentication method you have chosen in the previous step to complete the verification.
 
-   ![](media/mfa-06.png)
-  
+   ![](media/SMSverified.png)
+   
 9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
 
    ![](media/mfa-07.png)
