@@ -34,7 +34,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv224.png)
 
-1. From the list of permissions search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual MAchine** **(1)** and **Other : Start Virtual Machine** **(2)** and click on **Add** **(3)**.
+1. From the list of permissions search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual Machine** **(1)** and **Other : Start Virtual Machine** **(2)** and click on **Add** **(3)**.
 
    ![](media/avdv225.png)
   
