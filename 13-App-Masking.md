@@ -111,4 +111,4 @@ Application Masking is used to manage user access to installed components. Appli
 
 19. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
-   
+20. Click on the **Next** button present in the bottom-right corner of this lab guide.  
