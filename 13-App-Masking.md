@@ -9,48 +9,19 @@ Application Masking is used to manage user access to installed components. Appli
 ##  Exercise-1: App Masking
 
 
-
-1. Inside the Jump VM, copy and paste the below-mentioned URL to download the **FSLogix** and  extract the files to the default path
-
-  ```
-  https://download.microsoft.com/download/e/a/1/ea1bcf0a-e66d-48d2-ac9f-e385e5a7456e/FSLogix_Apps_2.9.8171.14983.zip
-  ```
-  
-2. After extracting the zip folder, navigate to the path ```C:\Users\demouser\Downloads\FSLogix_Apps_2.9.8171.14983\x64\Release``` to setup FSLogix app.
-
-3. Double click on the **FSLogixAppsSetup** to install the app setup.
-
-   ![](../Azure-Virtual-Desktop-v3/media/FSLAS.png)
-   
-4. On the **Microsoft FSLogix Apps Setup** dialog box, check the box next to ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
-
-   ![](../Azure-Virtual-Desktop-v3/media/installapp.png)
-   
-5. Click on ***Yes***, if you are prompted with a pop-out to accept the System Permissions.
-
-6. Now navigate back to the same path in file explorer and double click on ***FSlogixAppsRuleEditorSetup*** to install ***Rule Editor*** app.
-
-    ![](../Azure-Virtual-Desktop-v3/media/ruleeditor.png)
-    
-7.  On the **Microsoft FSLogix Apps RuleEditor Setup** dialog box, check the box ***I agree to the license terms and conditions (1)*** and click on ***Install (2)***.
-
-    ![](../Azure-Virtual-Desktop-v3/media/ruleeditorsetup.png)
-    
-8.  Click on ***Yes***, if you are prompted with a pop-out to accept the System Permissions.
-
-9. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
+1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
 
     ![](../Azure-Virtual-Desktop-v3/media/selectRE.png)
     
-10. On the FSLogix Apps RuleEditor application, click on **New**.
+2. On the FSLogix Apps RuleEditor application, click on **New**.
 
     ![](../Azure-Virtual-Desktop-v3/media/new.png)
     
-11. Provide a name for the Rule Set as **hidepowershell (1)** and click on **Enter file name (2)**.
+3. Provide a name for the Rule Set as **hidepowershell (1)** and click on **Enter file name (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
     
-12. On the **Rule Set : hidepowershell** dialog box, follow the below instructions:
+4. On the **Rule Set : hidepowershell** dialog box, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
     -  Click on ***Browse (2)***
@@ -59,48 +30,48 @@ Application Masking is used to manage user access to installed components. Appli
     
     ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
     
-13. After Scan completes successfully, click on ***Ok***.
+5. After Scan completes successfully, click on ***Ok***.
 
      ![](../Azure-Virtual-Desktop-v3/media/scnok.png)
      
-14. Now you have created the hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
+6. Now you have created the hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
 
      ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
      
-15. Now in your JumpVM,  go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your VM. 
+7. Now in your JumpVM,  go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your VM. 
 
      ![](../Azure-Virtual-Desktop-v3/media/powershell.png)
      
     **Note:** In the same way, you can apply the hiding rule to the session desktop in the remote desktop from your JumpVM.
     
-16. Navigate back to FSLogix App Rule Editor and click on **Manage Assignments**.
+8. Navigate back to FSLogix App Rule Editor and click on **Manage Assignments**.
 
     ![](../Azure-Virtual-Desktop-v3/media/manageassign.png)
     
-17. On the Assignments tab, click on **Add**.
+9. On the Assignments tab, click on **Add**.
 
     ![](../Azure-Virtual-Desktop-v3/media/add.png)
     
-18. Click on **User**.
+10. Click on **User**.
 
     ![](../Azure-Virtual-Desktop-v3/media/user.png)
     
-19. On the **Select User** dialog box, follow the below instructions:
+11. On the **Select User** dialog box, follow the below instructions:
 
     - **User** : Paste the username  **<inject key="Avd User 01" /> (1)**
     - Click on **Ok (2)**
 
     ![](../Azure-Virtual-Desktop-v3/media/adduser.png)
     
-20. After adding the User, click on **Apply (1)** and **Ok (2)**.
+12. After adding the User, click on **Apply (1)** and **Ok (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/applyandadd.png)
     
-21. Now you have added the User to the same hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host on the Remote desktop.
+13. Now you have added the User to the same hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host on the Remote desktop.
 
      ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
      
-22. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
+14. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
      ```
      aka.ms/wvdarmweb
@@ -118,15 +89,15 @@ Application Masking is used to manage user access to installed components. Appli
 
       ![](media/login1.png)
 
-23. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+15. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
     ![ws name.](media/desktp-v2.png)
 
-24. Select **Allow** on the prompt asking permission to *Access local resources*.
+16. Select **Allow** on the prompt asking permission to *Access local resources*.
 
     ![ws name.](media/Accessallowres-v2.png)
 
-25. Enter your **credentials** to access the application and click on **Submit**.
+17. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
@@ -134,10 +105,10 @@ Application Masking is used to manage user access to installed components. Appli
    
      ![ws name.](media/lb52.png)
      
-26. Within the session desktop, go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+18. Within the session desktop, go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](../Azure-Virtual-Desktop-v3/media/powershell.png)
 
-27. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
+19. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
    
