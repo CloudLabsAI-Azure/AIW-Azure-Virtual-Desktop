@@ -22,7 +22,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv221.png)
 
-1. On the create a custom role page, Provide **Custom role name** as **start VM on connect** *(1)* and click on **Next** *(2)*.
+1. On the create a custom role page, Provide **Custom role name** as **start VM on connect** **(1)** and click on **Next** **(2)**.
 
    ![](media/2avd16.png)
 
