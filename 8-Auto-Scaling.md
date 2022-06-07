@@ -20,6 +20,50 @@
 2. Select your **Subscription** from **Subscriptions** page.
 
    ![](../Azure-Virtual-Desktop-v3/media/sybname.png)
+   
+3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add custom role (3)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
+    
+4. On the **Basics** tab, follow the below instrucions:
+
+    - Custom role name :  Enter **Azure Virtual Desktop Autoscale (1)**
+    - Baseline permissions : Select **Start from JSON (2)**
+    - Click on **Folder icon (3)** to select the JSON file.
+
+     ![](../Azure-Virtual-Desktop-v3/media/basicsCR.png)
+     
+5. Navigate to the path **C:\LabFiles**, right click on **AzureVirtualDesktopAutoscale.json (1)** and click on **Open with (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/openwith.png)
+    
+ 6. If you get a pop-out stating **Windows can't open this type of file**, click on **Try an app on this PC**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/tryanotherapp.png)
+    
+7. Choose **Notepad (1)** from the list and click on **OK (2)**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/notepad.png)
+    
+8. In the JSON file, replace the subscription ID with and save the changes.
+
+    ![](../Azure-Virtual-Desktop-v3/media/subid.png)
+    
+9. After saving the changes, close the file and click on **Open** on the File Explorer.
+
+    ![](../Azure-Virtual-Desktop-v3/media/open.png)
+    
+10. On the **Basics** tab, click on **Next**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/nextbasics.png)
+    
+11. On **Permissions**, review the permissions you have assigned using JSON file and click on **Review + create**.
+
+     ![](../Azure-Virtual-Desktop-v3/media/permissionsreview.png)
+     
+12. Review the changes and click on **Create**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/createCR.png)
 
 3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
