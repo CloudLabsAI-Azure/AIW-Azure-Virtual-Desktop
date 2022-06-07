@@ -174,7 +174,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/lb16.png)
 
-   >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
 1. Click on the **Subscribe** button.
 
