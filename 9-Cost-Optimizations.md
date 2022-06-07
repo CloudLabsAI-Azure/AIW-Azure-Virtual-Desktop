@@ -129,4 +129,5 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/2avd117.png)
    
-1. Click on the Next button present in the bottom-right corner of this lab guide.
+
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
