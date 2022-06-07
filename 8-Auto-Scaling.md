@@ -172,5 +172,7 @@
  14. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
 
      ![](../Azure-Virtual-Desktop-v3/media/overviewsp.png)
+     
+15. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
