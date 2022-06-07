@@ -61,19 +61,31 @@ In this lab you will be creating the Scaling plan, which lets you scale your ses
 
 In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature in host pool which lets you save costs by allowing users to turn on their VMs only when they need them.
 
-## **Lab 9: Use MEM to enforce MFA while using AVD**
-
-In this lab we will setup Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy.
-
 ## **Lab 10: Security Modules**
 
-In this lab we will be configuring the Security Modules to prevent the sensitive information in the Session host.
+In this lab we will be configuring the Security Modules to prevent the sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy, Screen Capture Protection and App Locker.
 
-## **Lab 11: MSIX App Attach**
+## **Lab 11: Multimedia redirection for Azure virtual desktop
+
+In this lab we will be configuring Session host for implementing MS Teams and configure hostpool for teams requirements. Later we will be accessing MS Teams using Remote Desktop Application
+
+## **Lab 12: MSIX App Attach**
 
 In this lab, first we will be configuring AVD for MSIX App Attach then later will be creating MSIX Package in AVD environment.
 
-## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
+## **Lab 13: App Masking
+
+In this lab, you will be configuring the App Masking which is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
+
+## **Lab 14: Migration Tools
+
+In this lab, you will be going through with few documents which explains about the Migration Tools in AVD.
+
+## **Lab 15 : Azure Active Directory Domain Join (Read Only)**
+
+Azure Active Directory (Azure AD) provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Azure AD. Joining directly to Azure AD removes an earlier need to use Active Directory Domain Services (AD DS) domain controllers.
+
+## **Lab 16: Monitoring using Azure Monitor for AVD**
 
 In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
 
