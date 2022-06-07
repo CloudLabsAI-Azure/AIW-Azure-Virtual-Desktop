@@ -350,3 +350,5 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     ![](../Azure-Virtual-Desktop-v3/media/mshta.png)
     
 1. Now you have successfully created App Locker in the Session desktop.
+
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
