@@ -9,6 +9,42 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 ## Exercise 1: Multimedia redirection for Azure virtual desktop
 
 
+1. Navigate to the Azure portal, then search for Azure Virtual Desktop in the search bar and select Azure Virtual Desktop from the suggestions.
+
+   ![ws name.](media/w1.png)
+   
+1. Select **Host pools** from the side blade and select **EB-AVD-HP**.
+
+   ![ws name.](media/2avd120.png)
+   
+1. Under Settings, Select **RDP Properties** (1) and select **Device redirection** (2). Select the following options.
+   
+   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** (3) from the dropdown.
+   - Audio output location: Select **Play sounds on the remote computer** (4) from the dropdown
+   - Camera redirection: Select **Redirect cameras** (5) from the dropdown.
+   - Leave the rest properties as **defaults**.
+   - click on **Save** (6).
+
+   ![ws name.](media/2avd121.png)
+   
+1. Select **Application groups** from the side blade. You will see two application groups, Select the **AVD-AG-01** application group.
+
+   ![ws name.](media/2avd122.png)
+   
+1. Under Manage, select **Applications** and select **Add**.
+
+   ![ws name.](media/teams9.png)
+   
+1. In the **Add Application** tab, select the following options and click on **Save**.
+   
+   - **Application Source**: Start menu.
+   - **Application**: Search for **Microsoft Teams** and select the same from dropdown.
+   - **Display name**: Microsoft Teams.
+   - **Leave** the other options as **defaults**.
+   
+   ![ws name.](media/2avd49.png)
+
+
 1. On your PC search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
