@@ -315,4 +315,4 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/2avd67.png)
 
-1. Click on the Next button present in the bottom-right corner of this lab guide.
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
