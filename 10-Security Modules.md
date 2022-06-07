@@ -62,9 +62,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/aad-properties-01.png)
    
-3. In **Enable Security defaults** pane, for **Enable Security defaults** select to **No** **(1)** and check the box for **My organization is using Conditional Access** **(2)**. Then select **Save** **(3)**.
+3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **No**.
 
-   ![](media/aad-properties-02.png)
+   ![](../Azure-Virtual-Desktop-v3/media/enablesecurity.png)
 
 4. From the left-hand side blade, click on **Security** under Manage.
 
