@@ -3,7 +3,7 @@
     "Name": "Azure Immersion Workshop: Azure Virtual Desktop (AVD)",
     "Language": "English",
     "Files": [
-            {
+      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/Getting-Started.md",
         "Order": 1
       },
