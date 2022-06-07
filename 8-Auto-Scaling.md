@@ -159,7 +159,7 @@
     
 11. On **Host pool assignments** tab, select **EB-AVD-HP (1)** from the drop-down and click on **Review + create (2)**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/rc.png)
+     ![](../Azure-Virtual-Desktop-v3/media/RCHPS.png)
      
 12. Review the changes and click on **Create**.
 
