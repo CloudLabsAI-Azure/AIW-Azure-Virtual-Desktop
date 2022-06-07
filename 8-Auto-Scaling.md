@@ -81,7 +81,7 @@
    
 6. On **Select members** tab, search for **Windows Virtual Desktop** and select it then click on **Select**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/searchmem.png)
+    ![](../Azure-Virtual-Desktop-v3/media/WVD.png)
     
 7. After adding members, review the configuration and click on **Review + assign**.
 
