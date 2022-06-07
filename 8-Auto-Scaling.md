@@ -73,6 +73,8 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
+   >**Note :** If you don't find the role, wait for 2-3 min and re-perform the above step.
+   
 5. Under **Members** tab, click on **+ Select members**.
 
    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
