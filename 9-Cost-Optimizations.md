@@ -30,11 +30,11 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv223.png)
 
-1. In Add Permissions search for **Virtual Machines** *(1)* and select **Microsoft Compute (2)** from the search results.
+1. In Add Permissions search for **Virtual Machines** **(1)** and select **Microsoft Compute (2)** from the search results.
 
    ![](media/avdv224.png)
 
-1. From the list of permissions search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual MAchine** *(1)* and **Other : Start Virtual Machine** *(2)* and click on **Add** *(3)*.
+1. From the list of permissions search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual MAchine** **(1)** and **Other : Start Virtual Machine** **(2)** and click on **Add** **(3)**.
 
    ![](media/avdv225.png)
   
@@ -74,14 +74,14 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv229.png)
   
-1. On the left-hand side blade click on **Host pools** *(1)* and select the **host pool** *(2)* we want to configure.
+1. On the left-hand side blade click on **Host pools** **(1)** and select the **host pool** **(2)** we want to configure.
 
    ![](media/2avd112.png)
   
-1. On the left-hand side blade of the Host pool page. Click on **Properties** *(1)*
+1. On the left-hand side blade of the Host pool page. Click on **Properties** **(1)**
   
-   - Toggle **Start VM on connect** to **Yes** *(2)*.
-   - Click on **Save** *(3)*.
+   - Toggle **Start VM on connect** to **Yes** **(2)**.
+   - Click on **Save** **(3)**.
 
    ![](media/2avd114.png)
 
@@ -93,7 +93,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
    ![](media/avdv232.png)
 
-1. Select the **session host VMs** *(1)* and click on **Stop** *(2)*.
+1. Select the **session host VMs** **(1)** and click on **Stop** **(2)**.
 
    ![](media/2avd115.png)
   
@@ -125,7 +125,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
         
    ![ws name.](media/ex4t2s5.png)   
      
-1. Return to the Azure portal and click on **refresh** *(1)* to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
+1. Return to the Azure portal and click on **refresh** **(1)** to get the updated status of Virtual Machines. Here we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
    ![](media/2avd117.png)
    
