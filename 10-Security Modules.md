@@ -225,13 +225,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    https://aka.ms/avdgpo
    ```
    
-1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **%windir%\PolicyDefinitions** folder.
+1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
 
 1. If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
    ![](../Azure-Virtual-Desktop-v3/media/continue.png)
    
-1. Navigate back to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate\en-us** and copy **terminalserver-avd.adml** file to **%windir%\PolicyDefinitions\en-us** folder.
+1. Navigate back to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate\en-us** and copy **terminalserver-avd.adml** file to **C:\Windows\PolicyDefinitions\en-us** folder.
 
 1. If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
