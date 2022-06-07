@@ -70,7 +70,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 ### Task 1: Configuring Host pool Properties
 
-1. In the Azure portal search for **Azure Virtual Desktop** and click on it.
+1. In the Azure portal search for **Azure Virtual Desktop** and select it from search result.
 
    ![](media/avdv229.png)
   
