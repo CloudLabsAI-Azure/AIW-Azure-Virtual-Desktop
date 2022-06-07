@@ -120,10 +120,12 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 1. Enter the user credentials to access the workspace.
 
    - Username: *Paste the username*  **<inject key="AzureAdUserEmail" />** *then click on* **Next**.
+
+     ![ws name.](media/95.png)
    
    - Password: *Paste the password*  **<inject key="AzureAdUserPassword" />** *and click on* **Sign in**.
 
-   ![ws name.](media/password2.png)
+    ![ws name.](media/96.png))
 
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
