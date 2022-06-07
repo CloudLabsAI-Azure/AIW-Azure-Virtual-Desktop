@@ -109,7 +109,7 @@
 
 4. On the **Schedules** tab, click on **+ Add Schedule**
 
-    ![](../Azure-Virtual-Desktop-v3/media/addschedule1.png)
+    ![](../Azure-Virtual-Desktop-v3/media/addschedulee.png)
    
 5. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
 
