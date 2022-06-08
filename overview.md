@@ -24,7 +24,7 @@ In this lab with the help of **Getting Started** wizard we will be creating an A
 
 You will be deploying the AVD Host Pool in an already deployed Azure active directory domain service(AAD DS) instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide Identity and Authentication service.
 
-## **Lab 2 : Monitoring using Log Analytics**
+## **Lab 2 (A): Monitoring using Log Analytics**
 
 In this lab we will deploy a Log Analytics workspace then, we will setup monitoring for our AVD host pools. There are multiple reasons why monitoring serves a critical role: troubleshooting, performance, security, etc. There are also multiple components that make up the AVD service, which can add some variation on how customers implement monitoring
     
