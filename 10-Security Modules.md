@@ -193,7 +193,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](media/skipfornow.png)
 
-1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+1. If you get a page saying to *Allow my organization to manage my device* make sure to **uncheck** and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
    
