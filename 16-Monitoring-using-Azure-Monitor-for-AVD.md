@@ -1,4 +1,4 @@
-# Lab 16: Monitoring using Azure Monitor for AVD
+# Lab 2(B): Monitoring using Azure Monitor for AVD
 
 ## **Overview**
 
