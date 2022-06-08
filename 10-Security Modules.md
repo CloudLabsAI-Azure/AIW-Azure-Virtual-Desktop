@@ -346,7 +346,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
       
     - If you get any pop-out **App Locker** permissions, click on **Yes**.
 
-1. After creating the rule, from the Start menu, search for **Command Prompt** and select it.
+1. After creating the rule, from the Start menu of your Session Desktop, search for **Command Prompt** and select it.
 
     ![](../Azure-Virtual-Desktop-v3/media/cmd.png)
     
