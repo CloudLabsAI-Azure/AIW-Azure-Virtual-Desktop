@@ -42,7 +42,7 @@ In this lab we will be accessing the published applications and session desktop 
     
 ## **Lab 6: Setup FSLogix**
  
-In this lab, you will be creating an Azure File share and enabling SMB access via Active Directory authentication. Azure Files is a platform service (PaaS) and is one of the recommended solutions for hosting FSLogix containers for AVD users. At the end of this exercise, you will have the following components:
+In this lab, we will be creating an Azure File share and enabling SMB access via Active Directory authentication. Azure Files is a platform service (PaaS) and is one of the recommended solutions for hosting FSLogix containers for AVD users. At the end of this exercise, you will have the following components:
 
 - A new storage account in your Azure subscription.
 - A new Azure file share for your FSLogix profile containers.
@@ -51,11 +51,11 @@ In this lab, you will be creating an Azure File share and enabling SMB access vi
     
 ## **Lab 7: Load Balancing methods**
     
-In this lab you will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
+In this lab we will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
 
 ## **Lab 8: Auto Scaling**
 
-In this lab you will be creating the Scaling plan, which lets you scale your session host virtual machines (VMs) in a host pool up or down to optimize deployment costs.
+In this lab we will be creating the Scaling plan, which lets us scale your session host virtual machines (VMs) in a host pool up or down to optimize deployment costs.
 
 ## **Lab 9: Cost Optimizations**
 
@@ -79,7 +79,7 @@ In this lab, you will be configuring the App Masking which is used to manage use
 
 ## **Lab 14: Migration Tools**
 
-In this lab, you will be going through with few documents which explains about the Migration Tools in AVD.
+In this lab, we will be going through with few documents which explains about the Migration Tools in AVD.
 
 ## **Lab 15 : Azure Active Directory Domain Join (Read Only)**
 
