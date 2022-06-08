@@ -219,13 +219,17 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/msedge.png)
    
-1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below URL and extract the contents of the cab file and zip archive.
+1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below URL.
 
    ```
    https://aka.ms/avdgpo
    ```
+ 
+1. Navigate to the path **Downloads\AVDGPTemplate** and extract the **AVDGPTemplate** zip file to default path.
+
+   ![](../Azure-Virtual-Desktop-v3/media/extract.png)
    
-1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
+3. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
 
 1. If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
@@ -281,9 +285,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      
 1. Restore down the session host and take screenshot using Snipping tool from your Local desktop.
 
+    ![](../Azure-Virtual-Desktop-v3/media/restoredown.png)
+
 1. In **Your Own PC/computer/workstation**, go to Start Menu and search for **Snipping tool** then select it from search results.
 
 1. Then in the **Snipping tool**, click on drop-down button next to **Mode** and select **Full-Screen Snip**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/fullscreen.png)
 
 1. You will get a screenshot with the Session desktop blacked out the blacked out screenshot as it is mentioned in the below screenshot.
 
