@@ -344,7 +344,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
       ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
       
-    - If you get any pop-out **App Locker** permissions, click on **No**.
+    - If you get any pop-out for **App Locker** permissions, click on **No**.
 
        ![](../Azure-Virtual-Desktop-v3/media/applocker.png)
        
