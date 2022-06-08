@@ -45,7 +45,7 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/notepad.png)
     
-8. In the JSON file, replace the subscription ID with and save the changes.
+8. In the JSON file, replace the subscription ID with **<inject key="Subscription Name" />** and save the changes.
 
     ![](../Azure-Virtual-Desktop-v3/media/subid.png)
     
