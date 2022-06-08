@@ -85,7 +85,7 @@ In this lab, we will be going through with few documents which explains about th
 
 Azure Active Directory (Azure AD) provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Azure AD. Joining directly to Azure AD removes an earlier need to use Active Directory Domain Services (AD DS) domain controllers.
 
-## **Lab 16: Monitoring using Azure Monitor for AVD**
+## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
 In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
 
