@@ -50,7 +50,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
    
 
-1. The AVD dashboard will launch, then double-click on the Teams application to access it.
+1. The AVD desktop client will launch, then double-click on the Teams application to access it.
 
    ![ws name.](media/teams12.png)
    
