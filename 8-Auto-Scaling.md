@@ -57,11 +57,11 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/nextbasics.png)
     
-11. On **Permissions**, review the permissions you have assigned using JSON file and click on **Review + create**.
+11. On **Permissions** tab, review the permissions you have assigned using JSON file and click on **Review + create**.
 
      ![](../Azure-Virtual-Desktop-v3/media/permissionsreview.png)
      
-12. Review the changes and click on **Create**.
+12. Review the configurations and click on **Create**.
 
     ![](../Azure-Virtual-Desktop-v3/media/createCR.png)
 
