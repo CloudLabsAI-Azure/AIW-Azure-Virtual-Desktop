@@ -249,13 +249,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     
 1. On **Enable Screen Capture Protection** tab, follow the below instructions:
  
-    - Check the box next to **Enabled (1)**
+    - Select **Enabled (1)**
     - Click on **Apply (2)**
     - Click on **Ok (3)**
 
      ![](../Azure-Virtual-Desktop-v3/media/enabled1.png)
     
-1. From the Start menu, search for **Registry Editor** and select it.
+1. From the Start menu of Session Desktop, search for **Registry Editor** and select it.
 
     ![](../Azure-Virtual-Desktop-v3/media/registry.png)
     
