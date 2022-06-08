@@ -259,7 +259,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](../Azure-Virtual-Desktop-v3/media/registry.png)
     
-1. Navigate to the path **HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services**.
+1. Navigate to the path **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services**.
 
 1. Right click on the Terminal Services workspace, select **New (1)** and click on **DWORD (32-bit) value (2)**.
 
