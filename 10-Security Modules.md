@@ -285,7 +285,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. Then in the **Snipping tool**, click on drop-down button next to **Mode** and select **Full-Screen Snip**.
 
-1. You will get a screenshot with the Session desktop blacked out.the blacked out screenshot as it is mentioned in the below screenshot.
+1. You will get a screenshot with the Session desktop blacked out the blacked out screenshot as it is mentioned in the below screenshot.
 
    ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
    
@@ -296,7 +296,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 ## Exercise 4 : App Locker
 
-1. Within the same Session Desktop, from the Start menu search for **Services** and select it.
+1. Within the same Session Desktop, from the Start menu search for **Services** and select it from search results.
 
    ![](../Azure-Virtual-Desktop-v3/media/services.png)
    
@@ -304,7 +304,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/applicationidentity.png)
    
-1. Minimize the Services tab and search for **Local Security Policy** from Start menu and select it.
+1. Minimize the Services window and search for **Local Security Policy** from Start menu and select it from search results.
 
     ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy.png)
     
@@ -318,11 +318,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](../Azure-Virtual-Desktop-v3/media/lockerprop.png)
      
-1. Now right click on **Executable Rules (1)** under App Locker and click on **Create New Rule (2)**.
+1. Navigate to  **Application Control Policy** -> **App Locker** -> **Executable Rules** then right click on **Executable Rules (1)** under App Locker and select **Create New Rule (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/executablerule.png)
     
-1. On **Create New Rules** tab, follow the below instructions:
+1. On **Create New Rules** window, follow the below instructions:
 
     - Leave everything default under **Before You Begin** and click on **Next**.
 
@@ -336,11 +336,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
        ![](../Azure-Virtual-Desktop-v3/media/conditions.png)
        
-    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path **C:\Windows\System32\mshta (3)** and select vesion `*` **(4)** then click on **Next (5)**.
+    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path **C:\Windows\System32\ (3)**, select **mshta** and click on open then move the slider to **File Name (4)** and click on **Next (5)**.
 
        ![](../Azure-Virtual-Desktop-v3/media/publisher.png)
        
-    - On **Expectations (1)** tab, leave everything as default and click on **Create (2)**.
+    - On **Exceptions (1)** tab, leave everything as default and click on **Create (2)**.
 
       ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
       
