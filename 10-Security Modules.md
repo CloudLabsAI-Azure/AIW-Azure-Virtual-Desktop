@@ -289,6 +289,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. In **Your Own PC/computer/workstation**, go to Start Menu and search for **Snipping tool** then select it from search results.
 
+    ![](../Azure-Virtual-Desktop-v3/media/snipping.png)
+
 1. Then in the **Snipping tool**, click on drop-down button next to **Mode** and select **Full-Screen Snip**.
 
     ![](../Azure-Virtual-Desktop-v3/media/fullscreen.png)
