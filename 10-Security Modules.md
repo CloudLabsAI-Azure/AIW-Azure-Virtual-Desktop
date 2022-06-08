@@ -237,7 +237,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/continue.png)
    
-1. From the Start menu, search for **group policy** and select **Edit group policy**.
+1. From the Start menu of your Session Desktop, search for **group policy** and select **Edit group policy**.
 
    ![](../Azure-Virtual-Desktop-v3/media/groupplocy.png)
    
