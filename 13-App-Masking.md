@@ -6,7 +6,7 @@
 Application Masking is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
 
 
-##  Exercise-1: App Masking
+##  Exercise 1: App Masking
 
 
 1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
