@@ -332,27 +332,28 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
       ![](../Azure-Virtual-Desktop-v3/media/permissions1.png)
       
-    - On **Conditions (1)** tab, observe the default options and click on **Next (2)**.
+    - On **Conditions (1)** tab, select **Path (2)** and click on **Next (2)**.
 
-       ![](../Azure-Virtual-Desktop-v3/media/conditions.png)
+       ![](../Azure-Virtual-Desktop-v3/media//path.png)
        
-    - On **Publisher (1)** tab, click on **Browse (2)** and navigate to the path **C:\Windows\System32\ (3)**, select **mshta** and click on open then move the slider to **File Name (4)** and click on **Next (5)**.
+    - On **Path (1)** tab, enter the path **C:\ProgramData\Microsoft\Windows\Start Menu\Programs (2)** and click on **Next (3)**.
 
-       ![](../Azure-Virtual-Desktop-v3/media/publisher.png)
+       ![](../Azure-Virtual-Desktop-v3/media/enterpath.png)
        
     - On **Exceptions (1)** tab, leave everything as default and click on **Create (2)**.
 
       ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
       
-    - If you get any pop-out **App Locker** permissions, click on **Yes**.
+    - If you get any pop-out **App Locker** permissions, click on **No**.
 
-1. After creating the rule, from the Start menu of your Session Desktop, search for **Command Prompt** and select it.
+       ![](../Azure-Virtual-Desktop-v3/media/applocker.png)
+       
+1. Within the same Session Desktop, from the Start menu search for Excel and try to open the application. You will get a pop-out stating that the **App has been blocked** because of the Control Policy.
 
-    ![](../Azure-Virtual-Desktop-v3/media/cmd.png)
-    
-1. In the Command prompy, run the command `mshta` and observe the output. You will see it is blocked because the deny rule that you have set up applied to everyone.
+     '![](../Azure-Virtual-Desktop-v3/media/appblocked.png)
 
-    ![](../Azure-Virtual-Desktop-v3/media/mshta.png)
+      > **Note :** Try to open the Excel from the **Remote Desktop Client**. You will not be able to open the application since the policy has been applied.
+
     
 1. Now you have successfully created App Locker in the Session desktop.
 
