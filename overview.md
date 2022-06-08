@@ -73,11 +73,11 @@ In this lab we will be configuring Session host for implementing MS Teams and co
 
 In this lab, first we will be configuring AVD for MSIX App Attach then later will be creating MSIX Package in AVD environment.
 
-## **Lab 13: App Masking**
+## **Lab 13: App Masking (Optional)**
 
 In this lab, you will be configuring the App Masking which is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
 
-## **Lab 14: Migration Tools**
+## **Lab 14: Migration Tools (Optional)**
 
 In this lab, we will be going through with few documents which explains about the Migration Tools in AVD.
 
