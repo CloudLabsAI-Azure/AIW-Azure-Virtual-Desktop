@@ -288,7 +288,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
 
 
-## Exercise 3 : App Locker
+## Exercise 4 : App Locker
 
 1. Within the same Session Desktop, from the Start menu search for **Services** and select it.
 
