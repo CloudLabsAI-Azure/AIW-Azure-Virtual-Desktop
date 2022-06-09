@@ -61,7 +61,7 @@
 
      ![](../Azure-Virtual-Desktop-v3/media/permissionsreview.png)
      
-12. Review the configurations and click on **Create**.
+12. Review the configurations, click on **Create** and followed by **Ok**.
 
     ![](../Azure-Virtual-Desktop-v3/media/createCR.png)
 
