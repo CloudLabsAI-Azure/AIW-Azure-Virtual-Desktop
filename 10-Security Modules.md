@@ -143,8 +143,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 12. The AVD dashboard will be launched. 
 
      ![](media/EB-AVD-WS.png)
-    
-13. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 ## Exercise 3 : Screen Capture Protection
@@ -225,7 +223,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    https://aka.ms/avdgpo
    ```
  
-1. Navigate to the path **Downloads\AVDGPTemplate** and extract the **AVDGPTemplate** zip file to default path.
+1. Navigate to the path **Downloads\AVDGPTemplate** (Double-click on **AVDGPTemplate** Cabinet file to see the zip file) and extract the **AVDGPTemplate** zip file to default path.
 
    ![](../Azure-Virtual-Desktop-v3/media/extract.png)
    

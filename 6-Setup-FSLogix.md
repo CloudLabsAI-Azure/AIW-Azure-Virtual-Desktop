@@ -126,9 +126,9 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/2avd41.png)
    
-1. Open on the file share we created earlier.
+1. Navigate to Storage Account **<inject key="Storage Account Name" />**, select **File Shares** under Data Storage and click on **userprofile** to open file share we created earlier.
 
-   ![ws name.](media/2avd33.png)
+   ![ws name.](media/lab6-select-fileshare.png)
      
    >**Note:** Overview page of the file share will look as shown below. The user won't have access to it until we perform the next steps of this task. 
 
