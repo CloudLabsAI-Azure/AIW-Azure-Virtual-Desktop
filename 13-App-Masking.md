@@ -9,7 +9,7 @@ Application Masking is used to manage user access to installed components. Appli
 ##  Exercise 1: App Masking
 
 
-1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application.
+1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application from the search results
 
     ![](../Azure-Virtual-Desktop-v3/media/selectRE.png)
     
@@ -21,14 +21,18 @@ Application Masking is used to manage user access to installed components. Appli
 
     ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
     
-4. On the **Rule Set : hidepowershell** dialog box, follow the below instructions:
+4. On the **Rule Set : hidepowershell** window, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
     -  Click on ***Browse (2)***
-    -  Navigate to the mentioned path ***C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell (3)***
+    -  Navigate to the mentioned path ***C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell (3)*** and click on **Choose**.
     -  Click on ***Scan (4)***
     
-    ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
+      ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
+    
+    - **Note :** If you don't find the ProgramData under C drive, navigate to **Windows (C:)** drive, click on **View (1)** and check the box next to **Hidden items (2)** then re-perform the above step.
+
+      ![](../Azure-Virtual-Desktop-v3/media/hiddenitems.png)
     
 5. After Scan completes successfully, click on ***Ok***.
 
@@ -77,7 +81,7 @@ Application Masking is used to manage user access to installed components. Appli
      aka.ms/wvdarmweb
      ```
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
+   - Username: *Enter the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
      ![ws name.](media/username.png)
 
