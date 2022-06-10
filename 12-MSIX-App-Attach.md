@@ -287,6 +287,26 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/2avd63.png)
 
+   > **Note :** If you don't see the app in the Session Desktop, follow the below steps:
+   >
+   >  - In the **Search bar**, search for **Control Panel** and click on it to open.
+   >
+   >     ![](media/2avd68.png)
+   >   
+   >  - On Computer Settings page, click on **View new network status and tasks**
+   >
+   >      ![](media/view%20network%20status.png)
+   >      
+   >  - On **Network and Sharing center** page, click on **Change advanced sharing settings**.
+   >
+   >       ![](media/change%20advanced.png)
+   >    
+   >  - On **Advanced sharing settings** page, check the box next to **Turn on network discovery (1)** under Network Discovery and click on **Save changes (2)**
+   >
+   >      ![](media/turn%20on%20nd.png)
+   >     
+   >  - Restart the session desktop and continue with the next steps
+
 1. In the **start menu** search for **Apps & features** and click on it to open.
 
    ![](media/2avd64.png)
