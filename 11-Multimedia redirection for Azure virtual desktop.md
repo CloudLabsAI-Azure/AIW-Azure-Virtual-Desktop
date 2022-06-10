@@ -26,33 +26,14 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    - click on **Save** (6).
 
    ![ws name.](media/2avd121.png)
-   
-1. Select **Application groups** from the side blade. You will see two application groups, Select the **AVD-AG-01** application group.
-
-   ![ws name.](media/2avd122.png)
-   
-1. Under Manage, select **Applications** and select **Add**.
-
-   ![ws name.](media/teams9.png)
-   
-1. In the **Add Application** tab, select the following options and click on **Save**.
-   
-   - **Application Source**: Start menu.
-   - **Application**: Search for **Microsoft Teams** and select the same from dropdown.
-   - **Display name**: Microsoft Teams.
-   - **Leave** the other options as **defaults**.
-   
-   ![ws name.](media/2avd49.png)
-
 
 1. On your PC search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
    
+1. The AVD desktop client will launch, then double-click on the SessionDesktop application to access it.
 
-1. The AVD desktop client will launch, then double-click on the Teams application to access it.
-
-   ![ws name.](media/teams12.png)
+   ![ws name.](media/session%20desktop-v2.png)
    
 1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
@@ -62,7 +43,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
     
 1. Teams application will start loading.
 
-   ![ws name.](media/avdv214.png)
+   ![ws name.](media/avdv235.png)
    
 1. After the Teams application is launched, click on the **three dots** (1) then **About** (2) and click on **Version** (3).
 
