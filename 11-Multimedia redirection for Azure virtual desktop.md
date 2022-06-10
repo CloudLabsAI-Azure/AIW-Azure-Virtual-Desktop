@@ -45,6 +45,14 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv235.png)
    
+1. Once the Desktop is loaded as shown in the below screenshot. In the Welcome to Microsoft Teams pane, click on Continue as **<inject key="AzureAdUserEmail" />**.
+
+   ![ws name.](media/lab11-default-teams-new.png)
+   
+1. Enter password: **<inject key="AzureAdUserPassword" />**
+
+   ![ws name.](media/lab11-teams-signin.png) 
+   
 1. After the Teams application is launched, click on the **three dots** (1) then **About** (2) and click on **Version** (3).
 
    ![ws name.](media/avdv215.png)
