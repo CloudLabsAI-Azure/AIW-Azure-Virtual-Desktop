@@ -32,7 +32,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    
-   **B**. Domain administrator credentials:
+   **B**. Azure user credentials:
    
    - Azure admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**

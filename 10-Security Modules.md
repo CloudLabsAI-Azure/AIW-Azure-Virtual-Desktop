@@ -227,7 +227,17 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/extract.png)
    
-3. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
+   ![](../Azure-Virtual-Desktop-v3/media/lab10-default-extract.png)
+
+1. Now right-click on **AVDGPTemplate**(1) zip file and select **Extract All...**(2).
+
+   ![](../Azure-Virtual-Desktop-v3/media/lab10-extract-all.png)
+   
+1. In Select a Destination and Extarct file pane, select **Exract**.
+
+   ![](../Azure-Virtual-Desktop-v3/media/lab10-documents-extract.png)
+
+1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
 
 1. If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
