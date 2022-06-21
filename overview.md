@@ -1,22 +1,42 @@
 ### **Azure Virtual Desktop**
 
-## **Overview**
+## **Lab Context and Session Overview**
 
-Contoso IT consulting services, headquartered in Los Angeles, California, is one among the top IT companies in the country and it is located throughout North America. These locations continue to grow through acquisition. The nature of their business requires a high level of security of Personal Identifiable Information (PII) for their employees.
+Contoso IT consulting services, headquartered in Los Angeles, California, is one of the top IT consulting companies in the US. Contoso IT’s rapid expansion, often fueled through acquisitions, has led to the establishment of multiple office locations throughout North America. 
 
-## **Hands-on Labs Scenario**
+Contoso IT’s rapid growth has made it more challenging to provide its employees with the resources they need to do their jobs effectively. Contoso IT has more employees, working in more locations (including their homes), with more clients that often require specialized resources to complete their projects. 
 
-Contoso IT consulting services has grown rapidly and this has created a new challenge. Contoso has a requirement for providing it's staff with a secured environment to access their work application and also certain staff required access to a fully managed desktop that is goverened by policies. Contoso wants their resources to provide more control and flexibility over the computing environment. They want their resources to be highly available.
+Contoso’s IT team must find a way to provide employees with secure access to corporate resources to help them be productive wherever they are and deliver the resources they need to provide the high-quality IT consulting services that have fueled Contoso’s growth.  
 
-Recently contoso is experiencing a huge rise in supporting their remote working staff, essentially staff that is working from home and because Contoso does not have a capacity to provide such huge number of managed physical computers and the Board of Directors has been unwilling to increase capital expenditures for new equipment. Contoso has been evaluating the value of the public cloud and views Microsoft Azure as an excellent option to maintain availability and increase scalability of resources to the organization. Contoso have decided to use Azure virtual desktop which is the cloud Desktop-as-a-Service (DaaS) offered by Microsoft as part of Azure and Microsoft 365.
+Contoso’s IT team contacted its Microsoft account team to evaluate solutions.
 
-They need your help to configure the infrastructure and deploy a solution. You need to choose the right approach to set up and deploy the solution on Azure. However, you will be doing it in phases as the development and testing progress.
- 
-## **Lab Context**
 
-In this hands-on lab, you will implement an Azure Virtual Desktop (formerly Windows Virtual Desktop) Infrastructure and learn how-to setup a working AVD environment end-to-end in a typical Enterprise model. At the end of the lab, attendees will have deployed an Azure Active Directory Tenant that is running on Azure. Azure Active Directory (Azure AD) is Microsoft’s enterprise cloud-based identity and access management (IAM) solution.
+## **Solution Context**
 
-You will also deploy the Azure infrastructure for the Azure Virtual Desktop Tenant(s), Host pool which is  a collection of one or more identical virtual machines (VMs), also known as session hosts within Azure Virtual Desktop environments. A default Application group will be created which is a collection of remote applications that you can present to a user or group of users. You will publish desktops and remote apps with the help of application group. You will be configuring FSLogix for user profile solution which stores a complete user profile in a single container. You will be configurig MSIX app attach to publish the apps securely as a package. You will be configuring a specific version of Microsoft Teams which is meant for AVD inorder to improve commmunication and acheive A/V experience. Finally, you will configure monitoring and security for the Azure Virtual Desktop infrastructure.
+Contoso IT explained that they were looking to deploy their IT budget in a way that met the needs of its  IT consultants and its in-house IT team. For its consultants, Contoso needs to spend money on technology that: 
+ - Delivers a Windows 11 or 10 experience with no learning curve for employees 
+ - Provides the compute power and applications necessary to handle the standard and specialized work required for Contoso IT’s project engagements 
+ - Works equally well no matter where employees are (in the office, at the client site, or at home) 
+
+For Contoso’s in-house IT team, the solution they invest in must be:
+ - **Secure** It must provide the safeguards necessary to protect and prevent unauthorized access to client data or the Contoso corporate network 
+ - **Flexible** The solution must integrate with Contoso IT’s existing technology management infrastructure and provide Contoso’s admins the ability to patch, protect, and deploy it. 
+ - **Cost effective** Because Contoso’s client engagements often require periods of extreme compute intensity followed by periods of lighter technical engagement, technology investments that can help them control costs without requiring additional capital investments. 
+
+After learning of these requirements, the Microsoft account team recommended Azure Virtual Desktop as the cloud solution to meet Contoso IT services current and future needs. 
+
+
+## **Lab Activities**
+
+In this lab, you’ll assume the role of an Azure consultant tasked with creating the Azure Virtual Desktop Environment for Contoso IT services. You will configure and deploy: 
+ - **Azure Infrastructure components** (Virtual Machines (VMs), Storage, Networking, Resource Groups) necessary to deliver Azure Virtual Desktop to Contoso IT’s employees 
+ - **Azure Active Directory** (Azure’s Identity and Access Management solution) components necessary for providing secure access to AVD resources. 
+ - **Azure Virtual Desktop Host Pools** that take the configured Azure Infrastructure components and convert them into one or more identical VMs (also known as Session Hosts)  
+ - **Azure Virtual Desktop Application groups** which allow you to publish desktops and remote applications that authenticated Contoso users can use 
+ - **FSLogix user profiles** that allow user specific customizations (desktop backgrounds, layouts, and other settings) to be available anytime a user accesses a VM 
+ - **MSIX apps** that can be securely published for access by Session Hosts 
+ - **A purpose-built version of Microsoft Teams** designed to improve the communication and audio-visual experience for Azure Virtual Desktop users 
+ - And finally, **Monitoring and Security** so that Azure Virtual Desktop administrators can optimize performance and ensure that their environment is secure and well managed. 
 
 ## **Lab 1: Create Host Pool using Getting Started Wizard**
 
