@@ -6,25 +6,25 @@
 
 ## **Overview**
 
- A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
+ A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool, should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
  
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
-In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
+In this exercise, we'll be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
 
-1. On the **Azure portal** search for **Azure Virtual Desktop** in the **search bar** (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On the **Azure portal** search for **Azure Virtual Desktop** (1) in the search bar and select **Azure Virtual Desktop** (2) from the suggestions.
 
    ![ws name.](media/2avd1.png)
    
-1. On the AVD page, **Click** on the **Getting Started** (1) from the side blade and click on **Start** (2).
+1. On the Azure Virtual Desktop Page, **Click** on the **Getting Started** (1) from the side blade and click on **Start** (2).
 
    ![ws name.](media/gsw1.png)
    
-1. On **Getting Started Wizard** page, **Provide** the information as mentioned below,
+1. On **Getting Started Wizard** page, Provide the information as mentioned below,
 
-   **A**.Project Details:
+   **A.Project Details:**
 
-   - Subscription: Leave it to ***default***
+   - Subscription: Leave it as ***default***
    - Identity provider: Select ***Existing active directory***
    - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
    - Resource Group: Enter ***AVD-HostPool-RG***
@@ -32,12 +32,12 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    
-   **B**. Azure user credentials:
+   **B. Azure user credentials:**
    
    - Azure admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
 
-   **C**. Domain administrator credentials:
+   **C. Domain administrator credentials:**
    
    - Domain admin user name: *Paste your username* **<inject key="AzureAdUserEmail" />**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -45,7 +45,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw6.png)
    
-1. In **Virtual Machines** tab, **Provide** the information as mentioned below,
+1. On **Virtual Machines** tab, provide the information as mentioned below:
    
    - Users per virtual machine: Select ***Multiple users***
    - Image type: ***Gallery***
@@ -61,7 +61,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw3.png)
    
-1. In **Assignments** page, **Provide** the information as mentioned below, 
+1. On the **Assignments** page, Provide the information as mentioned below, 
    
    - Create test user account: **Unselect** the option
    - Assign existing users or groups: **Select** the option
@@ -79,14 +79,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/gsw7.png)
    
-   >**Note**: If the host pool deployment fails, please follow the steps below.
+   >**Note**: If the host pool **deployment fails**, please **follow the steps below**.
    >If the host deployment is successful, we can move to step 8.
    >
-   >**i.** In Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** *(1)* then click on **Delete resource group** *(2)*.
+   >**i.** In the Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** *(1)* then click on **Delete resource group** *(2)*.
    >
    >![ws name.](media/fla1.png)
    >
-   >**ii.** On the popup on the right hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** *(1)* and then click on **Delete** *(2)*.
+   >**ii.** In the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** *(1)* and then click on **Delete** *(2)*.
    >
    > ![ws name.](media/fla2.png)
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
@@ -96,7 +96,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    - **Host Pool**: 1 (EB-AVD-HP)
    - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)
-   - **Aplication Group**: 1 (EB-AVD-HP-DAG)
+   - **Application Group**: 1 (EB-AVD-HP-DAG)
    - **Application**: 1 (SessionDesktop)
    - **Workspace**: 1 (EB-AVD-WS)
 
