@@ -32,7 +32,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 4. Check the agreement box and click on **Next**.
 
-5. On the **Installation scope** window select **Install just for you** and then click on **Install**.
+5. On the **Installation scope** window, select **Install just for you** and then click on **Install**.
 
    ![ws name.](media/wvd41.png)
 
@@ -54,7 +54,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/96.png)
    
-   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
+   >**Note:** If there's a popup entitled **Help us protect your account**, click **Skip for now (14 days until this is required)**
 
    ![](media/skipfornow.png)
 
@@ -92,7 +92,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/AVD-users.png)
 
-17. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
+17. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
     ![ws name.](media/2avd86.png)
 
