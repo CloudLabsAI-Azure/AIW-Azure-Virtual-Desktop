@@ -13,7 +13,7 @@
 
 ## Exercise 1: Create a Scaling Plan
 
-1. In the Azure Portal, search for **Subscriptions** and select it from the search result.
+1. In the Azure Portal, search for **Subscriptions (1)** and select it from the search result **(2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/subscriptions.png)
     
@@ -69,7 +69,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
-4. On **Add Role Assignment** page, search for **Azure Virtual Desktop Autoscale** and select it, then click on **Next**.
+4. On **Add Role Assignment (1)** page, search for **Azure Virtual Desktop Autoscale (2)** and select it, then click on **Next (3)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
@@ -79,7 +79,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
    
-6. On **Select members** tab, search for **Windows Virtual Desktop** and select it then click on **Select**.
+6. On **Select members (1)** tab, search for **Windows Virtual Desktop (2)** and select it then click on **Select (3)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/WVD.png)
     
@@ -87,7 +87,7 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/review%2Bassign.png)
 
-4. From the Azure Portal menu, search for **Azure Virtual Desktop** and select it.
+4. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/avd2.png)
    
@@ -99,7 +99,7 @@
 
     - Subscription : Leave it to **default (1)**
     - Resource group : Select **AVD-HostPool-RG-avd (2)**
-    - Name:Enter **AVD-SP-01 (3)**
+    - Name: Enter **AVD-SP-01 (3)**
     - Location : Select **<inject key="Region" />** from the drop-down list **(4)**
     - Friendly name: Enter **AVD-SP-01 (5)**
     - Time zone : Select your **Time Zone (6)**
