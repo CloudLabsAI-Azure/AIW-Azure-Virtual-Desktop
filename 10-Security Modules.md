@@ -6,7 +6,7 @@ Contoso wants their resources to be secure and protected from any kind of unethi
 
 ## **Overview**
 
-In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification which increases the level of security.
+In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification, which increases the level of security.
 
 ### Exercise 1: Setup Multi-Factor Authentication (MFA)
 
@@ -15,7 +15,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
   
-2. On a prompt saying "Help us protect your account" click on **Next**.
+2. On a prompt saying "Help us protect your account", click on **Next**.
 
    ![](media/mfa-00.png)
 
@@ -27,7 +27,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/mfa-02.png)
    
-5. To connect the Microsoft Authenticator app with your account, **Scan the QR code** and select **Next**.
+5. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
 
    ![](media/mfa-03.png)
    
@@ -37,10 +37,10 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 7. Enter the details required to set up MFA.
 
-   - Country Code: Select the country code of your mobile number (1)
-   - Mobile Number: Enter the number which you want to use for the MFA (2)
-   - Method: Select **Text me a code** (3)
-   - Click on **Next**.
+   - Country Code: Select the country code of your mobile number **(1)**
+   - Mobile Number: Enter the number which you want to use for the MFA **(2)**
+   - Method: Select **Text me a code** **(3)**
+   - Click on **Next (4)**.
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v2/media/textme.png?raw=true)
 
@@ -74,43 +74,43 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv23.png)
   
-6. Under the Policies page click on **+ New Policy**. Select **Create new policy**.
+6. Under the Policies **(1)** page click on **+ New Policy (2)**. Select **Create new policy**.
 
    ![](media/avdv24.png)
 
 7. Configure the Conditional Access Policy with the following details:
 
-   - Name: **AVD-MFA** (1)
+   - Name: **AVD-MFA** **(1)**
    - **Assignments**:
-   - Click on **Users or workload identities** (2)
-   - A new window will slide in, there click on **Select users and Groups** (3) and then select the check box saying **Users and groups** (4)
-   - Now a *Select* window will open, here search for ODL user and Select it (5)
-   - Click on **Select** (6) button
+   - Click on **Users or workload identities** **(2)**
+   - A new window will slide in, there click on **Select users and Groups** **(3)** and then select the check box saying **Users and groups** **(4)**
+   - Now a *Select* window will open, here search for ODL user and Select it **(5)**
+   - Click on **Select** **(6)** button
    
    ![](media/feb2.png)
    
-   - Click on **Cloud apps or actions** (1)
-   - Click on **Select apps** (2)
-   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** (3) next to the search result
-   - Now Click on **Select** (4) button.
+   - Click on **Cloud apps or actions** **(1)**
+   - Click on **Select apps** **(2)**
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(3)** next to the search result
+   - Now Click on **Select** **(4)** button.
 
    ![](media/conditional-access-apps.png)
   
-   - Click on **Conditions** (1)
-   - Then select **Client apps** (2)
-   - Now in the Client Apps blade toggle the *Configure* switch to **Yes** (3) and make sure that all the checkboxes below are selected.
-   - Then click on **Done** (4)
+   - Click on **Conditions** **(1)**
+   - Then select **Client apps** **(2)**
+   - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
+   - Then click on **Done** **(4)**
 
    ![](media/avdv27.png)
   
    - **Access Control**
-   - Click on **Grant** (1)
-   - Select the Check Box saying **Require multi-factor authentication** (2)
-   - Then click on **Select** (3)
+   - Click on **Grant** **(1)**
+   - Select the Check Box saying **Require multi-factor authentication** **(2)** 
+   - Then click on **Select** **(3)**
 
    ![](media/avdv28.png)
    
-8. Toggle the **Enable Policy** switch to **On** and click on **Create**.
+8. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
 
    ![](media/avdv29.png)
   
@@ -160,7 +160,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/properties1.png)
    
-1. On the Properties page, select **Yes** for **Validation environment** and click on **Save**.
+1. On the Properties page, select **Yes (1)** for **Validation environment** and click on **Save (2)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/saveprop.png)
    
@@ -191,7 +191,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](media/skipfornow.png)
 
-1. If you get a page saying to *Allow my organization to manage my device* make sure to **uncheck** and click on **No, sign in to this app only**.
+1. If you get a page saying to *Allow my organization to manage my device*, make sure to **uncheck** and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
    
@@ -229,7 +229,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    ![](../Azure-Virtual-Desktop-v3/media/lab10-default-extract.png)
 
-1. Now right-click on **AVDGPTemplate**(1) zip file and select **Extract All...**(2).
+1. Now right-click on **AVDGPTemplate** **(1)** zip file and select **Extract All...** **(2)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/lab10-extract-all.png)
    
@@ -303,18 +303,18 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](../Azure-Virtual-Desktop-v3/media/fullscreen.png)
 
-1. You will get a screenshot with the Session desktop blacked out the blacked out screenshot as it is mentioned in the below screenshot.
+1. You will get a screenshot with the Session desktop blacked out, the blacked-out screenshot as it is mentioned in the below screenshot.
 
    ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
    
-1. In your Own PC, open file explorer and naviagate to **Pictures/Screenshots** and open the screenshot you took in Step-24
+1. In your Own PC, open file explorer and navigate to **Pictures/Screenshots** and open the screenshot you took in Step-24
    
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
 
 
 ## Exercise 4 : App Locker
 
-1. Within the same Session Desktop, from the Start menu search for **Services** and select it from search results.
+1. Within the same Session Desktop, from the Start menu search for **Services (1)** and select it from search results **(2)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/services.png)
    
@@ -322,7 +322,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/applicationidentity.png)
    
-1. Minimize the Services window and search for **Local Security Policy** from Start menu and select it from search results.
+1. Minimize the Services window and search for **Local Security Policy (1)** from Start menu and select it from search results **(2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy.png)
     
@@ -332,7 +332,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](../Azure-Virtual-Desktop-v3/media/prop.png)
     
-1. On **App Locker Properties** tab, check the box next to **Configured** for **Exercutable runs (1)**, **Windows Installer Rules (2)**, **Script Rules (3)**, **Packaged app Rules (4)** and click on **Apply (5)** then select **Ok (6)**.
+1. On **App Locker Properties** tab, check the box next to **Configured** for **Executable runs (1)**, **Windows Installer Rules (2)**, **Script Rules (3)**, **Packaged app Rules (4)** and click on **Apply (5)** then select **Ok (6)**.
 
      ![](../Azure-Virtual-Desktop-v3/media/lockerprop.png)
      
@@ -350,7 +350,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
       ![](../Azure-Virtual-Desktop-v3/media/permissions1.png)
       
-    - On **Conditions (1)** tab, select **Path (2)** and click on **Next (2)**.
+    - On **Conditions (1)** tab, select **Path (2)** and click on **Next (3)**.
 
        ![](../Azure-Virtual-Desktop-v3/media//path.png)
        
