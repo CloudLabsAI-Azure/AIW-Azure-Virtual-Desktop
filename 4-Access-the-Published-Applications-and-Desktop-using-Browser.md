@@ -106,11 +106,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/w1.png)
 
-7. Click on **User** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
+7. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
 
    ![ws name.](media/AVD-users.png)
 
-8. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
+8. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
    ![ws name.](media/2avd85.png)
 
