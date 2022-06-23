@@ -16,6 +16,96 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/2avd1.png)
    
+    
+2.	On the AVD **Overview page (1)**, click on Create a host pool **(2)**.
+
+    ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
+
+ 
+3.	On the **Basics** tab, provide the following information and click Next:
+
+    A. **Project Details:**
+
+        - Subscription: Select the **default**
+        - Resource group: Enter **AVD-HostPool-RG**
+        - Host pool name: **EB-AVD-AADJ-HP**
+        - Location: **East US**
+        - Validation environment: **Yes**
+        
+    B. **Host pool type:**
+    
+        - Host pool type: **Pooled**
+        - Load balancing algorithm: **Breadth-first**
+        - Max session limit: **5**
+        
+   
+4.	On the **Virtual Machines** tab, provide the following information and click **Next**:
+
+    A. **General:**
+    
+       - Add Azure virtual machines: Yes
+       - Resource group: Defaulted to same as host pool
+       - Name prefix: AVD-AADJ-SH
+       - Virtual machine location: East US
+       - Availability options: No infrastructure redundancy required
+       - Security type: Standard
+       - Image type: Gallery
+       - Image: Windows 10 Enterprise multi-session, version 21H2 + Microsoft 365 Apps - Gen2 (choose from dropdown)
+       - Virtual machine size: Standard D4s v4. Click on Change Size, then select D4s_v4 and click on Select as shown below
+       - Number of VMs: 2
+       - OS disk type: Standard SSD
+       
+    B. **Network and security**
+    
+       - Virtual network: VNET name
+       - Network security group: Basic
+       - Public inbound ports: No
+       
+    C. **Domain to join**
+    
+       - Select which directory you would like to join: Azure Active Directory
+       - Enroll VM with Intune: No
+
+
+    D. **Virtual Machine Administrator account**
+    
+       - Username: Username
+       - Password: Password
+       - Confirm password: Same as password
+
+INSERT IMAGES OF VIRTAL MACHINE TAB
+
+5.	On the Workspace tab, provide the following information and click Review + create:
+
+     - Register desktop app group: Yes
+     - To this workspace: EB-AVD-WS
+INSERT IMAGE OF WORKSPACE TAB
+
+6.	Verify the information and click Create.
+INSERT IMAGE OF THE VALIDATION PAGE
+
+NOTE: Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
+
+7.	Once the deployment is successful, click on **Go to resource**.
+
+
+INSERT IMAGE OF THE COMPLETION page
+
+8.	It will take you to the Host pool. The following resources were created:
+
+     - Host Pool: 1 (EB-AVD-AADJ-HP)
+     - Session Host: 2 (AVD-AADJ-SH-0, AVD-AADJ-SH-1)
+     - Application Group: 1 (EB-AVD-AADJ-HP-DAG)
+     - Application: 1 (SessionDesktop)
+     - Workspace: 1 (EB-AVD-WS)
+     
+INSERT IMAGE OF THE HOST POOL PAGE
+
+9.	Follow the instructions in Lab 3: Create Application Groups and assign them to users.
+
+
+
+   
 1. On the AVD page, **Click** on the **Getting Started** (1) from the side blade and click on **Start** (2).
 
    ![ws name.](media/gsw1.png)
