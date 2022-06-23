@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants to restrict the access to the applications used by different teams in the organization. So Contoso wants to create a seperate application group and assign only a specific set of users to it. You'll help Contoso to configure and create an application group and add applications to it.
+Contoso wants to restrict the access to the applications used by different teams in the organization. So, Contoso wants to create a seperate application group and assign only a specific set of users to it. You'll help Contoso to configure and create an application group and add applications to it.
 
 ## **Overview**
 
@@ -13,13 +13,13 @@ As explained in the General Hierarchy section, an Application Group is a logical
 
 ### Exercise 1: Create Application Group
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
+An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
 1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-2. You will be directed towards the Azure Virtual Desktop management window.  
+2. You will be directed towards the **Azure Virtual Desktop** management window.  
 
    ![ws name.](media/64.png)
 
@@ -31,11 +31,11 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/2avd82.png)
       
-5. Under **Manage** blade, open **Assignments** and then click on **+ Add**. 
+5. Under **Manage** blade, open **Assignments (1)** and then click on **+ Add (2)**. 
 
    ![ws name.](media/avd-assignments-add.png)   
  
-6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" />**. Then under the search bar, click on your username to select it.
+6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" /> (1)**. Then under the search bar **(2)**, click on your username to select it.
 
    ![ws name.](media/w7.png)
    
