@@ -34,12 +34,12 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
         
     B. **Host pool type:**
     
-        - Host pool type: **Pooled (6)**
-        - Load balancing algorithm: **Breadth-first (7)**
-        - Max session limit: **5** **(8)**
+       - Host pool type: **Pooled (6)**
+       - Load balancing algorithm: **Breadth-first (7)**
+       - Max session limit: **5** **(8)**
 
 
-     ![](../media/createhp-new.png)
+     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
         
    
 4.	On the **Virtual Machines** tab, provide the following information :
@@ -58,7 +58,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
        - Number of VMs: **2 (10)**
        - OS disk type: **Standard SSD (11)**
 
-       ![](../media/createhp1-new.png)
+       ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp1-new.png)
        
     B. **Network and security**
     
@@ -66,14 +66,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
        - Network security group: **Basic (2)**
        - Public inbound ports: **No (3)**
 
-      ![](../media/createhp3-new.png)
+      ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
        
     C. **Domain to join**
     
        - Select which directory you would like to join: **Azure Active Directory (1)**
        - Enroll VM with Intune: **No (2)**
 
-       ![](../media/domaintojoin.png)
+       ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
 
     D. **Virtual Machine Administrator account**
     
@@ -82,18 +82,18 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
        - Confirm password: Same as password **(3)**
        - Click on **Next : Workspace > (4)**
 
-       ![](../media/vmadminaccount.png)
+       ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
      - Register desktop app group: **Yes (1)**
      - To this workspace: **EB-AVD-WS (2)**
 
-     ![](../media/createhp4-new.png)
+     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp4-new.png)
 
 6.	Verify the information and click **Create**.
 
-    ![](../media/createhp5-new.png)
+    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp5-new.png)
 
 
    > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
