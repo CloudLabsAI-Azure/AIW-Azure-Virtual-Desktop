@@ -27,7 +27,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    - Subscription: Leave it to ***default***
   
-   - Resource group: *Select **AVD-Hostpool-RG-avd** from the drop down.*
+   - Resource group: *Select **AVD-Hostpool-RG-avd** from the drop-down.*
   
    - Name: **<inject key="Log Analytics Workspace Name	" />**
   
@@ -56,7 +56,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon2.png)
    
-1. On the **Insights** page, Select the following values and click on **Open Configuration Workbook**.
+1. On the **Insights** page, select the following values and click on **Open Configuration Workbook**.
    
    - Subscription: **Choose the default subscription**.
    - Resource group: **avd-hostpool-rg-avd**.
@@ -65,11 +65,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lab2a-avd-insights.png)
 
-1. In the **Check Configuration** page, Select the **<inject key="Log Analytics Workspace Name" enableCopy="false" /> (1)** workspace from the drop-down Under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
+1. In the **Check Configuration** page, select the **<inject key="Log Analytics Workspace Name" enableCopy="false" /> (1)** workspace from the drop-down under **Resource diagnostic settings** and Click on **Configure host pool (2)**.
 
    ![ws name.](media/mon4.png)
    
-1. On the **Deploy template** page, The diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
+1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
    ![ws name.](media/mon5.png)
    
@@ -89,7 +89,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lab2a-config-ws-result.png)
    
-1. On **Check Configuration** page, Select **Session host data settings (1)**. Select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
+1. On **Check Configuration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
    ![ws name.](media/gsu2.png)
    
@@ -97,15 +97,15 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/monu1.png)
    
-1. On the **Deploy template** page, The required session hosts configuration will be added to the Log Analytics workspace. Click on **Deploy**.
+1. On the **Deploy template** page, the required session hosts configuration will be added to the Log Analytics workspace. Click on **Deploy**.
 
    ![ws name.](media/monu2.png)
    
-1. On the **Check Configuration** page click on **configure performance counters** in the **performance counter** window.
+1. On the **Check Configuration** page, click on **configure performance counters** in the **performance counter** window.
 
    ![ws name.](media/mon14-new.png)
    
-1. On the **Deploy template** page, The required performance counters will be added to the Log Analytics workspace. Click on **Apply Config**
+1. On the **Deploy template** page, the required performance counters will be added to the Log Analytics workspace. Click on **Apply Config**
 
    ![ws name.](media/mon15.png)
    
@@ -117,7 +117,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon17.png)
    
-1. On the **Deploy template** page, The required events will be added to the Log Analytics workspace. Click on **Deploy**.
+1. On the **Deploy template** page, the required events will be added to the Log Analytics workspace. Click on **Deploy**.
 
    ![ws name.](media/mon18.png)
    
