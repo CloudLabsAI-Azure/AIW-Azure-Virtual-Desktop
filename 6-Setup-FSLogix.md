@@ -6,7 +6,7 @@ Contoso was getting complaints from the end-users stating that they were losing 
 
 ## **Overview**
 
-The Azure Virtual Desktop service recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
+The Azure Virtual Desktop service, recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
 
 ## Exercise 1: Create Storage account and file share
 
@@ -40,7 +40,7 @@ In the following task, we will be creating a storage account with a file share w
    
    ![ws name.](media/uiupdate08.png)
    
-4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab use the following configuration.
+4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab and use the following configuration.
 
    ![ws name.](media/storage-account-networking.png)
 
@@ -48,7 +48,7 @@ In the following task, we will be creating a storage account with a file share w
 
    - Network access: **Enable public access from selected virtual networks and IP addresses**
      
-   >**Note:** This will make sure that your storage account is not accessible from the public network making it more secure.
+   >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
    - Virtual network subscription: Leave it to ***default***.
    - Virtual Network: **aadds-vnet**
    - Subnets: **sessionhost-subnet (10.0.1.0/24)**
@@ -61,11 +61,11 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/up3.png)
 
-7. After deployment completes click on the notification icon on your azure portal, then click on **Go to resource**.
+7. After deployment completes, click on the notification icon on your azure portal, then click on **Go to resource**.
 
    ![ws name.](media/a59.png)
    
-8. In the storage account, click on **File shares** present under **Data storage** blade. Then click on **Not configured** under **File share settings** page.
+8. In the storage account, click on **File shares (1)** present under **Data storage** blade. Then click on **Not configured (2)** under **File share settings** page.
 
    ![ws name.](media/2avd32.png)
 
@@ -73,7 +73,7 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/setup.png)
 
-10. **Select** Enable Azure Active Directory Domain Services and then click on **Save**.
+10. Select **Enable Azure Active Directory Domain Services (1)** and then click on **Save (2)**.
      
     ![ws name.](media/2avd10.png)
     
@@ -95,7 +95,7 @@ In the following task, we will be creating a storage account with a file share w
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
 
-1. In Azure Portal, click on the **Show portal menu** button and select **Azure Active Directory**.
+1. In Azure Portal, click on the **Show portal menu (1)** button and select **Azure Active Directory (2)**.
 
    ![ws name.](media/lb34.png)
    
@@ -122,7 +122,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/2avd40.png)
    
-1. Search and select username **<inject key="AzureAdUserEmail" />** and click on **Select**.
+1. Search and select username **<inject key="AzureAdUserEmail" /> (1)** and click on **Select (2)**.
 
    ![ws name.](media/2avd41.png)
    
@@ -169,7 +169,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
-1. In your Azure portal search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
+1. In your Azure portal, search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
 
    ![ws name.](media/up11.png)
       
@@ -275,7 +275,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/fs8.png)
 
-11. Click on **Run command** under **Operations**. Then select **RunPowerShellScript**.
+11. Click on **Run command (1)** under **Operations**. Then select **RunPowerShellScript (2)**.
 
     ![ws name.](media/vm2-run-command.png)
         
@@ -371,7 +371,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/AVD-users.png)
     
-18. Switch to **Sessions** tab, then select both *Host Pools* and click on **Log off**.
+18. Switch to **Sessions (1)** tab, then select both **Host Pools (2)** and click on **Log off (3)**.
 
     ![ws name.](media/loggoff-v2.png)
     
@@ -403,7 +403,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/session%20desktop-v2.png)
 
-22. Select Allow on the prompt asking permission to access local resources.
+22. Select **Allow** on the prompt asking permission to access local resources.
 
     ![ws name.](media/Accessallowres-v2.png)
 
@@ -414,7 +414,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/89.png)
         
-24. The desktop will display looking similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
+24. The desktop display will look similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
     ![ws name.](media/wiw19.png)
     
@@ -440,11 +440,11 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/storacc-v2.png)
    
-3. Under **Public network access** select **Enabled from all networks** and click on **save icon**.
+3. Under **Public network access**, select **Enabled from all networks** and click on **save icon**.
 
    ![ws name.](media/stgup2.png)
     
-   >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the file shares.
+   >**Note:** This will enable access to your storage account on the public network, so that you can see the user profiles stored in the file shares.
     
 4. Open the storage account we created earlier, then select **Fileshare** from the left side menu.
 
