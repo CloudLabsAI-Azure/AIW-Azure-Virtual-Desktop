@@ -2,11 +2,11 @@
 
 ## **Scenario**
 
-Contoso wants a few application to be installed in all the sessions host. So Contoso had decided to implement MSIX app attach in order to install the application across the session hosts and users should be able to access them. You will help Contoso to install one of the application that is, 7-Zip file manager using the MSIX app attach feature.
+Contoso wants a few applications to be installed in all the sessions host. So, Contoso had decided to implement MSIX app attach in order to install the application across the session hosts and users should be able to access them. You will help Contoso to install one of the applications that is, 7-Zip file manager using the MSIX app attach feature.
 
 ## **Overview**
 
-In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
+In this exercise, we will be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
 Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach`` for more information.
 
 ## Exercise 1: Configuring AVD for MSIX App Attach
@@ -39,7 +39,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Select the following options and click **Save**
 
-   - Role: Search and select **Storage File Data SMB share Contributor** role, then click on **Next**
+   - Role: Search and select **Storage File Data SMB share Contributor (1)** role, then click on **Next (2)**
 
      ![](media/role%20assignemnt-v2.png)
      
@@ -49,7 +49,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
       - Click on **+ Select members (2)**
       
-      - Select: Search and select **<inject key="AzureAdUserEmail" />** user (3).
+      - Select: Search and select **<inject key="AzureAdUserEmail" />** user **(3)**.
 
       - Click on **Select (4)**
    
@@ -69,7 +69,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix7.png)
    
-1. Under the **Windows** tab. Select **Storage account key** and **copy** the code from the window.
+1. Under the **Windows** tab, select **Storage account key** and **copy** the code from the window.
 
    ![ws name.](media/msix8.png)
    
@@ -107,15 +107,15 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/2avd57.png) 
    
-3. In **msixfile** file share, Click on **msix.cer (1)** file and copy the **URL (2)** and save it in **notepad**.
+3. In **msixfile** file share, click on **msix.cer (1)** file and copy the **URL (2)** and save it in **notepad**.
    
    ![ws name.](media/2avd58.png)
    
-1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
+1. Go to the home page, search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
    ![ws name.](media/2avd75.png)
    
-1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+1. Under **Operations** blade, select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix10.png)
    
@@ -131,9 +131,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
 
-1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
+1. **Replace** the **CERTIFICATE PATH** with the **msix.cer** file URL which you had copied earlier and follow the next step.
 
-1. For **CERTIFICATE PATH** to be in the correct format, Follow the below-mentioned steps to create the path.
+1. For the **CERTIFICATE PATH** to be in the correct format, follow the below-mentioned steps to create the path.
 
    - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
@@ -233,13 +233,13 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    - For **Application Source**, select **MSIX Package** from the drop-down. 
    - For **Application name**, provide **7-Zip** as the value.
-   - CLick on **save**.
+   - Click on **save**.
 
    ![ws name.](media/msix23.png)
    
    Now, The MSIX implementation is completed. We'll check the working of it.
     
-1. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -307,7 +307,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    >     
    >  - Restart the session desktop and continue with the next steps
 
-1. In the **start menu** search for **Apps & features** and click on it to open.
+1. In the **start menu**, search for **Apps & features** and click on it to open.
 
    ![](media/2avd64.png)
 
@@ -331,7 +331,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/2avd66.png)
 
-1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be see that VHD has been mounted. This is where the **7-ZIP File Manager** present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
+1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be seeing that VHD has been mounted. This is where the **7-ZIP File Manager** is present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
    ![](media/2avd67.png)
 
