@@ -68,21 +68,21 @@ Else {
 7.	Then click on **Run** to execute the script.
 
 
-9.	Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
+8.	Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
    ![image](https://user-images.githubusercontent.com/83349577/175347230-9abe6dc3-7e3b-4e95-a3d5-85e4034d164c.png)
 
    Note: It will take around five minutes for the script to execute.
    
-10. Navigate to virtual machines and click on AVD-HP01-SH-1.
+9. Navigate to virtual machines and click on AVD-HP01-SH-1.
 
     ![image](https://user-images.githubusercontent.com/83349577/175347379-ac20a82e-8ead-4523-a4d8-f75a927a55be.png)
 
-11. Click on **Run command (1)** under Operations. Then select **RunPowerShellScript (2)**.
+10. Click on **Run command (1)** under Operations. Then select **RunPowerShellScript (2)**.
 
     ![image](https://user-images.githubusercontent.com/83349577/175347558-bda31f12-5470-4e1d-be5d-a4e67b94729c.png)
 
-12. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
+11. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
     > **Note :** Do Not run the script right away.
 
@@ -118,9 +118,9 @@ Else {
 
  > **Note:** The above script will Install Google Chrome.
 
-13.	Then click on Run to execute the script.
+12.	Then click on Run to execute the script.
 
-14.	Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
+13.	Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
 
     ![image](https://user-images.githubusercontent.com/83349577/175348086-9041a20c-909e-4821-94bf-961e015f8eab.png)
 
