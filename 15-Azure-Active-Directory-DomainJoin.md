@@ -12,7 +12,7 @@
 
 In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
 
-1. On the **Azure portal** search for **Azure Virtual Desktop** in the **search bar** (1) and select **Azure Virtual Desktop** (2) from the suggestions.
+1. On the **Azure portal** search for **Azure Virtual Desktop** in the **search bar** **(1)** and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/2avd1.png)
    
