@@ -17,17 +17,17 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/2avd120.png)
    
-1. Under Settings, Select **RDP Properties** (1) and select **Device redirection** (2). Select the following options.
+1. Under Settings, Select **RDP Properties** **(1)** and select **Device redirection** **(2)**. Select the following options.
    
-   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** (3) from the dropdown.
-   - Audio output location: Select **Play sounds on the remote computer** (4) from the dropdown
-   - Camera redirection: Select **Redirect cameras** (5) from the dropdown.
+   - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** **(3)** from the dropdown.
+   - Audio output location: Select **Play sounds on the remote computer** **(4)** from the dropdown
+   - Camera redirection: Select **Redirect cameras** **(5)** from the dropdown.
    - Leave the rest properties as **defaults**.
-   - click on **Save** (6).
+   - click on **Save** **(6)**.
 
    ![ws name.](media/2avd121.png)
 
-1. On your PC search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC, search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
    
@@ -53,27 +53,27 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/lab11-teams-signin.png) 
    
-1. After the Teams application is launched, click on the **three dots** (1) then **About** (2) and click on **Version** (3).
+1. After the Teams application is launched, click on the **three dots** **(1)** then **About** **(2)** and click on **Version** **(3)**.
 
    ![ws name.](media/avdv215.png)
 
-1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is WVD Media Optimised**.
+1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is WVD Media Optimized**.
 
    ![ws name.](media/avdv216.png)
    
    >**Note**: If you see a message saying **AVD Media not connected**. Please skip the step and continue with the lab.
    
-1. Again click on the **three dots** (1) on the top and select **Settings** (2).
+1. Again, click on the **three dots** **(1)** on the top and select **Settings** **(2)**.
 
    ![ws name.](media/avdv217.png)
    
-1. Now under Settings, click on **Devices** and explore the media devices connected to your local desktop.
+1. Now under Settings, click on **Devices (1)** and explore the media devices connected to your local desktop **(2)**.
 
    ![ws name.](media/avdv218.png)
    
    >**Note**: If you are not able to select other audio devices. Please skip the step and continue with the lab.
    
-1. Now, Close the settings tab and go to **calendar** (1) which is located in the side blade. Select **Meet now** (2).
+1. Now, Close the settings tab and go to **calendar** **(1)** which is located in the side blade. Select **Meet now** **(2)**.
 
    ![ws name.](media/teams13.png)
    
@@ -81,7 +81,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams14.png)
    
-1. Make sure both Video (1), and Audio (2) are enabled. Click on **Join now** (3).
+1. Make sure both Video **(1)**, and Audio **(2)** are enabled. Click on **Join now** **(3)**.
 
    ![ws name.](media/teams15.png)
    
@@ -91,9 +91,9 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams16.png)
    
-   >**NOTE**: If the **Invite others** prompt appears, Close the tab and continue.
+   >**NOTE**: If the **Invite others** prompt appears, close the tab and continue.
   
-1. Now, You should be able to see yourself as the video is On.
+1. Now, you should be able to see yourself as the video is On.
 
    ![](../Azure-Virtual-Desktop-v3/media/cam.png)
 
