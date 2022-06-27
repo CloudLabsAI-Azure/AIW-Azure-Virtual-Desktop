@@ -6,7 +6,7 @@
 
 ## **Overview**
 
- A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool, should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
+ A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool, should be sourced from the same image for a consistent user experience. To start host pool creation, we will login to the Azure portal.
  
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
@@ -79,14 +79,14 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
    ![ws name.](media/gsw7.png)
    
-   >**Note**: If the host pool **deployment fails**, please **follow the steps below**.
+   >**Note**: If the host pool **deployment fails**, please **follow the steps below:**
    >If the host deployment is successful, we can move to step 8.
    >
    >**i.** In the Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** **(1)** then click on **Delete resource group** **(2)**.
    >
    >![ws name.](media/fla1.png)
    >
-   >**ii.** In the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
+   >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
    >
    > ![ws name.](media/fla2.png)
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
