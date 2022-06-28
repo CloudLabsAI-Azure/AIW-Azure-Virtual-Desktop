@@ -2,11 +2,11 @@
 
 ## **Scenario**
 
-Contoso wants their AVD environment to be flexible in terms of accessing the sessions by their employees. You will help Contoso to test the access to AVD session using Browser.
+Contoso wants to provide employees with flexible access to their Azure Virtual Desktop environment. In this lab you will help Contoso test access to Azure Virtual Desktop sessions using a browser. 
 
 ## **Overview**
 
-In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the browser.
+In this exercise, we will access the Desktop and RemoteApps assigned to us in lab 3 using a browser. 
 
 ## Exercise 1: Access the Published Application
 
@@ -16,9 +16,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    aka.ms/wvdarmweb 
    ``` 
 
-   >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
+   >**Note:**  If you are already logged in to your use account, jump to step 3 else continue with the next step i.e., Step 2.
 
-2. Now to login, enter the lab credentials as mentioned below:
+2. To login, enter the lab credentials below:
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -32,7 +32,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![](media/login.png)
 
-3. The AVD dashboard will launch, then click on the **Word** application to access it. 
+3. The AVD dashboard will launch.Click on **Word** to access it.  
 
    ![ws name.](media/word-v2.png)
 
@@ -56,7 +56,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch6.png)
 
-   >**Note:** If you get a popup saying *Move Text in and out of Remote Desktop*, click on the ***Don't show again*** checkbox and then click on ***Got it*** button.
+   >**Note:** If you get a popup saying *Move Text in and out of Remote Desktop*, click on the ***Don't show again*** checkbox and then click on the ***Got it button***.
    
    ![ws name.](media/uiupdate06.png)
 
@@ -72,7 +72,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch19.png)
 
-10. Once signed in, the application will look similar to the screenshot below 
+10. Once signed in, the application will look like the screenshot below.
 
     ![ws name.](media/ch8.png)
 
