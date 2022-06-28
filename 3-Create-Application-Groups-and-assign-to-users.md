@@ -2,11 +2,11 @@
 
 ## **Scenario**
 
-Contoso wants to restrict the access to the applications used by different teams in the organization. So, Contoso wants to create a seperate application group and assign only a specific set of users to it. You'll help Contoso to configure and create an application group and add applications to it.
+Contoso wants to restrict the access to the applications used by different teams in the organization. With Azure Virtual Desktop, admins can create unique application groups for users that require access to a specific set of applications. In this lab you’ll help Contoso to configure and create an application group and add applications to it.
 
 ## **Overview**
 
-As explained in the General Hierarchy section, an Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
+As explained in the General Hierarchy section, an Application Group is a logical grouping of applications installed on session hosts in the host pool. There are two types of application groups: 
 
 1. RemoteApp 
 2. Desktop 
@@ -15,8 +15,7 @@ As explained in the General Hierarchy section, an Application Group is a logical
 
 An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
-1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
-
+1. Navigate to the Azure portal,  and search for Azure Virtual Desktop in the search bar and select **Azure Virtual Desktop** from the search results.
    ![ws name.](media/w1.png)
 
 2. You will be directed towards the **Azure Virtual Desktop** management window.  
@@ -54,7 +53,7 @@ An application group of type ‘Desktop’, was created automatically while crea
       - *Subscription*
       - *Location*
          
-   ii. Fill the remaining parameters as mentioned below:  
+   ii. Fill in the remaining parameters below:  
    
       - Resource Group: *Select* **AVD-Hostpool-RG-avd** *from the dropdown*.
       - Host Pool: *Select* **EB-AVD-HP** *Host pool from the dropdown*.
@@ -68,12 +67,12 @@ An application group of type ‘Desktop’, was created automatically while crea
 
     ![ws name.](media/ag1.png)
 
-11. In this window, choose the parameters as mentioned below: 
+11. In this window, choose the parameters mentioned below: 
 
     - Application Source: **Start Menu** *(choose from the dropdown)*  
     - Application: **Excel** *(choose from the dropdown)* 
     - Display Name: **Excel**
-    - Leave rest of the parameters to default and click on **Save**.
+    - Leave the rest of the parameters as default and click on **Save**.
    
     ![ws name.](media/2avd29.png)
  
@@ -94,7 +93,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
     ![ws name.](media/ag3.png)
 
-15. Click on the **+Add Azure AD users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it and then click on the **Select (3)** button. This will give you access to the application group.
+15. Click on the **+Add Azure AD users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
  
     ![ws name.](media/ag5.png)
 
@@ -102,7 +101,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
     ![ws name.](media/ag6.png)
 
-17. In the *Workspace* tab, choose the parameters as mentioned below:  
+17. On the *Workspace* tab, choose the parameters as mentioned below:  
 
     - Register Application Group: **Yes**
     - Register Application Group: Leave the value to default
@@ -113,7 +112,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
     ![ws name.](media/review.png)
 
-19. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+19. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
     ![ws name.](media/create%20AG-V2.png)
 
@@ -123,7 +122,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
     ![ws name.](media/81.png)
 
-21. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
+21. In the Application Group Window, click on **Applications** under the **Manage** section of settings and you will see that the applications are published in the new application Group. 
 
     ![ws name.](media/uiupdate04.png)
 
