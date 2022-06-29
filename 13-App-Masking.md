@@ -28,10 +28,11 @@ In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host us
 
 5.	A similar window as that of the below image will appear.
 
-    ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
+   ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
+
 6.	Copy the script given below and paste it by using Ctrl + V in the Powershell window.
    
-    > **Note :** Do not run the script right away.
+  > **Note :** Do not run the script right away.
 
 ```
 #Create Directories
@@ -118,13 +119,13 @@ Else {
 
  > **Note:** The above script will Install Google Chrome.
 
-12.	Then click on Run to execute the script.
+12. Then click on Run to execute the script.
 
-13.	Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
+13. Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
 
-    ![image](https://user-images.githubusercontent.com/83349577/175348086-9041a20c-909e-4821-94bf-961e015f8eab.png)
+   ![image](https://user-images.githubusercontent.com/83349577/175348086-9041a20c-909e-4821-94bf-961e015f8eab.png)
 
-    > **Note:** It will take around five minutes for the script to execute.
+   > **Note:** It will take around five minutes for the script to execute.
 
 
 
