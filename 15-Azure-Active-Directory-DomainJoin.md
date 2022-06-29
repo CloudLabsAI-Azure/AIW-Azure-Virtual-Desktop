@@ -23,11 +23,11 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
  A. **Project Details:**
-    - Subscription: Select the **default (1)**
-    - Resource group: Enter **AVD-HostPool-RG (2)**
-    - Host pool name: **EB-AVD-AADJ-HP (3)**
-    - Location: **East US (4)**
-    - Validation environment: **Yes (5)**
+     - Subscription: Select the **default (1)**
+     - Resource group: Enter **AVD-HostPool-RG (2)**
+     - Host pool name: **EB-AVD-AADJ-HP (3)**
+     - Location: **East US (4)**
+     - Validation environment: **Yes (5)**
         
    B. **Host pool type:**
     
