@@ -16,6 +16,7 @@ As explained in the General Hierarchy section, an Application Group is a logical
 An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
 
 1. Navigate to the Azure portal,  and search for Azure Virtual Desktop in the search bar and select **Azure Virtual Desktop** from the search results.
+
    ![ws name.](media/w1.png)
 
 2. You will be directed towards the **Azure Virtual Desktop** management window.  
