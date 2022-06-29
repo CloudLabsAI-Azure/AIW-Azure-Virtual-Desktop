@@ -165,7 +165,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    ![ws name.](media/2avd59.png)
    
-   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-0 session host.
+   >**NOTE**: This script will install the certificate in the AVD-HP01-SH-1 session host.
 
 1. **Replace** the **CERTIFICATE PATH** with **msix.cer** file URL which you had copied earlier and follow the next step.
 
