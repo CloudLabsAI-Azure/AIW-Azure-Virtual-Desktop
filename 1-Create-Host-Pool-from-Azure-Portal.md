@@ -89,6 +89,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
    >
    > ![ws name.](media/fla2.png)
+   > 
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
 
    
