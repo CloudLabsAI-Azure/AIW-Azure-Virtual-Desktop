@@ -118,7 +118,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media/jvm9.png)
 
-10. Click on the **Refresh** button and make sure *No results* is displayed under Host pool.
+10. Click on the **Refresh** button and make sure no results are displayed under Host pool.
 
     ![ws name.](media/jvm10.png)
 
