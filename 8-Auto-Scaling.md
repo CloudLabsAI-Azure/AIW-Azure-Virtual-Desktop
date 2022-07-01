@@ -79,13 +79,13 @@
 
    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
    
-6. On **Select members (1)** tab, search for **Windows Virtual Desktop (2)** and select it then click on **Select (3)**.
+6. On **Select members (1)** tab, search for **Azure Virtual Desktop (2)** and select it then click on **Select (3)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/WVD.png)
+    ![](../Azure-Virtual-Desktop-v3/media/selectmembers-new1.png)
     
 7. After adding members, review the configuration and click on **Review + assign**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/review%2Bassign.png)
+   ![](../Azure-Virtual-Desktop-v3/media/reiew%2Bassign-neew.png)
 
 4. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
 
