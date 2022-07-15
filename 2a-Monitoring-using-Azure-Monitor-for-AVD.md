@@ -43,7 +43,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Once the deployment gets succeeded, it will look similar to the image shown below.
 
-   ![ws name.](media/lb60.png)
+   ![ws name.](media/Lab2a_Ex_16.png)
    
 
 ## Exercise 2: Enable diagnostics for Workspace
@@ -75,11 +75,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media/2avd22.png)
+   ![ws name.](media/Lab2a_ex2_6.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
-   ![ws name.](media/mon7.png)
+   ![ws name.](media/Lab2a_ex2_7.png)
    
 1. On the **Deploy template** page, The diagnostic settings for the workspace are automated using a template. Look through the categories select and click on **deploy**.
 
@@ -87,7 +87,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/2avd22.png)
+   ![ws name.](media/Lab2a_ex2_9.png)
    
 1. On **Check Configuration** page, Select **Session host data settings (1)**. Select the **<inject key="Log Analytics Workspace Name" enableCopy="false" /> (2)** analytics workspace.
 
