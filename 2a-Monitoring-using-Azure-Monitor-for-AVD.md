@@ -79,7 +79,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
-   ![ws name.](media/Lab2a_ex2_7.png)
+   ![ws name.](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/media/mon7.png)
    
 1. On the **Deploy template** page, The diagnostic settings for the workspace are automated using a template. Look through the categories select and click on **deploy**.
 
