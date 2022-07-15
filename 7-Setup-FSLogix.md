@@ -126,7 +126,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/2avd41.png)
    
-1. Open on the file share we created earlier.
+1. Open the file share we created earlier in Exercise 1 step 12.
 
    ![ws name.](media/2avd33.png)
      
