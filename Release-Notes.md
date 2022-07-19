@@ -1,5 +1,12 @@
 # Release Notes
 
+### 15 July 2022
+
+   - In 2a-Monitoring-using-Azure-Monitor-for-AVD.md, screenshots has been updated.
+   - In 7-Setup-FSLogix.md, updated screenshot and instruction.
+   - In 8-Load-Balancing-methods.md, updated instruction.
+ 
+
 ### 07 March 2022
 
   - In Lab 11: MSIX App Attach, Exercise 2: Creating MSIX Package in AVD environment, UI for MSIX App attach in Azure Portal has been updated.
