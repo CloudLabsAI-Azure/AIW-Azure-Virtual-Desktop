@@ -2,9 +2,9 @@
 
 ### 15 July 2022
 
-   - In 2a-Monitoring-using-Azure-Monitor-for-AVD.md, screenshots has been updated.
-   - In 7-Setup-FSLogix.md, updated screenshot and instruction.
-   - In 8-Load-Balancing-methods.md, updated instruction.
+   - In Lab 2(A): Monitoring using Log Analytics, screenshots has been updated.
+   - In Lab 6: Setup FSLogix, updated screenshot and instruction.
+   - In Lab 7: Load Balancing methods, updated instruction.
  
 
 ### 07 March 2022
