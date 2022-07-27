@@ -124,7 +124,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex4t2s4.png)
    
-   **Note**: If you are not able to access the session desktop or you see a blank screen. Please follow steps from step 4 to step 5, else skip to step 6.
+   **Note**: If you are not able to access the session desktop or you see a blank screen, please follow steps from step 4 to step 5. Else skip to step 6.
    
 1. Navigate to Azure portal, search for **Virtual machines** in the search bar and click on Virtual Machines from the suggestions.
 
