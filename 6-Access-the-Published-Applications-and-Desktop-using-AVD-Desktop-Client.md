@@ -110,7 +110,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/session%20desktop-v2.png)
    
-2. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -120,12 +120,22 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
    ![](media/login.png)
 
-3. Wait for the Session Desktop to connect.
+1. Wait for the Session Desktop to connect.
 
    ![ws name.](media/ex4t2s4.png)
+   
+   **Note**: If you are not able to access the session desktop or you see a blank screen. Please follow steps from step 4 to step 5.
+   
+1. Navigate to Azure portal, search for **Virtual machines** in the search bar and click on Virtual Machines from the suggestions.
 
-4. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+   ![ws name.](media/fixavd5.png)
+   
+1. Select **AVD-HP01-SH-00**, **AVD-HP01-SH-01**, and click on **Restart**. Please wait till the session hosts restarts and try to connect to session desktop again.
+
+   ![ws name.](media/fixavd6.png)
+
+1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
    ![ws name.](media/ex4t2s5.png)   
      
-5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
