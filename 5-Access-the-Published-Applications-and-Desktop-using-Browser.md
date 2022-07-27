@@ -82,15 +82,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
    ![ws name.](media/w12.png)
       
-2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
+1. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
 
    ![ws name.](media/session%20desktop-v2.png)
 
-3. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/Accessallowres-v2.png)
 
-4. Enter the lab credentials to access the application and click on **Submit**.
+1. Enter the lab credentials to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -98,28 +98,38 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/89.png)
 
-5. The virtual desktop will launch and look similar to the screenshot below. 
+1. The virtual desktop will launch and look similar to the screenshot below. 
 
    ![ws name.](media/ex3t2s5.png)
    
-6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
+   **Note**: If you are not able to access the session desktop or you see a blank screen. Please follow steps from step 6 to step 7.
+   
+1. Navigate to Azure portal, search for **Virtual machines** in the search bar and click on Virtual Machines from the suggestions.
+
+   ![ws name.](media/fixavd5.png)
+   
+1. Select **AVD-HP01-SH-00**, **AVD-HP01-SH-01**, and click on **Restart**. Please wait till the session hosts restarts and try to connect to session desktop again.
+
+   ![ws name.](media/fixavd6.png)
+   
+1. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-7. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
+1. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
 
    ![ws name.](media/AVD-users.png)
 
-8. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
+1. Click on the **Sessions** tab, select both Host pools by clicking on the checkbox and then click on the **Log off** button.
 
    ![ws name.](media/2avd85.png)
 
-9. Click on **OK** to *Log off user from VMs*.
+1. Click on **OK** to *Log off user from VMs*.
 
    ![ws name.](media/jvm9.png)
 
-10. Click on the **Refresh** button and make sure *No results* is displayed under Host pool.
+1. Click on the **Refresh** button and make sure *No results* is displayed under Host pool.
 
     ![ws name.](media/jvm10.png)
 
-11. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
