@@ -240,11 +240,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Open **AVD-HP01-SH-0** session host and click on **Users**, there you can see the user logged in to that session host. Now select the user and click on the **Log off users** button and select **OK** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
 
-   ![ws name.](media/2avd99.png)
+   ![ws name.](media/fixavd3.png)
 
 1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, click on **Users** and you can see the user logged in to that session host. Now select the user and click on the **Log off users** button and select **OK** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-1*.
 
-   ![ws name.](media/2avd100.png)
+   ![ws name.](media/fixavd4.png)
 
    >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
