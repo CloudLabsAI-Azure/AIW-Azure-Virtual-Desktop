@@ -325,14 +325,5 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media/AVD-hostpool02.png)
 
-   >**[Optional]**
-   >
-   >**Scale session hosts using Azure Automation**
-   >
-   >Here, you will learn about the scaling tool built with the Azure Automation account and Azure Logic App that automatically scales session host VMs in your Azure Virtual Desktop environment. 
-   >
-   >Please follow the link given below to learn more about this feature. 
-   >
-   >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
