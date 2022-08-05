@@ -93,7 +93,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
 
    
-1. It will take you to the **Host pool**. Reources created are as follows,
+1. It will take you to the **Host pool**. Resources created are as follows,
 
    - **Host Pool**: 1 (EB-AVD-HP)
    - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)
