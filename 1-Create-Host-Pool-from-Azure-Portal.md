@@ -49,7 +49,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
    - Users per virtual machine: Select ***Multiple users***
    - Image type: ***Gallery***
-   - Image: **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps - Gen2** *(choose from dropdown)*
+   - Image: **Windows 11 Enterprise multi-session + Microsoft 365 Apps** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
      ![ws name.](media/2avd18.png)
