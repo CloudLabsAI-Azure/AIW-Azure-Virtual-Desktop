@@ -59,7 +59,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Link Azure template: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
-   ![ws name.](media/gsw3.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/virtual%20machines.png)
    
 1. On the **Assignments** page, provide the information as mentioned below, 
    
