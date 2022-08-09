@@ -55,7 +55,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Number of VMs: **2 (10)**
    - OS disk type: **Standard SSD (11)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp1-new.png)
+   ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
        
    B. **Network and security**
   
