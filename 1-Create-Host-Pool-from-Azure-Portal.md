@@ -71,7 +71,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
 1. Verify the options and **click** on **Create**.
 
-   ![ws name.](media/gsw5.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/createhostpoolnew1.png)
    
    >**NOTE**: Usually it takes 20 mins to get deployed successfully. Sometimes it might take upto 90 minutes.
    
