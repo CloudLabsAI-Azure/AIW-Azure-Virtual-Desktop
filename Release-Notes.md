@@ -4,6 +4,13 @@
 
   - Major update with lab
   - A new version of the lab has been released, with additonal exercises. Kindly find the created content for additional exercises below:
+
+      - [Lab-1: Create Host Pool using Getting Started Wizard](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/1-Create-Host-Pool-from-Azure-Portal.md#lab-1-create-host-pool-using-getting-started-wizard)
+
+           - [Exercise 1](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/1-Create-Host-Pool-from-Azure-Portal.md#exercise-1-create-host-pool-using-getting-started-wizard) 
+
+              - Previously, attendees used to create session hosts using the **Windows 10 Enterprise multi-session, version 20H2 + Microsoft 365 Apps - Gen2** as image reference. But now, it is updated to **Windows 11 Enterprise multi-session + Microsoft 365 Apps**.
+                 
       - [Lab 8-Auto Scaling](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/8-Auto-Scaling.md#lab-8-auto-scaling): In this lab user will be creating the Scaling plan, which lets scale the session host virtual machines (VMs) in a host pool up or down to optimize deployment costs.
 
       - [Lab 10-Security Modules](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/10-Security%20Modules.md#lab-10-security-modules): In this lab user will be configuring the Security Modules to prevent the sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy, Screen Capture Protection and App Locker.
@@ -14,7 +21,9 @@
 
       - [Lab 14-Migration Tools (Optional)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/14.Migration-Tools.md#lab-14-migration-tools-optional) : In this lab, user will be going through with few documents which explains about the Migration Tools in AVD.
 
-      - [Lab 15-Azure Active Directory Domain Join (Read Only)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/15-Azure-Active-Directory-DomainJoin.md#lab-15--azure-active-directory-domain-join-read-only) : In this lab, user will review the deployment process of Azure Virtual Desktop virtual machine (VM) session hosts which are directly joined to Azure AD. 
+      - [Lab 15-Azure Active Directory Domain Join (Read Only)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/15-Azure-Active-Directory-DomainJoin.md#lab-15--azure-active-directory-domain-join-read-only) : In this lab, user will review the deployment process of Azure Virtual Desktop virtual machine (VM) session hosts with **Windows 11 Enterprise multi-session + Microsoft 365 Apps** as image reference which are directly joined to Azure AD. 
+
+   
 -----------
 
 ### 07 March 2022
