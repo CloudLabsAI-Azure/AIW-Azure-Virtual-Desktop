@@ -3,7 +3,10 @@
 ### 10 August 2022
 
   - Major update with lab
-  - A new version of the lab has been released, with additonal exercises
+  - A new version of the lab has been released, with additonal exercises. Kindly find the created content below:
+      - [Lab 8](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/8-Auto-Scaling.md#lab-8-auto-scaling): In this lab user will be creating the Scaling plan, which lets scale the session host virtual machines (VMs) in a host pool up or down to optimize deployment costs.
+
+      - [Lab 10](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/10-Security%20Modules.md#lab-10-security-modules): In this lab user will be configuring the Security Modules to prevent the sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating Conditional Access Policy, Screen Capture Protection and App Locker.
 -----------
 
 ### 07 March 2022
