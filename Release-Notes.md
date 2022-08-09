@@ -14,7 +14,7 @@
 
       - [Lab 14: Migration Tools (Optional)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/14.Migration-Tools.md#lab-14-migration-tools-optional) : In this lab, user will be going through with few documents which explains about the Migration Tools in AVD.
 
-      - [Lab 15 : Azure Active Directory Domain Join (Read Only)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/15-Azure-Active-Directory-DomainJoin.md#lab-15--azure-active-directory-domain-join-read-only) : In this lab, user will deploy Azure Virtual Desktop virtual machine (VM) session hosts which are directly joined to Azure AD. 
+      - [Lab 15 : Azure Active Directory Domain Join (Read Only)](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/15-Azure-Active-Directory-DomainJoin.md#lab-15--azure-active-directory-domain-join-read-only) : In this lab, user will review the deployment of Azure Virtual Desktop virtual machine (VM) session hosts which are directly joined to Azure AD. 
 -----------
 
 ### 07 March 2022
