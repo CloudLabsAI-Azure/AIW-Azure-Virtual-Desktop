@@ -31,7 +31,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Name: **<inject key="Log Analytics Workspace Name	" />**
   
-   - Region: Select **<inject key="Region" />** from the drop-down list
+   - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list
   
    - Click on **Review + Create**
 
