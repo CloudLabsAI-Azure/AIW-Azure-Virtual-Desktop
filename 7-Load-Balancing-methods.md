@@ -39,7 +39,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/2avd106.png)
 
-1. Click on **+ New user** and select **+ Create new user (2)** to add one more user, then add the following configurations and leave the rest to default.
+1. Click on **+ New user** and select **+ Create new user** to add one more user, then add the following configurations and leave the rest to default.
 
    - User name: **AVDUser02**
    - Name: **AVDUser02**
