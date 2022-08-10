@@ -291,11 +291,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    >
    >  - In the **Search bar**, search for **Control Panel** and click on it to open.
    >
-   >     ![](media/2avd68.png)
+   >     ![](../Azure-Virtual-Desktop-v3/media/controlpanel1.png)
    >   
    >  - On Computer Settings page, click on **View new network status and tasks**
    >
-   >      ![](media/view%20network%20status.png)
+   >      ![](../Azure-Virtual-Desktop-v3/media/viewnetorkstatus.png)
    >      
    >  - On **Network and Sharing center** page, click on **Change advanced sharing settings**.
    >
@@ -309,7 +309,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the **start menu**, search for **Apps & features** and click on it to open.
 
-   ![](media/2avd64.png)
+   ![](../Azure-Virtual-Desktop-v3/media/app%26features1.png)
 
 1. In **Search bar**, Search for **7-Zip File Manager** and you'll able to see the application.
 
@@ -317,11 +317,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the **start menu** search for **Control Panel** and click on it to open.
 
-   ![](media/2avd68.png)
+   ![](../Azure-Virtual-Desktop-v3/media/controlpanel1.png)
 
 1. In Control Panel, Click on **Uninstall a program**.
 
-   ![](media/2avd69.png)
+   ![](../Azure-Virtual-Desktop-v3/media/uninstallaprogram1.png)
 
 1. Here, you'll notice that **7-Zip File Manager** is not present as an application.
 
@@ -329,7 +329,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the **start menu** search for **Computer Management** and click on it to open.
 
-   ![](media/2avd66.png)
+   ![](../Azure-Virtual-Desktop-v3/media/computermanagement.png)
 
 1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be seeing that VHD has been mounted. This is where the **7-ZIP File Manager** is present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
