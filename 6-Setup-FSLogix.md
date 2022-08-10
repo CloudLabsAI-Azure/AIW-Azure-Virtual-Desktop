@@ -422,11 +422,11 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 25. The virtual desktop will launch and look similar to the screenshot below.
 
-    ![ws name.](media/launchwvd.png)
+    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
 
 26. At last, click on **User Account** and click on **Sign Out**.
 
-    ![ws name.](media/wvd6.png)
+    ![ws name.](../Azure-Virtual-Desktop-v3/media/signoursd.png)
    
 ## Exercise 4: Verifying the User profiles stored in File share
 
