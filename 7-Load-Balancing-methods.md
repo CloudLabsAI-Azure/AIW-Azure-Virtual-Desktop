@@ -171,7 +171,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd2.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -216,7 +216,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd3.png) 
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
 
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
@@ -288,7 +288,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd2.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
     
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -307,7 +307,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd3.png) 
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **EB-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
