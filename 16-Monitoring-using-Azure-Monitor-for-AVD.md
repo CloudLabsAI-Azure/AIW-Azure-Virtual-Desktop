@@ -80,7 +80,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
 1. In the AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/sess-v2.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -91,11 +91,11 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd3.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](media/newrd2.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
    >**NOTE**: **DO NOT** close the session or the AVD Remote client. Keep it running.
 
