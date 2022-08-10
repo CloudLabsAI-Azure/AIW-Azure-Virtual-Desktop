@@ -100,7 +100,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 5. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](media/ex3t2s5.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
 6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
