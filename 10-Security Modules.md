@@ -225,17 +225,17 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
  
 1. Navigate to the path **Downloads\AVDGPTemplate** (Double-click on **AVDGPTemplate** Cabinet file to see the zip file) and extract the **AVDGPTemplate** zip file to default path.
 
-   ![](../Azure-Virtual-Desktop-v3/media/extract.png)
+   ![](../Azure-Virtual-Desktop-v3/media/extractfile.png)
    
-   ![](../Azure-Virtual-Desktop-v3/media/lab10-default-extract.png)
+   ![](../Azure-Virtual-Desktop-v3/media/extractdefault.png)
 
 1. Now right-click on **AVDGPTemplate** **(1)** zip file and select **Extract All...** **(2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/lab10-extract-all.png)
+   ![](../Azure-Virtual-Desktop-v3/media/extractall1.png)
    
 1. In Select a Destination and Extarct file pane, select **Exract**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/lab10-documents-extract.png)
+   ![](../Azure-Virtual-Desktop-v3/media/extract-s17.png)
 
 1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
 
@@ -251,7 +251,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. From the Start menu of your Session Desktop, search for **group policy** and select **Edit group policy**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/groupplocy.png)
+   ![](../Azure-Virtual-Desktop-v3/media/edigrouppolicy1.png)
    
 1. On the Local group policy editor pane, navigate to the path **Computer Configuration -> Administrative Templates -> Windows Components -> Remote Desktop Services -> Remote Desktop Session Host -> Azure Virtual Desktop**.
 
@@ -269,7 +269,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     
 1. From the Start menu of Session Desktop, search for **Registry Editor** and select it.
 
-    ![](../Azure-Virtual-Desktop-v3/media/registry.png)
+    ![](../Azure-Virtual-Desktop-v3/media/registryeditor1.png)
     
 1. Navigate to the path **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services**.
 
@@ -297,7 +297,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. In **Your Own PC/computer/workstation**, go to Start Menu and search for **Snipping tool** then select it from search results.
 
-    ![](../Azure-Virtual-Desktop-v3/media/snipping.png)
+    ![](../Azure-Virtual-Desktop-v3/media/snippingtool1.png)
 
 1. Then in the **Snipping tool**, click on drop-down button next to **Mode** and select **Full-Screen Snip**.
 
@@ -316,7 +316,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. Within the same Session Desktop, from the Start menu search for **Services (1)** and select it from search results **(2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/services.png)
+   ![](../Azure-Virtual-Desktop-v3/media/services1.png)
    
 1. On the **Services** tab, right click on **Application Identity (1)** and click on **Start (2)**.
 
@@ -324,7 +324,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. Minimize the Services window and search for **Local Security Policy (1)** from Start menu and select it from search results **(2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy.png)
+    ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy1.png)
     
 1. Navigate to **Application Control Policy** -> **App Locker**.
 
