@@ -147,7 +147,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](media/ex4t2s5.png)   
+   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)   
      
 1. Return to the Azure portal and click on **refresh** **(1)** to get the updated status of Virtual Machines. Here, we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
