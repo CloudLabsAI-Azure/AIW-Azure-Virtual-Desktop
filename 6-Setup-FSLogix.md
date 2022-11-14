@@ -53,9 +53,9 @@ In the following task, we will be creating a storage account with a file share w
    - Virtual Network: **aadds-vnet**
    - Subnets: **sessionhost-subnet (10.0.1.0/24)**
    - Leave the rest to default settings.
-   - Click on **Review + create**.
+   - Click on **Review**.
      
-   ![ws name.](media/stgup1.png)
+   ![ws name.](media/AVD6E1S5.png)
      
 6. Click on **Create**.
 
@@ -79,11 +79,15 @@ In the following task, we will be creating a storage account with a file share w
     
     >**Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
  
-11. Return to the **<inject key="Storage Account Name" />**  storage account and on the left pane, click on **File shares** present under *Data Storage*, then click on  **+ File share**.
+11. Return to the **<inject key="Storage Account Name" />**  storage account and on the left pane, click on **File shares** present under *Data Storage*, then click on **Refresh** a few times until the status of the Active Directory changes to ‘Configured’ before continuing.
+
+   ![ws name.](media/AVD6E1S11.png)
+ 
+12. On **File shares** page*, click on  **+ File share**.
 
     ![ws name.](media/2avd88.png)
  
-12. Enter the following name for your file share.
+13. Enter the following name for your file share.
     
     - Name: **userprofile**   
     - Tier: **Transaction Optimized**
