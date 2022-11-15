@@ -268,10 +268,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Click on **Ok (3)**
 
      ![](../Azure-Virtual-Desktop-v3/media/enabled1.png)
-    
+
 1. From the Start menu of Session Desktop, search for **Registry Editor** and select it.
 
     ![](../Azure-Virtual-Desktop-v3/media/registryeditor1.png)
+    
+    > **Note :** If you are promted with any pop-up stating **Do you want to allow this app to make any changes to your device?**, click on **Yes**.
     
 1. Navigate to the path **Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services**.
 
