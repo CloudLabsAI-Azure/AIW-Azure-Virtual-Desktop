@@ -39,22 +39,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/mfa-04.png)
    
-7. Enter the details required to set up MFA.
 
-   - Country Code: Select the country code of your mobile number **(1)**
-   - Mobile Number: Enter the number which you want to use for the MFA **(2)**
-   - Method: Select **Text me a code** **(3)**
-   - Click on **Next (4)**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v2/media/textme.png?raw=true)
-
-8. Authenticate the login according to the authentication method you have chosen in the previous step to complete the verification.
-
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v2/media/SMSverified.png)
-   
-9. Now after a few seconds the status will change to **Verification Success**, click on **Done** to finish the MFA registration.
-
-   ![](media/mfa-07.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
