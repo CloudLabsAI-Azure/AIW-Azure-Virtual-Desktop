@@ -311,7 +311,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
    
-1. In your Own PC, open file explorer and navigate to **Pictures/Screenshots** and open the screenshot you took in Step-24
+1. In your Own PC, open file explorer and navigate to **Pictures/Screenshots** and open the screenshot you took in Step-36
    
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
 
