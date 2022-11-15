@@ -125,7 +125,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    aka.ms/wvdarmweb 
    ``` 
 
-   >**Note:** If you are already logged in through your user, then jump to step 3 else continue with the next step i.e., Step 2.
+   >**Note:** If you are already logged in through your user, then jump to Exercise 3 else continue with the next step i.e., Step 10.
 
 10. Now to login, enter the lab credentials as mentioned below:
 
