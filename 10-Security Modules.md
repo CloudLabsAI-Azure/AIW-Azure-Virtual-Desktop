@@ -362,6 +362,14 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
       > **Note :** Try to open the Excel from the **Remote Desktop Client**. You will not be able to open the application since the policy has been applied.
 
     
-1. Now you have successfully created App Locker in the Session desktop.
+1. Now you have successfully created App Locker for all Apps in the Session desktop.
+
+1. Now navigate back to the Local Security Policy, right-click on the created **Executable Rule** and click on **Properties**.
+
+    ![](media-1/properties.png)
+    
+1. On **Deny Properties** tab, click on **Allow (1)** under **Actions** and click on **Apply (2)** then click on **Ok (3)**.
+
+    ![](media-1/deny.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
