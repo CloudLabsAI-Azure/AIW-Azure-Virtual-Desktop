@@ -14,8 +14,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
-  
-2. On a prompt saying "Help us protect your account", click on **Next**.
+   
+2. If there is pop-up entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.  
+
+    ![](media-1/staysigned.png)
+    
+4. On a prompt saying "Help us protect your account", click on **Next**.
 
    ![](media/mfa-00.png)
 
@@ -82,19 +86,20 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Name: **AVD-MFA** **(1)**
    - **Assignments**:
-   - Click on **Users or workload identities** **(2)**
-   - A new window will slide in, there click on **Select users and Groups** **(3)** and then select the check box saying **Users and groups** **(4)**
-   - Now a *Select* window will open, here search for ODL user and Select it **(5)**
-   - Click on **Select** **(6)** button
+     - Click on **Users** **(2)**
+     - A new window will slide in, there click on **Select users and Groups** **(3)** and then select the check box saying **Users and groups** **(4)**
+     - Now a *Select* window will open, here search for ODL user and Select it **(5)**
+     - Click on **Select** **(6)** button
    
-   ![](media/feb2.png)
+   ![](media-1/CAF.png)
    
    - Click on **Cloud apps or actions** **(1)**
    - Click on **Select apps** **(2)**
-   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(3)** next to the search result
-   - Now Click on **Select** **(4)** button.
+   - Click on **Select (3)**
+   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
+   - Now Click on **Select** **(5)** button.
 
-   ![](media/conditional-access-apps.png)
+   ![](media-1/cloudapps.png)
   
    - Click on **Conditions** **(1)**
    - Then select **Client apps** **(2)**
