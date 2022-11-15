@@ -92,7 +92,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/mon8.png) 
 
-1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times. You'll be able to see the settings applied to the workspace.
+1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
    ![ws name.](media/lab2a-config-ws-result.png)
    
