@@ -14,7 +14,21 @@
 
    ![azure portal.](media/portal_avd.png)  
 
-2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
+1. When you click on Azure portal, the edge browser welcome screen will come up, select **Start without your data**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/raw/main/media/startwithoutdata.png)
+   
+1. On the next window, click on **Continue without this data**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/raw/main/media/continuewithoutthis.png)
+   
+1. Click on **Confirm and start browsing**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/raw/main/media/confirmandstartbrowsing.png)
+   
+1. Now, you will see two tabs in the edge browser, close the first tab named with **Microsoft Edge**.
+
+3. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
    ![](media/w24.png)
 
