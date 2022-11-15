@@ -190,10 +190,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
       ![ws name.](media/96.png)
-   
-    >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
-
-     ![](media/skipfornow.png)
+      
+1. Once you enter the credentials, **Approve** the authentication request which has been sent to the registered device through the **Microsoft Authenticator App**.
 
 1. If you get a page saying to *Allow my organization to manage my device*, make sure to **uncheck** and click on **No, sign in to this app only**.
 
