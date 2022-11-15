@@ -58,16 +58,23 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On the **Insights** page, select the following values and click on **Open Configuration Workbook**.
    
-   - Subscription: **Choose the default subscription**.
-   - Resource group: **avd-hostpool-rg-avd**.
+   - Subscription: **Choose the default subscription**
+   - Resource group: **avd-hostpool-rg-avd**
    - Host Pool: **EB-AVD-HP**
-   - Time range: **Leave it to default**.
+   - Time range: **Leave it to default**
 
    ![ws name.](media/lab2a-avd-insights.png)
 
-1. On the **Check Configuration** page, select the **<inject key="Log Analytics Workspace Name" enableCopy="false" /> (1)** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page and click on **Configure host pool (2)**.
+1. On the **Check Configuration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page. 
 
-   ![ws name.](media/mon4.png)
+   - Resource group: **avd-hostpool-rg-avd**
+   - Host Pool: **EB-AVD-HP**
+
+   ![ws name.](media/AVD2AE2S4.png)
+   
+1. Scroll down on the same page and click on **Configure host pool**.
+
+    ![ws name.](media/AVD2AE2S5.png)
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 

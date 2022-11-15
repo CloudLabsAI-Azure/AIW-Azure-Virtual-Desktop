@@ -29,7 +29,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on **+ New user (1)** and select **+ Create new user (2)** from drop-down to add a new user.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/createanewuser.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media-1/lab7-ex1-s3.png)
 
 1. Add the following configurations and leave rest to default:
 
@@ -37,7 +37,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Name: **AVDUser01**
    - Click on **Create**.
 
-   ![ws name.](media/2avd106.png)
+   ![ws name.](media-1/lab7-ex1-s4.png)
 
 1. Click on **+ New user** and select **+ Create new user** to add one more user, then add the following configurations and leave the rest to default.
 
@@ -45,23 +45,23 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Name: **AVDUser02**
    - Click on **Create**
    
-   ![ws name.](media/2avd107.png)
+   ![ws name.](media-1/lab7-ex1-s5.png)
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
    ![ws name.](media/user-v2.png)
 
-1. Click on **AVDUser01** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+1. Click on **AVDUser01** to open it. Then click on **Groups** **(1)** under *Manage* blade and select **+ Add memberships** **(2)**.
 
-   ![ws name.](media/lb12.png)
+   ![ws name.](media-1/lab7-ex1-s7.png)
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
    ![ws name.](media/2avd43.png)
 
-1. Click on **AVDUser02** to open it. Then click on **Groups** under *Manage* blade and select **+ Add memberships**.
+1. Click on **AVDUser02** to open it. Then click on **Groups** **(1)** under *Manage* blade and select **+ Add memberships** **(2)**.
 
-   ![ws name.](media/im31.png)
+   ![ws name.](media-1/lab7-ex1-s9.png)
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
@@ -258,9 +258,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media/host-pool-properties.png)
    
-1. Change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
+1. From **Properties (1)** in left-menu, change the load balancing algorithm to **Depth-first (2)** then click on **Save icon (3)**.
 
-   ![ws name.](media/host-pool-depth-first.png)
+   ![ws name.](media-1/lab7-ex3b-s2.png)
    
 1. Paste the below-mentioned link in your browser, in the **JumpVM** and enter your **credentials** to login. 
 
