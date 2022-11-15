@@ -175,12 +175,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. Click on the *ellipsis* and select **Unsubscribe**. Click on **Yes** if prompted.
 
-   ![ws name.](media/lb16.png)
-
+    ![ws name.](media/lb16.png)
 
 1. Click on the **Subscribe** button.
 
-   ![ws name.](media/a49.png)
+    ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
 
