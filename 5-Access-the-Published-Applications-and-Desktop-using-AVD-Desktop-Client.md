@@ -75,6 +75,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 12. Wait for the Application to connect.
 
     ![ws name.](media/58.png)
+    
+    >**Note :** If you get stuck while initiating the application, navigate back to the Azure portal and restart the session host VMs and re-perform the Exercise-1
    
 13. The Excel application will launch and look similar to the screenshot below.
 
