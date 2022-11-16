@@ -102,6 +102,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
+   > **Note :** If you you see a black screen while launching the session desktop, please re-start the session dekstop and re-perform the step-5.
+   
 6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
