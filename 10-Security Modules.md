@@ -216,7 +216,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    ![](../Azure-Virtual-Desktop-v3/media/extractdefault.png)
 
-1. Now right-click on **AVDGPTemplate** **(1)** zip file and select **Extract All...** **(2)**.
+1. Now navigate to **Documents** folder, right-click on **AVDGPTemplate** **(1)** zip file and select **Extract All...** **(2)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/extractall1.png)
    
