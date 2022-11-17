@@ -200,9 +200,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/avdv235.png)
    
-1. From the Session desktop, open **Microsoft edge**
+1. From the Session desktop, search for **Microsoft edge (1)** from the search bar and select it **(2)**
 
-   ![](../Azure-Virtual-Desktop-v3/media/msedge.png)
+   ![](media-1/selectedge.png)
    
 1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using below URL.
 
