@@ -8,45 +8,6 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
 ### Task 1: Access AVD using the browser and Remote client
 
-1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to login. 
-
-   ```
-   aka.ms/wvdarmweb
-   ```
-
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
-   
-   ![ws name.](media/username.png)
-
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
-
-   ![ws name.](media/password.png)
-
-   >**Note**: If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
-
-   ![](media/login1.png)
-
-1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
-
-   ![ws name.](media/sess-v2.png)
-
-1. Select **Allow** on the prompt asking permission to *Access local resources*.
-
-   ![ws name.](media/Accessallowres-v2.png)
-
-1. Enter your **credentials** to access the application and click on **Submit**.
-
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
-   
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
-   
-   ![ws name.](media/lb52.png)
-
-1. The virtual Desktop will launch as shown below. 
-
-   ![ws name.](media/newrd2.png)
-   
-   >**NOTE**: **DO NOT** close the session or the AVD web client. Keep it running.
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
