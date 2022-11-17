@@ -83,6 +83,8 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/WindowsVirtualdesktop1.png)
     
+    >**Note :** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
+    
 7. After adding members, review the configuration and click on **Review + assign**.
 
    ![](../Azure-Virtual-Desktop-v3/media/assignroleassignment.png)
