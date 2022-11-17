@@ -296,6 +296,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
    
+   >**Note :** If you are not able to capture the blacked-out screenshot of the session desktop, re-start the session desktop and re-perform the above step
+   
 1. In your Own PC, open file explorer and navigate to **Pictures/Screenshots** and open the screenshot you took in Step-36
    
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
