@@ -1,4 +1,4 @@
-# Lab 13: App Masking (Optional)
+# Lab 13: App Masking (Read Only)
 
 
 ### Overview
