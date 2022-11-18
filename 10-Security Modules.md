@@ -362,18 +362,18 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
        ![](../Azure-Virtual-Desktop-v3/media/applocker.png)
        
-1. Within the same Session Desktop, from the Start menu search for Excel and try to open the application. You will get a pop-out stating that the **App has been blocked** because of the Control Policy.
+1. Within the same Session Desktop, from the Start menu search for **Photos (1)** and select it **(2)**.
+      
+    ![](media-1/photos.png)
+      
+3. You will get a pop-out stating that the **App has been blocked** because of the Control Policy.
 
-     '![](../Azure-Virtual-Desktop-v3/media/appblocked.png)
+    ![](media-1/appblock.png)
 
-      > **Note :** Try to open the Excel from the **Remote Desktop Client**. You will not be able to open the application since the policy has been applied.
+  
 
     
 1. Now you have successfully created App Locker for all Apps in the Session desktop.
 
-1. Now navigate back to the Local Security Policy, right-click on the created **Executable Rule** and click on **Delete**.
-
-    ![](media-1/delete.png)
     
-
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
