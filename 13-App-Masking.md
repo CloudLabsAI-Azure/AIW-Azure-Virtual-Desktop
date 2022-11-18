@@ -31,8 +31,7 @@ In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host us
    ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
 
 6.	Copy the script given below and paste it by using Ctrl + V in the Powershell window.
-   
-  > **Note :** Do not run the script right away.
+
 
 ```
 #Create Directories
@@ -85,7 +84,7 @@ Else {
 
 11. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
-    > **Note :** Do Not run the script right away.
+  
 
 ```
 #Create Directories
