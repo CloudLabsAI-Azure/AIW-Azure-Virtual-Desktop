@@ -327,31 +327,36 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](../Azure-Virtual-Desktop-v3/media/lockerprop.png)
      
-1. Navigate to  **Application Control Policy** -> **App Locker** -> **Executable Rules** then right click on **Executable Rules (1)** under App Locker and select **Create New Rule (2)**.
+1. Navigate to  **Application Control Policy** -> **App Locker** -> **Packaged app Rules** then right click on **Packaged app Rules (1)** under App Locker and select **Create New Rule (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/executablerule.png)
+    ![](media-1/packagedapprule.png)
     
 1. On **Create New Rules** window, follow the below instructions:
 
     - Leave everything default under **Before You Begin** and click on **Next**.
 
-      ![](../Azure-Virtual-Desktop-v3/media/beforeyoubegin.png)
+      ![](media-1/BYB.png)
       
     - On **Permissions (1)** tab, click on **Deny (2)** under Action and select **Next (3)**.
 
-      ![](../Azure-Virtual-Desktop-v3/media/permissions1.png)
+      ![](media-1/deny1.png)
       
-    - On **Conditions (1)** tab, select **Path (2)** and click on **Next (3)**.
+    - On **Published (1)** tab, choose **Use an installed packaged app for reference (2)** and click on **Select (3)**.
 
-       ![](../Azure-Virtual-Desktop-v3/media//path.png)
+       ![](media-1/publisher.png)
        
-    - On **Path (1)** tab, enter the path **C:\ProgramData\Microsoft\Windows\Start Menu\Programs (2)** and click on **Next (3)**.
+    - On **Select applictions** tab, scroll down to **Microsoft Photos (1)** and select it then click on **Ok (2)**.
 
-       ![](../Azure-Virtual-Desktop-v3/media/enterpath.png)
+       ![](media-1/selectapp.png)
+       
+    - Click on **Next**.
+
+       ![](media-1/nexttoexception.png)
+       
        
     - On **Exceptions (1)** tab, leave everything as default and click on **Create (2)**.
 
-      ![](../Azure-Virtual-Desktop-v3/media/expectations.png)
+      ![](media-1/create2.png)
       
     - If you get any pop-out for **App Locker** permissions, click on **No**.
 
