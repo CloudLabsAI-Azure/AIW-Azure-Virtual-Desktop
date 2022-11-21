@@ -149,7 +149,7 @@ Else {
 
     ![](media-1/hidechrome.png)
     
-4. On the **Rule Set : hidepowershell** window, follow the below instructions:
+4. On the **Rule Set : hidechrome** window, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
     - Select on ***Google Chrome (2)***
@@ -168,7 +168,7 @@ Else {
      
 7. Now in your JumpVM,  go to Start and search for **Chrome (1)** and double click on **Google Chrome (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your VM. 
 
-     ![](../Azure-Virtual-Desktop-v3/media/powershellse.png)
+     ![](media-1/googlechrome.png)
      
     **Note:** In the same way, you can apply the hiding rule to the session desktop in the remote desktop from your JumpVM.
     
