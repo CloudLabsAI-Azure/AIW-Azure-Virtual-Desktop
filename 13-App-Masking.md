@@ -145,32 +145,28 @@ Else {
 
     ![](../Azure-Virtual-Desktop-v3/media/new.png)
     
-3. Provide a name for the Rule Set as **hidepowershell (1)** and click on **Enter file name (2)**.
+3. Provide a name for the Rule Set as **hidechrome (1)** and click on **Enter file name (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/hidepowershell.png)
+    ![](media-1/hidechrome.png)
     
 4. On the **Rule Set : hidepowershell** window, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
-    -  Click on ***Browse (2)***
-    -  Navigate to the mentioned path ***C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell (3)*** and click on **Choose**.
-    -  Click on ***Scan (4)***
+    - Select on ***Google Chrome (2)***
+    -  Click on ***Scan (3)***
     
-      ![](../Azure-Virtual-Desktop-v3/media/chooseprogram.png)
+      ![](media-1/scan.png)
     
-    - **Note :** If you don't find the ProgramData under C drive, navigate to **Windows (C:)** drive, click on **View (1)** and check the box next to **Hidden items (2)** then re-perform the above step.
-
-      ![](../Azure-Virtual-Desktop-v3/media/hiddenitems.png)
     
 5. After Scan completes successfully, click on ***Ok***.
 
-     ![](../Azure-Virtual-Desktop-v3/media/scnok.png)
+     ![](media-1/clickok.png)
      
 6. Now you have created the hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
 
-     ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
+     ![](media-1/applyrule.png)
      
-7. Now in your JumpVM,  go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your VM. 
+7. Now in your JumpVM,  go to Start and search for **Chrome (1)** and double click on **Google Chrome (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your VM. 
 
      ![](../Azure-Virtual-Desktop-v3/media/powershellse.png)
      
