@@ -174,7 +174,7 @@ Else {
     
 8. Navigate back to FSLogix App Rule Editor and click on **Manage Assignments**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/manageassign.png)
+    ![](media-1/manageassig.png)
     
 9. On the Assignments tab, click on **Add**.
 
@@ -197,7 +197,7 @@ Else {
     
 13. Now you have added the User to the same hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your Session host on the Remote desktop.
 
-     ![](../Azure-Virtual-Desktop-v3/media/applyrul.png)
+     ![](media-1/applyrule.png)
      
 14. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
@@ -233,9 +233,9 @@ Else {
    
      ![ws name.](media/lb52.png)
      
-18. Within the session desktop, go to Start and search for **PowerShell (1)** and double click on **Windows Powershell ISE (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+18. Within the session desktop, go to Start and search for **Chrome (1)** and double click on **Google Chrome (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
-     ![](../Azure-Virtual-Desktop-v3/media/powershellse.png)
+     ![](media-1/googlechrome.png)
 
 19. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
