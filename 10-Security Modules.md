@@ -52,7 +52,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    ![](media/aad-properties-01.png)
    
 3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **No**.
-
+ 
+   > **Note:** Please ignore and proceed further if you find any survey points by Azure below **Enable Security defaults** option
+   
    ![](../Azure-Virtual-Desktop-v3/media/enablesecurity.png)
 
 4. From the left-hand side blade, click on **Security** under Manage.
