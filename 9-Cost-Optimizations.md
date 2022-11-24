@@ -62,9 +62,9 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
       
       - Click on **Select (4)**.
 
-    ![](media/roleass-v2.png)
+    > **Note :** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
     
-   > **Note :** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
+    ![](media/roleass-v2.png)
     
   - Click on **Review + assign**
 
