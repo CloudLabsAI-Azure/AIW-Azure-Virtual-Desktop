@@ -8,6 +8,8 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 ### Task 1: Create a custom role for Start VM on Connect
 
+> **Note :** If you observe the custom role is already exists, you can skip Task 1 and navigate to Task 2.
+
 1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
 
 1. Now in the Azure portal search for **Subscription** and click on the search result.
