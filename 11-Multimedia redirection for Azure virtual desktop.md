@@ -22,7 +22,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    - Microphone redirection: Select **Enable audio capture from the local devices and redirection to an audio application in the remote session** **(3)** from the dropdown.
    - Audio output location: Select **Play sounds on the remote computer** **(4)** from the dropdown
    - Camera redirection: Select **Redirect cameras** **(5)** from the dropdown.
-   - Leave the rest properties as **defaults**.
+   - Leave the rest of the properties as **default**.
    - click on **Save** **(6)**.
 
    ![ws name.](media/2avd121.png)
