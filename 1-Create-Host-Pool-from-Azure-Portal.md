@@ -48,7 +48,6 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 1. On **Virtual Machines** tab, provide the information as mentioned below:
    
    - Users per virtual machine: Select ***Multiple users***
-   - Image type: ***Gallery***
    - Image: **Windows 11 Enterprise multi-session + Microsoft 365 Apps** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
@@ -59,7 +58,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Link Azure template: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/virtual%20machines.png)
+   ![ws name.](../Azure-Virtual-Desktop-v3/media-1/Vmimage.png)
    
 1. On the **Assignments** page, provide the information as mentioned below, 
    
