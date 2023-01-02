@@ -53,9 +53,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    ![ws name.](media/ch9.png)
    
    >**Note :**  If you see a Blank Screen while launching the application, restart the AVD Session Hosts. To do so; follow the below steps:
-     - Navigate back to the Azure Portal and search for **Virtual Machines** from serach bar.
-     - Select the two AVD VMs and then click on the RESTART button from the top ribbon menu.
-     - After a minute or two; once the AVD Session host VMs are restarted; try the step again.
+   > - Navigate back to the Azure Portal and search for **Virtual Machines** from serach bar.
+   > - Select the two AVD VMs and then click on the **RESTART** button from the top ribbon menu.
+   > - After a minute or two; once the AVD Session host VMs are restarted; try the step again.
 
 7. Enter username **<inject key="AzureAdUserEmail" />** on *Activate Office* window and click on **Next**.
 
