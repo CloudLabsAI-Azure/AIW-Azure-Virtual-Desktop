@@ -74,13 +74,13 @@ Else {
 
    Note: It will take around five minutes for the script to execute.
    
-9. Navigate to virtual machines and click on **JumpVM-<inject key="DeploymentID"  enableCopy="true"/>.
+9. Navigate to virtual machines and click on **AVD-HP01-SH-1.
 
-    ![image](media-1/Selectjumpvm.png)
+    ![image](https://user-images.githubusercontent.com/83349577/175347379-ac20a82e-8ead-4523-a4d8-f75a927a55be.png)
 
 10. Click on **Run command (1)** under Operations. Then select **RunPowerShellScript (2)**.
 
-    ![image](media-1/runcommand.png)
+    ![image](https://user-images.githubusercontent.com/83349577/175347558-bda31f12-5470-4e1d-be5d-a4e67b94729c.png)
 
 11. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
