@@ -28,7 +28,10 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Identity provider: Select ***Existing active directory***
    - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
    - Resource Group: Enter ***AVD-HostPool-RG***
-   - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list
+   - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
+
+      >**Note** : The region you selected in the lab might be different from the region mentioned in the screenshot.
+      
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
    
