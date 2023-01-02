@@ -57,9 +57,9 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv215.png)
 
-1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is WVD Media Optimized**.
+1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is AVD Media Optimized**.
 
-   ![ws name.](media/avdv216.png)
+   ![ws name.](media-1/TeamsAVD.png)
    
    >**Note**: If you see a message saying **AVD Media not connected**. Please skip the step and continue with the lab.
    
