@@ -141,26 +141,18 @@ Else {
 
     ![](../Azure-Virtual-Desktop-v3/media/selectRE.png)
     
-2. On the FSLogix Apps RuleEditor application, click on **New**.
+2. On the FSLogix Apps RuleEditor application, click on **Open**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/new.png)
+    ![](../Azure-Virtual-Desktop-v3/media/clickonopen.png)
     
 3. Provide a name for the Rule Set as **hidechrome (1)** and click on **Enter file name (2)**.
 
     ![](media-1/hidechrome.png)
-    
-4. On the **Rule Set : hidechrome** window, follow the below instructions:
 
-    - Select ***Choose from installed programs (1)***
-    - Select on ***Google Chrome (2)***
-    -  Click on ***Scan (3)***
-    
-      ![](media-1/scan.png)
-    
-    
-5. After Scan completes successfully, click on ***Ok***.
+4. Navigate to the path **C:\Users\demouser\Documents\FSLogixRuleSets** and select **hidechrome**, then click on **Open**.
 
-     ![](media-1/clickok.png)
+    ![](media/hidechromeopne.png)
+    
      
 6. Now you have created the hiding rules to hide the PowerShell application. Click on **Apply Rules to System** to apply the created rule in your JumpVM.
 
