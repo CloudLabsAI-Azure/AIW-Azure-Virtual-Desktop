@@ -7,7 +7,7 @@ Application Masking is used to manage user access to installed components. Appli
 
 ##  Exercise 1: App Masking (Read-Only)
 
-In this exercise, you will creating the rule set in **FSLogix Apps RuleEditor** to disable the access to the application in the session hosts.
+In this exercise, you will learn the steps to create rule set in **FSLogix Apps RuleEditor** to disable the access to the application in the session hosts.
 
 
 1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application from the search results
@@ -18,10 +18,31 @@ In this exercise, you will creating the rule set in **FSLogix Apps RuleEditor** 
 
     ![](../Azure-Virtual-Desktop-v3/media/new.png)
 
-3. Provide a name for the Rule Set as **hidechrome (1)** and click on **Enter file name (2)**.
+3. Provide a name for the Rule Set as **hiderule (1)** and click on **Enter file name (2)**.
 
-    ![](media-1/hidechrome.png)
+    ![](media-1/hiderule.png)
 
+1. On the **Rule Set : hiderule** window, choose **Blank Rule Set (1)** and click on **Ok (2)**.
+
+   ![](media-1/blankrule.png)
+   
+1. On **FSLogix Apps RuleEditor**, click on **+ New Rule**.
+
+    ![](media-1/newrule.png)
+    
+1. Click on **Browse (1)** and select **File (2)**.
+
+    ![](media-1/file.png)
+    
+1. Navigate to the path **C:\Program Files\Microsoft Office\root\Office16 (1)**, select **MSAccess (2)** and click on **Open (3)**
+
+   ![](media-1/msaccess.png)
+   
+1. After selecting the application, click on **Ok**.
+
+   ![](media-1/clickok.png)
+   
+1. 
 4. On the **Rule Set : hidechrome** window, follow the below instructions:
 
     - Select ***Choose from installed programs (1)***
