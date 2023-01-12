@@ -7,7 +7,7 @@ Application Masking is used to manage user access to installed components. Appli
 
 ##  Exercise 1: Create Rule Set using FSLogix Apps RuleEditor (Read-Only)
 
-In this exercise, you will learn the steps to create rule set in **FSLogix Apps RuleEditor** to disable the access to the application in the session hosts.
+In this exercise, you go through the steps to create rule set in **FSLogix Apps RuleEditor** to disable the access to the application in the session hosts.
 
 
 1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application from the search results
