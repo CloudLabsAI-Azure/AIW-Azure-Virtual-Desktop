@@ -7,7 +7,7 @@ Application Masking is used to manage user access to installed components. Appli
 
 ##  Exercise 1: Create Rule Set using FSLogix Apps RuleEditor (Read-Only)
 
-In this exercise, you go through the steps to create rule set in **FSLogix Apps RuleEditor** to disable the access to the application in the session hosts.
+In this exercise, you go through the steps to create a rule set in **FSLogix Apps RuleEditor** to disable access to the application in the session hosts.
 
 
 1. In your JumpVM,  go to Start and search for **FSLogix Apps RuleEditor** and open the FSLogix Apps RuleEditor application from the search results
@@ -42,12 +42,12 @@ In this exercise, you go through the steps to create rule set in **FSLogix Apps 
 
    ![](media-1/clickok.png)
    
-  > **Note :** The rule sets are already created as part of pre-requists.
+  > **Note:** The rule sets are already created as part of pre-requisites.
 
 
 ##  Exercise 2: App Masking
 
-In this task, you will downlaod the pre-created rule sets into session host using a PowerShell script.
+In this task, you will download the pre-created rule sets into the session host using a PowerShell script.
 
 1. In your Azure portal search for Virtual machines in the search bar and click on Virtual Machines from the suggestions.
 
@@ -57,7 +57,7 @@ In this task, you will downlaod the pre-created rule sets into session host usin
 
    ![image](https://user-images.githubusercontent.com/83349577/175346345-4afff1e0-2259-4b8c-9f7e-4b1ed6a55287.png)
    
-3. Then click on Run command under Operations.
+3. Then click on the Run command under Operations.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346507-01f314bb-1fd0-4ce6-bfc4-f94dcd86e62a.png)
 
@@ -65,7 +65,7 @@ In this task, you will downlaod the pre-created rule sets into session host usin
  
    ![image](https://user-images.githubusercontent.com/83349577/175346633-755b0351-9aa1-4632-af15-66412246ea55.png)
 
-5.	A similar window as that of the below image will appear.
+5.	A similar window to that of the below image will appear.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
 
@@ -131,6 +131,74 @@ In this task, you will downlaod the pre-created rule sets into session host usin
 
    > **Note:** It will take around 1-2 minutes for the script to execute.
 
+1. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+
+   ![ws name.](media/137.png)
+   
+1. Once the application opens, click on **Subscribe**.
+
+   ![ws name.](media/a49.png)
+  
+1. Enter your **credentials** to access the workspace.
+
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
+   
+   >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
+
+   ![](media/skipfornow.png)
+
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+
+   ![ws name.](media/ex4t1s9.png)
+      
+1. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
+
+   ![ws name.](media/7-zip.png)
+   
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+
+   - Password: **<inject key="AzureAdUserPassword" />**
+   
+   ![ws name.](media/ch14.png)
+   
+   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+   
+   ![](media/login.png)
+
+1. Wait for the Session Desktop to connect.
+
+   ![ws name.](media/ex4t2s4.png)
+
+1. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
+
+    ![](media-1/runasadmin.png)
+    
+1. On the FSLogix Apps RuleEditor application, click on **Open**.
+
+    ![](../Azure-Virtual-Desktop-v3/media/clickonopen.png)
+    
+1. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
+
+   ![](media-1/openhiderule.png)
+   
+1. Once you have imported the rule, click on **Manage Assignments**.
+
+    ![](media-1/manage.png)
+    
+1. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
+
+    ![](media-1/ruleoneuser.png)
+    
+1. Now click on **Apply Rules to System**.
+
+   ![](media-1/applyrules.png)
+
 14. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
      ```
@@ -165,7 +233,7 @@ In this task, you will downlaod the pre-created rule sets into session host usin
    
      ![ws name.](media/lb52.png)
      
-18. Within the session desktop, go to Start and search for **Acess (1)** and double click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+18. Within the session desktop, go to Start and search for **Acess (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](media-1/accessblock.png)
 
