@@ -1,6 +1,6 @@
 # Release Notes
 
-### 13 Jan 2023
+### 13 January 2023
 
    - Major update with lab
    - [Lab 13-App Masking (Optional)](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/13-App-Masking-Updated.md) : The Configurations for App masking has been updated by Microsoft. Previously we used to configure the rules for App masking from Jump-VM. According to the new updates, now we are required to configure the rule set from session hosts. So created a new file for the updated version of APP Masking exercise with the name **13-App-Masking-Updated.md** in github and created the lab guide in it.
