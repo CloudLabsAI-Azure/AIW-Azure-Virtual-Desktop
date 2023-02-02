@@ -18,7 +18,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
 1. On the Azure Virtual Desktop Page, **Click** on the **Getting Started** **(1)** from the side blade and click on **Start** **(2)**.
 
-   ![ws name.](media/gsw1.png)
+   ![ws name.](media-1/Ex1-task1-step2.png)
    
 1. On **Getting Started Wizard** page, provide the information as mentioned below,
 
