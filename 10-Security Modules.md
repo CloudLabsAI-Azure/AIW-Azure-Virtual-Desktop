@@ -19,27 +19,29 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](media-1/staysigned.png)
     
-4. On a prompt saying "Help us protect your account", click on **Next**.
+3. On a prompt saying "Help us protect your account", click on **Next**.
 
    ![](media/mfa-00.png)
 
-3. Download the **Microsoft Authenticator** app on your Mobile from App Store. After installing the app, select **Next**.
+4. Download the **Microsoft Authenticator** app on your Mobile from App Store. After installing the app, select **Next**.
 
-   ![](media/mfa-01.png)
+   ![](media-1/EX10-task1-step4.png)
    
-4. In the Microsoft Authenticator app, set up your account by adding a work or school account. After adding an account select **Next**.
+5. In the Microsoft Authenticator app, set up your account by adding a work or school account. After adding an account select **Next**.
 
-   ![](media/mfa-02.png)
+   ![](media-1/EX10-task1-step5.png)
    
-5. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
+6. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
 
-   ![](media/mfa-03.png)
+   ![](media-1/EX10-task1-step6.png)
    
-6. A Notification to Approve will pop-up on your mobile. Approve that and select **Next**.
+7. A Notification to Approve will pop-up on your mobile. Approve that and select **Next**.
 
-   ![](media/mfa-04.png)
+   ![](media-1/EX10-task1-step7.png)
    
+8. Once Success! Great job! You have successfully set up your security info. Choose **Done** to continue signing in.
 
+   ![](media-1/EX10-task1-step8.png)
   
 ### Exercise 2: Creating Conditional Access Policy
 
@@ -78,7 +80,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      - Now a *Select* window will open, here search for ODL user and Select it **(5)**
      - Click on **Select** **(6)** button
    
-   ![](media-1/CAF.png)
+   ![](media-1/EX10-task2-step7a.png)
    
    - Click on **Cloud apps or actions** **(1)**
    - Click on **Select apps** **(2)**
@@ -86,21 +88,21 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
    - Now Click on **Select** **(5)** button.
 
-   ![](media-1/cloudapps.png)
+   ![](media-1/EX10-task2-step7b.png)
   
    - Click on **Conditions** **(1)**
    - Then select **Client apps** **(2)**
    - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
    - Then click on **Done** **(4)**
 
-   ![](media/avdv27.png)
+   ![](media-1/EX10-task2-step7c.png)
   
    - **Access Control**
    - Click on **Grant** **(1)**
    - Select the Check Box saying **Require multi-factor authentication** **(2)** 
    - Then click on **Select** **(3)**
 
-   ![](media/avdv28.png)
+   ![](media-1/EX10-task2-step7d.png)
    
 8. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
 
@@ -126,7 +128,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication menthod you have chosen in exercise 1, step 7 to complete the verification.
 
-     ![ws name.](media/2avd54.png)
+     ![ws name.](media-1/EX10-task2-step11.png)
 
     >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
