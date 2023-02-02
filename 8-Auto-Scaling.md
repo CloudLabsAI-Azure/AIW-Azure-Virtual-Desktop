@@ -87,9 +87,9 @@
     
 17. After adding members, review the configuration and click on **Review + assign**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/assignroleassignment.png)
+    ![](../Azure-Virtual-Desktop-v3/media/assignroleassignment.png)
 
-18. In Review + assign tab click on **Review + assign**.
+18. In Review + assign tab, click on **Review + assign**.
 
     ![](/media-1/Ex8-task1-add1.png)
 
