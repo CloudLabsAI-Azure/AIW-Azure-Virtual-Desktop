@@ -71,7 +71,7 @@ In the following task, we will be creating a storage account with a file share w
 
 9. Click on **Set up** under **Azure Active Directory Domain Services** for enabling Identity-based access to users.
 
-   ![ws name.](media/setup.png)
+   ![ws name.](media-1/Ex6-task1-step9.png)
 
 10. Select **Enable Azure Active Directory Domain Services (1)** and then click on **Save (2)**.
      
@@ -124,7 +124,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Click on **Members (1)** under **Manage** and select **+ Add members (2)**.
 
-   ![ws name.](media/2avd40.png)
+   ![ws name.](media-1/Ex6-task2-step6.png)
    
 1. Search and select username **<inject key="AzureAdUserEmail" /> (1)** and click on **Select (2)**.
 
@@ -140,7 +140,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
 1. Click on **Access Control (IAM) (1)**, then click on **Add (2)** and select **Add role assignment (3)**.
 
-   ![ws name.](media/uiupdate11.png)
+   ![ws name.](media-1/Ex6-task2-step9.png)
    
 1. Select following configuration for role assignment:  
    
@@ -163,11 +163,16 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
       - Then click on **Select (4)**.
    
-     ![ws name.](media/members-v2.png)
+     ![ws name.](media-1/Ex6-task2-step10note.png)
      
   - Click on **Review + assign**
 
      ![ws name.](media/review%2Bassign-v2.png)
+  
+  - Click on **Review + assign**
+
+     ![ws name.](media-1/Ex6-task2-step10note2.png)   
+     
   
 ## Exercise 3: Configure Session Hosts
 
@@ -183,7 +188,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
       
 3. Then click on **Run command** under **Operations**.
 
-   ![ws name.](media/wvd51.png)
+   ![ws name.](media-1/Ex6-task3-step3.png)
   
 4. Now select **RunPowerShellScript**.
 
@@ -281,7 +286,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 11. Click on **Run command (1)** under **Operations**. Then select **RunPowerShellScript (2)**.
 
-    ![ws name.](media/vm2-run-command.png)
+    ![ws name.](media-1/Ex6-task3-step11.png)
         
 12. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
 
