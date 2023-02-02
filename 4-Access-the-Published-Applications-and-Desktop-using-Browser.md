@@ -119,7 +119,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 8. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
-   ![ws name.](media/2avd85.png)
+   ![ws name.](media-1/Ex4-task2-step8.png)
 
 9. Click on **OK** to *Log off user from VMs*.
 
@@ -127,6 +127,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 10. Click on the **Refresh** button and make sure no results are displayed under Host pool.
 
-    ![ws name.](media/jvm10.png)
+    ![ws name.](media-1/Ex4-task2-step10.png)
 
 11. Click on the **Next** button present in the bottom-right corner of this lab guide. 
