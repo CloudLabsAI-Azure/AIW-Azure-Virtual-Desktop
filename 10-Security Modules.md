@@ -57,7 +57,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
  
    > **Note:** Please ignore and proceed further if you find any survey points by Azure below **Enable Security defaults** option
    
-   ![](../Azure-Virtual-Desktop-v3/media/enablesecurity.png)
+   ![](media/savd3.jpg)
 
 4. From the left-hand side blade, click on **Security** under Manage.
 
