@@ -40,9 +40,9 @@ In this task, you will through the process to understand the creation of custom 
 
 1. From the list of permissions, search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual Machine** **(1)** and **Other : Start Virtual Machine** **(2)** and click on **Add** **(3)**.
 
-   ![](media/avdv225.png)
+   ![](media-1/Ex9-task1-step8.png)
   
-1. Now click on **Review + Create** to publish the roles.
+1. Now click on **Review + Create** to publish the roles and followed by **Ok**. 
 
    ![](media/avdv226.png)
   
@@ -82,14 +82,14 @@ In this task, you will through the process to understand the creation of custom 
   
 1. On the left-hand side blade, click on **Host pools** **(1)** and select the **host pool** **(2)** we want to configure.
 
-   ![](media/2avd112.png)
+   ![](media-1/Ex9-task2-step2.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** **(1)**
   
    - Toggle **Start VM on connect** to **Yes** **(2)**.
    - Click on **Save** **(3)**.
 
-   ![](media/2avd114.png)
+   ![](media-1/Ex9-task2-step3.png)
 
 ## Exercise 3: Experience VM start on connect
 
@@ -131,7 +131,7 @@ In this task, you will through the process to understand the creation of custom 
    
    - Password: *Paste the password*  **<inject key="AzureAdUserPassword" />** *and click on* **Sign in**.
 
-    ![ws name.](media/96.png))
+      ![ws name.](media/96.png))
 
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 

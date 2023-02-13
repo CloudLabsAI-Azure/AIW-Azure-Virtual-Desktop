@@ -21,15 +21,15 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 2. You will be directed towards the **Azure Virtual Desktop** management window.  
 
-   ![ws name.](media/64.png)
+   ![ws name.](media-1/Ex3-task1-step2.png)
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
-   ![ws name.](media/2avd81.png)
+   ![ws name.](media-1/Ex3-task1-step3a.png)
    
 4. Click on the **EB-AVD-HP-DAG** application group.
 
-   ![ws name.](media/2avd82.png)
+   ![ws name.](media-1/Ex3-task1-step4.png)
       
 5. Under **Manage** blade, open **Assignments (1)** and then click on **+ Add (2)**. 
 
@@ -45,7 +45,7 @@ An application group of type ‘Desktop’, was created automatically while crea
  
 8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
 
-   ![ws name.](media/2avd84.png)
+   ![ws name.](media-1/Ex3-task1-step8.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
@@ -62,7 +62,7 @@ An application group of type ‘Desktop’, was created automatically while crea
       - Application Group Name: **AVD-AG-01**
       - Click on **Next: Applications >**
 
-      ![ws name.](media/gsu4.png)
+      ![ws name.](media-1/Ex3-task1-step9.png)
 
 10. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
 
@@ -75,7 +75,7 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Display Name: **Excel**
     - Leave the rest of the parameters as default and click on **Save**.
    
-    ![ws name.](media/2avd29.png)
+    ![ws name.](media-1/Ex3-task1-step11.png)
  
 12. Click on **Add Applications** again. 
 
@@ -88,7 +88,7 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Display Name: **Word**    
     - Leave rest of the parameters to default and click on **Save**.  
    
-    ![ws name.](media/2avd30.png)
+    ![ws name.](media-1/Ex3-task1-step13.png)
 
 14. Click on **Next: Assignments >**.
 
@@ -107,7 +107,7 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Register Application Group: **Yes**
     - Register Application Group: Leave the value to default
 
-    ![ws name.](media/gsu3.png)
+    ![ws name.](media-1/Ex3-task1-step17.png)
 
 18. Click on **Review + Create**.
 

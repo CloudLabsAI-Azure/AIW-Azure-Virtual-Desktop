@@ -65,39 +65,43 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/createCR.png)
 
-3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
+13. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
-4. On **Add Role Assignment (1)** page, search for **Azure Virtual Desktop Autoscale (2)** and select it, then click on **Next (3)**.
+14. On **Add Role Assignment (1)** page, search for **Azure Virtual Desktop Autoscale (2)** and select it, then click on **Next (3)**.
 
    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
    >**Note :** If you don't find the role, wait for 2-3 min and re-perform the above step.
    
-5. Under **Members** tab, click on **+ Select members**.
+15. Under **Members** tab, click on **+ Select members**.
 
    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
    
-6. On **Select members (1)** tab, search for **Windows Virtual Desktop (2)** and select it then click on **Select (3)**.
+16. On **Select members (1)** tab, search for **Windows Virtual Desktop (2)** and select it then click on **Select (3)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/WindowsVirtualdesktop1.png)
     
     >**Note :** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
     
-7. After adding members, review the configuration and click on **Review + assign**.
+17. After adding members, review the configuration and click on **Review + assign**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/assignroleassignment.png)
+    ![](../Azure-Virtual-Desktop-v3/media/assignroleassignment.png)
 
-4. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
+18. In Review + assign tab, click on **Review + assign**.
+
+    ![](/media-1/Ex8-task1-add1.png)
+
+19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/avd2.png)
    
-2. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create a scaling plan (2)**.
+20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create a scaling plan (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/csp.png)
    
-3. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
+21. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
 
     - Subscription : Leave it to **default (1)**
     - Resource group : Select **AVD-HostPool-RG-avd (2)**
@@ -109,15 +113,15 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/schedulee.png)
 
-4. On the **Schedules** tab, click on **+ Add Schedule**
+22. On the **Schedules** tab, click on **+ Add Schedule**
 
     ![](../Azure-Virtual-Desktop-v3/media/addschedulee.png)
    
-5. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
+23. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
 
     ![](../Azure-Virtual-Desktop-v3/media/general1.png)
    
-6. On the **Ramp-up** tab, follow the below instructions:
+24. On the **Ramp-up** tab, follow the below instructions:
 
     - Start time (24 hour system) : Enter your **Start time (1)**
     - Load Balancing Algorithm : Choose **Breadth-first (2)**
@@ -127,7 +131,7 @@
     
     ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
    
-7. On the **Peak hours** tab, follow the below instructions:
+25. On the **Peak hours** tab, follow the below instructions:
 
     - Start time (24 hour system) : Enter your **Start time (1)**
     - Load Balancing Algorithm : Choose **Depth-first (2)**
@@ -135,7 +139,7 @@
     
     ![](../Azure-Virtual-Desktop-v3/media/peakhours1.png)
    
-8. On the **Ramp-down** tab, follow the below instructions:
+26. On the **Ramp-down** tab, follow the below instructions:
 
      - Start time (24 hour system) : Enter your **Start time (1)**
      - Load Balancing Algorithm : Choose **Depth-first (2)**
@@ -147,7 +151,7 @@
 
      ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
    
-9. On the **Off-peak hours** tab, follow the below instructions:
+27. On the **Off-peak hours** tab, follow the below instructions:
 
      - Start time (24 hour system) : Enter your **Start time (1)**
      - Load Balancing Algorithm : Choose **Depth-first (2)**
@@ -155,23 +159,23 @@
 
      ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
   
-10. After adding the schedule, click on **Next: Host pool assignments >**
+28. After adding the schedule, click on **Next: Host pool assignments >**
 
      ![](../Azure-Virtual-Desktop-v3/media/hpa1.png)
     
-11. On **Host pool assignments** tab, select **EB-AVD-HP (1)** from the drop-down and click on **Review + create (2)**.
+29. On **Host pool assignments** tab, select **EB-AVD-HP (1)** from the drop-down and click on **Review + create (2)**.
 
      ![](../Azure-Virtual-Desktop-v3/media/RCHPS.png)
      
-12. Review the changes and click on **Create**.
+30. Review the changes and click on **Create**.
 
      ![](../Azure-Virtual-Desktop-v3/media/spcreate.png)
      
-13. After the successful deployment, click on **Go to resource**.
+31. After the successful deployment, click on **Go to resource**.
 
      ![](../Azure-Virtual-Desktop-v3/media/GTR.png)
  
- 14. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
+ 32. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
 
      ![](../Azure-Virtual-Desktop-v3/media/overviewsp.png)
      
@@ -189,6 +193,6 @@
 
 
      
-15. Click on the **Next** button present in the bottom-right corner of this lab guide.
+33. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 

@@ -35,15 +35,15 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Click on **Review + Create**
 
-   ![ws name.](media/LAW-V2.png)
+   ![ws name.](media-1/Ex2-task1-step4.png)
 
 1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
-   ![ws name.](media/Create%20LAW-V2.png)
+   ![ws name.](media-1/Ex2-task1-step5.png)
 
 1. Once the deployment succeeds, it will look similar to the image shown below:
 
-   ![ws name.](media/lb60.png)
+   ![ws name.](media-1/Ex2-task1-step6.png)
    
 
 ## Exercise 2: Enable diagnostics for Workspace
@@ -54,7 +54,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. You will get directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
-   ![ws name.](media/mon2.png)
+   ![ws name.](media-1/Ex2-task2-step2.png)
    
 1. On the **Insights** page, select the following values and click on **Open Configuration Workbook**.
    
@@ -63,7 +63,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Host Pool: **EB-AVD-HP**
    - Time range: **Leave it to default**
 
-   ![ws name.](media/lab2a-avd-insights.png)
+   ![ws name.](media-1/Ex2-task2-step3.png)
 
 1. On the **Check Configuration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page. 
 

@@ -27,7 +27,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/2avd104.png)
 
-1. Click on **+ New user (1)** and select **+ Create new user (2)** from drop-down to add a new user.
+1. Click on **+ New user (1)** and select **Create new user (2)** from drop-down to add a new user.
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media-1/lab7-ex1-s3.png)
 
@@ -39,7 +39,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media-1/lab7-ex1-s4.png)
 
-1. Click on **+ New user** and select **+ Create new user** to add one more user, then add the following configurations and leave the rest to default.
+1. Click on **+ New user** and select **Create new user** to add one more user, then add the following configurations and leave the rest to default.
 
    - User name: **AVDUser02**
    - Name: **AVDUser02**
@@ -49,7 +49,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
-   ![ws name.](media/user-v2.png)
+   ![ws name.](media-1/Ex7-task1-step6.png)
 
 1. Click on **AVDUser01** to open it. Then click on **Groups** **(1)** under *Manage* blade and select **+ Add memberships** **(2)**.
 
@@ -228,7 +228,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
  
 1. Under Manage blade, click on **Session hosts**.
 
-   ![ws name.](media/2avd92.png)
+   ![ws name.](media-1/Ex7-task3-step16.png)
    
 1. You can see that both session hosts have one Active session each.
 
@@ -238,13 +238,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    > 
    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
-1. Open **AVD-HP01-SH-0** session host and click on **Users**, there you can see the user logged in to that session host. Now select the user **(1)** and click on the **Log off users (2)** button and select **OK (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
+1. Open **AVD-HP01-SH-0** session host and click on **Users**, there you can see the user logged in to that session host. Now select the user **(1)** and click on the **Log off users (2)** button and select **Log off (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
 
-   ![ws name.](media/2avd99.png)
+   ![ws name.](media-1/Ex7-task3-step18.png)
 
-1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, click on **Users (1)** and you can see the user logged in to that session host. Now select the user and click on the **Log off users (2)** button and select **OK (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-1*.
+1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, click on **Users (1)** and you can see the user logged in to that session host. Now select the user and click on the **Log off users (2)** button and select **Log off (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-1*.
 
-   ![ws name.](media/2avd100.png)
+   ![ws name.](media-1/Ex7-task3-step19e.png)
 
    >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
@@ -323,7 +323,6 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media/AVD-hostpool02.png)
-
+   ![ws name.](media-1/Ex7-task3b-step14.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
