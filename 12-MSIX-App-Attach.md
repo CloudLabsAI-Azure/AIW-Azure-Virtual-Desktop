@@ -69,9 +69,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix7.png)
    
-1. Under the **Windows** tab, select **Storage account key** and **copy** the code from the window.
+1. Under the **Windows** tab, select **Storage account key**, click on **Show Script** and **copy** the code from the window.
 
-   ![ws name.](media/msix8.png)
+   ![ws name.](media/savd4.jpg)
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
