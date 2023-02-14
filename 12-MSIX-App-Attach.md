@@ -145,7 +145,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Once the execution is completed, you'll be able to see similar output as mentioned below.
 
-   ![ws name.](media/msix27.png)
+   ![ws name.](media/savd5.jpg)
 
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
@@ -181,7 +181,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Once the execution is completed, you'll be able to see similar output as mentioned below.
 
-   ![ws name.](media/msix27.png)
+   ![ws name.](media/savd5.jpg)
    
 ## Exercise 2: Creating MSIX Package in AVD environment
    
