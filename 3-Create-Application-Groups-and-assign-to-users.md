@@ -45,7 +45,7 @@ An application group of type ‘Desktop’, was created automatically while crea
  
 8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
 
-   ![ws name.](media-1/Ex3-task1-step8.png)
+   ![ws name.](media-2/createapplication.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
