@@ -64,7 +64,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
       
 10. The AVD dashboard will launch, then double click on the **Excel** application to access it.
 
-    ![ws name.](media/remote%20desktop-v2.png)
+    ![ws name.](media-2/rd-excel.png)
    
 11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
