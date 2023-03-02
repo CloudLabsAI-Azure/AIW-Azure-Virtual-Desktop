@@ -34,7 +34,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 3. The AVD dashboard will launch.Click on **Word** to access it.  
 
-   ![ws name.](media/word-v2.png)
+   ![ws name.](media-2/word.png)
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
