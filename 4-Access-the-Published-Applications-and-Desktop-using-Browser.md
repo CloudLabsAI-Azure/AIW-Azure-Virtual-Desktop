@@ -89,7 +89,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
       
 2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
 
-   ![ws name.](media/session%20desktop-v2.png)
+   ![ws name.](media-2/sessiondesktop.png)
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
