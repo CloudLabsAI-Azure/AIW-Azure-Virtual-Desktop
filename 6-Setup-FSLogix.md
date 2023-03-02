@@ -46,16 +46,16 @@ In the following task, we will be creating a storage account with a file share w
 
 5. In the _Networking_ tab, use the following configurations:
 
-   - Network access: **Enable public access from selected virtual networks and IP addresses**
+   - Network access: **Enable public access from selected virtual networks and IP addresses (1)**
      
    >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
-   - Virtual network subscription: Leave it to ***default***.
-   - Virtual Network: **aadds-vnet**
-   - Subnets: **sessionhost-subnet (10.0.1.0/24)**
+   - Virtual network subscription: Leave it to ***default (2)***.
+   - Virtual Network: **aadds-vnet (3)**
+   - Subnets: **sessionhost-subnet (10.0.1.0/24) (4)**
    - Leave the rest to default settings.
-   - Click on **Review**.
+   - Click on **Review (5)**.
      
-   ![ws name.](media/AVD6E1S5.png)
+   ![ws name.](media-2/networking.png)
      
 6. Click on **Create**.
 
