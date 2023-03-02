@@ -96,7 +96,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 17. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
-    ![ws name.](media-1/Ex5-task1-step17.png)
+    ![ws name.](media-2/hplogoff.png)
 
 18. Click on **OK** to *Log off user from VMs*.
 
