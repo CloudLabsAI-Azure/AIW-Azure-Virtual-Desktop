@@ -469,7 +469,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
 7. Now you will be able to see the user profiles data stored in the filesharers in a ***.vhd*** format.
 
-   ![ws name.](media/wiw24.png)
+   ![ws name.](media-2/userprofile.png)
 
    >**Note:** It might take some time for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
 
