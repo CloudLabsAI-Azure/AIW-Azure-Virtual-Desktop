@@ -98,7 +98,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On **Check Configuration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
-   ![ws name.](media/gsu2.png)
+   ![ws name.](media-2/datasettings.png)
    
 1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window.
 
