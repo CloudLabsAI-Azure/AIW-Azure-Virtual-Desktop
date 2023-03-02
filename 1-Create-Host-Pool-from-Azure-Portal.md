@@ -77,9 +77,9 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
    >**NOTE**: Usually it takes 20 mins to get deployed successfully. Sometimes it might take upto 90 minutes.
    
-1. Once the deployment is successful, **Click** on **Go to resource**.
+1. Once the deployment succeeds, it will look similar to the image shown below:
 
-   ![ws name.](media/gsw7.png)
+   ![ws name.](media-1/subscription.png)
    
    >**Note**: If the host pool **deployment fails**, please **follow the steps below:**
    >If the host deployment is successful, we can move to step 8.
