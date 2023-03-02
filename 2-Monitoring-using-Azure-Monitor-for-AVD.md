@@ -60,17 +60,17 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
    - Subscription: **Choose the default subscription**
    - Resource group: **avd-hostpool-rg-avd**
-   - Host Pool: **EB-AVD-HP**
+   - Host Pool: **GS-AVD-HP**
    - Time range: **Leave it to default**
 
-   ![ws name.](media-1/Ex2-task2-step3.png)
+   ![ws name.](media-2/insights.png)
 
 1. On the **Check Configuration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page. 
 
    - Resource group: **avd-hostpool-rg-avd**
-   - Host Pool: **EB-AVD-HP**
+   - Host Pool: **GS-AVD-HP**
 
-   ![ws name.](media/AVD2AE2S4.png)
+   ![ws name.](media-2/checkconfiguration.png)
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
@@ -82,7 +82,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media/lab2a-check-config.png)
+   ![ws name.](media-2/wvd.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
