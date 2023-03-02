@@ -25,15 +25,15 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 3. Click on the **Application Groups** tab and you will see the default Application Group there. 
 
-   ![ws name.](media-1/Ex3-task1-step3a.png)
+   ![ws name.](media-2/applicationgroup.png)
    
-4. Click on the **EB-AVD-HP-DAG** application group.
+4. Click on the **GS-AVD-HP-DAG** application group.
 
-   ![ws name.](media-1/Ex3-task1-step4.png)
+   ![ws name.](media-2/gsavd.png)
       
 5. Under **Manage** blade, open **Assignments (1)** and then click on **+ Add (2)**. 
 
-   ![ws name.](media/savd2.jpg)   
+   ![ws name.](media-2/assignments.png)   
  
 6. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" /> (1)**. Then under the search bar **(2)**, click on your username to select it.
 
