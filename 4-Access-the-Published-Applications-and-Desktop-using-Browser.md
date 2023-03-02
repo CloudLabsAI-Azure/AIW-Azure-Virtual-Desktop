@@ -119,7 +119,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 8. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
-   ![ws name.](media-1/Ex4-task2-step8.png)
+   ![ws name.](media-2/session.png)
 
 9. Click on **OK** to *Log off user from VMs*.
 
