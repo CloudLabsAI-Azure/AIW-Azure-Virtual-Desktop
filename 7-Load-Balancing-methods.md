@@ -254,13 +254,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    >**Note:** If the previous session is closed, visit `aka.ms/wvdarmweb`, then click on *Default Desktop* and login with *AVDUser01* credentials.
 
-1. In *EB-AVD-HP* host pool, click on **Properties** under *Settings* blade.
+1. In *GS-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
-   ![ws name.](media/host-pool-properties.png)
+   ![ws name.](media-2/properties.png)
    
-1. From **Properties (1)** in left-menu, change the load balancing algorithm to **Depth-first (2)** then click on **Save icon (3)**.
+1. From Properties in left-menu, change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
 
-   ![ws name.](media-1/lab7-ex3b-s2.png)
+   ![ws name.](media-2/depth.png)
    
 1. Paste the below-mentioned link in your browser, in the **JumpVM** and enter your **credentials** to login. 
 
