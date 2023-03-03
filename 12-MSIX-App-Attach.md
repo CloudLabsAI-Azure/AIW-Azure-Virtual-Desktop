@@ -223,7 +223,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Under **Manage** blade, Select the **Application groups** tab and click on **AVD-AG-01**.
 
-   ![ws name.](media/msix19.png)
+   ![ws name.](media-2/appgroup.png)
 
 1. Under **Manage** blade, Select the **Applications (1)** tab and click on **Add (2)**.
 
