@@ -238,13 +238,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    > 
    >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
-1. Open **AVD-HP01-SH-0** session host and click on **Users**, there you can see the user logged in to that session host. Now select the user **(1)** and click on the **Log off users (2)** button and select **Log off (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
+1. Open **AVD-HP01-SH-0** session host and click on **Users (1)**, there you can see the user logged in to that session host. Now select the user and click on the **Log off users (2)** button and select **Log off (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-0*.
 
    ![ws name.](media-1/Ex7-task3-step18.png)
 
 1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1** session host, click on **Users (1)** and you can see the user logged in to that session host. Now select the user and click on the **Log off users (2)** button and select **Log off (3)** to the prompt asking *This will logoff selected users from session host AVD-HP01-SH-1*.
 
-   ![ws name.](media-1/Ex7-task3-step19e.png)
+   ![ws name.](media-2/logoff.png)
 
    >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
