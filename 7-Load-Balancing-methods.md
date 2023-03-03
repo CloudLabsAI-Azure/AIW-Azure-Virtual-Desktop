@@ -309,13 +309,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
 
-1. Return back to the Azure portal in the **JumpVM**, navigate to **EB-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
+1. Return back to the Azure portal in the **JumpVM**, navigate to **GS-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
-   ![ws name.](media/2avd103.png)
+   ![ws name.](media-2/avdsession.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
-   ![ws name.](media/lb21.png)
+   ![ws name.](media-2/2users.png)
    
    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
    >
@@ -323,6 +323,6 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
-   ![ws name.](media-1/Ex7-task3b-step14.png)
+   ![ws name.](media-2/users.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
