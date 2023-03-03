@@ -67,13 +67,13 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](media/2avd43.png)
 
-1. Navigate to the host pool *EB-AVD-HP* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
+1. Navigate to the host pool *GS-AVD-HP* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
-    ![ws name.](media/2avd87.png)
+    ![ws name.](media-2/Application.png)
 
-1. Open application group **EB-AVD-HP-DAG** and click on **Assignments** under *Manage* blade.
+1. Open application group **GS-AVD-HP-DAG** and click on **Assignments** under *Manage* blade.
 
-    ![ws name.](media/2avd89.png)
+    ![ws name.](media-2/assignments1.png)
    
 1. Click on **+ Add (1)**, then in the search bar, type **AVDUser (2)** and select both **AVDUser01 (3)** & **AVDUser02 (4)** that we created earlier. At last, click on the **Select (5)** button.
 
