@@ -146,9 +146,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![ws name.](media/lb38.png)
    
-1. Now click on **EB-AVD-HP** host pool to access it.
+1. Now click on **GS-AVD-HP** host pool to access it.
 
-   ![ws name.](media/2avd91.png)
+   ![ws name.](media-2/selecthp.png)
    
 1. Under Settings, click on **Properties**.
 
