@@ -82,14 +82,14 @@ In this task, you will through the process to understand the creation of custom 
   
 1. On the left-hand side blade, click on **Host pools** **(1)** and select the **host pool** **(2)** we want to configure.
 
-   ![](media-1/Ex9-task2-step2.png)
+   ![](media-2/avdhp.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** **(1)**
   
    - Toggle **Start VM on connect** to **Yes** **(2)**.
    - Click on **Save** **(3)**.
 
-   ![](media-1/Ex9-task2-step3.png)
+   ![](media-2/hpproperties.png)
 
 ## Exercise 3: Experience VM start on connect
 
@@ -135,7 +135,7 @@ In this task, you will through the process to understand the creation of custom 
 
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
-   ![ws name.](media/session%20desktop-v2.png)
+   ![ws name.](media-2/sessiondesktop.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
