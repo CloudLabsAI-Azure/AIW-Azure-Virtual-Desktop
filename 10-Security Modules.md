@@ -156,7 +156,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. On the Properties page, select **Yes (1)** for **Validation environment** and click on **Save (2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/saveprop.png)
+   ![](media-2/validation.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
 
