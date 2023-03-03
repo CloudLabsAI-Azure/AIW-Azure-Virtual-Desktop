@@ -199,13 +199,13 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/64.png)
    
-1. Select **Host pools** from the side blade and **select** the **EB-AVD-HP** host pool.
+1. Select **Host pools** from the side blade and **select** the **GS-AVD-HP** host pool.
 
-   ![ws name.](media/2avd120.png)
+   ![ws name.](media-2/avdhp.png)
 
 1. Under **Manage** blade, Select the **MSIX packages (1)** tab and click on **Add (2)**.
 
-   ![ws name.](media/2avd124.png)
+   ![ws name.](media-2/msix.png)
    
 1. Paste the **URL** and follow the below-mentioned steps to create **UNC** path.
 
