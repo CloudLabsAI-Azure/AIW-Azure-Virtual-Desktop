@@ -272,7 +272,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/desktp-v2.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -296,7 +296,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. In the AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/desktp-v2.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
