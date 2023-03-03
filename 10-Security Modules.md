@@ -188,7 +188,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. Once you are signed in into the AVD client, double click on the **SessionDesktop**.
 
-   ![ws name.](media/session%20desktop-v2.png)
+   ![ws name.](media-2/sessiondesktop.png)
    
 1. A window saying *Connecting to: SessionDesktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
