@@ -155,7 +155,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/desktp-v2.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -205,7 +205,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. In the AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](media/desktp-v2.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -222,17 +222,17 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media/lb38.png)
    
-1. Now click on **EB-AVD-HP** host pool to access it.
+1. Now click on **GS-AVD-HP** host pool to access it.
 
-   ![ws name.](media/2avd91.png)
+   ![ws name.](media-2/selecthp.png)
  
 1. Under Manage blade, click on **Session hosts**.
 
-   ![ws name.](media-1/Ex7-task3-step16.png)
+   ![ws name.](media-2/sessionhosts.png)
    
 1. You can see that both session hosts have one Active session each.
 
-   ![ws name.](media/2avd101.png)
+   ![ws name.](media-2/sessionhosts1.png)
    
    >**Note:** This shows how users are distributed among different session hosts, under *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
    > 
