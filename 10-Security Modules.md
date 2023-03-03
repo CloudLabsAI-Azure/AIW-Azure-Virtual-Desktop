@@ -136,7 +136,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 12. The AVD dashboard will be launched. 
 
-     ![](media/EB-AVD-WS.png)
+     ![](media-2/gsavdws.png)
 
 
 ## Exercise 3 : Screen Capture Protection
