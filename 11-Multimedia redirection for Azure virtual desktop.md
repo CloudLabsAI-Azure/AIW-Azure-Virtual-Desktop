@@ -13,9 +13,9 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/w1.png)
    
-1. Select **Host pools** from the side blade and select **EB-AVD-HP**.
+1. Select **Host pools** from the side blade and select **GS-AVD-HP**.
 
-   ![ws name.](media/2avd120.png)
+   ![ws name.](media-2/avdhp.png)
    
 1. Under Settings, Select **RDP Properties** **(1)** and select **Device redirection** **(2)**. Select the following options.
    
@@ -25,7 +25,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    - Leave the rest of the properties as **default**.
    - click on **Save** **(6)**.
 
-   ![ws name.](media/2avd121.png)
+   ![ws name.](media-2/rdpproperties.png)
 
 1. On your PC, search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
@@ -33,7 +33,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. The AVD desktop client will launch, then double-click on the SessionDesktop application to access it.
 
-   ![ws name.](media/session%20desktop-v2.png)
+   ![ws name.](media-2/sessiondesktop.png)
    
 1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
