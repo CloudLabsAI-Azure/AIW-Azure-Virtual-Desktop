@@ -41,7 +41,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
 1. In the AVD client, double click on the **Session Desktop** to access it. 
 
-   ![ws name.](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/raw/Azure-Virtual-Desktop-v3/media/sess-v2.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
