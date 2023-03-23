@@ -18,7 +18,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
 2.	On the AVD **Overview page (1)**, click on Create a host pool **(2)**.
 
-   ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
+     ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
@@ -36,7 +36,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Load balancing algorithm: **Breadth-first (7)**
    - Max session limit: **5** **(8)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
+    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
         
    
 4.	On the **Virtual Machines** tab, provide the following information :
@@ -55,7 +55,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Number of VMs: **2 (10)**
    - OS disk type: **Standard SSD (11)**
 
-   ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
+     ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
        
    B. **Network and security**
   
@@ -63,14 +63,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Network security group: **Basic (2)**
    - Public inbound ports: **No (3)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
+     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
        
    C. **Domain to join**
     
    - Select which directory you would like to join: **Azure Active Directory (1)**
    - Enroll VM with Intune: **No (2)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
+     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
 
    D. **Virtual Machine Administrator account**
     
@@ -79,7 +79,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Confirm password: **Password.1!!** **(3)**
    - Click on **Next : Workspace > (4)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
+     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
