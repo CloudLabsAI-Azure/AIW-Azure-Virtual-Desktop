@@ -57,7 +57,7 @@ An application group of type ‘Desktop’, was created automatically while crea
    ii. Fill in the remaining parameters below:  
    
       - Resource Group: *Select* **AVD-Hostpool-RG-avd** *from the dropdown*.
-      - Host Pool: *Select* **EB-AVD-HP** *Host pool from the dropdown*.
+      - Host Pool: *Select* **GS-AVD-HP** *Host pool from the dropdown*.
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
       - Click on **Next: Applications >**

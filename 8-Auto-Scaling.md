@@ -67,17 +67,17 @@
 
 13. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
+    ![](../Azure-Virtual-Desktop-v3/media/IAM.png)
    
 14. On **Add Role Assignment (1)** page, search for **Azure Virtual Desktop Autoscale (2)** and select it, then click on **Next (3)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
+    ![](../Azure-Virtual-Desktop-v3/media/AVDrole.png)
    
-   >**Note :** If you don't find the role, wait for 2-3 min and re-perform the above step.
+     >**Note :** If you don't find the role, wait for 2-3 min and re-perform the above step.
    
 15. Under **Members** tab, click on **+ Select members**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
+    ![](../Azure-Virtual-Desktop-v3/media/selectmem.png)
    
 16. On **Select members (1)** tab, search for **Windows Virtual Desktop (2)** and select it then click on **Select (3)**.
 

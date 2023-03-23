@@ -61,13 +61,13 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
 >**NOTE**: While performing this exercise, you might see that data is not loaded as expected. In such a scenario, Please refresh the **Insights** page until the data is loaded.
    
-1. Now, Navigate to Azure Virtual Desktop and select **Insights (Preview)** under **Monitoring** blade in the Azure Portal.
+1. Now, Navigate to Azure Virtual Desktop and select **Insights** under **Monitoring** blade in the Azure Portal.
 
-   ![ws name.](media-2/insightspreview.png)
+   ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
-1. In **Insights (Preview)** page, **Click** on **Overview** tab *(1)*. Here on **GS-AVD-HP** host pool, you'll be able to monitor the status and health of the session hosts (3).
+1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here on **GS-AVD-HP** host pool, you'll be able to monitor the status and health of the session hosts (3).
 
-   ![ws name.](media-2/insightsoverview.png)
+   ![ws name.](media-2/lab16-task2-step2.png)
    
 1. **Click** on **Users** *(1)* tab, In **UPN to search for** blank paste **<inject key="Avd User 01" />** *(2)* and wait for the data to load. This tab gives an overview of the user's usage. Scroll down and explore different information loaded.
 

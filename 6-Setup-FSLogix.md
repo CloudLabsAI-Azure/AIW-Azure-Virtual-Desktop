@@ -163,15 +163,15 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
       - Then click on **Select (4)**.
    
-     ![ws name.](media-1/Ex6-task2-step10note.png)
+         ![ws name.](media-1/Ex6-task2-step10note.png)
      
-  - Click on **Review + assign**
+      - Click on **Review + assign**
 
-     ![ws name.](media/review%2Bassign-v2.png)
+         ![ws name.](media/review%2Bassign-v2.png)
   
-  - Click on **Review + assign**
+      - Click on **Review + assign**
 
-     ![ws name.](media-1/Ex6-task2-step10note2.png)   
+         ![ws name.](media-1/Ex6-task2-step10note2.png)   
      
   
 ## Exercise 3: Configure Session Hosts

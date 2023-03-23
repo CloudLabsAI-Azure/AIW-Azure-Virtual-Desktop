@@ -54,16 +54,20 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. You will get directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
-   ![ws name.](media-1/Ex2-task2-step2.png)
+   ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
-1. On the **Insights** page, select the following values and click on **Open Configuration Workbook**.
+1. On the **Insights** page, select the following values and click on **GS-AVD-HP** under overview.
    
    - Subscription: **Choose the default subscription**
    - Resource group: **avd-hostpool-rg-avd**
    - Host Pool: **GS-AVD-HP**
    - Time range: **Leave it to default**
 
-   ![ws name.](media-2/insights.png)
+   ![ws name.](media-2/Lab2(a)-ex2-step3.png)
+   
+1. On the **GS-AVD-HP | Insights** hostpool page, click on **Open Configuration Workbook**. 
+
+   ![ws name.](media-2/Lab2(a)-ex2-step4.png)
 
 1. On the **Check Configuration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page. 
 
@@ -74,11 +78,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
-    ![ws name.](media/AVD2AE2S5.png)
+    ![ws name.](media-2/Lab2(a)-ex2-step6.png)
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
-   ![ws name.](media/mon5.png)
+   ![ws name.](media-2/Lab2(a)-ex2-step7.png)
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
@@ -90,7 +94,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On the **Deploy template** page, click on **deploy**. (Note: The diagnostic settings for the host pool are automated using a template).
 
-   ![ws name.](media/mon8.png) 
+   ![ws name.](media-2/Lab2(a)-ex2-step10.png) 
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
@@ -102,7 +106,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window.
 
-   ![ws name.](media/monu1.png)
+   ![ws name.](media-2/Lab2(a)-ex2-step13.png)
    
 1. On the **Deploy template** page, click on **Deploy**. (Note: the diagnostic settings for the workspace are automated using a template).
 
