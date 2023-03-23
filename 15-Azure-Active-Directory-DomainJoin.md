@@ -22,64 +22,42 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
-   A. **Project Details:**
- 
-   - Subscription: Select the **default (1)**
-   - Resource group: Enter **AVD-HostPool-RG (2)**
-   - Host pool name: **EB-AVD-AADJ-HP (3)**
-   - Location: **East US (4)**
-   - Validation environment: **Yes (5)**
-        
-   B. **Host pool type:**
-   
-   - Host pool type: **Pooled (6)**
+
    - Load balancing algorithm: **Breadth-first (7)**
    - Max session limit: **5** **(8)**
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
-        
-   
+
+
 4.	On the **Virtual Machines** tab, provide the following information :
 
-   A. **General:**
-    
-   - Add Azure virtual machines: **Yes (1)**
-   - Resource group: **AVD-HostPool-RG (2)**
-   - Name prefix: **AVD-AADJ-SH (3)**
-   - Virtual machine location: **East US (4)**
-   - Availability options: **No infrastructure redundancy required (5)**
-   - Security type: **Standard (6)**
-   - Image type: **Gallery (7)**
-   - Image: Select **Windows 10 Enterprise multi-session, version 21H2 + Microsoft 365 Apps - Gen2 (8)** from dropdown
-   - Virtual machine size: **Standard D4s v4 (9)**
    - Number of VMs: **2 (10)**
    - OS disk type: **Standard SSD (11)**
 
    ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
-       
-    B. **Network and security**
-  
-    - Virtual network: Select **aadds-vnet (1)** from drop-down
-    - Network security group: **Basic (2)**
-    - Public inbound ports: **No (3)**
 
-     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
-       
-    C. **Domain to join**
-    
-    - Select which directory you would like to join: **Azure Active Directory (1)**
-    - Enroll VM with Intune: **No (2)**
+   B. **Network and security**
 
-     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
+   - Virtual network: Select **aadds-vnet (1)** from drop-down
+   - Network security group: **Basic (2)**
+   - Public inbound ports: **No (3)**
 
-    D. **Virtual Machine Administrator account**
-    
-    - Username: Enter **demouser** **(1)**
-    - Password: **Password.1!!** **(2)**
-    - Confirm password: **Password.1!!** **(3)**
-    - Click on **Next : Workspace > (4)**
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
 
-     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
+   C. **Domain to join**
+
+   - Select which directory you would like to join: **Azure Active Directory (1)**
+   - Enroll VM with Intune: **No (2)**
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
+
+   D. **Virtual Machine Administrator account**
+
+
+   - Confirm password: **Password.1!!** **(3)**
+   - Click on **Next : Workspace > (4)**
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
