@@ -18,44 +18,44 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
 2.	On the AVD **Overview page (1)**, click on Create a host pool **(2)**.
 
-     ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
+   ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
-    A. **Project Details:**
+   A. **Project Details:**
  
-    - Subscription: Select the **default (1)**
-    - Resource group: Enter **AVD-HostPool-RG (2)**
-    - Host pool name: **EB-AVD-AADJ-HP (3)**
-    - Location: **East US (4)**
-    - Validation environment: **Yes (5)**
+   - Subscription: Select the **default (1)**
+   - Resource group: Enter **AVD-HostPool-RG (2)**
+   - Host pool name: **EB-AVD-AADJ-HP (3)**
+   - Location: **East US (4)**
+   - Validation environment: **Yes (5)**
         
-    B. **Host pool type:**
-    
-    - Host pool type: **Pooled (6)**
-    - Load balancing algorithm: **Breadth-first (7)**
-    - Max session limit: **5** **(8)**
+   B. **Host pool type:**
+   
+   - Host pool type: **Pooled (6)**
+   - Load balancing algorithm: **Breadth-first (7)**
+   - Max session limit: **5** **(8)**
 
-    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
+   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
         
    
 4.	On the **Virtual Machines** tab, provide the following information :
 
-    A. **General:**
+   A. **General:**
     
-    - Add Azure virtual machines: **Yes (1)**
-    - Resource group: **AVD-HostPool-RG (2)**
-    - Name prefix: **AVD-AADJ-SH (3)**
-    - Virtual machine location: **East US (4)**
-    - Availability options: **No infrastructure redundancy required (5)**
-    - Security type: **Standard (6)**
-    - Image type: **Gallery (7)**
-    - Image: Select **Windows 10 Enterprise multi-session, version 21H2 + Microsoft 365 Apps - Gen2 (8)** from dropdown
-    - Virtual machine size: **Standard D4s v4 (9)**
-    - Number of VMs: **2 (10)**
-    - OS disk type: **Standard SSD (11)**
+   - Add Azure virtual machines: **Yes (1)**
+   - Resource group: **AVD-HostPool-RG (2)**
+   - Name prefix: **AVD-AADJ-SH (3)**
+   - Virtual machine location: **East US (4)**
+   - Availability options: **No infrastructure redundancy required (5)**
+   - Security type: **Standard (6)**
+   - Image type: **Gallery (7)**
+   - Image: Select **Windows 10 Enterprise multi-session, version 21H2 + Microsoft 365 Apps - Gen2 (8)** from dropdown
+   - Virtual machine size: **Standard D4s v4 (9)**
+   - Number of VMs: **2 (10)**
+   - OS disk type: **Standard SSD (11)**
 
-      ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
+   ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
        
     B. **Network and security**
   
