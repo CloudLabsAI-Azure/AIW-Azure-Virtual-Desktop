@@ -107,7 +107,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Application: 1 (SessionDesktop)
    - Workspace: 1 (EB-AVD-WS)
      
-    ![ws name.](media/gsw8.png)
+   ![ws name.](media/gsw8.png)
    
 9. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
