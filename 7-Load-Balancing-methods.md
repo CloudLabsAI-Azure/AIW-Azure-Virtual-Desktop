@@ -31,21 +31,21 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media-1/lab7-ex1-s3.png)
 
-1. Add the following configurations and leave rest to default:
+1. Add the following configurations under *Basics* tab and leave rest to default:
 
-   - User name: **AVDUser01**
-   - Name: **AVDUser01**
-   - Click on **Create**.
+   - User principal name: **AVDUser01**
+   - Display Name: **AVDUser01**
+   - Click on **Review + Create** and click on *Create*
 
-   ![ws name.](media-1/lab7-ex1-s4.png)
+   ![ws name.](media-1/avd-l7-ex1-s4.png)
 
-1. Click on **+ New user** and select **Create new user** to add one more user, then add the following configurations and leave the rest to default.
+1. Click on **+ New user** and select **Create new user** to add one more user, then add the following configurations under *Basics* tab and leave the rest to default.
 
-   - User name: **AVDUser02**
-   - Name: **AVDUser02**
-   - Click on **Create**
+   - User principal name: **AVDUser02**
+   - Display Name: **AVDUser02**
+   - Click on **Review + Create** and click on *Create*
    
-   ![ws name.](media-1/lab7-ex1-s5.png)
+   ![ws name.](media-1/avd-l7-ex1-s5.png)
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
@@ -163,7 +163,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** .
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
    
