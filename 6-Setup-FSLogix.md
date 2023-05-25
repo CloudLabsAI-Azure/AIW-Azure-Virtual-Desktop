@@ -83,7 +83,7 @@ In the following task, we will be creating a storage account with a file share w
 
     ![ws name.](media/AVD6E1S11.png)
  
-12. On **File shares** page*, click on  **+ File share**.
+12. On **File shares** page, click on  **+ File share**.
 
     ![ws name.](media/2avd88.png)
  
@@ -445,7 +445,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/up10.png)
     
-2. Click on the storage account we created in **Task 1 step 3**, then under settings blade click on  **Networking**.
+2. Click on the storage account we created in **Task 1 step 3**, then under security + networking blade click on  **Networking**.
 
    ![ws name.](media/storacc-v2.png)
    
@@ -463,9 +463,9 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/2avd33.png)
 
-6. You will see the user folder created in the file share, click on the folder.
+6. Click on **Browse (1)**, you will see the user **folder (2)** created in the file share, click on the folder.
 
-   ![ws name.](media/fs6.png) 
+   ![ws name.](media-1/avd-l6-ex4-s6.png) 
 
 7. Now you will be able to see the user profiles data stored in the filesharers in a ***.vhd*** format.
 
