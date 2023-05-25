@@ -87,7 +87,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    
    ![ws name.](media/w12.png)
       
-2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
+2. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media-2/sessiondesktop.png)
 

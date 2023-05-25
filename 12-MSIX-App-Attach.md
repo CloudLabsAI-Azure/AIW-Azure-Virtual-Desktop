@@ -107,9 +107,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/2avd57.png) 
    
-3. In **msixfile** file share, click on **msix.cer (1)** file and copy the **URL (2)** and save it in **notepad**.
+3. In **msixfile** file share, Select **Browse (1)**, click on **msix.cer (2)** file and copy the **URL (3)** and save it in **notepad**.
    
-   ![ws name.](media/2avd58.png)
+   ![ws name.](media-1/avd-l12.png)
    
 1. Go to the home page, search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
@@ -185,11 +185,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 ## Exercise 2: Creating MSIX Package in AVD environment
    
-1. Go to **msixfile** file share and select the **7-Zip** file. **Copy** the **URL**.
+1. Go to **msixfile** file share, select the **Browse (1)** and then select the **7-Zip (2)** file. **Copy (3)** the **URL**.
 
    >**NOTE**: We'll be using this URL in further steps. Make sure you **Save** it in Notepad.
 
-   ![ws name.](media/2avd77.png)
+   ![ws name.](media/avd-l12-1.png)
 
 1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 

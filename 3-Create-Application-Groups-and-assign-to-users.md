@@ -111,18 +111,18 @@ An application group of type ‘Desktop’, was created automatically while crea
     ![ws name.](media-2/workspace1.png)
 
 
-19. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+18. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
     ![ws name.](media-2/createappliction1.png)
 
     >**Note:** The deployment will take about a minute to succeed.
 
-20. Once the deployment is complete, open notifications and click on **Go to Resource**. 
+19. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
     ![ws name.](media/81.png)
 
-21. In the Application Group Window, click on **Applications** under the **Manage** section of settings and you will see that the applications are published in the new application Group. 
+20. In the Application Group Window, click on **Applications** under the **Manage** section of settings and you will see that the applications are published in the new application Group. 
 
     ![ws name.](media/uiupdate04.png)
 
-22. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+21. Click on the **Next** button present in the bottom-right corner of this lab guide. 

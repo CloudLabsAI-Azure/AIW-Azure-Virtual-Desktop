@@ -97,7 +97,7 @@
 
     ![](../Azure-Virtual-Desktop-v3/media/avd2.png)
    
-20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create a scaling plan (2)**.
+20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create scaling plan (2)**.
 
     ![](../Azure-Virtual-Desktop-v3/media/csp.png)
    
