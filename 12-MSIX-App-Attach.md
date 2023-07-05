@@ -189,7 +189,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    >**NOTE**: We'll be using this URL in further steps. Make sure you **Save** it in Notepad.
 
-   ![ws name.](media/avd-l12-1.png)
+   ![ws name.](media-1/L12-EX2-S1.png)
 
 1. Navigate to the Azure portal, then search for *Azure Virtual Desktop* in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
