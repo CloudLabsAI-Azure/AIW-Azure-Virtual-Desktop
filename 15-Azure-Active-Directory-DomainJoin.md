@@ -26,7 +26,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Load balancing algorithm: **Breadth-first (7)**
    - Max session limit: **5** **(8)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp-new.png)
+   ![](media/createhp-new.png)
 
 
 4.	On the **Virtual Machines** tab, provide the following information :
@@ -42,14 +42,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Network security group: **Basic (2)**
    - Public inbound ports: **No (3)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp3-new.png)
+   ![](media/createhp3-new.png)
 
    C. **Domain to join**
 
    - Select which directory you would like to join: **Azure Active Directory (1)**
    - Enroll VM with Intune: **No (2)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/domaintojoin.png)
+   ![](media/domaintojoin.png)
 
    D. **Virtual Machine Administrator account**
 
@@ -57,18 +57,18 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Confirm password: **Password.1!!** **(3)**
    - Click on **Next : Workspace > (4)**
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/vmadminaccount.png)
+   ![](media/vmadminaccount.png)
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
    - Register desktop app group: **Yes (1)**
    - To this workspace: **EB-AVD-WS (2)**
 
-     ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp4-new.png)
+     ![](media/createhp4-new.png)
 
 6.	Verify the information and click **Create**.
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/blob/Azure-Virtual-Desktop-v3/media/createhp5-new.png)
+   ![](media/createhp5-new.png)
 
 
    > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.

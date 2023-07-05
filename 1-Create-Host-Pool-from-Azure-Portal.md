@@ -27,7 +27,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Subscription: **Leave it as default**
    - Identity provider: Select ***Existing active directory***
    - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
-   - Resource Group: Enter ***AVD-HostPool-RG***
+   - Resource Group prefix: Enter ***AVD-HostPool-RG***
    - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
 
       >**Note** : The region you selected in the lab might be different from the region mentioned in the screenshot.
@@ -46,7 +46,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Next : Virtual Machines >**.
 
-   ![ws name.](media/gsw6.png)
+   ![ws name.](media-1/L1-EX1-S3.png)
    
 1. On **Virtual Machines** tab, provide the information as mentioned below:
    

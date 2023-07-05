@@ -42,11 +42,11 @@ In this task, you will through the process to understand the creation of custom 
 
    ![](media-1/Ex9-task1-step8.png)
   
-1. Now click on **Review + Create** to publish the roles and followed by **Ok**. 
+1. Now click on **Review + Create** to publish the roles.. 
 
    ![](media/avdv226.png)
   
-1. Review the configuration and click on **Create**.
+1. Review the configuration and click on **Create** and followed by **Ok**.
 
    ![](media/2avd110.png)
 
