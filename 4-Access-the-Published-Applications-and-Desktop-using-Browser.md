@@ -16,7 +16,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    aka.ms/wvdarmweb 
    ``` 
 
-   >**Note:**  If you are already logged in to your use account, jump to step 3 else continue with the next step i.e., Step 2.
+   >**Note:**  If you are already logged in to your user account, jump to step 3 else continue with the next step i.e., Step 2.
 
 2. To login, enter the lab credentials below:
 
