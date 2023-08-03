@@ -71,7 +71,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Under the **Windows** tab, select **Storage account key**, click on **Show Script** and **copy** the code from the window.
 
-   ![ws name.](media/savd4.jpg)
+   ![ws name.](media-1/l12-e1-11.png)
    
 1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 

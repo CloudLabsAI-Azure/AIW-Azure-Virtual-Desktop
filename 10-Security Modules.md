@@ -34,12 +34,16 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 6. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
 
    ![](media-1/EX10-task1-step6.png)
+
+7. A Notification to Approve will pop-up on your mobile. Enter the popped-up number in your mobile for verification.
    
-7. A Notification to Approve will pop-up on your mobile. Approve that and select **Next**.
+   ![](media-1/L10-E2-S7-1.png)
+
+8. Approve that and select **Next**.
 
    ![](media-1/EX10-task1-step7.png)
    
-8. Once Success! Great job! You have successfully set up your security info. Choose **Done** to continue signing in.
+9. Once Success! Great job! You have successfully set up your security info. Choose **Done** to continue signing in.
 
    ![](media-1/EX10-task1-step8.png)
   
