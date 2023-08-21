@@ -100,11 +100,11 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
 1. It will take you to the **Host pool**. Resources created are as follows,
 
-   - **Host Pool**: 1 (EB-AVD-HP)
+   - **Host Pool**: 1 (GS-AVD-HP)
    - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)
-   - **Application Group**: 1 (EB-AVD-HP-DAG)
+   - **Application Group**: 1 (GS-AVD-HP-DAG)
    - **Application**: 1 (SessionDesktop)
-   - **Workspace**: 1 (EB-AVD-WS)
+   - **Workspace**: 1 (GS-AVD-WS)
 
    ![ws name.](media-2/hospool.png)
    
