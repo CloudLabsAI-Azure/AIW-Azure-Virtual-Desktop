@@ -71,7 +71,7 @@ In this lab, we will be creating an Azure File share and enabling SMB access via
     
 ## **Lab 7: Load Balancing methods**
     
-In this lab we will be seeing the user allocation among session host between both Depth first anf Breadth first approach.
+In this lab we will be seeing the user allocation among session host between both Depth first and Breadth first approach.
 
 ## **Lab 8: Auto Scaling**
 
