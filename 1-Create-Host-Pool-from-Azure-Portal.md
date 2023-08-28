@@ -106,7 +106,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - **Application**: 1 (SessionDesktop)
    - **Workspace**: 1 (GS-AVD-WS)
 
-   ![ws name.](media-2/hospool.png)
+   ![ws name.](media-2/lab1ex1.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
