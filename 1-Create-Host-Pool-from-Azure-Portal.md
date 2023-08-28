@@ -94,7 +94,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    > 
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
 
-1. Naviagte to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
+1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
 
     ![](media-2/hostpool.png)
    
