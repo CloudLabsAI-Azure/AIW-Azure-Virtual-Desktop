@@ -38,7 +38,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 4. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab3-5.png)
 
 5. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -46,7 +46,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/89.png)
+   ![ws name.](media/lab3-6.png)
       
 6. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
 
@@ -75,17 +75,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 9. Click on the **Close** button on the window asking *Your privacy option*.
 
-   ![ws name.](media/ch19.png)
+   ![ws name.](media/lab3-7.png)
 
 10. Once signed in, the application will look like the screenshot below.
 
-    ![ws name.](media/ch8.png)
+    ![ws name.](media/lab3-8.png)
 
 ## Exercise 2: Access the published Desktop
 
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
-   ![ws name.](media/w12.png)
+   ![ws name.](media/lab3-8.png)
       
 2. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
 
@@ -93,7 +93,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab3-5.png)
 
 4. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -101,7 +101,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/89.png)
+   ![ws name.](media/lab3-6.png)
 
 5. The virtual desktop will launch and look similar to the screenshot below. 
 
