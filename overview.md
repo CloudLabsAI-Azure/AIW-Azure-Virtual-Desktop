@@ -107,6 +107,6 @@ Azure Active Directory (Azure AD) provides many benefits for organizations, such
 
 ## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
-In this lab we will be looking at the informatgion collected by Azure Monitoring with the help of log analytics workspace created earlier.
+In this lab we will be looking at the information collected by Azure Monitoring with the help of log analytics workspace created earlier.
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
