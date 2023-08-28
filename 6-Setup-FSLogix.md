@@ -91,9 +91,9 @@ In the following task, we will be creating a storage account with a file share w
     
     - Name: **userprofile**   
     - Tier: **Transaction Optimized**
-    - Click on **Create**, this will create the file share.
+    - Click on **Review + create**, and then **Create** this will create the file share.
     
-    ![ws name.](media/2avd11.png)
+    ![ws name.](media/lab3-9.png)
     
 ## Exercise 2: Configure File share
 
@@ -113,7 +113,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave rest to default:
 
-   - Group name: **permission - fslogixcontainer**
+   - Group name: **permission-fslogixcontainer**
    - Click on **Create**.
 
    ![ws name.](media/2avd38.png)
@@ -128,7 +128,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Search and select username **<inject key="AzureAdUserEmail" /> (1)** and click on **Select (2)**.
 
-   ![ws name.](media/2avd41.png)
+   ![ws name.](media/lab3-10.png)
    
 1. Navigate to Storage Account **<inject key="Storage Account Name" />**, select **File Shares** under Data Storage and click on **userprofile** to open file share we created earlier.
 
@@ -136,7 +136,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
      
    >**Note:** Overview page of the file share will look as shown below. The user won't have access to it until we perform the next steps of this task. 
 
-   ![ws name.](media/labinst13.png)
+   ![ws name.](media/lab3-11.png)
 
 1. Click on **Access Control (IAM) (1)**, then click on **Add (2)** and select **Add role assignment (3)**.
 
@@ -414,24 +414,24 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 22. Select **Allow** on the prompt asking permission to access local resources.
 
-    ![ws name.](media/Accessallowres-v2.png)
+    ![ws name.](media/lab3-5.png)
 
 23. Enter your **Credentials** to access the desktop.
 
     - Username: **<inject key="AzureAdUserEmail" />**
     - Password: **<inject key="AzureAdUserPassword" />**
 
-    ![ws name.](media/89.png)
+    ![ws name.](media/lab3-6.png)
         
 24. The desktop display will look similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
-    ![ws name.](media/wiw19.png)
+    ![ws name.](media/lab3-12.png)
     
     >**Note:** This means that the user profile is being managed by FSLogix.
 
 25. The virtual desktop will launch and look similar to the screenshot below.
 
-    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+    ![ws name.](media/lab3-13.png)
 
 26. At last, click on **User Account** and click on **Sign Out**.
 
