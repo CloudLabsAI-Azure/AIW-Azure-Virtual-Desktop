@@ -43,9 +43,14 @@ An application group of type ‘Desktop’, was created automatically while crea
  
    ![ws name.](media/w6.png) 
  
-8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Application groups** and click on the **+ Create** button. 
+8. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Azure Virtual Desktop** and click on the **Host Pools (1)** button, then click on the **GS-AVD-HP (2)** pool
 
-   ![ws name.](media-2/createapplication.png)
+   ![ws name.](media-2/lab3-1.png)
+
+9. In the **GS-AVD-HP** host pool select **Application Groups** under **Applications**. Then select **+ Add** in the **GS-AVD-HP - Application groups**
+
+    
+   ![ws name.](media-2/lab3-2.png)
 
 9. In the *Basics* tab, do the following configuration: 
 
@@ -53,16 +58,17 @@ An application group of type ‘Desktop’, was created automatically while crea
    
       - *Subscription*
       - *Location*
+      - *Resource Group*
+      - *Host Pool*
          
    ii. Fill in the remaining parameters below:  
    
-      - Resource Group: *Select* **AVD-Hostpool-RG-avd** *from the dropdown*.
-      - Host Pool: *Select* **GS-AVD-HP** *Host pool from the dropdown*.
+      
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
       - Click on **Next: Applications >**
 
-      ![ws name.](media-2/createapplicationgroup.png)
+      ![ws name.](media-2/lab3-3.png)
 
 10. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
 
@@ -96,7 +102,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 15. Click on the **+Add Azure AD users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
  
-    ![ws name.](media/ag5.png)
+    ![ws name.](media-2/lab3-4.png)
 
 16. Click on **Next: Workspace >**.
 
