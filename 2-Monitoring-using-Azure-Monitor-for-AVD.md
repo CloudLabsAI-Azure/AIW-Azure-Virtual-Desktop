@@ -78,7 +78,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
-    ![ws name.](media-2/Lab2(a)-ex2-step6.png)
+    ![ws name.](media-2/Lab2(A)-1.png)
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
