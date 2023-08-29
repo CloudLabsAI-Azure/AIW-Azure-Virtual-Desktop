@@ -303,7 +303,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    >    
    >  - On **Advanced sharing settings** page, check the box next to **Turn on network discovery (1)** under Network Discovery and click on **Save changes (2)**
    >
-   >      ![](media/turn%20on%20nd.png)
+   >      ![](media/lab12-4.png)
    >     
    >  - Restart the session desktop and continue with the next steps
 
