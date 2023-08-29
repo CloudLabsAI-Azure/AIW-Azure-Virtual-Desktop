@@ -231,7 +231,7 @@ In this task, you will download the pre-created rule sets into the session host 
    
      ![ws name.](media/lab3-6.png)
      
-18. Within the session desktop, go to Start and search for **Acess (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+18. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](media-1/accessblock.png)
 
