@@ -23,48 +23,49 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
 
-   - Load balancing algorithm: **Breadth-first (7)**
-   - Max session limit: **5** **(8)**
+   ![](media/LAB15-1.png)
 
-   ![](media/createhp-new.png)
+   - Load balancing algorithm: **Breadth-first (2)**
+   - Max session limit: **5** **(3)**
+
+   ![](media/LAB15-2.png)
 
 
 4.	On the **Virtual Machines** tab, provide the following information :
 
-   - Number of VMs: **2 (10)**
-   - OS disk type: **Standard SSD (11)**
+   ![](media/LAB15-5.png)
 
-   ![](../Azure-Virtual-Desktop-v3/media/damain%20join.png)
+   - Number of VMs: **2 (4)**
+   - OS disk type: **Standard SSD (5)**
+
+   ![](media/LAB15-6.png)
 
    B. **Network and security**
 
    - Virtual network: Select **aadds-vnet (1)** from drop-down
-   - Network security group: **Basic (2)**
-   - Public inbound ports: **No (3)**
+   - Network security group: **Basic (3)**
+   - Public inbound ports: **No (4)**
 
-   ![](media/createhp3-new.png)
+   ![](media/LAB15-7.png)
 
    C. **Domain to join**
 
    - Select which directory you would like to join: **Azure Active Directory (1)**
-   - Enroll VM with Intune: **No (2)**
-
-   ![](media/domaintojoin.png)
+   - Enroll VM with Intune: **No**
 
    D. **Virtual Machine Administrator account**
 
+   - Confirm password: **Password.1!!** **(4)**
+   - Click on **Next : Workspace >**
 
-   - Confirm password: **Password.1!!** **(3)**
-   - Click on **Next : Workspace > (4)**
-
-   ![](media/vmadminaccount.png)
+   ![](media/LAB15-8.png)
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
    - Register desktop app group: **Yes (1)**
-   - To this workspace: **EB-AVD-WS (2)**
+   - To this workspace: **GS-AVD-WS (2)**
 
-     ![](media/createhp4-new.png)
+     ![](media/LAB15-9.png)
 
 6.	Verify the information and click **Create**.
 
@@ -85,7 +86,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    - Application: 1 (SessionDesktop)
    - Workspace: 1 (EB-AVD-WS)
      
-   ![ws name.](media/gsw8.png)
+   ![ws name.](media/LAB15-10.png)
    
 9. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
