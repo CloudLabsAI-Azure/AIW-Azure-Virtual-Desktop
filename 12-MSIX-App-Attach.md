@@ -1,4 +1,4 @@
-# Lab 12: MSIX App Attach (Optional - Read Only)
+# Lab 12: MSIX App Attach
 
 ## **Scenario**
 
@@ -21,9 +21,9 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     
     - Name: **msixfile**   
     - Tier: **Transaction Optimized**
-    - Click on **Create**, this will create the file share.
+    - Click on **Review + create**, then click on **Create**.This will create the file share.
     
-    ![ws name.](media/msix1.png)
+    ![ws name.](media/lab12-1.png)
     
 1. Go to the **msixfile** file share which you just created and select **upload**.
    
@@ -31,7 +31,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Browse the files go to ``C:\LabFiles``. Select **7-Zip.vhd**, **msix.cer** files and Click on **Open** then select **Upload**.
 
-   ![ws name.](media/2avd125.png)
+   ![ws name.](media/lab12-2.png)
    
 1. Select **Access Control(IAM) (1)** from the side blade. Click on **Add (2)** and select **Add Role Assignment (3)**.
 
@@ -267,7 +267,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
       
 1. The AVD dashboard will launch, then double click on the **SessionDesktop** application to access it.
 
-   ![ws name.](media/7-zip.png)
+   ![ws name.](media/lab12-3.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
@@ -293,7 +293,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    >
    >     ![](../Azure-Virtual-Desktop-v3/media/controlpanel1.png)
    >   
-   >  - On Computer Settings page, click on **View new network status and tasks**
+   >  - On Computer Settings page, click on **View network status and tasks**
    >
    >      ![](../Azure-Virtual-Desktop-v3/media/viewnetorkstatus.png)
    >      
