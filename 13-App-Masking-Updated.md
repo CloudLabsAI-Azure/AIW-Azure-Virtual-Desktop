@@ -119,7 +119,7 @@ In this task, you will download the pre-created rule sets into the session host 
    #Display script completion in the console
    Write-Host "Script Executed successfully"
    ```
-![image](media-1/script.png)
+   ![image](media-1/script.png)
 
 
 
@@ -127,9 +127,11 @@ In this task, you will download the pre-created rule sets into the session host 
 
 13. Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
 
-   ![image](media-1/scriptexecuted.png)
+    ![image](media-1/scriptexecuted.png)
 
    > **Note:** It will take around 1-2 minutes for the script to execute.
+
+##  Exercise 3
 
 1. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
@@ -159,7 +161,7 @@ In this task, you will download the pre-created rule sets into the session host 
       
 1. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
 
-   ![ws name.](media/7-zip.png)
+   ![ws name.](media/lab12-3.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
@@ -180,6 +182,8 @@ In this task, you will download the pre-created rule sets into the session host 
     ![](media-1/runasadmin.png)
     
 1. On the FSLogix Apps RuleEditor application, click on **Open**.
+
+    ![](media/lab13-1.1.png)
     
 1. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
 
@@ -187,7 +191,7 @@ In this task, you will download the pre-created rule sets into the session host 
    
 1. Once you have imported the rule, click on **Manage Assignments**.
 
-    ![](media-1/manage.png)
+    ![](media/lab13-2.png)
     
 1. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
 
@@ -195,7 +199,7 @@ In this task, you will download the pre-created rule sets into the session host 
     
 1. Now click on **Apply Rules to System**.
 
-   ![](media-1/applyrules.png)
+   ![](media/lab13-3.png)
 
 14. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
