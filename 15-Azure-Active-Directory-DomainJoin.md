@@ -62,7 +62,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
    - Register desktop app group: **Yes (1)**
-   - To this workspace: **EB-AVD-WS (2)**
+   - To this workspace: **GS-AVD-WS (2)**
 
      ![](media/createhp4-new.png)
 

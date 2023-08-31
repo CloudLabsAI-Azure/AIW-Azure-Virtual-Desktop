@@ -21,7 +21,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     
     - Name: **msixfile**   
     - Tier: **Transaction Optimized**
-    - Click on **Create**, this will create the file share.
+    - Click on **Review + create**, then click on **Create**.This will create the file share.
     
     ![ws name.](media/msix1.png)
     
@@ -293,7 +293,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    >
    >     ![](../Azure-Virtual-Desktop-v3/media/controlpanel1.png)
    >   
-   >  - On Computer Settings page, click on **View new network status and tasks**
+   >  - On Computer Settings page, click on **View network status and tasks**
    >
    >      ![](../Azure-Virtual-Desktop-v3/media/viewnetorkstatus.png)
    >      

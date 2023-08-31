@@ -91,7 +91,7 @@ In the following task, we will be creating a storage account with a file share w
     
     - Name: **userprofile**   
     - Tier: **Transaction Optimized**
-    - Click on **Create**, this will create the file share.
+    - Click on **Review + create**, and then **Create** this will create the file share.
     
     ![ws name.](media/2avd11.png)
     
@@ -113,7 +113,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave rest to default:
 
-   - Group name: **permission - fslogixcontainer**
+   - Group name: **permission-fslogixcontainer**
    - Click on **Create**.
 
    ![ws name.](media/2avd38.png)
