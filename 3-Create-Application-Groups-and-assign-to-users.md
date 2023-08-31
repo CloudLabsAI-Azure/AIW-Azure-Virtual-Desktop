@@ -47,6 +47,8 @@ An application group of type ‘Desktop’, was created automatically while crea
 
    ![ws name.](media-2/createapplication.png)
 
+9. In the **GS-AVD-HP** host pool select **Application Groups** under **Applications**. Then select **+ Add** in the **GS-AVD-HP - Application groups**
+
 9. In the *Basics* tab, do the following configuration: 
 
    i. Leave the following parameters to default:
