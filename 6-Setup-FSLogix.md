@@ -40,9 +40,9 @@ In the following task, we will be creating a storage account with a file share w
    
    ![ws name.](media/uiupdate08.png)
    
-4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab and use the following configuration.
+4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on **Next: Networking >** button.
 
-   ![ws name.](media/storage-account-networking.png)
+   ![ws name.](media/avdstore1.1.png)
 
 5. In the _Networking_ tab, use the following configurations:
 
