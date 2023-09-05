@@ -84,7 +84,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      - Now a *Select* window will open, here search for ODL user and Select it **(5)**
      - Click on **Select** **(6)** button
    
-   ![](media-1/EX10-task2-step7a.png)
+   ![](media-1/L10E2S7a.png)
    
    - Click on **Target resources** **(1)**
    - Click on **Select apps** **(2)**
