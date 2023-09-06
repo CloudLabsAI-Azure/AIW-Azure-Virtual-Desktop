@@ -98,7 +98,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 15. Click on the **+Add Azure AD users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
  
-    ![ws name.](media/ag5.png)
+    ![ws name.](media/L3E1S16.png)
 
 16. Click on **Next: Workspace >**.
 
