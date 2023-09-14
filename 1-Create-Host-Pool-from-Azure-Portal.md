@@ -26,7 +26,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
    - Subscription: **Leave it as default**
    - Identity provider: Select ***Existing active directory***
-   - Identity Service Provider: Select ***Azure AD Domain Services*** from the drop-down
+   - Identity Service Provider: Select ***Microsoft Entra Domain Services*** from the drop-down
    - Resource Group prefix: Enter ***AVD-HostPool-RG***
    - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
 
@@ -46,7 +46,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Next : Virtual Machines >**.
 
-   ![ws name.](media-1/L1-EX1-S3.png)
+   ![ws name.](media-1/L1-EX1-S3.11.png)
    
 1. On **Virtual Machines** tab, provide the information as mentioned below:
    
@@ -73,7 +73,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
 1. Verify the options and **click** on **Create**.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/createhostpoolnew1.png)
+   ![ws name.](media-1/createhostpoolnew1.1.png)
    
    >**NOTE**: Usually it takes 20 mins to get deployed successfully. Sometimes it might take upto 90 minutes.
    
