@@ -71,9 +71,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media/avdv23.png)
   
-6. Under the Policies **(1)** page click on **+ New Policy (2)**. Select **Create new policy**.
+6. In the Overview page click on **Create New Policy**.
 
-   ![](media/avdv24.png)
+   ![](media-1/avdpol1.png)
 
 7. Configure the Conditional Access Policy with the following details:
 
