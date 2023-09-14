@@ -79,14 +79,14 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Name: **AVD-MFA** **(1)**
    - **Assignments**:
-     - Click on **Users** **(2)**
+     - Click on **0 users and groups selected** **(2)** under Users option.
      - A new window will slide in, there click on **Select users and Groups** **(3)** and then select the check box saying **Users and groups** **(4)**
      - Now a *Select* window will open, here search for ODL user and Select it **(5)**
      - Click on **Select** **(6)** button
    
    ![](media-1/L10E2S7a.png)
    
-   - Click on **Target resources** **(1)**
+   - Click on **No target resources selected** **(1)** under Target resources option.
    - Click on **Select apps** **(2)**
    - Click on **Select (3)**
    - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
@@ -94,14 +94,14 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media-1/L10-EX2-S7.png)
   
-   - Click on **Conditions** **(1)**
+   - Click on **0 conditions selected** **(1)** under Conditions option.
    - Then select **Client apps** **(2)**
    - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
    - Then click on **Done** **(4)**
 
    ![](media-1/EX10-task2-step7c.png)
   
-   - **Access Control**
+   - Click on **0 controls selected** under Access Control option.
    - Click on **Grant** **(1)**
    - Select the Check Box saying **Require multi-factor authentication** **(2)** 
    - Then click on **Select** **(3)**
