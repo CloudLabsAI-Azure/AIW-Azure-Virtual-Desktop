@@ -78,7 +78,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
-   >**Note**: Sometimes, monitoring for host pool gets configured automatically. Please **re-configure** host pool as few components might not be configured.
+   >**Note**: Sometimes, monitoring for host pool gets configured automatically. Please **re-configure** monitoring for host pool as few components might not be configured.
 
     ![ws name.](media-2/Lab2(a)-ex2-step6.png)
    
