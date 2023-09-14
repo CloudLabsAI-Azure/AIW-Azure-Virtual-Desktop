@@ -106,7 +106,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media-2/datasettings.png)
    
-1. On Check Configuration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
+1. On CheckAMAConfiguration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
 
    ![ws name.](media-1/avdmon2.1.png)
    
