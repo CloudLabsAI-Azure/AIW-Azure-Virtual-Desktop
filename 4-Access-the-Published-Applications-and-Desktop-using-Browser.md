@@ -32,7 +32,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![](media/login.png)
 
-3. The AVD dashboard will launch.Click on **Word** to access it.  
+3. The AVD dashboard will launch. Click on **Word** to access it.  
 
    ![ws name.](media-2/word.png)
 
@@ -52,8 +52,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media/ch9.png)
    
-   >**Note :**  If you see a Blank Screen while launching the application, restart the AVD Session Hosts. To do so; follow the below steps:
-   > - Navigate back to the Azure Portal and search for **Virtual Machines** from serach bar.
+   >**Note:**  If you see a Blank Screen while launching the application, restart the AVD Session Hosts. To do so; follow the below steps:
+   > - Navigate back to the Azure Portal and search for **Virtual Machines** from search bar.
    > - Select the two AVD VMs and then click on the **RESTART** button from the top ribbon menu.
    > - After a minute or two; once the AVD Session host VMs are restarted; try the step again.
 
@@ -107,7 +107,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
-   > **Note :** If you see a black screen while launching the session desktop, please re-start the session dekstop by re-performing the lab from step-2.
+   > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
    
 6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
@@ -125,7 +125,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media/jvm9.png)
 
-10. Click on the **Refresh** button and make sure no results are displayed under Host pool.
+10. Click on the **Refresh** button and make sure no results are displayed under the Host pool.
 
     ![ws name.](media-1/Ex4-task2-step10.png)
 
