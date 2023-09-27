@@ -2,15 +2,15 @@
 
 ## **Scenario**
 
- Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. Creation of host pool also includes session hosts, default application group, and a workspace.
+ Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. The creation of a host pool also includes session hosts, a default application group, and a workspace.
 
 ## **Overview**
 
-A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool, should be sourced from the same image for a consistent user experience. To start host pool creation, we will login to the Azure portal.
+A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start host pool creation, we will login to the Azure portal.
  
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
-In this exercise, we will be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
+In this exercise, we will be creating the Host pool using **Getting Started Wizard** using minimum effort and information.
 
 1. On the **Azure portal** search for **Azure Virtual Desktop** **(1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
@@ -30,7 +30,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Resource Group prefix: Enter ***AVD-HostPool-RG***
    - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
 
-      >**Note** : The region you selected in the lab might be different from the region mentioned in the screenshot.
+      >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
       
    - Virtual Network: **aadds-vnet** *(choose from dropdown)*
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(choose from dropdown)*
@@ -48,7 +48,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
    ![ws name.](media-1/L1-EX1-S3.11.png)
    
-1. On **Virtual Machines** tab, provide the information as mentioned below:
+1. On the **Virtual Machines** tab, provide the information as mentioned below:
    
    - Users per virtual machine: Select ***Multiple users***
    - Image: **Windows 11 Enterprise multi-session + Microsoft 365 Apps** *(choose from dropdown)*
@@ -56,7 +56,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
      ![ws name.](media/2avd18.png)
    
-   - Name prefix: **AVD-HP01-SH**
+   - Name Prefix: **AVD-HP01-SH**
    - Number of virtual machines: **2**
    - Link Azure template: **Unselect** the option
    - **Click** on **Next : Assignments >**.
@@ -75,7 +75,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
    ![ws name.](media-1/createhostpoolnew1.1.png)
    
-   >**NOTE**: Usually it takes 20 mins to get deployed successfully. Sometimes it might take upto 90 minutes.
+   >**NOTE**: Usually it takes 20 minutes to get deployed successfully. Sometimes it might take up to 90 minutes.
    
 1. Once the deployment succeeds, it will look similar to the image shown below:
 
@@ -92,13 +92,13 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    >
    > ![ws name.](media/fla2.png)
    > 
-   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step-1 to Step-7.
+   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step 1 to Step 7.
 
 1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
 
     ![](media-2/hostpool.png)
    
-1. It will take you to the **Host pool**. Resources created are as follows,
+1. It will take you to the **Host pool**. The resources created are as follows,
 
    - **Host Pool**: 1 (GS-AVD-HP)
    - **Session Host**: 2 (AVD-HP01-SH-0, AVD-HP01-SH-1)

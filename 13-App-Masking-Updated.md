@@ -38,18 +38,18 @@ In this exercise, you go through the steps to create a rule set in **FSLogix App
 
    ![](media-1/msaccess.png)
    
-1. After selecting the application, click on **Ok**.
+1. After selecting the application, click on **OK**.
 
    ![](media-1/clickok.png)
    
-  > **Note:** The rule sets are already created as part of pre-requisites.
+  > **Note:** The rule sets are already created as part of prerequisites.
 
 
 ##  Exercise 2: App Masking
 
 In this task, you will download the pre-created rule sets into the session host using a PowerShell script.
 
-1. In your Azure portal search for Virtual machines in the search bar and click on Virtual Machines from the suggestions.
+1. In your Azure portal search for Virtual Machines in the search bar and click on Virtual Machines from the suggestions.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346152-3f8dce30-9412-49c7-a974-6b2b0c9d1479.png)
 

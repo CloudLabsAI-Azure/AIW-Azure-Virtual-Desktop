@@ -8,9 +8,9 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 ### Task 1: Create a custom role for Start VM on Connect
 
-In this task, you will through the process to understand the creation of custom role.
+In this task, you will through the process to understand the creation of a custom role.
 
-> **Note :** If you observe the custom role is already exists, you can skip Task 1 and navigate to Task 2.
+> **Note:** If you observe the custom role already exists, you can skip Task 1 and navigate to Task 2.
 
 1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
 
@@ -56,7 +56,7 @@ In this task, you will through the process to understand the creation of custom 
 
      ![](media/startvm-v2.png)
      
-   - Under **Members** tab,enter the below mentioned details:
+   - Under the **Members** tab, enter the below-mentioned details:
 
       - Assign access to: 	**User, group, or service principal (1)**
   
@@ -66,7 +66,7 @@ In this task, you will through the process to understand the creation of custom 
       
       - Click on **Select (4)**.
 
-    > **Note :** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
+    > **Note:** In certain situations **Windows Virtual Desktop** might not be visible in the search results, in certain situations please search for **Azure virtual desktop** and select it from the search result.
     
     ![](media/roleass-v2.png)
     
@@ -74,9 +74,9 @@ In this task, you will through the process to understand the creation of custom 
 
 ## Exercise 2: Configure the Start VM on Connect feature
 
-### Task 1: Configuring Host pool Properties
+### Task 1: Configuring Host Pool Properties
 
-1. In the Azure portal, search for **Azure Virtual Desktop** and select it from search result.
+1. In the Azure portal, search for **Azure Virtual Desktop** and select it from the search result.
 
    ![](media/avdv229.png)
   
@@ -109,7 +109,7 @@ In this task, you will through the process to understand the creation of custom 
   
 ### Task 2: Access the Session host desktop
 
-1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    

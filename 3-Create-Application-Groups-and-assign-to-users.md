@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso wants to restrict the access to the applications used by different teams in the organization. With Azure Virtual Desktop, admins can create unique application groups for users that require access to a specific set of applications. In this lab you’ll help Contoso to configure and create an application group and add applications to it.
+Contoso wants to restrict access to the applications used by different teams in the organization. With Azure Virtual Desktop, admins can create unique application groups for users that require access to a specific set of applications. In this lab, you’ll help Contoso to configure and create an application group and add applications to it.
 
 ## **Overview**
 
@@ -11,11 +11,11 @@ As explained in the General Hierarchy section, an Application Group is a logical
 1. RemoteApp 
 2. Desktop 
 
-### Exercise 1: Create Application Group
+### Exercise 1: Create an Application Group
 
-An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both the application groups.
+An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both application groups.
 
-1. Navigate to the Azure portal,  and search for Azure Virtual Desktop in the search bar and select **Azure Virtual Desktop** from the search results.
+1. Navigate to the Azure portal, Search for Azure Virtual Desktop in the search bar and select **Azure Virtual Desktop** from the search results.
 
    ![ws name.](media/w1.png)
 
@@ -88,7 +88,7 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Application Source: **Start Menu** *(choose from the dropdown)*   
     - Application: **Word** *(choose from the dropdown)*
     - Display Name: **Word**    
-    - Leave rest of the parameters to default and click on **Save**.  
+    - Leave the rest of the parameters to default and click on **Save**.  
    
     ![ws name.](media-1/Ex3-task1-step13.png)
 

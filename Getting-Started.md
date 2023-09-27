@@ -10,7 +10,7 @@
 
 ## Exercise 1: Log in to Azure Portal
 
-1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
+1. In the JumpVM, double-click on the **Azure portal shortcut** on the desktop.
 
    ![azure portal.](media/portal_avd.png)  
 
@@ -26,7 +26,7 @@
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/raw/main/media/confirmandstartbrowsing.png)
    
-1. Now, you will see two tabs in the edge browser, close the first tab named with **Microsoft Edge**.
+1. Now, you will see two tabs in the Edge browser, close the first tab named **Microsoft Edge**.
 
 3. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
 
@@ -44,7 +44,7 @@
    
    ![](media/wvd.png) 
    
-   >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days intil this is required)**
+   >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
    
    ![](media/skipfornow.png)
     

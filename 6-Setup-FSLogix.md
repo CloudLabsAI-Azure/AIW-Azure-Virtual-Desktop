@@ -2,11 +2,11 @@
 
 ## **Scenario**
 
-Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connect to a different session host. Contoso wants to implement FSLogix which will help the end users to have a separate storage containers for their user data and will help in maintaining consistency. You will help Contoso to implement FSLogix in the Azure virtual desktop environment.
+Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connected to a different session host. Contoso wants to implement FSLogix which will help the end users to have separate storage containers for their user data and will help in maintaining consistency. You will help Contoso to implement FSLogix in the Azure virtual desktop environment.
 
 ## **Overview**
 
-The Azure Virtual Desktop service, recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers used with Azure Files function in Azure Virtual Desktop.
+The Azure Virtual Desktop service, recommends FSLogix profile containers as a user profile solution. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. This article describes how FSLogix profile containers are used with the Azure Files function in Azure Virtual Desktop.
 
 ## Exercise 1: Create Storage account and file share
 
@@ -40,7 +40,7 @@ In the following task, we will be creating a storage account with a file share w
    
    ![ws name.](media/uiupdate08.png)
    
-4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on **Next: Networking >** button.
+4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on the **Next: Networking >** button.
 
    ![ws name.](media/avdstore1.1.png)
 
@@ -61,7 +61,7 @@ In the following task, we will be creating a storage account with a file share w
 
    ![ws name.](media/up3.png)
 
-7. After deployment completes, click on the notification icon on your azure portal, then click on **Go to resource**.
+7. After deployment completes, click on the notification icon on your Azure portal, then click on **Go to resource**.
 
    ![ws name.](media/a59.png)
    
@@ -95,7 +95,7 @@ In the following task, we will be creating a storage account with a file share w
     
     ![ws name.](media/2avd11.png)
     
-## Exercise 2: Configure File share
+## Exercise 2: Configure File Share
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
 
@@ -111,7 +111,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/groups-v2.png)
    
-1. Add the following configurations and leave rest to default:
+1. Add the following configurations and leave the rest to default:
 
    - Group name: **permission-fslogixcontainer**
    - Click on **Create**.
@@ -142,7 +142,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media-1/Ex6-task2-step9.png)
    
-1. Select following configuration for role assignment:  
+1. Select the following configuration for role assignment:  
    
    - Role: Search for **Storage File Data SMB Share Contributor (1)** and select it, then click on **Next (2)**.
 
@@ -153,7 +153,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    > - *Storage File Data SMB Share Contributor* allows read, write, and delete access in Azure Storage file shares over SMB.
    > - *Storage File Data SMB Share Elevated Contributor* allows read, write, delete, and modify Windows ACLs in Azure Storage file shares over SMB.
    
-   - Under **Members** tab, follow the below steps:
+   - Under the **Members** tab, follow the below steps:
 
       - Assign access to: Select **User, group, or service principal (1)**
       
@@ -178,7 +178,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
-1. In your Azure portal, search for *Virtual machines* in the search bar and click on **Virtual Machines** from the suggestions.
+1. In your Azure portal, search for **Virtual Machines** in the search bar and click on **Virtual Machines** from the suggestions.
 
    ![ws name.](media/up11.png)
       
@@ -194,7 +194,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
    ![ws name.](media/a68.png)
    
-5. A similar window as that of the below image will appear.
+5. A similar window to that of the below image will appear.
 
    ![ws name.](media/a69.png)
    
@@ -388,9 +388,9 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/a73.png)
 
-    >**Note:** This will log off the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user sign in again to the session hosts, FSLogix will start functioning.
+    >**Note:** This will log off the user **<inject key="AzureAdUserEmail" />** from both the session hosts, so that when the user signs in again to the session hosts, FSLogix will start functioning.
         
-20. Now paste the below-mentioned link in your browser in the JumpVM, and enter your **credentials** to login.
+20. Now paste the below-mentioned link in your browser in the JumpVM, and enter your **credentials** to log in.
 
     ```
     aka.ms/wvdarmweb
@@ -437,7 +437,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](../Azure-Virtual-Desktop-v3/media/signoursd.png)
    
-## Exercise 4: Verifying the User profiles stored in File share
+## Exercise 4: Verifying the User profiles stored in File Share
 
 In this task, we will be accessing the file share to verify the user profiles stored in the *.vhd* format.
 
@@ -453,7 +453,7 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/stgup2.png)
     
-   >**Note:** This will enable access to your storage account on the public network, so that you can see the user profiles stored in the file shares.
+   >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the file shares.
     
 4. Open the storage account we created earlier, then select **Fileshare** from the left side menu.
 
@@ -463,11 +463,11 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    ![ws name.](media/2avd33.png)
 
-6. Click on **Browse (1)**, you will see the user **folder (2)** created in the file share, click on the folder.
+6. Click on **Browse (1)**, and you will see the user **folder (2)** created in the file share, click on the folder.
 
    ![ws name.](media-1/avd-l6-ex4-s6.png) 
 
-7. Now you will be able to see the user profiles data stored in the filesharers in a ***.vhd*** format.
+7. Now you will be able to see the user profile data stored in the filesharers in a ***.vhd*** format.
 
    ![ws name.](media-2/userprofile.png)
 

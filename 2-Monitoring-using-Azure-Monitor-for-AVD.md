@@ -3,7 +3,7 @@
 
 ## **Scenario**
 
-Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso to set up a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resource. You will create a Log analytics workspace and map it to the AVD environment using Azure Insights.
+Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso set up a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resources. You will create a Log Analytics workspace and map it to the AVD environment using Azure Insights.
 
 ## **Overview**
 
@@ -52,7 +52,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/avd1.png) 
 
-1. You will get directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
+1. You will be directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
    ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
@@ -78,7 +78,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
-   >**Note**: Sometimes, monitoring for host pool gets configured automatically. Please **re-configure** monitoring for host pool as few components might not be configured.
+   >**Note**: Sometimes, monitoring for the host pool gets configured automatically. Please **re-configure** monitoring for the host pool as a few components might not be configured.
 
     ![ws name.](media-2/Lab2(a)-ex2-step6.png)
    
