@@ -9,7 +9,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 ### Task 1: Access AVD using the browser and Remote client
 
    
-1. Navigate to **Your Own PC/computer/workstation**, go to **Start** and search for **Remote desktop** and open the application with the exact icon as shown below.
+1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -39,7 +39,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media/ex4t1s9.png)
 
-1. In the AVD client, double click on the **Session Desktop** to access it. 
+1. In the AVD client, double-click on the **Session Desktop** to access it. 
 
    ![ws name.](media-2/avddesktop.png)
 
@@ -65,7 +65,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
-1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here on **GS-AVD-HP** host pool, you'll be able to monitor the status and health of the session hosts (3).
+1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here on the **GS-AVD-HP** host pool, you'll be able to monitor the status and health of the session hosts (3).
 
    ![ws name.](media-2/lab16-task2-step2.png)
    
@@ -73,7 +73,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media/mon23.png)
    
-1. **Click** on **Utilization** tab, This tab gives information about sessions summary, cores info, and more information about the utilization of resources.
+1. **Click** on the **Utilization** tab, This tab gives information about session summary, core info, and more information about the utilization of resources.
 
    ![ws name.](media/mon24.png)
    
