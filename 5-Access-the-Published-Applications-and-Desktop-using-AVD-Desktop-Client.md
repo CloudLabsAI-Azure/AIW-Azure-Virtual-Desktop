@@ -1,8 +1,8 @@
-# Lab 5: Access the Published Applications and Desktop using AVD Desktop Client
+# Lab 5: Access the Published Applications and Desktop using the AVD Desktop Client
 
 ## **Scenario**
 
-Contoso wants their AVD environment to be flexible interms of accessing the sessions by their employees. You will help contoso to test the access to AVD session using AVD Client application using your local computer.
+Contoso wants their AVD environment to be flexible in terms of accessing the sessions by their employees. You will help Contoso to test the access to the AVD session using the AVD Client application using your local computer.
 
 ## **Overview**
 
@@ -36,7 +36,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/wvd41.png)
 
-6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+6. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -62,7 +62,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ex4t1s9.png)
       
-10. The AVD dashboard will launch, then double click on the **Excel** application to access it.
+10. The AVD dashboard will launch, then double-click on the **Excel** application to access it.
 
     ![ws name.](media-2/rd-excel.png)
    
@@ -76,13 +76,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/58.png)
     
-    >**Note :** If you get stuck while initiating the application, navigate back to the Azure portal and restart the session host VMs and re-perform the Exercise-1
+    >**Note:** If you get stuck while initiating the application, navigate back to the Azure portal restart the session host VMs and re-perform Exercise-1
    
 13. The Excel application will launch and look similar to the screenshot below.
 
     ![ws name.](media/ch15.png) 
     
-14. You can exit from the window of Excel Application by clicking on **X *i.e., the close button***.
+14. You can exit from the window of the Excel Application by clicking on **X *i.e., the close button***.
 
     ![ws name.](media/ch16.png)
 
