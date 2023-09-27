@@ -27,7 +27,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media-2/rdpproperties.png)
 
-1. On your PC, search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC, search for **Remote Desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
    
