@@ -87,7 +87,7 @@ In this lab, we will be configuring the Security Modules to prevent sensitive in
 
 ## **Lab 11: Multimedia redirection for Azure virtual desktop**
 
-In this lab, we will be configuring Session Host for implementing MS Teams and configuring Hostpool for teams requirements. Later we will be accessing MS Teams using the Remote Desktop Application
+In this lab, we will be configuring Session Host for implementing MS Teams and configuring Hostpool for the team's requirements. Later we will be accessing MS Teams using the Remote Desktop Application
 
 ## **Lab 12: MSIX App Attach**
 
