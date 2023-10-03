@@ -42,7 +42,7 @@ In this lab, you’ll assume the role of an Azure consultant tasked with creatin
 
 In this lab with the help of **Getting Started** wizard we will be creating an Azure Virtual Desktop host pool for pooled desktops. This is a set of computers or hosts which operate on an as-needed basis. In a pooled configuration we will be hosting multiple non-persistent sessions, with no user profile information stored locally. This is where FSLogix Profile Containers provide the user's profile to the host dynamically. This allows an organization to fully utilize the computing resources on a single host and lower the total overhead, cost, and number of remote workstations.
 
-You will be deploying the AVD Host Pool in an already deployed Microsoft Entra ID domain service instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide an Identity and Authentication service.
+You will be deploying the AVD Host Pool in an already deployed Azure Active Directory domain service instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide an Identity and Authentication service.
 
 ## **Lab 2 (A): Monitoring using Log Analytics**
 
@@ -103,7 +103,7 @@ In this lab, we will be going through with few documents which explain the Migra
 
 ## **Lab 15: Microsoft Entra ID Domain Join (Read Only)**
 
-Microsoft Entra ID provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Microsoft Entra ID. Joining directly with Microsoft Entra ID removes an earlier need to use Microsoft Entra ID Domain Services domain controllers.
+Microsoft Entra ID provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Microsoft Entra ID. Joining directly with Microsoft Entra ID removes an earlier need to use Azure Active Directory Domain Services domain controllers.
 
 ## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
