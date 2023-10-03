@@ -30,19 +30,19 @@ After learning of these requirements, the Microsoft account team recommended Azu
 
 In this lab, you’ll assume the role of an Azure consultant tasked with creating the Azure Virtual Desktop Environment for Contoso IT services. You will configure and deploy: 
  - **Azure Infrastructure components** (Virtual Machines (VMs), Storage, Networking, Resource Groups) necessary to deliver Azure Virtual Desktop to Contoso IT’s employees 
- - **Azure Active Directory** (Azure’s Identity and Access Management solution) components necessary for providing secure access to AVD resources. 
+ - **Microsoft Entra ID** (Azure’s Identity and Access Management solution) components necessary for providing secure access to AVD resources. 
  - **Azure Virtual Desktop Host Pools** that take the configured Azure Infrastructure components and convert them into one or more identical VMs (also known as Session Hosts)  
  - **Azure Virtual Desktop Application groups** which allow you to publish desktops and remote applications that authenticated Contoso users can use 
  - **FSLogix user profiles** that allow user-specific customizations (desktop backgrounds, layouts, and other settings) to be available anytime a user accesses a VM 
  - **MSIX apps** that can be securely published for access by Session Hosts 
  - **A purpose-built version of Microsoft Teams** designed to improve the communication and audio-visual experience for Azure Virtual Desktop users 
- - And finally, **Monitoring and Security** so that Azure Virtual Desktop administrators can optimize performance and ensure that their environment is secure and well managed. 
+ - And finally, **Monitoring and Security** so Azure Virtual Desktop administrators can optimize performance and ensure their environment is secure and well managed. 
 
 ## **Lab 1: Create Host Pool using Getting Started Wizard**
 
-In this lab with the help of **Getting Started** wizard we will be creating an Azure Virtual Desktop host pool for pooled desktops. This is a set of computers or hosts which operate on an as-needed basis. In a pooled configuration we will be hosting multiple non-persistent sessions, with no user profile information stored locally. This is where FSLogix Profile Containers provide the user's profile to the host dynamically. This provides the ability for an organization to fully utilize the computing resources on a single host and lower the total overhead, cost, and number of remote workstations.
+In this lab with the help of **Getting Started** wizard we will be creating an Azure Virtual Desktop host pool for pooled desktops. This is a set of computers or hosts which operate on an as-needed basis. In a pooled configuration we will be hosting multiple non-persistent sessions, with no user profile information stored locally. This is where FSLogix Profile Containers provide the user's profile to the host dynamically. This allows an organization to fully utilize the computing resources on a single host and lower the total overhead, cost, and number of remote workstations.
 
-You will be deploying the AVD Host Pool in an already deployed Azure active directory domain service(AAD DS) instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide an Identity and Authentication service.
+You will be deploying the AVD Host Pool in an already deployed Microsoft Entra ID domain service(AAD DS) instance. Since Contoso is already using an AAD DS Service, AAD DS Service will provide an Identity and Authentication service.
 
 ## **Lab 2 (A): Monitoring using Log Analytics**
 
@@ -101,9 +101,9 @@ In this lab, you will be configuring the App Masking which is used to manage use
 
 In this lab, we will be going through with few documents which explain the Migration Tools in AVD.
 
-## **Lab 15: Azure Active Directory Domain Join (Read Only)**
+## **Lab 15: Microsoft Entra ID Domain Join (Read Only)**
 
-Azure Active Directory (Azure AD) provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Azure AD. Joining directly to Azure AD removes an earlier need to use Active Directory Domain Services (AD DS) domain controllers.
+Microsoft Entra ID provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Microsoft Entra ID. Joining directly with Microsoft Entra ID removes an earlier need to use Microsoft Entra ID Domain Services domain controllers.
 
 ## **Lab 2 (B): Monitoring using Azure Monitor for AVD**
 
