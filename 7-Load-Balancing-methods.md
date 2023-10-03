@@ -17,15 +17,15 @@ The following load-balancing methods are available in Azure Virtual Desktop:
  **2. Depth-first**:  Depth-first load balancing, distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
 
 
-## Exercise 1: Add new users to Azure Active Directory
+## Exercise 1: Add new users to Microsoft Entra ID
 
-1. In Azure Portal, click on the **Show portals menu (1)** button and select **Azure Active Directory (2)**.
+1. Navigate to the Azure portal, then search for **Microsoft Entra ID (1)** in the search bar and select **Microsoft Entra ID (2)** from the suggestions.
 
-   ![ws name.](media/lb34.png)
+   ![ws name.](media/dev3.png)
 
 1. Click on **Users** under *Manage* blade.
 
-   ![ws name.](media/2avd104.png)
+   ![ws name.](media/avd1.1.png)
 
 1. Click on **+ New user (1)** and select **Create new user (2)** from drop-down to add a new user.
 

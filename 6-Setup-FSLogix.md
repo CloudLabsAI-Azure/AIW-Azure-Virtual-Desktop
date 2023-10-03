@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
-Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connected to a different session host. Contoso wants to implement FSLogix which will help the end users to have separate storage containers for their user data and will help in maintaining consistency. You will help Contoso to implement FSLogix in the Azure virtual desktop environment.
+Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connected to a different session host. Contoso wants to implement FSLogix which will help the end users to have separate storage containers for their user data and will help in maintaining consistency. You will help Contoso implement FSLogix in the Azure virtual desktop environment.
 
 ## **Overview**
 
@@ -99,9 +99,9 @@ In the following task, we will be creating a storage account with a file share w
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
 
-1. In Azure Portal, click on the **Show portal menu (1)** button and select **Azure Active Directory (2)**.
-
-   ![ws name.](media/lb34.png)
+1. Navigate to the Azure portal, then search for **Microsoft Entra ID (1)** in the search bar and select **Microsoft Entra ID (2)** from the suggestions.
+   
+   ![ws name.](media/dev3.png)
    
 1. Click on **Groups** under *Manage*.
 

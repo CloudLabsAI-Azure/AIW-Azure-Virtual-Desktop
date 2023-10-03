@@ -49,13 +49,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
   
 ### Exercise 2: Creating Conditional Access Policy
 
-1. In Azure Portal search for *Azure Active Directory* **(1)** and click on it from the search result **(2)**.
+1. In Azure Portal search for **Microsoft Entra ID (1)** and click on it from the search result **(2)**.
 
-   ![](media/avdv21.png)
+   ![](media/dev3.png)
 
 2. From the left-hand side blade, click on **Properties** **(1)** under **Manage** and scroll down to select **Manage Security Defaults** **(2)** at the bottom of the page.
 
-   ![](media/aad-properties-01.png)
+   ![](media-1/avd1.2.png)
    
 3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **No**.
  
@@ -65,7 +65,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 4. From the left-hand side blade, click on **Security** under Manage.
 
-   ![](media/2avd118.png)
+   ![](media-1/avd1.3.png)
   
 5. In **Security** page select **Conditional Access** under Protect.
 

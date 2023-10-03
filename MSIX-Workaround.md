@@ -2,11 +2,11 @@
 
 ## **Scenario**
 
-Contoso wants a few application to be installed in all the sessions host. So Contoso had decided to implement MSIX app attach in order to install the application across the session hosts and users should be able to access them. You will help Contoso to install one of the application that is, 7-Zip file manager using the MSIX app attach feature.
+Contoso wants a few applications to be installed in all the session's hosts. So Contoso had decided to implement the MSIX app attached in order to install the application across the session hosts and users should be able to access them. You will help Contoso to install one of the applications that is, the 7-Zip file manager, using the MSIX app attach feature.
 
 ## **Overview**
 
-In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attach is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attach is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
+In this exercise, We'll be implementing MSIX App Attach for AVD. MSIX app attachment is a way to deliver MSIX applications to both physical and virtual machines. However, the MSIX app attached is different from regular MSIX because it's made especially for Azure Virtual Desktop. MSIX removes the need for repackaging when delivering applications dynamically.
 Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach`` for more information.
 
 ## Exercise 1: Configuring AVD for MSIX App Attach
@@ -45,7 +45,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
      
    - Under **Members**, enter the below details:
   
-      - Assign access to : **User, group, or service principal (1)**
+      - Assign access to **User, group, or service principal (1)**
 
       - Click on **+ Select members (2)**
       
@@ -73,11 +73,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix8.png)
    
-1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
+1. Go to the home page and search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
    ![ws name.](media/2avd127.png)
    
-1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix10.png)
   
@@ -85,13 +85,13 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix11.png)
    
-   >**NOTE**: **This step is required for this lab only**. In the production environment, this is not required. You will use Azure active directory and Access control(IAM) to control access to the MSIX VHD file. For more information refer to `` https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-azure-portal ``.
+   >**NOTE**: **This step is required for this lab only**. In the production environment, this is not required. You will use Microsoft Entra ID and Access control(IAM) to control access to the MSIX VHD file. For more information refer to `` https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-azure-portal ``.
    
-1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
+1. Go to the home page and search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
    ![ws name.](media/2avd128.png)
    
-1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix13.png)
   
@@ -111,11 +111,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
    ![ws name.](media/2avd58.png)
    
-1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
+1. Go to the home page and search for **virtual machine** in the search bar. Select **AVD-HP01-SH-0**.
 
    ![ws name.](media/2avd75.png)
    
-1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix10.png)
    
@@ -135,7 +135,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. For **CERTIFICATE PATH** to be in the correct format, Follow the below-mentioned steps to create the path.
 
-   - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
+   - **Remove** ``https://`` from the URL. Add ``\\`` to the start of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
    - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
 
@@ -147,11 +147,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/msix27.png)
 
-1. Go to the home page, Search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
+1. Go to the home page and search for **virtual machine** in the search bar. Select **AVD-HP01-SH-1** VM.
 
    ![ws name.](media/2avd76.png)
    
-1. Under **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
+1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix13.png)
 
@@ -171,7 +171,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. For **CERTIFICATE PATH** to be in the correct format, Follow the below-mentioned steps to create the path.
 
-   - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
+   - **Remove** ``https://`` from the URL. Add ``\\`` to the start of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
    - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
 
@@ -209,7 +209,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. Paste the **URL** and follow the below-mentioned steps to create **UNC** path.
 
-   - **Remove** ``https://`` from the URL. Add ``\\`` to the starting of the link.
+   - **Remove** ``https://`` from the URL. Add ``\\`` to the start of the link.
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
    - The final UNC path should look like this ``\\fslogixprofilestg448267.file.core.windows.net\msixfile\7-Zip.vhd``.
 
@@ -265,7 +265,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/ex4t1s9.png)
       
-1. The AVD dashboard will launch, then double click on the **SessionDesktop** application to access it.
+1. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
 
    ![ws name.](media/7-zip.png)
    
@@ -283,11 +283,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![ws name.](media/ex4t2s4.png)
 
-1. Once connected, In the **start menu** search for **7-Zip File Manager** and you'll be able to see that the application is present in session desktop.
+1. Once connected, In the **start menu** search for **7-Zip File Manager** and you'll be able to see that the application is present in the session desktop.
 
    ![](media/2avd63.png)
    
-   > **Note :** If you don't see the app in the Session Desktop, follow the below steps:
+   > **Note:** If you don't see the app in the Session Desktop, follow the below steps:
    >
    >  - In the **Search bar**, search for **Control Panel** and click on it to open.
    >
@@ -320,7 +320,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/2avd68.png)
 
-1. In Control Panel, Click on **Uninstall a program**.
+1. In the Control Panel, Click on **Uninstall a program**.
 
    ![](media/2avd69.png)
 
@@ -332,7 +332,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/2avd66.png)
 
-1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll be see that VHD has been mounted. This is where the **7-ZIP File Manager** present and has been assigned to session desktop dynamically. This confirms the implementation of MSIX App Attach.
+1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll see that VHD has been mounted. This is where the **7-ZIP File Manager** is present and has been assigned to the session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
    ![](media/2avd67.png)
 
