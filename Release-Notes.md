@@ -4,10 +4,25 @@
 ### 03 September 2023
   
   - Major update in Lab Guide
-  - Azure Active Directory branding got updated from Azure Active Directory to Microsoft Entra ID in Azure. For that, changes are merged into screenshots and instructions accordingly.
+  - Azure Active Directory branding was updated from Azure Active Directory to Microsoft Entra ID in Azure. For that, changes are merged into screenshots and instructions accordingly.
 
 -----------
+### 3 August 2023
 
+ - Minor updates in the lab.   
+   - Enhanced lab guide instructions and updated screenshots with the latest UI from Microsoft Azure for better user experience.
+   - We have applied some fixes with the latest MSIX package and have updated it with Notepad++.
+---------------------
+### 25 May 2023
+
+ - Minor updates in the lab.   
+   - Enhanced lab guide instructions and updated screenshots with the latest UI from Microsoft Azure for better user experience.
+---------------------------
+### 15 February 2023
+
+ - Minor updates in the lab.   
+   - Enhanced lab guide instructions and updated screenshots with the latest UI from Microsoft Azure for better user experience.
+------------------------
 ### 13 January 2023
 
    - Major update with lab
