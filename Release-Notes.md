@@ -1,5 +1,11 @@
 # Release Notes
 
+### 06 October 2023
+  
+  - Major update in Lab Guide
+  - We changed the image from 7-Zip to VLC.vhdx, as well as the MSIX certificate in the VSTs and the PowerShell script.
+
+-----------
 
 ### 03 September 2023
   
