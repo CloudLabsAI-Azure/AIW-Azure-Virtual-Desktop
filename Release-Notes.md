@@ -2,10 +2,10 @@
 
 ### 06 October 2023
   
-  - Major update in Lab Guide
-  - We changed the image from 7-Zip to VLC.vhdx, as well as the MSIX certificate in the VSTs and the PowerShell script.
-
------------
+  - Minor update in Lab Guide
+  - In lab 12, MSIX application image is now updated to use VLC application instead of 7-Zip. Also, certificate used for authentication has been updated.
+     
+  -----------
 
 ### 03 September 2023
   
