@@ -3,7 +3,7 @@
 ### 06 October 2023
   
   - Minor update in Lab Guide
-  - In lab 12, MSIX application image is now updated to use VLC application instead of 7-Zip. Also, certificate used for authentication has been updated.
+    - In lab 12, MSIX application image is now updated to use VLC application instead of 7-Zip. Also, certificate used for authentication has been updated.
      
   -----------
 
