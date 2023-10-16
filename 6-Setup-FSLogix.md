@@ -159,7 +159,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
       
       - Click on **+  Select members (2)**.
 
-      - Under **Select** search paste your group **permission - fslogixcontainer (3)** and select it.
+      - Under **Select** search paste your group **permission-fslogixcontainer (3)** and select it.
    
       - Then click on **Select (4)**.
    
