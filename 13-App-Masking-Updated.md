@@ -181,7 +181,7 @@ In this task, you will download the pre-created rule sets into the session host 
     
 22. On the FSLogix Apps RuleEditor application, click on **Open**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/clickonopen.png)
+    ![](media/L3-E1-SFSLogixOpen.png)
     
 23. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
 
