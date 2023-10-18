@@ -92,7 +92,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
    >**Note**: It will take around 1-2 minutes for the script to execute.
    
-9. Navigate to virtual machines and click on **AVD-HP01-SH-1**.
+1. Navigate to virtual machines and click on **AVD-HP01-SH-1**.
 
    ![image](https://user-images.githubusercontent.com/83349577/175347379-ac20a82e-8ead-4523-a4d8-f75a927a55be.png)
 
