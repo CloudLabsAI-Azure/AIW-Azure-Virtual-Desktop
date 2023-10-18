@@ -89,15 +89,18 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    >**Note**: If the host pool **deployment fails**, please **follow the steps below:**
    >If the host deployment is successful, we can move to step 8.
    >
-   >**i.** In the Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** **(1)** then click on **Delete resource group** **(2)**.
+   >**i.** In the Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** **(1)** then 
+   click on **Delete resource group** **(2)**.
    >
    >![ws name.](media/fla1.png)
    >
-   >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
+   >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment**      
+   **(1)** and then click on **Delete** **(2)**.
    >
    >![ws name.](media/fla2.png)
    > 
-   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step 1 to Step 7.
+   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step 1 to 
+   Step 7.
 
 1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
 
