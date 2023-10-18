@@ -53,7 +53,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Users per virtual machine: Select ***Multiple users***
    - Image: **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
 
-     ![ws name.](media-1/L1-E1-S4.1.png)
+    ![ws name.](media-1/L1-E1-S4.1.png)
 
     - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
@@ -95,13 +95,13 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
    >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
    
-    ![ws name.](media/fla2.png)
+   ![ws name.](media/fla2.png)
    
    >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step 1 to Step 7.
 
 1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
 
-    ![](media-2/hostpool.png)
+   ![](media-2/hostpool.png)
    
 1. It will take you to the **Host pool**. The resources created are as follows,
 
