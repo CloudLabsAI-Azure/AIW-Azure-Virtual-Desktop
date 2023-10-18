@@ -65,31 +65,30 @@ In this task, you will download the pre-created rule sets into the session host 
  
    ![image](https://user-images.githubusercontent.com/83349577/175346633-755b0351-9aa1-4632-af15-66412246ea55.png)
 
-5.	A similar window to that of the below image will appear.
+5. A similar window to that of the below image will appear.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
 
-6.	Copy the script given below and paste it by using Ctrl + V in the Powershell window.
+6. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
    ```
    $WebClient = New-Object System.Net.WebClient
    $WebClient.DownloadFile("https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/LabFiles/hiderule.fxa","C:\Program Files\FSLogix\Apps\Rules\hiderule.fxa")
+   $WebClient = New-Object System.Net.WebClient
+   $WebClient.DownloadFile("https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/LabFiles/hiderule.fxr","C:\Program Files\FSLogix\Apps\Rules\hiderule.fxr")
+   Start-Process -Wait -FilePath "C:\LabFiles\fslogix\x64\Release\FSLogixAppsRuleEditorSetup.exe" -ArgumentList "/S" -PassThru
+   Start-Process -Wait -FilePath "C:\LabFiles\fslogix\x64\Release\FSLogixAppsSetup.exe" -ArgumentList "/S" -PassThru
 
-  $WebClient = New-Object System.Net.WebClient
-  $WebClient.DownloadFile("https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/LabFiles/hiderule.fxr","C:\Program Files\FSLogix\Apps\Rules\hiderule.fxr")
-  Start-Process -Wait -FilePath "C:\LabFiles\fslogix\x64\Release\FSLogixAppsRuleEditorSetup.exe" -ArgumentList "/S" -PassThru
-  Start-Process -Wait -FilePath "C:\LabFiles\fslogix\x64\Release\FSLogixAppsSetup.exe" -ArgumentList "/S" -PassThru
-
-  #Display script completion in the console
+   #Display script completion in the console
    Write-Host "Script Executed successfully"
-  ```
+   ```
 
   ![](media-1/script.png)
   
-7.	Then click on **Run** to execute the script.
+7. Then click on **Run** to execute the script.
 
 
-8.	Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
+8. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
    ![image](media-1/scriptexecuted.png)
 
@@ -105,8 +104,6 @@ In this task, you will download the pre-created rule sets into the session host 
 
 11. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
-  
-
    ```
    $WebClient = New-Object System.Net.WebClient
    $WebClient.DownloadFile("https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Virtual-Desktop/Azure-Virtual-Desktop-v3/LabFiles/hiderule.fxa","C:\Program Files\FSLogix\Apps\Rules\hiderule.fxa")
@@ -119,27 +116,27 @@ In this task, you will download the pre-created rule sets into the session host 
    #Display script completion in the console
    Write-Host "Script Executed successfully"
    ```
-![image](media-1/script.png)
 
+![image](media-1/script.png)
 
 
 12. Then click on Run to execute the script.
 
-13. Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
+1. Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
 
    ![image](media-1/scriptexecuted.png)
 
    > **Note:** It will take around 1-2 minutes for the script to execute.
 
-14. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
-15. Once the application opens, click on **Subscribe**.
+1. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/a49.png)
   
-16. Enter your **credentials** to access the workspace.
+1. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -153,15 +150,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
    ![](media/skipfornow.png)
 
-17. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
       
-18. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
+1. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
 
    ![ws name.](media/7-zip.png)
    
-19. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -171,35 +168,35 @@ In this task, you will download the pre-created rule sets into the session host 
    
    ![](media/login.png)
 
-20. Wait for the Session Desktop to connect.
+1. Wait for the Session Desktop to connect.
 
    ![ws name.](media/ex4t2s4.png)
 
-21. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
+1. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
 
     ![](media-1/runasadmin.png)
     
-22. On the FSLogix Apps RuleEditor application, click on **Open**.
+1. On the FSLogix Apps RuleEditor application, click on **Open**.
 
     ![](media/L3-E1-SFSLogixOpen.png)
     
-23. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
+1. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
 
     ![](media-1/openhiderule.png)
    
-24. Once you have imported the rule, click on **Manage Assignments**.
+1. Once you have imported the rule, click on **Manage Assignments**.
 
     ![](media-1/manage.png)
     
-25. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
+1. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
 
     ![](media-1/ruleoneuser.png)
     
-26. Now click on **Apply Rules to System**.
+1. Now click on **Apply Rules to System**.
 
    ![](media-1/applyrules.png)
 
-27. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
+1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
      ```
      aka.ms/wvdarmweb
@@ -217,15 +214,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
       ![](media/login1.png)
 
-28. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
     ![ws name.](media/desktp-v2.png)
 
-29. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
     ![ws name.](media/Accessallowres-v2.png)
 
-30. Enter your **credentials** to access the application and click on **Submit**.
+1. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
@@ -233,12 +230,12 @@ In this task, you will download the pre-created rule sets into the session host 
    
      ![ws name.](media/lb52.png)
      
-31. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+1. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](media-1/accessblock.png)
 
-32. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
+1. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
-33. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
 
 
