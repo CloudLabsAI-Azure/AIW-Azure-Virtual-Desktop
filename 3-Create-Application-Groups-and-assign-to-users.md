@@ -45,7 +45,6 @@ An application group of type ‘Desktop’, was created automatically while crea
  
 1. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Azure Virtual Desktop** and click on the **Host Pools (1)** button, then click on the **GS-AVD-HP (2)** pool.
 
-
 1. In the **GS-AVD-HP** host pool select **Application Groups** under **Applications**. Then select **+ Add** in the **GS-AVD-HP - Application groups**
   ![ws name.](media-2/lab3-2.png)
 
@@ -111,7 +110,6 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Click on **Review + Create**.
 
    ![ws name.](media-2/workspace1.png)
-
 
 1. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
