@@ -131,15 +131,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
    > **Note:** It will take around 1-2 minutes for the script to execute.
 
-1. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+14. On your PC, go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
-14. Once the application opens, click on **Subscribe**.
+15. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/a49.png)
   
-15. Enter your **credentials** to access the workspace.
+16. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -153,15 +153,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
    ![](media/skipfornow.png)
 
-16. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+17. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
       
-17. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
+18. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
 
    ![ws name.](media/7-zip.png)
    
-18. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
+19. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
@@ -171,35 +171,35 @@ In this task, you will download the pre-created rule sets into the session host 
    
    ![](media/login.png)
 
-19. Wait for the Session Desktop to connect.
+20. Wait for the Session Desktop to connect.
 
    ![ws name.](media/ex4t2s4.png)
 
-20. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
+21. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
 
     ![](media-1/runasadmin.png)
     
-21. On the FSLogix Apps RuleEditor application, click on **Open**.
+22. On the FSLogix Apps RuleEditor application, click on **Open**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/clickonopen.png)
+     ![](../Azure-Virtual-Desktop-v3/media/clickonopen.png)
     
-22. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
+23. Navigate to **C:\Program Files\FSLogix\Apps\Rules (1)**, select **hiderule (2)** and click on **Open (3)**.
 
     ![](media-1/openhiderule.png)
    
-23. Once you have imported the rule, click on **Manage Assignments**.
+24. Once you have imported the rule, click on **Manage Assignments**.
 
     ![](media-1/manage.png)
     
-24. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
+25. On the Assignments tab, you can review the hiding rule applied on both **AVD users (1)**. After reviewing, click on **Cancel**.
 
     ![](media-1/ruleoneuser.png)
     
-25. Now click on **Apply Rules to System**.
+26. Now click on **Apply Rules to System**.
 
    ![](media-1/applyrules.png)
 
-26. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
+27. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
      ```
      aka.ms/wvdarmweb
@@ -217,15 +217,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
       ![](media/login1.png)
 
-27. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
+28. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
     ![ws name.](media/desktp-v2.png)
 
-28. Select **Allow** on the prompt asking permission to *Access local resources*.
+29. Select **Allow** on the prompt asking permission to *Access local resources*.
 
     ![ws name.](media/Accessallowres-v2.png)
 
-29. Enter your **credentials** to access the application and click on **Submit**.
+30. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
@@ -233,12 +233,12 @@ In this task, you will download the pre-created rule sets into the session host 
    
      ![ws name.](media/lb52.png)
      
-30. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+31. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](media-1/accessblock.png)
 
-31. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
+32. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
-32. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+33. Click on the **Next** button present in the bottom-right corner of this lab guide.  
 
 
