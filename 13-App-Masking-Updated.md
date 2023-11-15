@@ -34,7 +34,7 @@ In this exercise, you go through the steps to create a rule set in **FSLogix App
 
     ![](media-1/file.png)
     
-1. Navigate to the path **C:\Program Files\Microsoft Office\root\Office16 (1)**, select **MSAccess (2)** and click on **Open (3)**
+1. Navigate to the path **C:\Program Files\Microsoft Office\Office16 (1)**, select **MSAccess (2)** and click on **Open (3)**
 
    ![](media-1/msaccess.png)
    
