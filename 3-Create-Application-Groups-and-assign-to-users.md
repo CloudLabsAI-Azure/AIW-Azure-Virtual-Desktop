@@ -15,9 +15,9 @@ As explained in the General Hierarchy section, an Application Group is a logical
 
 An application group of type ‘Desktop’, was created automatically while creating the Session Host in the previous exercise. In this task, we will create a new application group of type ‘*RemoteApp*’ and publish two applications in it. Also, we will assign users to both application groups.
 
-1. Navigate to the Azure portal, Search for Azure Virtual Desktop in the search bar and select **Azure Virtual Desktop** from the search results.
+1. Navigate to the Azure portal, Search for **Azure Virtual Desktop (1)** in the search bar and select **Azure Virtual Desktop (2)** from the search results.
 
-   ![ws name.](media/w1.png)
+   ![ws name.](media/2avd1.png)
 
 1. You will be directed towards the **Azure Virtual Desktop** management window.  
 
@@ -58,14 +58,14 @@ An application group of type ‘Desktop’, was created automatically while crea
    ii. Fill in the remaining parameters below:  
    
       - Resource Group: *Select* **AVD-Hostpool-RG-avd** *from the dropdown*.
-      - Host Pool: *Select* **GS-AVD-HP** *Host pool from the dropdown*.
+      - Host Pool: **GS-AVD-HP**.
       - Application Group Type: **RemoteApp** 
       - Application Group Name: **AVD-AG-01**
       - Click on **Next: Applications >**
 
-      ![ws name.](media-2/createapplicationgroup.png)
+         ![ws name.](media/next.png)
 
-1. On the *Applications* tab, click on **Add Applications** to add applications to this application group.
+1. On the *Applications* tab, click on **+ Add Applications** to add applications to this application group.
 
    ![ws name.](media/ag1.png)
 
@@ -78,7 +78,7 @@ An application group of type ‘Desktop’, was created automatically while crea
    
     ![ws name.](media-1/Ex3-task1-step11.png)
  
-1. Click on **Add Applications** again. 
+1. Click on **+ Add Applications** again. 
 
    ![ws name.](media/ag2.png)
 
@@ -95,7 +95,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
    ![ws name.](media/ag3.png)
 
-1. Click on the **+Add Microsoft Entra users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
+1. Click on the **+ Add Microsoft Entra users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
  
    ![ws name.](media/L3-E1-S16.png)
 
@@ -109,11 +109,11 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Register Application Group: Leave the value to default
     - Click on **Review + Create**.
 
-   ![ws name.](media-2/workspace1.png)
+      ![ws name.](media/reviewcreate.png)
 
 1. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-   ![ws name.](media-2/createappliction1.png)
+   ![ws name.](media/create.png)
 
     >**Note:** The deployment will take about a minute to succeed.
 
@@ -123,6 +123,6 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. In the Application Group Window, click on **Applications** under the **Manage** section of settings and you will see that the applications are published in the new application Group. 
 
-   ![ws name.](media/uiupdate04.png)
+   ![ws name.](media/applications.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide. 

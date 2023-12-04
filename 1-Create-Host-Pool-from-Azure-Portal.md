@@ -46,7 +46,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Next : Virtual Machines >**.
 
-   ![ws name.](media-1/L1-EX1-S3.11.png)
+      ![ws name.](media-1/L1-EX1-S3.11.png)
    
 1. On the **Virtual Machines** tab, provide the information as mentioned below:
    
@@ -55,16 +55,18 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
 
     ![ws name.](media-1/L1-E1-S4.1.png)
 
+      >**Note:** If the image is not coming inside the drop-down, then select **See all images** > choose **Windows multi-session + Microsoft 365 Apps** > **Select** > **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2 - x64 Gen 2**
+
     - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
-     ![ws name.](media/2avd18.png)
+      ![ws name.](media/2avd18.png)
    
    - Name Prefix: **AVD-HP01-SH**
    - Number of virtual machines: **2**
    - Link Azure template: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
-   ![ws name.](media-1/L1-E1-S4.3.png)
+      ![ws name.](media-1/L1-E1-S4.3.png)
    
 1. On the **Assignments** page, provide the information as mentioned below, 
    
@@ -72,11 +74,9 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Assign existing users or groups: **Select** the option
    - click on **Next : Review + create >**.
 
-   ![ws name.](media/gsw4.png)
+      ![ws name.](media/gsw4.png)
    
 1. Verify the options and **click** on **Create**.
-
-   ![ws name.](media-1/createhostpoolnew1.1.png)
 
    ![ws name.](media-1/L1-E1-S7.png)
 
@@ -111,7 +111,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - **Application**: 1 (SessionDesktop)
    - **Workspace**: 1 (GS-AVD-WS)
 
-   ![ws name.](media-2/hospool.png)
+      ![ws name.](media-2/hospool.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    

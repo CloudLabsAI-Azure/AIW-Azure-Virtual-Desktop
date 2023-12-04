@@ -21,7 +21,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Navigate to the Azure portal, then search for **Microsoft Entra ID (1)** in the search bar and select **Microsoft Entra ID (2)** from the suggestions.
 
-   ![ws name.](media/dev3.png)
+   ![ws name.](media/microsoftentraID.png)
 
 1. Click on **Users** under *Manage* blade.
 
@@ -29,23 +29,23 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on **+ New user (1)** and select **Create new user (2)** from drop-down to add a new user.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media-1/lab7-ex1-s3.png)
+   ![ws name.](media-1/lab7-ex1-s3.png)
 
 1. Add the following configurations under the *Basics* tab and leave the rest to default:
 
    - User principal name: **AVDUser01**
    - Display Name: **AVDUser01**
-   - Click on **Review + Create** and click on *Create*
+   - Click on **Review + Create** and click on **Create**
 
-   ![ws name.](media-1/avd-l7-ex1-s4.png)
+      ![ws name.](media-1/avd-l7-ex1-s4.png)
 
 1. Click on **+ New user** and select **Create new user** to add one more user, then add the following configurations under *Basics* tab and leave the rest to default.
 
    - User principal name: **AVDUser02**
    - Display Name: **AVDUser02**
-   - Click on **Review + Create** and click on *Create*
+   - Click on **Review + Create** and click on **Create**
    
-   ![ws name.](media-1/avd-l7-ex1-s5.png)
+      ![ws name.](media-1/avd-l7-ex1-s5.png)
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
@@ -57,21 +57,21 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
-   ![ws name.](media/2avd43.png)
+   ![ws name.](media/permission12.png)
 
 1. Click on **AVDUser02** to open it. Then click on **Groups** **(1)** under *Manage* blade and select **+ Add memberships** **(2)**.
 
-   ![ws name.](media-1/lab7-ex1-s9.png)
+   ![ws name.](media/addmembership.png)
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
-   ![ws name.](media/L7E1S10.png)
+   ![ws name.](media/permission12.png)
 
 1. Navigate to the host pool *GS-AVD-HP* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
     ![ws name.](media-2/Application.png)
 
-1. Open application group **GS-AVD-HP-DAG** and click on **Assignments** under *Manage* blade.
+1. Select **GS-AVD-HP-DAG** and click on **Assignments** under *Manage* blade.
 
     ![ws name.](media-2/assignments1.png)
    
@@ -141,13 +141,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-   ![ws name.](media/username.png)
+      ![ws name.](media/username.png)
 
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-   ![ws name.](media/password.png)
+      ![ws name.](media/password.png)
 
    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
@@ -171,7 +171,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](media/sessiondesktop.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -193,7 +193,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-   ![ws name.](media/password2.png)
+      ![ws name.](media/password2.png)
 
    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
@@ -209,22 +209,22 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.
    
-   ![ws name.](media/lb37.png)
+      ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
+   ![ws name.](media/sessiondesktop1.png) 
 
-1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
+1. Return to the Azure portal in your browser inside the **JumpVM**, search for **host pools (1)** and click on **Host pool (2)** from the suggestion to open it.
 
-   ![ws name.](media/lb38.png)
+   ![ws name.](media/hostpool.png)
    
 1. Now click on **GS-AVD-HP** host pool to access it.
 
-   ![ws name.](media-2/selecthp.png)
+   ![ws name.](media/hostpool1.png)
  
 1. Under Manage Blade, click on **Session hosts**.
 
@@ -258,7 +258,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media-2/properties.png)
    
-1. From Properties in the left menu, change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
+1. From Properties in the left menu, change the load balancing algorithm to **Depth-first (1)** then click on **Save (2)** icon.
 
    ![ws name.](media-2/depth.png)
    
@@ -284,11 +284,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
-   ![ws name.](media/lb52.png)
+      ![ws name.](media/lb52.png)
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](media/sessiondesktop.png)
     
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -303,19 +303,19 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
    
-   ![ws name.](media/lb37.png)
+      ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
+   ![ws name.](media/sessiondesktop1.png) 
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **GS-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
-   ![ws name.](media-2/avdsession.png)
+   ![ws name.](media/hostpool2.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
-   ![ws name.](media-2/2users.png)
+   ![ws name.](media/hp3.png)
    
    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
    >

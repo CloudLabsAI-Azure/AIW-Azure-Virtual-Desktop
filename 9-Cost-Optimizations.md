@@ -12,15 +12,13 @@ In this task, you will through the process to understand the creation of a custo
 
 > **Note:** If you observe the custom role already exists, you can skip Task 1 and navigate to Task 2.
 
-1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
+1. In the Azure Portal, search for **Subscriptions (1)** and select it from the search result **(2)**.
 
-1. Now in the Azure portal search for **Subscription** and click on the search result.
+    ![](media/subscriptions.png)
 
-   ![](media/subscription-select-01.png)
+1. Select your **Subscription** from **Subscriptions** page.
 
-1. On the Subscription page, click on the name of your subscription.
-
-   ![](media/avdv220.png)
+   ![](media/sybname.png)
   
 1. Now from the left-hand side blade, Click on **Access Control (IAM) (1)** and then click on **+ Add (2)** and select **Add custom role (3)**.
 
@@ -36,7 +34,7 @@ In this task, you will through the process to understand the creation of a custo
 
 1. In Add Permissions search for **Virtual Machines** **(1)** and select **Microsoft Compute (2)** from the search results.
 
-   ![](media/avdv224.png)
+   ![](media/microsoftcompute.png)
 
 1. From the list of permissions, search for **Microsoft.Compute/virtualMachines** then select **Read : Get Virtual Machine** **(1)** and **Other : Start Virtual Machine** **(2)** and click on **Add** **(3)**.
 
@@ -54,7 +52,7 @@ In this task, you will through the process to understand the creation of a custo
   
    - Under Role, search and select **start VM on connect**, then click on **Next**.
 
-     ![](media/startvm-v2.png)
+     ![](media/startvm.png)
      
    - Under the **Members** tab, enter the below-mentioned details:
 
@@ -70,34 +68,36 @@ In this task, you will through the process to understand the creation of a custo
     
     ![](media/roleass-v2.png)
     
-  - Click on **Review + assign**
+  - Click on **Review + assign**.
+
+  - On **Review + assign** page, select **Review + assign**.
 
 ## Exercise 2: Configure the Start VM on Connect feature
 
 ### Task 1: Configuring Host Pool Properties
 
-1. In the Azure portal, search for **Azure Virtual Desktop** and select it from the search result.
+1. In the Azure portal, search for **Azure Virtual Desktop (1)** and select **Azure Virtual Desktop (2)** from the search result.
 
-   ![](media/avdv229.png)
+   ![ws name.](media/2avd1.png)
   
 1. On the left-hand side blade, click on **Host pools** **(1)** and select the **host pool** **(2)** we want to configure.
 
-   ![](media-2/avdhp.png)
+   ![](media/hp.png)
   
 1. On the left-hand side blade of the Host pool page. Click on **Properties** **(1)**
   
    - Toggle **Start VM on connect** to **Yes** **(2)**.
    - Click on **Save** **(3)**.
 
-   ![](media-2/hpproperties.png)
+      ![](media-2/hpproperties.png)
 
 ## Exercise 3: Experience VM start on connect
 
 ### Task 1: Stop the Session host VMs
 
-1. In Azure Portal search for **Virtual Machines** and click on it.
+1. In Azure Portal search for **Virtual Machines (1)** and select **Virtual Machine (2)**.
 
-   ![](media/avdv232.png)
+   ![](media/virtualmachine.png)
 
 1. Select the **session host VMs** **(1)** and click on **Stop** **(2)**.
 
@@ -123,6 +123,8 @@ In this task, you will through the process to understand the creation of a custo
 
    ![ws name.](media/a49.png)
 
+1. Select **+ Use another account**.
+
 1. Enter the user credentials to access the workspace.
 
    - Username: *Paste the username*  **<inject key="AzureAdUserEmail" />** *then click on* **Next**.
@@ -141,7 +143,7 @@ In this task, you will through the process to understand the creation of a custo
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/ch14.png)
+      ![ws name.](media/ch14.png)
    
    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    
@@ -153,7 +155,9 @@ In this task, you will through the process to understand the creation of a custo
 
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)   
+   ![ws name.](media/sessiondesktop1.1.png)   
+
+1. Select **OK** on **Your remote session will be disconnected**.
      
 1. Return to the Azure portal and click on **refresh** **(1)** to get the updated status of Virtual Machines. Here, we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
