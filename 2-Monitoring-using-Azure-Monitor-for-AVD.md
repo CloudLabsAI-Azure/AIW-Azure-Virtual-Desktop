@@ -17,9 +17,9 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Type *Log Analytics Workspace* in the search bar and click on **Log Analytics Workspace** from the suggestions.
 
-   ![ws name.](media/wiw1.png)
+   ![ws name.](media/avdlog.png)
 
-1. On the Marketplace page, Select thye **drop down (1)**  and click on **Create (2)**.
+1. On the Marketplace page, Select thye **Create (1)**  and click on **Log Analytics Workspace (2)**.
 
    ![ws name.](media/savd1.jpg)
 
@@ -88,23 +88,23 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media-2/wvd.png)
+   ![ws name.](media/check1.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
-   ![ws name.](media/lab2a-config-ws.png)
+   ![ws name.](media/configureworkspace.png)
    
 1. On the **Deploy template** page, click on **deploy**. (Note: The diagnostic settings for the host pool are automated using a template).
 
-   ![ws name.](media-2/Lab2(a)-ex2-step10.png) 
+   ![ws name.](media/deploytemplate.png) 
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/lab2a-config-ws-result.png)
+   ![ws name.](media/workspace.png)
    
-1. On **Check Configuration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
+1. On **Check Configuration** page, Select **Session host data settings**. Then, select the workspace destination **<inject key="Log Analytics Workspace Name	" />**.
 
-   ![ws name.](media-2/datasettings.png)
+   ![ws name.](media/workspacedestination.png)
    
 1. On CheckAMAConfiguration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
 

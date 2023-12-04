@@ -85,7 +85,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
-   ![ws name.](media/w12.png)
+   ![ws name.](media/allresources.png)
       
 1. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
 
@@ -105,13 +105,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](media/sessiondesktop.png)
    
    > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
    
 1. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
-   ![ws name.](media/w1.png)
+   ![ws name.](media/2avd1.png)
 
 1. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
 

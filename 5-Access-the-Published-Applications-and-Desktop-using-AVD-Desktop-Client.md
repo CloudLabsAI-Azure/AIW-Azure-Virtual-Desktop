@@ -36,14 +36,14 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/wvd41.png)
 
-1. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
-
-   ![ws name.](media/137.png)
+1. On **Complete the Remote Desktop Setup Wizard** select the check box of **Launch Remote Desktop when setup exists**, and select **Finish**.
    
 1. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/a49.png)
-  
+
+1. Select **+ Use another account**.
+
 1. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
@@ -86,17 +86,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/ch16.png)
 
-1. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
+1. Return back to the Azure Portal, search for **Azure virtual desktop (1)** in the search bar, and select **Azure Virtual Desktop (2)** from the suggestions.
 
-   ![ws name.](media/w1.png)
+   ![ws name.](media/2avd1.png)
 
-1. Click on **User** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
+1. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
 
    ![ws name.](media/AVD-users.png)
 
-1. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
+1. Click on the **Sessions (1)** tab, select both the Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
-   ![ws name.](media-2/hplogoff.png)
+   ![ws name.](media/hplogoff.png)
 
 1. Click on **OK** to *Log off user from VMs*.
 
@@ -128,6 +128,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)   
-     
+   ![ws name.](media/sessiondesktop1.1.png)   
+
+1. Click on **OK**, on the pop-up which says, **Your remote session will be disconnected**.
+
 1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
