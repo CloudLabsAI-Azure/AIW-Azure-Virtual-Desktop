@@ -55,9 +55,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 2. From the left-hand side blade, click on **Properties** **(1)** under **Manage** and scroll down to select **Manage Security Defaults** **(2)** at the bottom of the page.
 
-   ![](media-1/avd1.2.png)
+   ![](media-1/L10E2S2.png)
    
-3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **No**.
+3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **Disable**.
  
    > **Note:** Please ignore and proceed further if you find any survey points by Azure below **Enable Security defaults** option
    
@@ -84,7 +84,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      - Now a *Select* window will open, here search for ODL user and Select it **(5)**
      - Click on **Select** **(6)** button
    
-   ![](media-1/L10E2S7a.png)
+   ![](media-1/L10E2S7.png)
    
    - Click on **No target resources selected** **(1)** under Target resources option.
    - Click on **Select apps** **(2)**
