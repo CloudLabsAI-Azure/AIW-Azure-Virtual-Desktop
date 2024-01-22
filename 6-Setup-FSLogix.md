@@ -67,25 +67,25 @@ In the following task, we will be creating a storage account with a file share w
    
 8. In the storage account, click on **File shares (1)** present under **Data storage** blade. Then click on **Not configured (2)** under **File share settings** page.
 
-   ![ws name.](media/2avd32.png)
+   ![ws name.](media-2/L6E1S8.png)
 
-9. Click on **Set up** under **Azure Active Directory Domain Services** for enabling Identity-based access to users.
+9. Click on **Set up** under **Microsoft Entra Domain Services** for enabling Identity-based access to users.
 
-   ![ws name.](media-1/Ex6-task1-step9.png)
+   ![ws name.](media-2/L6E1S9-new.png)
 
 10. Select **Enable Azure Active Directory Domain Services (1)** and then click on **Save (2)**.
      
-    ![ws name.](media/2avd10.png)
+    ![ws name.](media-2/L6E1S10.png)
     
     >**Note:** Setting this property implicitly ***domain joins*** the storage account with the associated Azure AD DS deployment. Azure AD DS authentication over SMB is then enabled for all new and existing file shares in the storage account.
  
 11. Return to the **<inject key="Storage Account Name" />**  storage account and on the left pane, click on **File shares** present under *Data Storage*, then click on **Refresh** a few times until the status of the Active Directory changes to **Configured** before continuing.
 
-    ![ws name.](media/AVD6E1S11.png)
+    ![ws name.](media-2/L6E1S11.png)
  
 12. On **File shares** page, click on  **+ File share**.
 
-    ![ws name.](media/2avd88.png)
+    ![ws name.](media-2/L6E1S12.png)
  
 13. Enter the following name for your file share.
     
@@ -113,7 +113,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave the rest to default:
 
-   - Group name: **permission-fslogixcontainer**
+   - Group name: **permission - fslogixcontainer**
    - Click on **Create**.
 
    ![ws name.](media/2avd38.png)
@@ -159,7 +159,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
       
       - Click on **+  Select members (2)**.
 
-      - Under **Select** search paste your group **permission-fslogixcontainer (3)** and select it.
+      - Under **Select** search paste your group **permission - fslogixcontainer (3)** and select it.
    
       - Then click on **Select (4)**.
    
