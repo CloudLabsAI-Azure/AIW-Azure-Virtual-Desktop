@@ -1,4 +1,4 @@
-# Lab 13: App Masking (Read - Only)
+# Lab 13: App Masking (Read-Only)
 
 
 ### Overview
@@ -10,7 +10,7 @@ Application Masking is used to manage user access to installed components. Appli
 
 In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host using a PowerShell script.
 
-1. In your Azure portal search for Virtual machines in the search bar and click on Virtual Machines from the suggestions.
+1. In your Azure portal search for Virtual Machines in the search bar and click on Virtual Machines from the suggestions.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346152-3f8dce30-9412-49c7-a974-6b2b0c9d1479.png)
 
@@ -18,7 +18,7 @@ In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host us
 
    ![image](https://user-images.githubusercontent.com/83349577/175346345-4afff1e0-2259-4b8c-9f7e-4b1ed6a55287.png)
    
-3. Then click on Run command under Operations.
+3. Then click on the Run command under Operations.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346507-01f314bb-1fd0-4ce6-bfc4-f94dcd86e62a.png)
 
@@ -26,7 +26,7 @@ In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host us
  
    ![image](https://user-images.githubusercontent.com/83349577/175346633-755b0351-9aa1-4632-af15-66412246ea55.png)
 
-5.	A similar window as that of the below image will appear.
+5.	A similar window to that of the below image will appear.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346718-bf993fb4-06b8-4bca-8f61-7750c7f46c11.png)
 
@@ -126,14 +126,6 @@ Else {
 
    > **Note:** It will take around five minutes for the script to execute.
 
-
-
-
-
-
-    
-
-
 ##  Exercise 2: App Masking
 
 
@@ -158,7 +150,7 @@ Else {
       ![](media-1/scan.png)
 
 
-5. After Scan completes successfully, click on ***Ok***.
+5. After the Scan completes successfully, click on ***Ok***.
 
      ![](media-1/clickok.png)
     
@@ -234,7 +226,7 @@ Else {
    
      ![ws name.](media/lb52.png)
      
-18. Within the session desktop, go to Start and search for **Chrome (1)** and double click on **Google Chrome (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
+18. Within the session desktop, go to Start and search for **Chrome (1)** and double-click on **Google Chrome (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
      ![](media-1/googlechrome.png)
 

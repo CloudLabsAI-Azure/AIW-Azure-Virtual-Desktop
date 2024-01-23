@@ -18,7 +18,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    >**Note:**  If you are already logged in to your user account, jump to step 3 else continue with the next step i.e., Step 2.
 
-2. To login, enter the lab credentials below:
+1. To login, enter the lab credentials below:
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -32,15 +32,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![](media/login.png)
 
-3. The AVD dashboard will launch.Click on **Word** to access it.  
+1. The AVD dashboard will launch. Click on **Word** to access it.  
 
    ![ws name.](media-2/word.png)
 
-4. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/Accessallowres-v2.png)
 
-5. Enter the lab credentials to access the application and click on **Submit**.
+1. Enter the lab credentials to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -48,16 +48,16 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media/89.png)
       
-6. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
+1. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
 
    ![ws name.](media/ch9.png)
    
-   >**Note :**  If you see a Blank Screen while launching the application, restart the AVD Session Hosts. To do so; follow the below steps:
-   > - Navigate back to the Azure Portal and search for **Virtual Machines** from serach bar.
+   >**Note:**  If you see a Blank Screen while launching the application, restart the AVD Session Hosts. To do so; follow the below steps:
+   > - Navigate back to the Azure Portal and search for **Virtual Machines** from search bar.
    > - Select the two AVD VMs and then click on the **RESTART** button from the top ribbon menu.
    > - After a minute or two; once the AVD Session host VMs are restarted; try the step again.
 
-7. Enter username **<inject key="AzureAdUserEmail" />** on *Activate Office* window and click on **Next**.
+1. Enter username **<inject key="AzureAdUserEmail" />** on *Activate Office* window and click on **Next**.
 
    ![ws name.](media/ch6.png)
 
@@ -65,7 +65,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    
    ![ws name.](media/uiupdate06.png)
 
-8. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
+1. Enter password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
 
    ![ws name.](media/ch7.png)
 
@@ -73,13 +73,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
  
    ![](media/login.png)
 
-9. Click on the **Close** button on the window asking *Your privacy option*.
+1. Click on the **Close** button on the window asking *Your privacy option*.
 
    ![ws name.](media/ch19.png)
 
-10. Once signed in, the application will look like the screenshot below.
+1. Once signed in, the application will look like the screenshot below.
 
-    ![ws name.](media/ch8.png)
+   ![ws name.](media/ch8.png)
 
 ## Exercise 2: Access the published Desktop
 
@@ -87,15 +87,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    
    ![ws name.](media/w12.png)
       
-2. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
+1. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media-2/sessiondesktop.png)
 
-3. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/Accessallowres-v2.png)
 
-4. Enter the lab credentials to access the application and click on **Submit**.
+1. Enter the lab credentials to access the application and click on **Submit**.
 
    - Username: **<inject key="AzureAdUserEmail" />** 
   
@@ -103,30 +103,30 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media/89.png)
 
-5. The virtual desktop will launch and look similar to the screenshot below. 
+1. The virtual desktop will launch and look similar to the screenshot below. 
 
    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
    
-   > **Note :** If you see a black screen while launching the session desktop, please re-start the session dekstop by re-performing the lab from step-2.
+   > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
    
-6. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
+1. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
 
-7. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
+1. Click on **Users** under *Manage* blade, then paste **<inject key="AzureAdUserEmail" />** in the search bar and click on your user to open it.
 
    ![ws name.](media/AVD-users.png)
 
-8. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
+1. Click on the **Sessions (1)** tab, select both Host pools by clicking on the checkbox **(2)** and then click on the **Log off (3)** button.
 
    ![ws name.](media-2/session.png)
 
-9. Click on **OK** to *Log off user from VMs*.
+1. Click on **OK** to *Log off user from VMs*.
 
    ![ws name.](media/jvm9.png)
 
-10. Click on the **Refresh** button and make sure no results are displayed under Host pool.
+1. Click on the **Refresh** button and make sure no results are displayed under the Host pool.
 
-    ![ws name.](media-1/Ex4-task2-step10.png)
+   ![ws name.](media-1/Ex4-task2-step10.png)
 
-11. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+1. Click on the **Next** button present in the bottom-right corner of this lab guide. 

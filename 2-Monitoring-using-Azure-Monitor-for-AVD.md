@@ -3,7 +3,7 @@
 
 ## **Scenario**
 
-Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso to set up a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resource. You will create a Log analytics workspace and map it to the AVD environment using Azure Insights.
+Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso set up a  monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resources. You will create a Log Analytics workspace and map it to the AVD environment using Azure Insights.
 
 ## **Overview**
 
@@ -52,7 +52,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/avd1.png) 
 
-1. You will get directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
+1. You will be directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
    ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
@@ -67,7 +67,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On the **GS-AVD-HP | Insights** hostpool page, click on **Open Configuration Workbook**. 
 
-   ![ws name.](media-2/Lab2(a)-ex2-step4.png)
+   ![ws name.](media-1/avdmon1.1.png)
 
 1. On the **Check Configuration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace from the drop-down menu under the **Resource diagnostic settings** section of the page. 
 
@@ -77,6 +77,8 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    ![ws name.](media-2/checkconfiguration.png)
    
 1. Scroll down on the same page and click on **Configure host pool**.
+
+   >**Note**: Sometimes, monitoring for the host pool gets configured automatically. Please **re-configure** monitoring for the host pool as a few components might not be configured.
 
     ![ws name.](media-2/Lab2(a)-ex2-step6.png)
    
@@ -104,37 +106,17 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media-2/datasettings.png)
    
-1. On Check Configuration page click on **Add hosts to workspace** in **Session hosts** window.
+1. On CheckAMAConfiguration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
 
-   ![ws name.](media-2/Lab2(a)-ex2-step13.png)
+   ![ws name.](media-1/avdmon2.1.png)
    
 1. On the **Deploy template** page, click on **Deploy**. (Note: the diagnostic settings for the workspace are automated using a template).
 
-   ![ws name.](media/monu2.png)
+   ![ws name.](media-1/avdmon3.11.png)
    
-1. On the **Check Configuration** page, click on **configure performance counters** in the **performance counter** window.
+1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see a message as **No session hosts missing AMA extension.**.
 
-   ![ws name.](media/mon14-new.png)
-   
-1. On the **Deploy template** page, the required performance counters will be added to the Log Analytics workspace. Click on **Apply Config**.
-
-   ![ws name.](media/mon15.png)
-   
-1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see that all the performance counters will be configured.
-
-   ![ws name.](media/2avd24.png)
-   
-1. On the same **Check Configuration** page, scroll down and click on **Configure events** in **Windows event logs** window.
-
-   ![ws name.](media/mon17.png)
-   
-1. On the **Deploy template** page, the required events will be added to the Log Analytics workspace. Click on **Deploy**.
-
-   ![ws name.](media/mon18.png)
-   
-1. Once the deployment is completed, **Refresh** the **Check Configuration** page. You'll see that all the required events will be configured.
-   
-   ![ws name.](media/mon19.png)
+   ![ws name.](media-1/avdmon4.1.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 

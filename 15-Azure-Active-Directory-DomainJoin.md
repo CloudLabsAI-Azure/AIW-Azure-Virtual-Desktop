@@ -1,16 +1,16 @@
-# Lab 15 : Azure Active Directory Domain Join (Read Only) 
+# Lab 15: Microsoft Entra ID Domain Join (Read Only) 
 
 ## **Scenario**
 
- Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. Creation of host pool also includes session hosts domain joined through Azure Active directory, default application group, and a workspace.
+ Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. Creation of the host pool also includes session hosts domain joined through Microsoft Entra ID, default application group, and a workspace.
 
 ## **Overview**
 
- A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will login to the Azure portal.
+ A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will log in to the Azure portal.
  
-## Exercise 1: Create Host Pool using Getting Started Wizard
+## Exercise 1: Create a Host Pool using the Getting Started Wizard
 
-In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum efforts and information.
+In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum effort and information.
 
 1. On the **Azure portal** search for **Azure Virtual Desktop** in the **search bar** **(1)** and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
@@ -46,10 +46,10 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    C. **Domain to join**
 
-   - Select which directory you would like to join: **Azure Active Directory (1)**
+   - Select which directory you would like to join: **Microsoft Entra ID (1)**
    - Enroll VM with Intune: **No (2)**
 
-   ![](media/domaintojoin.png)
+   ![](media-1/avd1.4.png)
 
    D. **Virtual Machine Administrator account**
 
