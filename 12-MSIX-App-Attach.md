@@ -231,11 +231,11 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    
 1. In **Add Application** tab, 
 
-   - For **Application Source**, select **MSIX Package** from the drop-down. 
+   - For **Application Source**, select **App Attach** from the drop-down. 
    - For **Application name**, provide **VLC** as the value.
-   - Click on **save**.
+   - Click on **Review+Add** and click again on **Add**.
 
-   ![ws name.](media/msixv5.png)
+   ![ws name.](media/L12E2S10.png)
    
    Now, The MSIX implementation is completed. We'll check the working of it.
     
