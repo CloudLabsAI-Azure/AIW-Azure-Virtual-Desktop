@@ -85,7 +85,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
    
-   ![ws name.](media/w12.png)
+   ![ws name.](media-1/L4E2S1.png)
       
 1. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
 
