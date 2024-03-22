@@ -128,7 +128,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Search and select username **<inject key="AzureAdUserEmail" /> (1)** and click on **Select (2)**.
 
-   ![ws name.](media/2avd41.png)
+   ![ws name.](media-1/L6E2S7.png)
    
 1. Navigate to Storage Account **<inject key="Storage Account Name" />**, select **File Shares** under Data Storage and click on **userprofile** to open file share we created earlier.
 
