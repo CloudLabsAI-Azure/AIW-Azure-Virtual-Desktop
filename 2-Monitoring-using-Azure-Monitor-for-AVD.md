@@ -84,11 +84,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
-   ![ws name.](media-2/Lab2(a)-ex2-step7.png)
+   ![ws name.](media-2/avda.png)
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media-2/wvd.png)
+   ![ws name.](media-2/avdb.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
@@ -96,11 +96,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. On the **Deploy template** page, click on **deploy**. (Note: The diagnostic settings for the host pool are automated using a template).
 
-   ![ws name.](media-2/Lab2(a)-ex2-step10.png) 
+   ![ws name.](media-2/avdc.png) 
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/lab2a-config-ws-result.png)
+   ![ws name.](media/avdd.png)
    
 1. On **Check Configuration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
