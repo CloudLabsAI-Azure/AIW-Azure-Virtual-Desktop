@@ -74,9 +74,9 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Application Source: **Start Menu** *(choose from the dropdown)*  
     - Application: **Excel** *(choose from the dropdown)* 
     - Display Name: **Excel**
-    - Leave the rest of the parameters as default and click on **Save**.
+    - Leave the rest of the parameters as default and click on **Review + Add** and then **Add**.
    
-    ![ws name.](media-1/Ex3-task1-step11.png)
+    ![ws name.](media-1/L3E1S12.png)
  
 1. Click on **Add Applications** again. 
 
@@ -87,9 +87,9 @@ An application group of type ‘Desktop’, was created automatically while crea
     - Application Source: **Start Menu** *(choose from the dropdown)*   
     - Application: **Word** *(choose from the dropdown)*
     - Display Name: **Word**    
-    - Leave the rest of the parameters to default and click on **Save**.  
+    - Leave the rest of the parameters to default and click on **Review + Add** and then **Add**. 
    
-   ![ws name.](media-1/Ex3-task1-step13.png)
+   ![ws name.](media-1/L3E1S14.png)
 
 1. Click on **Next: Assignments >**.
 
