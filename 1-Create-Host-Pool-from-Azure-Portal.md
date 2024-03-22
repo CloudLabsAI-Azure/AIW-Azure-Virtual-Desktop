@@ -10,17 +10,17 @@ A Host Pool is a collection of Azure virtual machines that register to Azure Vir
  
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
-In this exercise, we will be creating the Host pool using **Getting Started Wizard** using minimum effort and information.
+In this exercise, we will be creating the Host pool using **Quickstart** using minimum effort and information.
 
 1. On the **Azure portal** search for **Azure Virtual Desktop** **(1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/2avd1.png)
    
-1. On the Azure Virtual Desktop Page, **Click** on the **Getting Started** **(1)** from the side blade and click on **Start** **(2)**.
+1. On the Azure Virtual Desktop Page, **Click** on the **Quickstart** **(1)** from the side blade and click on **Start** **(2)**.
 
-   ![ws name.](media-1/Ex1-task1-step2.png)
+   ![ws name.](media-1/L1E1T2.png)
    
-1. On **Getting Started Wizard** page, provide the information as mentioned below,
+1. On **Quickstart Wizard** page, provide the information as mentioned below,
 
    **A. Project Details:**
 
@@ -46,7 +46,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
    - **Click** on **Next : Virtual Machines >**.
 
-   ![ws name.](media-1/L1-EX1-S3.11.png)
+   ![ws name.](media-1/L1E1S3.png)
    
 1. On the **Virtual Machines** tab, provide the information as mentioned below:
    
@@ -64,7 +64,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - Link Azure template: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
-   ![ws name.](media-1/L1-E1-S4.3.png)
+   ![ws name.](media-1/L1E1S4.png)
    
 1. On the **Assignments** page, provide the information as mentioned below, 
    
@@ -76,9 +76,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    
 1. Verify the options and **click** on **Create**.
 
-   ![ws name.](media-1/createhostpoolnew1.1.png)
-
-   ![ws name.](media-1/L1-E1-S7.png)
+   ![ws name.](media-1/L1E1S6.png)
 
    >**NOTE**: Usually it takes 20 minutes to get deployed successfully. Sometimes it might take up to 90 minutes.
    
@@ -111,7 +109,7 @@ In this exercise, we will be creating the Host pool using **Getting Started Wiza
    - **Application**: 1 (SessionDesktop)
    - **Workspace**: 1 (GS-AVD-WS)
 
-   ![ws name.](media-2/hospool.png)
+   ![ws name.](media-1/L1E1S9.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
