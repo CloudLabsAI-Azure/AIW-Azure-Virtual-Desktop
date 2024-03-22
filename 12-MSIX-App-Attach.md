@@ -233,6 +233,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    - For **Application Source**, select **App Attach** from the drop-down. 
    - For **Application name**, provide **VLC** as the value.
+   - For **Application identifier**, provide **VLC** as the value
    - Click on **Review+Add** and click again on **Add**.
 
    ![ws name.](media-1/L12E2S10.png)
