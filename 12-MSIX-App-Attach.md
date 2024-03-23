@@ -23,7 +23,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     - Tier: **Transaction Optimized**
     - Click on **Review + create**, then click on **Create**.This will create the file share.
     
-    ![ws name.](media/msix1.png)
+    ![ws name.](media/L12E1S3.png)
     
 1. Go to the **msixfile** file share which you just created and select **upload**.
    
@@ -233,9 +233,10 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    - For **Application Source**, select **App Attach** from the drop-down. 
    - For **Application name**, provide **VLC** as the value.
+   - For **Application identifier**, provide **VLC** as the value
    - Click on **Review+Add** and click again on **Add**.
 
-   ![ws name.](media/L12E2S10.png)
+   ![ws name.](media-1/L12E2S10.png)
    
    Now, The MSIX implementation is completed. We'll check the working of it.
     
