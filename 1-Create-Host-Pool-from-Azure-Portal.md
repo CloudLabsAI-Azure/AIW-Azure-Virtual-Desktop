@@ -26,7 +26,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
 
    - Subscription: **Leave it as default**
    - Identity provider: Select ***Existing active directory***
-   - Identity Service Provider: Select ***Microsoft Entra Domain Services*** from the drop-down
+   - Identity service type: Select ***Microsoft Entra Domain Services*** from the drop-down
    - Resource Group prefix: Enter ***AVD-HostPool-RG***
    - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
 
@@ -61,7 +61,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
    
    - Name Prefix: **AVD-HP01-SH**
    - Number of virtual machines: **2**
-   - Link Azure template: **Unselect** the option
+   - Use custom configuration script: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
    ![ws name.](media-1/L1E1S4.png)
