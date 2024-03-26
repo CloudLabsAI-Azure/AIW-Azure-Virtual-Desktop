@@ -36,13 +36,13 @@ In the following task, we will be creating a storage account with a file share w
    
    - **Select** Make read access to the data available in the event of regional unavailability.
    
-   - At last, click on **Next: Advanced >**
+   - At last, click on **Next**
    
-   ![ws name.](media/uiupdate08.png)
+   ![ws name.](media/lab6-1.png)
    
 4. On the _Advanced_ tab, leave it to default and click on the **Next: Networking >** tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on the **Next: Networking >** button.
 
-   ![ws name.](media/avdstore1.1.png)
+   ![ws name.](media/lab6-2.png)
 
 5. In the _Networking_ tab, use the following configurations:
 
@@ -53,9 +53,9 @@ In the following task, we will be creating a storage account with a file share w
    - Virtual Network: **aadds-vnet (3)**
    - Subnets: **sessionhost-subnet (10.0.1.0/24) (4)**
    - Leave the rest to default settings.
-   - Click on **Review (5)**.
+   - Click on **Review + create(5)**.
      
-   ![ws name.](media-2/networking.png)
+   ![ws name.](media/lab6-3.png)
      
 6. Click on **Create**.
 
@@ -93,8 +93,10 @@ In the following task, we will be creating a storage account with a file share w
     - Tier: **Transaction Optimized**
     - Click on **Review + create**, and then **Create** this will create the file share.
     
-    ![ws name.](media/2avd11.png)
-    
+    ![ws name.](media/lab6-4.png)
+
+    ![ws name.](media/lab6-5.png)
+
 ## Exercise 2: Configure File Share
 
 In this task, we will give *Storage File Data SMB Share Contributor* permissions to **permission - fslogixcontainer** group which you'll be creating so that their profiles can be stored in the file shares.
@@ -113,7 +115,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave the rest to default:
 
-   - Group name: **permission - fslogixcontainer**
+   - Group name: **permission-fslogixcontainer**
    - Click on **Create**.
 
    ![ws name.](media/2avd38.png)
