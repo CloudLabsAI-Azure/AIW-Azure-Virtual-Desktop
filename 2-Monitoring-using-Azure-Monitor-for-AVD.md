@@ -102,9 +102,9 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lab2-9.png)
    
-1. On **Check Configuration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
+1. On **CheckAMAConfiguration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
-   ![ws name.](media-2/datasettings.png)
+   ![ws name.](media/lab2-11.png)
    
 1. On CheckAMAConfiguration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
 
