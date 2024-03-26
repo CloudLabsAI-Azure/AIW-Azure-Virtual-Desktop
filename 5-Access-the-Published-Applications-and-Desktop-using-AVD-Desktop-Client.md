@@ -24,9 +24,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    > https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos
    > ```
 
-1. Under **Prerequisites**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
+1. Under **Download and install the Remote Desktop Client (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
-   ![ws name.](media-1/avd-l5-ex1-s2.png)
+   ![ws name.](media-1/lab5-1.png)
       
 1. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
