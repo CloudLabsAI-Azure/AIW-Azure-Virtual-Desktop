@@ -17,7 +17,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Type *Log Analytics Workspace* in the search bar and click on **log analytics workspace** from the suggestions.
 
-   ![ws name.](media/wiw1.png)
+   ![ws name.](media/lab2-1.png)
 
 1. On the Marketplace page, Select the **drop down (1)**  and click on **Log Analytics Workspace (2)**.
 
