@@ -123,25 +123,25 @@
    
 24. On the **Ramp-up** tab, follow the below instructions:
 
-    - Start time (24 hour system): Enter your **Start time (1)**
+    - Start time (12 hour system): Enter your **Start time (1)**
     - Load Balancing Algorithm: Choose **Breadth-first (2)**
     - Minimum percentage of hosts (%): **20 (3)**
     - Capacity threshold (%): **60 (4)**
     - Click on **Next (5)**
     
-    ![](../Azure-Virtual-Desktop-v3/media/rmap.png)
+    ![](../Azure-Virtual-Desktop-v3/media/L8E1S24.png)
    
 25. On the **Peak hours** tab, follow the below instructions:
 
-    - Start time (24 hour system): Enter your **Start time (1)**
+    - Start time (12 hour system): Enter your **Start time (1)**
     - Load Balancing Algorithm: Choose **Depth-first (2)**
     - Click on **Next (3)**
     
-    ![](../Azure-Virtual-Desktop-v3/media/peakhours1.png)
+    ![](../Azure-Virtual-Desktop-v3/media/L8E1S25.png)
    
 26. On the **Ramp-down** tab, follow the below instructions:
 
-     - Start time (24 hour system): Enter your **Start time (1)**
+     - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
      - Minimum percentage of hosts (%): Enter **10 (3)**
      - Capacity threshold (%): **90 (4)**
@@ -149,15 +149,15 @@
      - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
      - Click on **Next (7)**
 
-     ![](../Azure-Virtual-Desktop-v3/media/rampdown1.png)
+     ![](../Azure-Virtual-Desktop-v3/media/L8E1S26.png)
    
 27. On the **Off-peak hours** tab, follow the below instructions:
 
-     - Start time (24 hour system): Enter your **Start time (1)**
+     - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
      - Click on **Add (3)**
 
-     ![](../Azure-Virtual-Desktop-v3/media/offpeakhours1.png)
+     ![](../Azure-Virtual-Desktop-v3/media/L8E1S27.png)
   
 28. After adding the schedule, click on **Next: Host pool assignments >**
 
