@@ -382,7 +382,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
     ![ws name.](media/AVD-users.png)
     
-18. Switch to **Sessions (1)** tab, then select both **Host Pools (2)** and click on **Log off (3)**.
+18. Switch to **Sessions (1)** tab, then select **Host Pools (2)** and click on **Log off (3)**.
 
     ![ws name.](media-2/session5.png)
     
