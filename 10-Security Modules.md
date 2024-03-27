@@ -211,6 +211,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 1. From the Session desktop, search for **Microsoft edge (1)** from the search bar and select it **(2)**
 
    ![](media-1/selectedge.png)
+
+   Note: On the **Welcome to Microsoft Edge** page click on _Start without your data_. Then click on _Confirm and continue_ and then _Continue without data_. 
    
 1. Download the **Azure Virtual Desktop policy templates file** (AVDGPTemplate.cab) using the below URL.
 
