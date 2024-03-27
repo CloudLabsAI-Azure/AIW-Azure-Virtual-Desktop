@@ -26,7 +26,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
 
    - Subscription: **Leave it as default**
    - Identity provider: Select ***Existing active directory***
-   - Identity Service Provider: Select ***Microsoft Entra Domain Services*** from the drop-down
+   - Identity service type: Select ***Microsoft Entra Domain Services*** from the drop-down
    - Resource Group prefix: Enter ***AVD-HostPool-RG***
    - Region: Select **<inject key="Region" enableCopy="false"/>** from the drop-down list.
 
@@ -51,9 +51,11 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
 1. On the **Virtual Machines** tab, provide the information as mentioned below:
    
    - Users per virtual machine: Select ***Multiple users***
-   - Image: **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
+   - Image: Select **See all images** then under **Windows multi-session + Microsoft 365 Apps** choose **Select** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
 
-    ![ws name.](media-1/L1-E1-S4.1.png)
+    ![ws name.](media/lab1-1.png)
+
+    ![ws name.](media/lab1-2.png)
 
     - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
@@ -61,7 +63,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
    
    - Name Prefix: **AVD-HP01-SH**
    - Number of virtual machines: **2**
-   - Link Azure template: **Unselect** the option
+   - Use custom configuration script: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
    ![ws name.](media-1/L1E1S4.png)

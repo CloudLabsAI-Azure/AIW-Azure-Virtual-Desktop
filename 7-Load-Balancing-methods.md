@@ -75,7 +75,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media-2/assignments1.png)
    
-1. Click on **+ Add (1)**, then in the search bar, type **AVD (2)** and select both **AVDUser01 (3)** & **AVDUser02 (4)** that we created earlier. At last, click on the **Select (5)** button.
+1. Click on **Assignments(1)** then click on **+ Add (2)**, then in the search bar, type **AVD** and select both **AVDUser01 & AVDUser02 (3)** that we created earlier. At last, click on the **Select (4)** button.
 
     ![ws name.](media-2/L7E1S13.png)
 
@@ -159,7 +159,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -167,7 +167,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
    
-   ![ws name.](media/lb52.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -177,7 +177,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media/137.png)
    
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
    ![ws name.](media/lb16.png)
 
@@ -276,7 +276,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -284,7 +284,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
-   ![ws name.](media/lb52.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 

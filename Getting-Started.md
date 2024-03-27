@@ -40,9 +40,7 @@
    
    ![](media/w26.png)
      
-   >**Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
-   
-   ![](media/wvd.png) 
+   >**Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Get Started** and **Cancel** - Choose **Cancel**.
    
    >**Note:** If there's another popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
    
