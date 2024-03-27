@@ -38,7 +38,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -46,7 +46,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/89.png)
+   ![ws name.](media/lab4-2.png)
       
 1. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
 
@@ -93,7 +93,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -101,7 +101,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/89.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual desktop will launch and look similar to the screenshot below. 
 
