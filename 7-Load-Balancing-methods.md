@@ -75,7 +75,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media-2/assignments1.png)
    
-1. Click on **+ Add (1)**, then in the search bar, type **AVD (2)** and select both **AVDUser01 (3)** & **AVDUser02 (4)** that we created earlier. At last, click on the **Select (5)** button.
+1. Click on **Assignments(1)** then click on **+ Add (2)**, then in the search bar, type **AVD** and select both **AVDUser01 & AVDUser02 (3)** that we created earlier. At last, click on the **Select (4)** button.
 
     ![ws name.](media-2/L7E1S13.png)
 
