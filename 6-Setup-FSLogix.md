@@ -414,14 +414,14 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 22. Select **Allow** on the prompt asking permission to access local resources.
 
-    ![ws name.](media/Accessallowres-v2.png)
+    ![ws name.](media/lab4-1.png)
 
 23. Enter your **Credentials** to access the desktop.
 
     - Username: **<inject key="AzureAdUserEmail" />**
     - Password: **<inject key="AzureAdUserPassword" />**
 
-    ![ws name.](media/89.png)
+    ![ws name.](media/lab4-2.png)
         
 24. The desktop display will look similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
