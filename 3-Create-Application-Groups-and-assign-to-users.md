@@ -35,14 +35,10 @@ An application group of type ‘Desktop’, was created automatically while crea
 
    ![ws name.](media-2/assignments.png)   
  
-1. Now in the search bar, copy and paste your username **<inject key="AzureAdUserEmail" /> (1)**. Then under the search bar **(2)**, click on your username to select it.
+1. Now in the search bar, copy and paste your **username: <inject key="AzureAdUserEmail" /> (1)**. Then under the search bar, click on your **username: <inject key="AzureAdUserEmail" />(2)** to select it then click on the **Select(3)** button.
 
-   ![ws name.](media/w7.png)
+   ![ws name.](media/lab3-1.png)
    
-1. At last, click on the **Select** button. 
- 
-   ![ws name.](media/w6.png) 
- 
 1. We will now create a new Application Group of type ‘RemoteApp’. To do this, navigate back to the **Azure Virtual Desktop** and click on the **Host Pools (1)** button, then click on the **GS-AVD-HP (2)** pool.
 
 1. In the **GS-AVD-HP** host pool select **Application Groups** under **Applications**. Then select **+ Add** in the **GS-AVD-HP - Application groups**
@@ -105,11 +101,11 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. On the *Workspace* tab, choose the parameters as mentioned below:  
 
-    - Register Application Group: **Yes**
-    - Register Application Group: Leave the value to default
+    - Register application Group: **Yes**
+    - Register application Group: Leave the value to default
     - Click on **Review + Create**.
 
-   ![ws name.](media-2/workspace1.png)
+   ![ws name.](media/lab3-4.png)
 
 1. The last window helps us to verify if the parameters we filled in are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
