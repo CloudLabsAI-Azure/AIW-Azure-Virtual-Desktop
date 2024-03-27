@@ -26,7 +26,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Under **Download and install the Remote Desktop Client (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
-   ![ws name.](media-1/lab5-1.png)
+   ![ws name.](media/lab5-1.png)
       
 1. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
