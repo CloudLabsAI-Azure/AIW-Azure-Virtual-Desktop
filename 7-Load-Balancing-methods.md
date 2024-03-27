@@ -177,7 +177,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    ![ws name.](media/137.png)
    
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
    ![ws name.](media/lb16.png)
 
