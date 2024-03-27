@@ -136,9 +136,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
    ![ws name.](media/lab6-select-fileshare.png)
      
-   >**Note:** Overview page of the file share will look as shown below. The user won't have access to it until we perform the next steps of this task. 
-
-   ![ws name.](media/labinst13.png)
+   >**Note:** The user won't have access to file share until we perform the next steps of this task. 
 
 1. Click on **Access Control (IAM) (1)**, then click on **Add (2)** and select **Add role assignment (3)**.
 
@@ -427,7 +425,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
         
 24. The desktop display will look similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 
-    ![ws name.](media/wiw19.png)
+    ![ws name.](media/lab6-7.png)
     
     >**Note:** This means that the user profile is being managed by FSLogix.
 
